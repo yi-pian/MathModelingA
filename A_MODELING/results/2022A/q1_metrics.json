@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "runtime_seconds": 0.5459530000007362,
+  "official_rows": 898,
+  "official_time_end_s": 179.4,
+  "period_s": 4.486387223976855,
+  "linear_nfev": 29156,
+  "nonlinear_nfev": 35672,
+  "convergence": {
+    "linear": {
+      "tolerances": [
+        1e-07,
+        1e-09,
+        1e-11
+      ],
+      "max_differences": [
+        1.2658491477246514e-06,
+        2.1822571971696902e-08
+      ],
+      "acceptance_threshold": 1.3259136245522641e-08,
+      "convergent": false,
+      "delivery_accuracy_pass": true,
+      "nfev": [
+        18212,
+        27899,
+        42818
+      ]
+    },
+    "nonlinear": {
+      "tolerances": [
+        1e-07,
+        1e-09,
+        1e-11
+      ],
+      "max_differences": [
+        5.504225948943509e-06,
+        1.7945133239105626e-07
+      ],
+      "acceptance_threshold": 1.3494208988908546e-08,
+      "convergent": false,
+      "delivery_accuracy_pass": true,
+      "nfev": [
+        18431,
+        31298,
+        53150
+      ]
+    }
+  },
+  "frequency_domain_max_abs_error": 0.00045652082175140496,
+  "frequency_domain_relative_error": 0.0007057484400943336,
+  "frequency_domain_120_cycle_max_abs_error": 2.7246871425745667e-10,
+  "frequency_domain_120_cycle_relative_error": 4.212170856172278e-10,
+  "last_cycle_change_metric": 0.0013941010468565506,
+  "excel": {
+    "result1-1.xlsx": {
+      "valid": true,
+      "errors": [],
+      "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\result1-1.xlsx",
+      "shape": [
+        898,
+        5
+      ],
+      "columns": 5,
+      "time_start": 0.0,
+      "time_end": 179.4,
+      "time_step_min": 0.19999999999998863,
+      "time_step_max": 0.20000000000001705,
+      "nan_count": 0,
+      "inf_count": 0
+    },
+    "result1-2.xlsx": {
+      "valid": true,
+      "errors": [],
+      "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\result1-2.xlsx",
+      "shape": [
+        898,
+        5
+      ],
+      "columns": 5,
+      "time_start": 0.0,
+      "time_end": 179.4,
+      "time_step_min": 0.19999999999998863,
+      "time_step_max": 0.20000000000001705,
+      "nan_count": 0,
+      "inf_count": 0
+    }
+  },
+  "finite": true,
+  "monotonic_time": true,
+  "selected": [
+    {
+      "time_s": 10.0,
+      "float_displacement_m": -0.19071132903962928,
+      "oscillator_displacement_m": -0.21167884037209547,
+      "float_velocity_m_s": -0.6410085518307748,
+      "oscillator_velocity_m_s": -0.6939534494927876,
+      "case": "linear"
+    },
+    {
+      "time_s": 20.0,
+      "float_displacement_m": -0.590684336212594,
+      "oscillator_displacement_m": -0.6342484533163997,
+      "float_velocity_m_s": -0.2409514448902062,
+      "oscillator_velocity_m_s": -0.2727756513331801,
+      "case": "linear"
+    },
+    {
+      "time_s": 40.0,
+      "float_displacement_m": 0.28537441420722576,
+      "oscillator_displacement_m": 0.29649914532742283,
+      "float_velocity_m_s": 0.3129713400036759,
+      "oscillator_velocity_m_s": 0.33291242312070524,
+      "case": "linear"
+    },
+    {
+      "time_s": 60.0,
+      "float_displacement_m": -0.3145055630526437,
+      "oscillator_displacement_m": -0.3314359473667668,
+      "float_velocity_m_s": -0.47945501190681217,
+      "oscillator_velocity_m_s": -0.5157279684565761,
+      "case": "linear"
+    },
+    {
+      "time_s": 100.0,
+      "float_displacement_m": -0.083614703803747,
+      "oscillator_displacement_m": -0.08406805432088951,
+      "float_velocity_m_s": -0.6042114975120282,
+      "oscillator_velocity_m_s": -0.643001946582469,
+      "case": "linear"
+    },
+    {
+      "time_s": 10.0,
+      "float_displacement_m": -0.20587724906094118,
+      "oscillator_displacement_m": -0.23457207531841112,
+      "float_velocity_m_s": -0.6528211685825441,
+      "oscillator_velocity_m_s": -0.6999367917048641,
+      "case": "velocity_power"
+    },
+    {
+      "time_s": 20.0,
+      "float_displacement_m": -0.6111075585606925,
+      "oscillator_displacement_m": -0.6610612503330743,
+      "float_velocity_m_s": -0.2547839244352754,
+      "oscillator_velocity_m_s": -0.2770214105194408,
+      "case": "velocity_power"
+    },
+    {
+      "time_s": 40.0,
+      "float_displacement_m": 0.2687677266756527,
+      "oscillator_displacement_m": 0.2801574255361001,
+      "float_velocity_m_s": 0.2953016681313829,
+      "oscillator_velocity_m_s": 0.3125228997638191,
+      "case": "velocity_power"
+    },
+    {
+      "time_s": 60.0,
+      "float_displacement_m": -0.32716421622818614,
+      "oscillator_displacement_m": -0.34960587373360313,
+      "float_velocity_m_s": -0.49151796356532407,
+      "oscillator_velocity_m_s": -0.5255870956273037,
+      "case": "velocity_power"
+    },
+    {
+      "time_s": 100.0,
+      "float_displacement_m": -0.0884081753600768,
+      "oscillator_displacement_m": -0.09349255727036124,
+      "float_velocity_m_s": -0.6098305832524258,
+      "oscillator_velocity_m_s": -0.6500764343336928,
+      "case": "velocity_power"
+    }
+  ]
+}

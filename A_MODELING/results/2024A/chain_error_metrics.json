@@ -1,0 +1,103 @@
+{
+  "Q1 all times": {
+    "maximum_m": 1.343507527451493e-10,
+    "mean_m": 1.115406675494103e-10,
+    "p95_m": 1.1711740466324728e-10,
+    "index_error_correlation": 0.96070718170822,
+    "first_decile_mean_m": 1.0380636511192409e-10,
+    "last_decile_mean_m": 1.1603592300183644e-10
+  },
+  "Q2 event": {
+    "maximum_m": 1.1040057756872557e-10,
+    "mean_m": 7.725670327689251e-11,
+    "p95_m": 1.0969831709672917e-10,
+    "index_error_correlation": 0.9151523590799544,
+    "first_decile_mean_m": 1.0788915654589088e-11,
+    "last_decile_mean_m": 1.0967768722210899e-10
+  },
+  "Q3 critical": {
+    "maximum_m": 1.0932321714562931e-10,
+    "mean_m": 9.798732826632784e-11,
+    "p95_m": 1.0867131639002991e-10,
+    "index_error_correlation": 0.9014240226636628,
+    "first_decile_mean_m": 7.767491963638013e-11,
+    "last_decile_mean_m": 1.0866642851248758e-10
+  },
+  "Q4 all times": {
+    "maximum_m": 1.6867840457734928e-11,
+    "mean_m": 1.3938965423623934e-12,
+    "p95_m": 8.262679429549287e-12,
+    "index_error_correlation": -0.9228921399720779,
+    "first_decile_mean_m": 3.294539539632356e-12,
+    "last_decile_mean_m": 7.904379676810269e-14
+  },
+  "Q5 limiting": {
+    "maximum_m": 1.4375611812056377e-11,
+    "mean_m": 1.4698068372761945e-12,
+    "p95_m": 8.522493821772047e-12,
+    "index_error_correlation": -0.39972189171514777,
+    "first_decile_mean_m": 5.945002944036273e-14,
+    "last_decile_mean_m": 1.0125233984581428e-13
+  },
+  "excel": {
+    "valid": true,
+    "errors": [],
+    "sheets": {
+      "Q1 all times": {
+        "rows": 223,
+        "columns": 5,
+        "column_order": [
+          "link_index",
+          "target_length_m",
+          "maximum_error_m",
+          "mean_error_m",
+          "p95_error_m"
+        ],
+        "nan_count": 0
+      },
+      "Q2 event": {
+        "rows": 223,
+        "columns": 3,
+        "column_order": [
+          "link_index",
+          "target_length_m",
+          "error_m"
+        ],
+        "nan_count": 0
+      },
+      "Q3 critical": {
+        "rows": 223,
+        "columns": 3,
+        "column_order": [
+          "link_index",
+          "target_length_m",
+          "error_m"
+        ],
+        "nan_count": 0
+      },
+      "Q4 all times": {
+        "rows": 223,
+        "columns": 5,
+        "column_order": [
+          "link_index",
+          "target_length_m",
+          "maximum_error_m",
+          "mean_error_m",
+          "p95_error_m"
+        ],
+        "nan_count": 0
+      },
+      "Q5 limiting": {
+        "rows": 223,
+        "columns": 3,
+        "column_order": [
+          "link_index",
+          "target_length_m",
+          "error_m"
+        ],
+        "nan_count": 0
+      }
+    },
+    "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2024A\\chain_error_by_link.xlsx"
+  }
+}

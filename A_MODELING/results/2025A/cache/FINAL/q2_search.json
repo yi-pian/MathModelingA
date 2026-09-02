@@ -1,0 +1,101 @@
+{
+  "mode": "FINAL",
+  "candidates": [
+    {
+      "stage": "point",
+      "seed": 0,
+      "search_success": true,
+      "search_message": "Optimization terminated successfully.",
+      "search_iterations": 25,
+      "search_nfev": 1248,
+      "guided_objective": 1000004.8123342673,
+      "full_fast_duration_s": 4.58052919693237,
+      "x": [
+        0.1465010281915431,
+        80.69640415589723,
+        0.9762953386756692,
+        0.9499963825754172
+      ]
+    },
+    {
+      "stage": "point",
+      "seed": 1,
+      "search_success": true,
+      "search_message": "Optimization terminated successfully.",
+      "search_iterations": 41,
+      "search_nfev": 2016,
+      "guided_objective": 1000004.8173943673,
+      "full_fast_duration_s": 4.585090499197986,
+      "x": [
+        0.10352497447288078,
+        126.10346724168241,
+        0.8689739916473656,
+        0.5481044784287388
+      ]
+    },
+    {
+      "stage": "point",
+      "seed": 2,
+      "search_success": true,
+      "search_message": "Optimization terminated successfully.",
+      "search_iterations": 61,
+      "search_nfev": 2976,
+      "guided_objective": 1000004.7259262258,
+      "full_fast_duration_s": 4.537159183636179,
+      "x": [
+        3.091793466308898,
+        73.63411859140123,
+        2.5904276556858967,
+        2.5303101900447045
+      ]
+    },
+    {
+      "stage": "full",
+      "seed": 0,
+      "search_success": true,
+      "search_message": "Optimization terminated successfully.",
+      "search_iterations": 25,
+      "search_nfev": 1248,
+      "guided_objective": 1000004.585821847,
+      "full_fast_duration_s": 4.585821846937619,
+      "x": [
+        0.0976931361447324,
+        126.02390026966187,
+        0.9196283966116923,
+        0.4645068366032703
+      ]
+    },
+    {
+      "stage": "full",
+      "seed": 1,
+      "search_success": true,
+      "search_message": "Optimization terminated successfully.",
+      "search_iterations": 34,
+      "search_nfev": 1680,
+      "guided_objective": 1000004.5825270625,
+      "full_fast_duration_s": 4.582527062502581,
+      "x": [
+        0.09144630720186653,
+        86.6956415439872,
+        1.3262437934257392,
+        0.567146727621024
+      ]
+    },
+    {
+      "stage": "full",
+      "seed": 2,
+      "search_success": true,
+      "search_message": "Optimization terminated successfully.",
+      "search_iterations": 39,
+      "search_nfev": 1920,
+      "guided_objective": 1000004.5295499365,
+      "full_fast_duration_s": 4.529549936542104,
+      "x": [
+        3.1031270966893403,
+        75.37173113801052,
+        3.0419959994970576,
+        2.7105795871984455
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "figures": {
+    "q1_linear_response": [
+      "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\figures\\q1_linear_response.png",
+      "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\figures\\q1_linear_response.pdf",
+      "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\figures\\q1_linear_response.svg"
+    ],
+    "q1_nonlinear_response": [
+      "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\figures\\q1_nonlinear_response.png",
+      "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\figures\\q1_nonlinear_response.pdf",
+      "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\figures\\q1_nonlinear_response.svg"
+    ],
+    "q2_constant_power": [
+      "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\figures\\q2_constant_power.png",
+      "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\figures\\q2_constant_power.pdf",
+      "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\figures\\q2_constant_power.svg"
+    ],
+    "q2_nonlinear_surface": [
+      "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\figures\\q2_nonlinear_surface.png",
+      "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\figures\\q2_nonlinear_surface.pdf",
+      "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\figures\\q2_nonlinear_surface.svg"
+    ],
+    "q3_coupled_response": [
+      "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\figures\\q3_coupled_response.png",
+      "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\figures\\q3_coupled_response.pdf",
+      "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\figures\\q3_coupled_response.svg"
+    ],
+    "q4_power_surface": [
+      "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\figures\\q4_power_surface.png",
+      "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\figures\\q4_power_surface.pdf",
+      "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\figures\\q4_power_surface.svg"
+    ],
+    "q4_power_split": [
+      "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\figures\\q4_power_split.png",
+      "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\figures\\q4_power_split.pdf",
+      "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\figures\\q4_power_split.svg"
+    ]
+  },
+  "origin_files": [
+    "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\origin_data\\q1_linear_response.xlsx",
+    "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\origin_data\\q1_nonlinear_response.xlsx",
+    "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\origin_data\\q2_constant_power.xlsx",
+    "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\origin_data\\q2_nonlinear_surface.xlsx",
+    "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\origin_data\\q2_optimal_power_time.xlsx",
+    "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\origin_data\\q2_optimum_neighborhood.xlsx",
+    "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\origin_data\\q3_coupled_response.xlsx",
+    "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\origin_data\\q3_inertia_sensitivity.xlsx",
+    "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\origin_data\\q4_optimum_neighborhood.xlsx",
+    "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\origin_data\\q4_power_split.xlsx",
+    "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\origin_data\\q4_power_surface.xlsx"
+  ]
+}

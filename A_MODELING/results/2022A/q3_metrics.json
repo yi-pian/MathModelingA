@@ -1,0 +1,161 @@
+{
+  "status": "PASS",
+  "runtime_seconds": 0.4603066999989096,
+  "official_rows": 733,
+  "official_time_end_s": 146.4,
+  "period_s": 3.6632377024134715,
+  "nfev": 32645,
+  "state_order": [
+    "x_rel",
+    "z_f",
+    "theta_f",
+    "theta_o",
+    "x_dot_rel",
+    "v_f",
+    "omega_f",
+    "omega_o"
+  ],
+  "official_observable_order": [
+    "z_f",
+    "z_o",
+    "theta_f",
+    "theta_o",
+    "v_f",
+    "v_o",
+    "omega_f",
+    "omega_o"
+  ],
+  "angle_unit": "rad",
+  "convergence": {
+    "tolerances": [
+      1e-07,
+      1e-09,
+      1e-11
+    ],
+    "max_differences": [
+      4.3698282414794676e-07,
+      4.61944610341547e-09
+    ],
+    "core_convergent": true,
+    "delivery_accuracy_pass": true,
+    "nfev": [
+      19592,
+      31196,
+      50909
+    ]
+  },
+  "heave_degeneration_max_abs_error": 6.80870360092456e-11,
+  "small_signal_scale": 0.001,
+  "small_signal_linearization_max_abs_error": 2.2351267441920304e-09,
+  "small_signal_linearization_relative_error": 1.3645347242766003e-06,
+  "periodic_validation_cycles": 240,
+  "periodic_shooting_residual": 6.053100728986571e-16,
+  "periodic_long_transient_max_abs_error": 3.626941417096685e-07,
+  "periodic_long_transient_relative_error": 3.7923498516798216e-07,
+  "inertia_audit": {
+    "float_mass": 4866.0,
+    "float_radius": 1.0,
+    "cylinder_height": 3.0,
+    "cone_height": 0.8,
+    "oscillator_mass": 2433.0,
+    "oscillator_radius": 0.5,
+    "oscillator_height": 0.5,
+    "seawater_density": 1025.0,
+    "gravity": 9.8,
+    "linear_spring_stiffness": 80000.0,
+    "linear_spring_free_length": 0.5,
+    "torsional_spring_stiffness": 250000.0,
+    "hydrostatic_pitch_stiffness": 8890.7,
+    "hydrostatic_heave_stiffness": 31557.29820530947,
+    "equilibrium_spring_length": 0.20195749999999996,
+    "oscillator_axis_distance": 0.45195749999999996,
+    "oscillator_centroid_pitch_inertia": 202.75,
+    "oscillator_pitch_inertia": 699.7281605346061,
+    "float_pitch_inertia": 18044.420366798797,
+    "float_components": {
+      "area_cylinder_side_m2": 18.84955592153876,
+      "area_cylinder_top_m2": 3.141592653589793,
+      "area_cone_side_m2": 4.023201612868357,
+      "mass_cylinder_side_kg": 3525.820881604352,
+      "mass_cylinder_top_kg": 587.6368136007253,
+      "mass_cone_side_kg": 752.5423047949228,
+      "inertia_cylinder_side_kg_m2": 12340.373085615232,
+      "inertia_cylinder_top_kg_m2": 5435.640525806709,
+      "inertia_cone_side_kg_m2": 268.4067553768558,
+      "total_kg_m2": 18044.420366798797
+    }
+  },
+  "excel": {
+    "valid": true,
+    "errors": [],
+    "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2022A\\result3.xlsx",
+    "shape": [
+      733,
+      9
+    ],
+    "columns": 9,
+    "time_start": 0.0,
+    "time_end": 146.4,
+    "time_step_min": 0.19999999999998863,
+    "time_step_max": 0.20000000000001705,
+    "nan_count": 0,
+    "inf_count": 0
+  },
+  "selected": [
+    {
+      "time_s": 10.0,
+      "float_heave_m": -0.5282458359730027,
+      "float_heave_velocity_m_s": 0.9698769086449538,
+      "float_pitch_rad": 0.02540276601137211,
+      "float_pitch_rate_rad_s": -0.0384784522997384,
+      "oscillator_heave_m": -0.5986350993562184,
+      "oscillator_heave_velocity_m_s": 1.0381160400254885,
+      "oscillator_pitch_rad": 0.025458073996131234,
+      "oscillator_pitch_rate_rad_s": -0.038755668690106895
+    },
+    {
+      "time_s": 20.0,
+      "float_heave_m": -0.7047137902753745,
+      "float_heave_velocity_m_s": -0.269203373875755,
+      "float_pitch_rad": 0.04102605961518483,
+      "float_pitch_rate_rad_s": 0.017531515611968484,
+      "oscillator_heave_m": -0.7722256309398807,
+      "oscillator_heave_velocity_m_s": -0.3187011303648773,
+      "oscillator_pitch_rad": 0.041285092470568344,
+      "oscillator_pitch_rate_rad_s": 0.017407900469333673
+    },
+    {
+      "time_s": 40.0,
+      "float_heave_m": 0.369385595675758,
+      "float_heave_velocity_m_s": 0.7575390763068239,
+      "float_pitch_rad": -0.018864603732229274,
+      "float_pitch_rate_rad_s": -0.011613025029599941,
+      "oscillator_heave_m": 0.39264191939567633,
+      "oscillator_heave_velocity_m_s": 0.8448891886650214,
+      "oscillator_pitch_rad": -0.01899877470056396,
+      "oscillator_pitch_rate_rad_s": -0.011801230623783344
+    },
+    {
+      "time_s": 60.0,
+      "float_heave_m": -0.3206410068299514,
+      "float_heave_velocity_m_s": -0.7216096842599118,
+      "float_pitch_rad": 0.012880772951326527,
+      "float_pitch_rate_rad_s": 0.03552996055663802,
+      "oscillator_heave_m": -0.3414075939020702,
+      "oscillator_heave_velocity_m_s": -0.7992509658679919,
+      "oscillator_pitch_rad": 0.013068290724960505,
+      "oscillator_pitch_rate_rad_s": 0.035753298128876294
+    },
+    {
+      "time_s": 100.0,
+      "float_heave_m": -0.050165320519180344,
+      "float_heave_velocity_m_s": -0.946618257487579,
+      "float_pitch_rad": 0.002645125698855247,
+      "float_pitch_rate_rad_s": 0.03928095503401224,
+      "oscillator_heave_m": -0.04261411000400939,
+      "oscillator_heave_velocity_m_s": -1.0365475260918038,
+      "oscillator_pitch_rad": 0.0027407896654363427,
+      "oscillator_pitch_rate_rad_s": 0.03966380144766467
+    }
+  ]
+}

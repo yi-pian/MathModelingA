@@ -1,0 +1,67 @@
+{
+  "style": "Signature Scientific Style v1.1",
+  "status": "SIGNATURE SCIENTIFIC STYLE V1.1 — FROZEN",
+  "frozen_at": "2026-08-31T10:23:36+08:00",
+  "origin_version": "10.350229",
+  "freeze_policy": "Do not aesthetically iterate these four template classes unless real competition data exposes a new readability, scientific-accuracy, or layout problem.",
+  "source_project": {
+    "path": "outputs/v1.1/ORIGIN_SIGNATURE_SCIENTIFIC_STYLE_V1_1_FROZEN.opju",
+    "sha256": "8CDE07912CAD4CAF7FEFCA55EE5141C13284EF670E6F7E6689C565E69466FCF3"
+  },
+  "figures": [
+    {
+      "id": "V11_B01_single_line_main",
+      "png_sha256": "B1C7DB592728BA13BD22F91367BCA7089D3F5ADAE5214C11E2CB4D10D926E1D0",
+      "pdf_sha256": "B078FF849429B45CED0940EEF8852F3D71D9085C7B961C4D323FD4E35BF24F34",
+      "svg_sha256": "DF3477D9AD6A0C34B243F7C4A4853F810C6C3EF6887FF4772355F1C12F4B75D2"
+    },
+    {
+      "id": "V11_B02_multi_line_comparison",
+      "png_sha256": "07B3D11E672558960E5D435ABD1BCDF15701DF2F31643ED6546E3BC0AFB124AE",
+      "pdf_sha256": "44A56D6685D54E822F10FF222509D5970ED9558A323F92DDFE5D1D89763977A7",
+      "svg_sha256": "B3A7F9E122190DFB81353AB916E49E3A897E031AE7AD9D9C3D390D89E9D68CD9"
+    },
+    {
+      "id": "V11_B03_sensitivity_analytical",
+      "png_sha256": "615043523C3CC73D32F6D6C636666699A066474E0C04FEFB6B4FD47275A48CEA",
+      "pdf_sha256": "1C84B1309AD1DDB68FC30DD9F670059F5C772ED64148C15FDC98DB8D95135F8D",
+      "svg_sha256": "173BA55A0F2CB2BC82E7FB1F8806F8E9AD1A06AF2FBAC8969F14A09059D07F01"
+    },
+    {
+      "id": "V11_B04_contour_main",
+      "png_sha256": "D2A93BB5E9A44478D9099518590DC7303BF00A07CB4E81B4E0FC4972CC889563",
+      "pdf_sha256": "47C3751CCBBC1C9CBD3210895EF0A06BE1A924096788CF0DD09298E812930C18",
+      "svg_sha256": "FB606274DC8A5CD62F454F284B19BADB3F26FE0C6A661203DCC8F1941280B5D3"
+    }
+  ],
+  "templates": [
+    {
+      "name": "SCP_SINGLE_LINE_MAIN_v11_FROZEN",
+      "path": "C:/Users/YiPian/.origin-mcp/templates/SCP_SINGLE_LINE_MAIN_v11_FROZEN.otpu",
+      "sha256": "4A7C5575A3469E0B460DFFE7AE1A69B181BE583FBE0513BC42E45B3846C6E541"
+    },
+    {
+      "name": "SCP_MULTI_LINE_COMPARISON_v11_FROZEN",
+      "path": "C:/Users/YiPian/.origin-mcp/templates/SCP_MULTI_LINE_COMPARISON_v11_FROZEN.otpu",
+      "sha256": "1A5499398FCE24960C60E20BA542BF49150AF7770219E52AA571310D2DCF0D05"
+    },
+    {
+      "name": "SCP_SENSITIVITY_ANALYTICAL_v11_FROZEN",
+      "path": "C:/Users/YiPian/.origin-mcp/templates/SCP_SENSITIVITY_ANALYTICAL_v11_FROZEN.otpu",
+      "sha256": "6E57DBC71A32A175FEEE1ED28DC59196A7CD44DAB44C26AAA9F4C275358E596B"
+    },
+    {
+      "name": "SCP_CONTOUR_MAIN_v11_FROZEN",
+      "path": "C:/Users/YiPian/.origin-mcp/templates/SCP_CONTOUR_MAIN_v11_FROZEN.otpu",
+      "sha256": "1C193CFFB8BE1ED6DEFBB2066C06507ECD9FA3EEE17809E8EE7A82C88EB4F427"
+    }
+  ],
+  "visual_review": {
+    "label_collision": "pass",
+    "visual_hierarchy": "pass",
+    "whitespace": "pass",
+    "tick_consistency": "pass",
+    "colorbar_balance": "pass",
+    "cross_figure_consistency": "pass"
+  }
+}

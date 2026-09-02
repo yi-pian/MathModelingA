@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "pitch_m": 1.7,
+  "turn_radius_m": 4.5,
+  "theta_boundary_rad": 16.63196110724008,
+  "large_arc_radius_m": 3.0054176677890356,
+  "small_arc_radius_m": 1.5027088338945178,
+  "radius_ratio": 2.0,
+  "large_arc_length_m": 9.080829937880749,
+  "small_arc_length_m": 4.540414968940375,
+  "turn_length_m": 13.621244906821124,
+  "max_turn_path_radius_m": 4.5,
+  "continuity_position_sample_residual_max_m": 2.0000000070963985e-07,
+  "continuity_tangent_sample_residual_max": 8.880855459189517e-08,
+  "link_error_max_m": 1.6867840457734928e-11,
+  "link_error_mean_m": 1.3938965423623934e-12,
+  "link_error_p95_m": 8.262679429549287e-12,
+  "velocity_constraint_residual_max_m2_s": 9.43689570931383e-16,
+  "finite_difference_speed_smooth_segments": {
+    "step_s": 0.001,
+    "max_abs": 3.286175249694878e-07,
+    "mean_abs": 4.733375812132667e-08
+  },
+  "finite_difference_speed_junction_convergence": {
+    "steps_s": [
+      0.001,
+      0.0005,
+      0.00025
+    ],
+    "max_errors_m_s": [
+      0.00034273175536170264,
+      0.00017139445563540967,
+      8.570436693355887e-05
+    ],
+    "successive_ratios": [
+      1.9996665241655291,
+      1.9998334013514254
+    ]
+  },
+  "minimum_audited_bench_clearance_m": 0.29020369779170263,
+  "single_chain_mean_seconds": 0.07407605422909612,
+  "single_chain_max_seconds": 0.07957639999949606,
+  "collision_audit_seconds": 8.220469500003674,
+  "q4_total_seconds": 14.924556500001927,
+  "excel": {
+    "valid": true,
+    "errors": [],
+    "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2024A\\result4.xlsx",
+    "times": [
+      -100.0,
+      100.0
+    ],
+    "shape_position": [
+      449,
+      202
+    ],
+    "shape_speed": [
+      225,
+      202
+    ]
+  }
+}

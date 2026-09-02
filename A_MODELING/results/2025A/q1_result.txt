@@ -1,0 +1,17 @@
+Q1 fixed strategy result
+primary_model=full cylinder (MODEL_CONFIRMATION_REQUIRED)
+burst_point_m=[17188.0, 7.494838410781801e-14, 1736.496]
+full_intervals_s=[(8.056445340795758, 9.448088158701255)]
+full_duration_s=1.391642817905
+point_duration_s=1.435082101963
+root_residual_max_m2=2.437631e-09
+elapsed_s=1.785341
+
+========== VALIDATION REPORT ==========
+Q1 physical feasibility    PASS
+Q1 event root residual     PASS  max=2.438e-09 m^2
+Q1 event direction         PASS  outside -> inside -> outside
+Q1 surface convergence     PASS  FAST/STANDARD/FINAL=[1.3919826977051883, 1.391642818509652, 1.3916428179054972]
+Q1 fixed-step cross-check  PASS  [{'dt_s': 0.01, 'duration_s': 1.3913437975889131, 'absolute_difference_s': 0.00029902031658401995}, {'dt_s': 0.005, 'duration_s': 1.3915392183754527, 'absolute_difference_s': 0.00010359953004446254}, {'dt_s': 0.0025, 'duration_s': 1.3916237684202546, 'absolute_difference_s': 1.904948524256156e-05}]
+Model interpretation       MANUAL CHECK REQUIRED  MODEL_CONFIRMATION_REQUIRED: full cylinder is primary; representative point is comparator
+=======================================

@@ -1,0 +1,546 @@
+[
+  {
+    "script": "win -a \"Graph1\";",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "layer -s 1;",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "page.color=color(white);",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": false,
+        "warning": "Origin returned false for this LabTalk script.",
+        "script_preview": "page.color=color(white);",
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "layer.color=color(white);",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "layer.border=0;",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "layer.x.grid.show=0;",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "layer.y.grid.show=0;",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "layer.x.showGrids=0;",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "layer.y.showGrids=0;",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "axis -ps X A 1;",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "axis -ps Y A 1;",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "layer.x.opposite=0;",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "layer.x.showopposite=0;",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "layer.x.thickness=0.45;",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "layer.x.tickthickness=0.45;",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "layer.x.mtickthickness=0.35;",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "layer.x.label.fsize=5.8;",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "xb.fsize=6.5;",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "set Book2_B -q 0;",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "doc -e D { set %C -q 0; };",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "win -a \"Graph4\";",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "Spectrum1.title$=\"Objective value\";",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "Spectrum1.title=1;",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "Spectrum1.draw(global);",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "Spectrum1.barthick=125;",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "Spectrum1.lineWidth=0.40;",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": false,
+        "warning": "Origin returned false for this LabTalk script.",
+        "script_preview": "Spectrum1.lineWidth=0.40;",
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "Spectrum1.color=color(\"#464B50\");",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "R2Optimum.anchor=27;",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "R2Optimum.color=color(\"#9B581B\");",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  },
+  {
+    "script": "R2Optimum.fsize=4.3;",
+    "result": {
+      "ok": true,
+      "message": "Executed LabTalk script.",
+      "data": {
+        "result": true,
+        "message_log": {
+          "captured": true,
+          "source": "LabTalk type -gb/type -ge",
+          "line_count": 0,
+          "lines": [],
+          "start_result": true,
+          "end_result": true
+        }
+      }
+    }
+  }
+]

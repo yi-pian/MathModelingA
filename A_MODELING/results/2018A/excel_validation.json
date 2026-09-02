@@ -1,0 +1,802 @@
+{
+  "workbooks": {
+    "problem1.xlsx": {
+      "valid": true,
+      "errors": [],
+      "sheets": {
+        "SkinTemperature": {
+          "rows": 5401,
+          "columns": 5,
+          "column_order": [
+            "time_s",
+            "measured_skin_C",
+            "predicted_skin_C",
+            "residual_C",
+            "outer_surface_C"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "TemperatureField": {
+          "rows": 5401,
+          "columns": 155,
+          "column_order": [
+            "time_s",
+            "outer_surface_C",
+            "T_0000_x_0.0000500_m_C",
+            "T_0001_x_0.0001500_m_C",
+            "T_0002_x_0.0002500_m_C",
+            "T_0003_x_0.0003500_m_C",
+            "T_0004_x_0.0004500_m_C",
+            "T_0005_x_0.0005500_m_C",
+            "T_0006_x_0.0006500_m_C",
+            "T_0007_x_0.0007500_m_C",
+            "T_0008_x_0.0008500_m_C",
+            "T_0009_x_0.0009500_m_C",
+            "T_0010_x_0.0010500_m_C",
+            "T_0011_x_0.0011500_m_C",
+            "T_0012_x_0.0012500_m_C",
+            "T_0013_x_0.0013500_m_C",
+            "T_0014_x_0.0014500_m_C",
+            "T_0015_x_0.0015500_m_C",
+            "T_0016_x_0.0016500_m_C",
+            "T_0017_x_0.0017500_m_C",
+            "T_0018_x_0.0018500_m_C",
+            "T_0019_x_0.0019500_m_C",
+            "T_0020_x_0.0020500_m_C",
+            "T_0021_x_0.0021500_m_C",
+            "T_0022_x_0.0022500_m_C",
+            "T_0023_x_0.0023500_m_C",
+            "T_0024_x_0.0024500_m_C",
+            "T_0025_x_0.0025500_m_C",
+            "T_0026_x_0.0026500_m_C",
+            "T_0027_x_0.0027500_m_C",
+            "T_0028_x_0.0028500_m_C",
+            "T_0029_x_0.0029500_m_C",
+            "T_0030_x_0.0030500_m_C",
+            "T_0031_x_0.0031500_m_C",
+            "T_0032_x_0.0032500_m_C",
+            "T_0033_x_0.0033500_m_C",
+            "T_0034_x_0.0034500_m_C",
+            "T_0035_x_0.0035500_m_C",
+            "T_0036_x_0.0036500_m_C",
+            "T_0037_x_0.0037500_m_C",
+            "T_0038_x_0.0038500_m_C",
+            "T_0039_x_0.0039500_m_C",
+            "T_0040_x_0.0040500_m_C",
+            "T_0041_x_0.0041500_m_C",
+            "T_0042_x_0.0042500_m_C",
+            "T_0043_x_0.0043500_m_C",
+            "T_0044_x_0.0044500_m_C",
+            "T_0045_x_0.0045500_m_C",
+            "T_0046_x_0.0046500_m_C",
+            "T_0047_x_0.0047500_m_C",
+            "T_0048_x_0.0048500_m_C",
+            "T_0049_x_0.0049500_m_C",
+            "T_0050_x_0.0050500_m_C",
+            "T_0051_x_0.0051500_m_C",
+            "T_0052_x_0.0052500_m_C",
+            "T_0053_x_0.0053500_m_C",
+            "T_0054_x_0.0054500_m_C",
+            "T_0055_x_0.0055500_m_C",
+            "T_0056_x_0.0056500_m_C",
+            "T_0057_x_0.0057500_m_C",
+            "T_0058_x_0.0058500_m_C",
+            "T_0059_x_0.0059500_m_C",
+            "T_0060_x_0.0060500_m_C",
+            "T_0061_x_0.0061500_m_C",
+            "T_0062_x_0.0062500_m_C",
+            "T_0063_x_0.0063500_m_C",
+            "T_0064_x_0.0064500_m_C",
+            "T_0065_x_0.0065500_m_C",
+            "T_0066_x_0.0066500_m_C",
+            "T_0067_x_0.0067500_m_C",
+            "T_0068_x_0.0068500_m_C",
+            "T_0069_x_0.0069500_m_C",
+            "T_0070_x_0.0070500_m_C",
+            "T_0071_x_0.0071500_m_C",
+            "T_0072_x_0.0072500_m_C",
+            "T_0073_x_0.0073500_m_C",
+            "T_0074_x_0.0074500_m_C",
+            "T_0075_x_0.0075500_m_C",
+            "T_0076_x_0.0076500_m_C",
+            "T_0077_x_0.0077500_m_C",
+            "T_0078_x_0.0078500_m_C",
+            "T_0079_x_0.0079500_m_C",
+            "T_0080_x_0.0080500_m_C",
+            "T_0081_x_0.0081500_m_C",
+            "T_0082_x_0.0082500_m_C",
+            "T_0083_x_0.0083500_m_C",
+            "T_0084_x_0.0084500_m_C",
+            "T_0085_x_0.0085500_m_C",
+            "T_0086_x_0.0086500_m_C",
+            "T_0087_x_0.0087500_m_C",
+            "T_0088_x_0.0088500_m_C",
+            "T_0089_x_0.0089500_m_C",
+            "T_0090_x_0.0090500_m_C",
+            "T_0091_x_0.0091500_m_C",
+            "T_0092_x_0.0092500_m_C",
+            "T_0093_x_0.0093500_m_C",
+            "T_0094_x_0.0094500_m_C",
+            "T_0095_x_0.0095500_m_C",
+            "T_0096_x_0.0096500_m_C",
+            "T_0097_x_0.0097500_m_C",
+            "T_0098_x_0.0098500_m_C",
+            "T_0099_x_0.0099500_m_C",
+            "T_0100_x_0.0100500_m_C",
+            "T_0101_x_0.0101500_m_C",
+            "T_0102_x_0.0102500_m_C",
+            "T_0103_x_0.0103500_m_C",
+            "T_0104_x_0.0104500_m_C",
+            "T_0105_x_0.0105500_m_C",
+            "T_0106_x_0.0106500_m_C",
+            "T_0107_x_0.0107500_m_C",
+            "T_0108_x_0.0108500_m_C",
+            "T_0109_x_0.0109500_m_C",
+            "T_0110_x_0.0110500_m_C",
+            "T_0111_x_0.0111500_m_C",
+            "T_0112_x_0.0112500_m_C",
+            "T_0113_x_0.0113500_m_C",
+            "T_0114_x_0.0114500_m_C",
+            "T_0115_x_0.0115500_m_C",
+            "T_0116_x_0.0116500_m_C",
+            "T_0117_x_0.0117500_m_C",
+            "T_0118_x_0.0118500_m_C",
+            "T_0119_x_0.0119500_m_C",
+            "T_0120_x_0.0120500_m_C",
+            "T_0121_x_0.0121500_m_C",
+            "T_0122_x_0.0122500_m_C",
+            "T_0123_x_0.0123500_m_C",
+            "T_0124_x_0.0124500_m_C",
+            "T_0125_x_0.0125500_m_C",
+            "T_0126_x_0.0126500_m_C",
+            "T_0127_x_0.0127500_m_C",
+            "T_0128_x_0.0128500_m_C",
+            "T_0129_x_0.0129500_m_C",
+            "T_0130_x_0.0130500_m_C",
+            "T_0131_x_0.0131500_m_C",
+            "T_0132_x_0.0132500_m_C",
+            "T_0133_x_0.0133500_m_C",
+            "T_0134_x_0.0134500_m_C",
+            "T_0135_x_0.0135500_m_C",
+            "T_0136_x_0.0136500_m_C",
+            "T_0137_x_0.0137500_m_C",
+            "T_0138_x_0.0138500_m_C",
+            "T_0139_x_0.0139500_m_C",
+            "T_0140_x_0.0140500_m_C",
+            "T_0141_x_0.0141500_m_C",
+            "T_0142_x_0.0142500_m_C",
+            "T_0143_x_0.0143500_m_C",
+            "T_0144_x_0.0144500_m_C",
+            "T_0145_x_0.0145500_m_C",
+            "T_0146_x_0.0146500_m_C",
+            "T_0147_x_0.0147500_m_C",
+            "T_0148_x_0.0148500_m_C",
+            "T_0149_x_0.0149500_m_C",
+            "T_0150_x_0.0150500_m_C",
+            "T_0151_x_0.0151500_m_C",
+            "skin_surface_C"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "InterfaceTime": {
+          "rows": 5401,
+          "columns": 4,
+          "column_order": [
+            "time_s",
+            "T_interface_I_II_C",
+            "T_interface_II_III_C",
+            "T_interface_III_IV_C"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "Grid": {
+          "rows": 152,
+          "columns": 7,
+          "column_order": [
+            "cell_index",
+            "x_m",
+            "dx_m",
+            "layer",
+            "rho_kg_m3",
+            "cp_J_kgK",
+            "k_W_mK"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "Parameters": {
+          "rows": 6,
+          "columns": 3,
+          "column_order": [
+            "parameter",
+            "value",
+            "unit"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "FitMetrics": {
+          "rows": 1,
+          "columns": 5,
+          "column_order": [
+            "RMSE_C",
+            "MAE_C",
+            "R2",
+            "rows",
+            "nodes"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "InterfacesFinal": {
+          "rows": 3,
+          "columns": 8,
+          "column_order": [
+            "interface",
+            "x_m",
+            "temperature_left_c",
+            "temperature_right_c",
+            "temperature_residual_c",
+            "heat_flux_left_w_m2",
+            "heat_flux_right_w_m2",
+            "heat_flux_residual_w_m2"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        }
+      },
+      "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2018A\\problem1.xlsx"
+    },
+    "q2_results.xlsx": {
+      "valid": true,
+      "errors": [],
+      "sheets": {
+        "Summary": {
+          "rows": 1,
+          "columns": 9,
+          "column_order": [
+            "critical_d_ii_mm",
+            "reported_d_ii_mm",
+            "d_iv_mm",
+            "max_skin_temperature_c",
+            "duration_above_44_s",
+            "first_crossing_44_s",
+            "margin_47_c",
+            "margin_duration_s",
+            "feasible"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "TimeSeries": {
+          "rows": 3601,
+          "columns": 2,
+          "column_order": [
+            "time_s",
+            "skin_temperature_C"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "CoarseScan": {
+          "rows": 9,
+          "columns": 5,
+          "column_order": [
+            "d_ii_mm",
+            "max_skin_temperature_c",
+            "duration_above_44_s",
+            "margin_47_c",
+            "margin_duration_s"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "Neighborhood": {
+          "rows": 7,
+          "columns": 9,
+          "column_order": [
+            "offset_mm",
+            "d_ii_mm",
+            "d_iv_mm",
+            "max_skin_temperature_c",
+            "duration_above_44_s",
+            "first_crossing_44_s",
+            "margin_47_c",
+            "margin_duration_s",
+            "feasible"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "Convergence": {
+          "rows": 3,
+          "columns": 10,
+          "column_order": [
+            "level",
+            "target_dx_m",
+            "dt_s",
+            "critical_d_ii_mm",
+            "reported_d_ii_mm",
+            "max_skin_temperature_c",
+            "duration_above_44_s",
+            "margin_47_c",
+            "margin_duration_s",
+            "elapsed_seconds"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        }
+      },
+      "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2018A\\q2_results.xlsx"
+    },
+    "q3_results.xlsx": {
+      "valid": true,
+      "errors": [],
+      "sheets": {
+        "Summary": {
+          "rows": 1,
+          "columns": 10,
+          "column_order": [
+            "critical_d_ii_mm",
+            "reported_d_ii_mm",
+            "reported_d_iv_mm",
+            "total_mm",
+            "max_skin_temperature_c",
+            "duration_above_44_s",
+            "first_crossing_44_s",
+            "margin_47_c",
+            "margin_duration_s",
+            "feasible"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "TimeSeries": {
+          "rows": 1801,
+          "columns": 2,
+          "column_order": [
+            "time_s",
+            "skin_temperature_C"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "CoarseScan": {
+          "rows": 11,
+          "columns": 4,
+          "column_order": [
+            "d_iv_mm",
+            "critical_d_ii_mm",
+            "total_mm",
+            "active_constraint"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "NeighborhoodII": {
+          "rows": 7,
+          "columns": 9,
+          "column_order": [
+            "offset_mm",
+            "d_ii_mm",
+            "d_iv_mm",
+            "max_skin_temperature_c",
+            "duration_above_44_s",
+            "first_crossing_44_s",
+            "margin_47_c",
+            "margin_duration_s",
+            "feasible"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "Convergence": {
+          "rows": 3,
+          "columns": 13,
+          "column_order": [
+            "level",
+            "target_dx_m",
+            "dt_s",
+            "critical_d_ii_mm",
+            "reported_d_ii_mm",
+            "max_skin_temperature_c",
+            "duration_above_44_s",
+            "margin_47_c",
+            "margin_duration_s",
+            "elapsed_seconds",
+            "d_iv_mm",
+            "total_mm",
+            "q3_elapsed_seconds"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        }
+      },
+      "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2018A\\q3_results.xlsx"
+    },
+    "validation.xlsx": {
+      "valid": true,
+      "errors": [],
+      "sheets": {
+        "Analytic": {
+          "rows": 4,
+          "columns": 5,
+          "column_order": [
+            "method",
+            "nx",
+            "dx_m",
+            "dt_s",
+            "max_error"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "ExplicitCN": {
+          "rows": 1,
+          "columns": 6,
+          "column_order": [
+            "target_dx_m",
+            "explicit_dt_limit_s",
+            "used_dt_s",
+            "field_rmse_c",
+            "field_max_abs_error_c",
+            "skin_abs_error_c"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "Interface": {
+          "rows": 3,
+          "columns": 8,
+          "column_order": [
+            "interface",
+            "x_m",
+            "temperature_left_c",
+            "temperature_right_c",
+            "temperature_residual_c",
+            "heat_flux_left_w_m2",
+            "heat_flux_right_w_m2",
+            "heat_flux_residual_w_m2"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "Q1Spatial": {
+          "rows": 3,
+          "columns": 6,
+          "column_order": [
+            "target_dx_m",
+            "dt_s",
+            "nodes",
+            "final_skin_temperature_c",
+            "max_skin_temperature_c",
+            "rmse_to_experiment_c"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "Q1Temporal": {
+          "rows": 3,
+          "columns": 6,
+          "column_order": [
+            "target_dx_m",
+            "dt_s",
+            "nodes",
+            "final_skin_temperature_c",
+            "max_skin_temperature_c",
+            "rmse_to_experiment_c"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "Q2Convergence": {
+          "rows": 3,
+          "columns": 10,
+          "column_order": [
+            "level",
+            "target_dx_m",
+            "dt_s",
+            "critical_d_ii_mm",
+            "reported_d_ii_mm",
+            "max_skin_temperature_c",
+            "duration_above_44_s",
+            "margin_47_c",
+            "margin_duration_s",
+            "elapsed_seconds"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "Q3Convergence": {
+          "rows": 3,
+          "columns": 13,
+          "column_order": [
+            "level",
+            "target_dx_m",
+            "dt_s",
+            "critical_d_ii_mm",
+            "reported_d_ii_mm",
+            "max_skin_temperature_c",
+            "duration_above_44_s",
+            "margin_47_c",
+            "margin_duration_s",
+            "elapsed_seconds",
+            "d_iv_mm",
+            "total_mm",
+            "q3_elapsed_seconds"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "Sensitivity": {
+          "rows": 12,
+          "columns": 7,
+          "column_order": [
+            "parameter",
+            "relative_change",
+            "max_skin_temperature_c",
+            "duration_above_44_s",
+            "margin_47_c",
+            "margin_duration_s",
+            "feasible"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "Performance": {
+          "rows": 6,
+          "columns": 6,
+          "column_order": [
+            "stage",
+            "runs",
+            "min_seconds",
+            "mean_seconds",
+            "median_seconds",
+            "all_seconds"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "Multistart": {
+          "rows": 5,
+          "columns": 8,
+          "column_order": [
+            "start_h_out_w_m2k",
+            "start_h_skin_w_m2k",
+            "h_out_w_m2k",
+            "h_skin_w_m2k",
+            "rmse_c",
+            "mae_c",
+            "r2",
+            "success"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        }
+      },
+      "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2018A\\validation.xlsx"
+    },
+    "experiment_fit.xlsx": {
+      "valid": true,
+      "errors": [],
+      "sheets": {
+        "Data": {
+          "rows": 5401,
+          "columns": 4,
+          "column_order": [
+            "time_s",
+            "measured_skin_C",
+            "predicted_skin_C",
+            "residual_C"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "Notes": {
+          "rows": 1,
+          "columns": 2,
+          "column_order": [
+            "item",
+            "description"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        }
+      },
+      "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2018A\\origin_data\\experiment_fit.xlsx"
+    },
+    "mesh_convergence.xlsx": {
+      "valid": true,
+      "errors": [],
+      "sheets": {
+        "Data": {
+          "rows": 3,
+          "columns": 4,
+          "column_order": [
+            "target_dx_m",
+            "level",
+            "q2_critical_d_ii_mm",
+            "q3_critical_d_ii_mm"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "Notes": {
+          "rows": 1,
+          "columns": 2,
+          "column_order": [
+            "item",
+            "description"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        }
+      },
+      "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2018A\\origin_data\\mesh_convergence.xlsx"
+    },
+    "parameter_sensitivity.xlsx": {
+      "valid": true,
+      "errors": [],
+      "sheets": {
+        "Data": {
+          "rows": 12,
+          "columns": 7,
+          "column_order": [
+            "relative_change",
+            "parameter",
+            "max_skin_temperature_c",
+            "duration_above_44_s",
+            "margin_47_c",
+            "margin_duration_s",
+            "feasible"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "Notes": {
+          "rows": 1,
+          "columns": 2,
+          "column_order": [
+            "item",
+            "description"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        }
+      },
+      "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2018A\\origin_data\\parameter_sensitivity.xlsx"
+    },
+    "q3_tradeoff.xlsx": {
+      "valid": true,
+      "errors": [],
+      "sheets": {
+        "Data": {
+          "rows": 7,
+          "columns": 4,
+          "column_order": [
+            "d_iv_mm",
+            "critical_d_ii_mm",
+            "total_mm",
+            "active_constraint"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "Notes": {
+          "rows": 1,
+          "columns": 2,
+          "column_order": [
+            "item",
+            "description"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        }
+      },
+      "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2018A\\origin_data\\q3_tradeoff.xlsx"
+    },
+    "temperature_profile.xlsx": {
+      "valid": true,
+      "errors": [],
+      "sheets": {
+        "Data": {
+          "rows": 152,
+          "columns": 6,
+          "column_order": [
+            "x_mm",
+            "T_0_s_C",
+            "T_900_s_C",
+            "T_1800_s_C",
+            "T_3600_s_C",
+            "T_5400_s_C"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "Notes": {
+          "rows": 1,
+          "columns": 2,
+          "column_order": [
+            "item",
+            "description"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        }
+      },
+      "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2018A\\origin_data\\temperature_profile.xlsx"
+    },
+    "temperature_time.xlsx": {
+      "valid": true,
+      "errors": [],
+      "sheets": {
+        "Data": {
+          "rows": 5401,
+          "columns": 5,
+          "column_order": [
+            "time_s",
+            "outer_surface_C",
+            "T_interface_I_II_C",
+            "T_interface_II_III_C",
+            "T_interface_III_IV_C"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "Notes": {
+          "rows": 3,
+          "columns": 2,
+          "column_order": [
+            "item",
+            "description"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        }
+      },
+      "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2018A\\origin_data\\temperature_time.xlsx"
+    },
+    "thickness_comparison.xlsx": {
+      "valid": true,
+      "errors": [],
+      "sheets": {
+        "Data": {
+          "rows": 9,
+          "columns": 5,
+          "column_order": [
+            "d_ii_mm",
+            "max_skin_temperature_c",
+            "duration_above_44_s",
+            "margin_47_c",
+            "margin_duration_s"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "Notes": {
+          "rows": 1,
+          "columns": 2,
+          "column_order": [
+            "item",
+            "description"
+          ],
+          "nan_count": 0,
+          "inf_count": 0
+        }
+      },
+      "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\A_MODELING\\results\\2018A\\origin_data\\thickness_comparison.xlsx"
+    }
+  },
+  "extra": {
+    "problem1_time_strict": true,
+    "problem1_rows": 5401,
+    "problem1_field_shape": [
+      5401,
+      155
+    ],
+    "all_workbooks_valid": true
+  }
+}

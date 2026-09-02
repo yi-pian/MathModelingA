@@ -1,0 +1,3935 @@
+{
+  "phase": "Phase 2 — Signature Scientific Style migration",
+  "frozen_templates_modified": false,
+  "ping": {
+    "ok": true,
+    "message": "Connected to Origin.",
+    "data": {
+      "connected": true,
+      "visible": true,
+      "origin_version": 10.350229,
+      "show_set": true
+    }
+  },
+  "fresh_project": {
+    "ok": true,
+    "message": "Created a new Origin project.",
+    "data": {
+      "created": true
+    }
+  },
+  "figures": [
+    {
+      "id": "P2_SCATTER_FIT",
+      "graph": "Graph1",
+      "created": {
+        "ok": true,
+        "message": "Created scatter plot from table data.",
+        "data": {
+          "worksheet": {
+            "book_name": "Book2",
+            "sheet_name": "Sheet1",
+            "columns": [
+              "x",
+              "ci_lower",
+              "ci_upper",
+              "observed",
+              "fit",
+              "residual",
+              "outlier"
+            ],
+            "rows": 61
+          },
+          "graph": {
+            "graph_name": "Graph1",
+            "export_path": null,
+            "template": "scatter",
+            "style_mode": "origin_default",
+            "requested_graph_name": "P2_SCATTER_FIT",
+            "display_name": "P2_SCATTER_FIT",
+            "visual_defaults": {
+              "mode": "conservative",
+              "context": {
+                "raw_chart_type": "scatter",
+                "chart_variant": "scatter",
+                "chart_type": "scatter",
+                "series_count": 1,
+                "row_count": 61,
+                "x_is_categorical": false,
+                "x_is_datetime": false,
+                "x_unique_count": 61,
+                "longest_x_label": 8,
+                "y_min": 1.712999,
+                "y_max": 24.183787
+              },
+              "legend": {
+                "show": {
+                  "value": false,
+                  "source": "user",
+                  "reason": "explicit_user_value"
+                },
+                "position": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "legend_hidden"
+                },
+                "series_labels": {
+                  "value": [
+                    "Observed"
+                  ],
+                  "source": "smart_default",
+                  "reason": "humanized_field_names"
+                },
+                "layout": {
+                  "outside": {
+                    "value": false,
+                    "source": "smart_default",
+                    "reason": "legend_fits_inside_plot_area"
+                  },
+                  "estimated_rows": {
+                    "value": 0,
+                    "source": "smart_default",
+                    "reason": "legend_visibility"
+                  },
+                  "max_label_length": {
+                    "value": 8,
+                    "source": "smart_default",
+                    "reason": "inferred_series_labels"
+                  },
+                  "page_width_aspect_ratio": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "no_external_legend"
+                  },
+                  "right_margin": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "no_external_legend"
+                  },
+                  "inside_candidate": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "lowest_curve_occupancy_candidate"
+                  },
+                  "candidate_collision_fraction": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "fraction_of_a_series_intersecting_the_candidate_legend_box"
+                  },
+                  "estimated_width_fraction": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "legend_label_footprint_estimate"
+                  },
+                  "estimated_height_fraction": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "legend_row_footprint_estimate"
+                  }
+                }
+              },
+              "palette_name": {
+                "value": null,
+                "source": "smart_default",
+                "reason": "preserve_origin_or_template_palette"
+              },
+              "marks": {
+                "line_width": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "chart_type_has_no_default_series_line"
+                },
+                "symbol_size": {
+                  "value": 4.5,
+                  "source": "smart_default",
+                  "reason": "moderate_point_density"
+                },
+                "transparency": {
+                  "value": 10.0,
+                  "source": "smart_default",
+                  "reason": "moderate_point_density"
+                }
+              },
+              "annotations": {
+                "data_labels": {
+                  "show": {
+                    "value": true,
+                    "source": "smart_default",
+                    "reason": "label_only_scatter_extrema"
+                  },
+                  "scope": {
+                    "value": "extrema",
+                    "source": "smart_default",
+                    "reason": "label_only_scatter_extrema"
+                  },
+                  "position": {
+                    "value": "above",
+                    "source": "smart_default",
+                    "reason": "label_only_scatter_extrema"
+                  },
+                  "font_size": {
+                    "value": 20,
+                    "source": "smart_default",
+                    "reason": "match_axis_tick_typography"
+                  },
+                  "value_source": {
+                    "value": "y",
+                    "source": "smart_default",
+                    "reason": "axis_title_carries_metric_and_unit"
+                  },
+                  "layer_series_counts": {
+                    "value": [
+                      1
+                    ],
+                    "source": "smart_default",
+                    "reason": "apply_labels_only_to_primary_data_series"
+                  },
+                  "layer_formats": {
+                    "value": [
+                      {
+                        "number_format": "decimal",
+                        "decimal_places": 3
+                      }
+                    ],
+                    "source": "smart_default",
+                    "reason": "preserve_source_value_precision_independently_from_axis_ticks"
+                  }
+                },
+                "reference_lines": {
+                  "value": [],
+                  "source": "smart_default",
+                  "reason": "no_semantic_reference_line_inferred"
+                }
+              },
+              "axes": {
+                "x_title": {
+                  "value": "X",
+                  "source": "smart_default",
+                  "reason": "field_semantics"
+                },
+                "y_title": {
+                  "value": "Observed",
+                  "source": "smart_default",
+                  "reason": "field_semantics"
+                },
+                "y2_title": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_tick_rotation": {
+                  "value": 0,
+                  "source": "smart_default",
+                  "reason": "numeric_or_temporal_axis"
+                },
+                "x_scale": {
+                  "value": {
+                    "from": 0.0,
+                    "to": 10.5,
+                    "step": 1.5,
+                    "tick_count": 8
+                  },
+                  "source": "smart_default",
+                  "reason": "tidy_numeric_bounds_with_extreme_padding"
+                },
+                "x_datetime_scale": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "non_temporal_x_axis"
+                },
+                "y_scale": {
+                  "value": {
+                    "from": -2.0,
+                    "to": 26.0,
+                    "step": 4.0,
+                    "tick_count": 8
+                  },
+                  "source": "smart_default",
+                  "reason": "tidy_numeric_bounds_with_extreme_padding"
+                },
+                "y2_scale": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_or_specialized_y_axis"
+                },
+                "x_number_format": {
+                  "value": "decimal",
+                  "source": "smart_default",
+                  "reason": "magnitude_and_range"
+                },
+                "x_decimal_places": {
+                  "value": 1,
+                  "source": "smart_default",
+                  "reason": "range_appropriate_precision"
+                },
+                "y_number_format": {
+                  "value": "decimal",
+                  "source": "smart_default",
+                  "reason": "magnitude_and_range"
+                },
+                "y_decimal_places": {
+                  "value": 0,
+                  "source": "smart_default",
+                  "reason": "range_appropriate_precision"
+                },
+                "y2_number_format": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "y2_decimal_places": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_major_ticks": {
+                  "value": 8,
+                  "source": "smart_default",
+                  "reason": "use_wide_canvas_for_seven_x_anchors"
+                },
+                "y_major_ticks": {
+                  "value": 8,
+                  "source": "smart_default",
+                  "reason": "six_major_ticks_for_readable_comparison"
+                },
+                "y2_major_ticks": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_minor_ticks": {
+                  "value": 1,
+                  "source": "smart_default",
+                  "reason": "one_subdivision_between_major_ticks"
+                },
+                "y_minor_ticks": {
+                  "value": 1,
+                  "source": "smart_default",
+                  "reason": "one_subdivision_between_major_ticks"
+                },
+                "y2_minor_ticks": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_major_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "vertical_grid_adds_clutter"
+                },
+                "y_major_grid": {
+                  "value": true,
+                  "source": "smart_default",
+                  "reason": "support_value_comparison"
+                },
+                "y2_major_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "avoid_duplicate_dual_y_grid_lines"
+                },
+                "minor_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "keep_background_quiet"
+                },
+                "top_axis_ticks": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "top_frame_does_not_need_duplicate_ticks"
+                },
+                "y_zero_baseline": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "preserve_data_range"
+                }
+              },
+              "canvas": {
+                "aspect_ratio": {
+                  "value": 1.5,
+                  "source": "smart_default",
+                  "reason": "scatter_chart_footprint"
+                },
+                "page_aspect_ratio": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_rotated_category_labels"
+                },
+                "bottom_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_rotated_category_labels"
+                },
+                "top_margin": {
+                  "value": 0.1,
+                  "source": "smart_default",
+                  "reason": "reserve_space_for_above_mark_data_labels"
+                },
+                "page_width_aspect_ratio": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_external_legend"
+                },
+                "left_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "default_tick_labels_fit"
+                },
+                "right_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "default_tick_labels_fit"
+                }
+              },
+              "applied": {
+                "axis_script": "win -a \"Graph1\"; layer -s 1; layer.x.label.rotate=0; layer.y.label.numFormat=1; layer.y.label.decPlaces=0; layer.x2.ticks=0; layer.x.label.numFormat=1; layer.x.label.decPlaces=1; layer.x.majorTicks=8; layer.x.minorTicks=1; layer.x.grid.show=0; layer.x.from=0; layer.x.to=10.5; layer.x.inc=1.5; layer.x.rescale=1; layer.y.majorTicks=8; layer.y.minorTicks=1; layer.y.grid.show=1; layer.y.grid.majorColor=color(235,235,235); layer.y.grid.majorType=1; layer.y.grid.majorWidth=0.5; layer.y.from=-2; layer.y.to=26; layer.y.inc=4; layer.y.rescale=1; page -fls -u -ml 0.08 -mt 0.1 -mr 0.05 -mb 0.08;",
+                "axis_result": {
+                  "result": true
+                },
+                "data_labels": {
+                  "scope": "extrema",
+                  "position": "above",
+                  "applied": [
+                    {
+                      "layer_index": 0,
+                      "plot_index": 0,
+                      "scope": "extrema",
+                      "position": "above",
+                      "format": ".3"
+                    }
+                  ],
+                  "warnings": []
+                },
+                "reference_lines": null,
+                "marks": {
+                  "graph_name": "Graph1",
+                  "layer_index": 0,
+                  "styled_plots": 1,
+                  "applied": {
+                    "symbol_size": 4.5,
+                    "transparency": 10.0
+                  }
+                },
+                "legend": null
+              }
+            }
+          },
+          "export_inspection": null
+        }
+      },
+      "exports": [
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SCATTER_FIT.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SCATTER_FIT.png",
+              "exists": true,
+              "size_bytes": 55118,
+              "suffix": ".png",
+              "sha256": "5ba926ccc9d2c5cdb392bd06a1cdee4b3056d3087b6d4d04620046ca9243b4e3",
+              "width": 2400,
+              "height": 1702,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 2400,
+                "height": 1702,
+                "pixel_count": 4084800,
+                "pixels_sampled": 454400,
+                "unique_colors": 133,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 442925
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 7107
+                  },
+                  {
+                    "rgba": [
+                      31,
+                      78,
+                      121,
+                      255
+                    ],
+                    "count": 2045
+                  },
+                  {
+                    "rgba": [
+                      133,
+                      152,
+                      165,
+                      255
+                    ],
+                    "count": 465
+                  },
+                  {
+                    "rgba": [
+                      201,
+                      123,
+                      42,
+                      255
+                    ],
+                    "count": 156
+                  }
+                ],
+                "non_white_ratio": 0.025246,
+                "non_background_ratio": 0.025222,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 249.602,
+                "luma_stddev": 35.133,
+                "content_bbox": {
+                  "x_min": 96,
+                  "y_min": 99,
+                  "x_max": 2259,
+                  "y_max": 1599
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SCATTER_FIT.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SCATTER_FIT.pdf",
+              "exists": true,
+              "size_bytes": 7785,
+              "suffix": ".pdf",
+              "sha256": "b01f52c533e07f66c0287797b1697c3c15aea2974efc7a09a65f2eec2e348ee1",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SCATTER_FIT.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SCATTER_FIT.svg",
+              "exists": true,
+              "size_bytes": 14335,
+              "suffix": ".svg",
+              "sha256": "af597e7e9cd7d30256988847c8159759685ea14b76430ff38b2bbc46692770fd",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "P2_SCATTER_RESIDUAL",
+      "graph": "Graph2",
+      "created": {
+        "ok": true,
+        "message": "Created scatter plot from table data.",
+        "data": {
+          "worksheet": {
+            "book_name": "Book4",
+            "sheet_name": "Sheet1",
+            "columns": [
+              "x",
+              "ci_lower",
+              "ci_upper",
+              "observed",
+              "fit",
+              "residual",
+              "outlier"
+            ],
+            "rows": 61
+          },
+          "graph": {
+            "graph_name": "Graph2",
+            "export_path": null,
+            "template": "scatter",
+            "style_mode": "origin_default",
+            "requested_graph_name": "P2_SCATTER_RESIDUAL",
+            "display_name": "P2_SCATTER_RESIDUAL",
+            "visual_defaults": {
+              "mode": "conservative",
+              "context": {
+                "raw_chart_type": "scatter",
+                "chart_variant": "scatter",
+                "chart_type": "scatter",
+                "series_count": 1,
+                "row_count": 61,
+                "x_is_categorical": false,
+                "x_is_datetime": false,
+                "x_unique_count": 61,
+                "longest_x_label": 8,
+                "y_min": -0.736643,
+                "y_max": 2.170592
+              },
+              "legend": {
+                "show": {
+                  "value": false,
+                  "source": "user",
+                  "reason": "explicit_user_value"
+                },
+                "position": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "legend_hidden"
+                },
+                "series_labels": {
+                  "value": [
+                    "Residual"
+                  ],
+                  "source": "smart_default",
+                  "reason": "humanized_field_names"
+                },
+                "layout": {
+                  "outside": {
+                    "value": false,
+                    "source": "smart_default",
+                    "reason": "legend_fits_inside_plot_area"
+                  },
+                  "estimated_rows": {
+                    "value": 0,
+                    "source": "smart_default",
+                    "reason": "legend_visibility"
+                  },
+                  "max_label_length": {
+                    "value": 8,
+                    "source": "smart_default",
+                    "reason": "inferred_series_labels"
+                  },
+                  "page_width_aspect_ratio": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "no_external_legend"
+                  },
+                  "right_margin": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "no_external_legend"
+                  },
+                  "inside_candidate": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "lowest_curve_occupancy_candidate"
+                  },
+                  "candidate_collision_fraction": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "fraction_of_a_series_intersecting_the_candidate_legend_box"
+                  },
+                  "estimated_width_fraction": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "legend_label_footprint_estimate"
+                  },
+                  "estimated_height_fraction": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "legend_row_footprint_estimate"
+                  }
+                }
+              },
+              "palette_name": {
+                "value": null,
+                "source": "smart_default",
+                "reason": "preserve_origin_or_template_palette"
+              },
+              "marks": {
+                "line_width": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "chart_type_has_no_default_series_line"
+                },
+                "symbol_size": {
+                  "value": 4.5,
+                  "source": "smart_default",
+                  "reason": "moderate_point_density"
+                },
+                "transparency": {
+                  "value": 10.0,
+                  "source": "smart_default",
+                  "reason": "moderate_point_density"
+                }
+              },
+              "annotations": {
+                "data_labels": {
+                  "show": {
+                    "value": true,
+                    "source": "smart_default",
+                    "reason": "label_only_scatter_extrema"
+                  },
+                  "scope": {
+                    "value": "extrema",
+                    "source": "smart_default",
+                    "reason": "label_only_scatter_extrema"
+                  },
+                  "position": {
+                    "value": "above",
+                    "source": "smart_default",
+                    "reason": "label_only_scatter_extrema"
+                  },
+                  "font_size": {
+                    "value": 20,
+                    "source": "smart_default",
+                    "reason": "match_axis_tick_typography"
+                  },
+                  "value_source": {
+                    "value": "y",
+                    "source": "smart_default",
+                    "reason": "axis_title_carries_metric_and_unit"
+                  },
+                  "layer_series_counts": {
+                    "value": [
+                      1
+                    ],
+                    "source": "smart_default",
+                    "reason": "apply_labels_only_to_primary_data_series"
+                  },
+                  "layer_formats": {
+                    "value": [
+                      {
+                        "number_format": "decimal",
+                        "decimal_places": 3
+                      }
+                    ],
+                    "source": "smart_default",
+                    "reason": "preserve_source_value_precision_independently_from_axis_ticks"
+                  }
+                },
+                "reference_lines": {
+                  "value": [
+                    {
+                      "axis": "y",
+                      "value": 0.0,
+                      "layer_index": 0,
+                      "role": "zero",
+                      "color_index": 19,
+                      "line_style": 0,
+                      "line_width": 1.0
+                    }
+                  ],
+                  "source": "smart_default",
+                  "reason": "emphasize_zero_when_values_cross_sign"
+                }
+              },
+              "axes": {
+                "x_title": {
+                  "value": "X",
+                  "source": "smart_default",
+                  "reason": "field_semantics"
+                },
+                "y_title": {
+                  "value": "Residual",
+                  "source": "smart_default",
+                  "reason": "field_semantics"
+                },
+                "y2_title": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_tick_rotation": {
+                  "value": 0,
+                  "source": "smart_default",
+                  "reason": "numeric_or_temporal_axis"
+                },
+                "x_scale": {
+                  "value": {
+                    "from": 0.0,
+                    "to": 10.5,
+                    "step": 1.5,
+                    "tick_count": 8
+                  },
+                  "source": "smart_default",
+                  "reason": "tidy_numeric_bounds_with_extreme_padding"
+                },
+                "x_datetime_scale": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "non_temporal_x_axis"
+                },
+                "y_scale": {
+                  "value": {
+                    "from": -1.0,
+                    "to": 2.5,
+                    "step": 0.5,
+                    "tick_count": 8
+                  },
+                  "source": "smart_default",
+                  "reason": "tidy_numeric_bounds_with_extreme_padding"
+                },
+                "y2_scale": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_or_specialized_y_axis"
+                },
+                "x_number_format": {
+                  "value": "decimal",
+                  "source": "smart_default",
+                  "reason": "magnitude_and_range"
+                },
+                "x_decimal_places": {
+                  "value": 1,
+                  "source": "smart_default",
+                  "reason": "range_appropriate_precision"
+                },
+                "y_number_format": {
+                  "value": "decimal",
+                  "source": "smart_default",
+                  "reason": "magnitude_and_range"
+                },
+                "y_decimal_places": {
+                  "value": 1,
+                  "source": "smart_default",
+                  "reason": "range_appropriate_precision"
+                },
+                "y2_number_format": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "y2_decimal_places": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_major_ticks": {
+                  "value": 8,
+                  "source": "smart_default",
+                  "reason": "use_wide_canvas_for_seven_x_anchors"
+                },
+                "y_major_ticks": {
+                  "value": 8,
+                  "source": "smart_default",
+                  "reason": "six_major_ticks_for_readable_comparison"
+                },
+                "y2_major_ticks": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_minor_ticks": {
+                  "value": 1,
+                  "source": "smart_default",
+                  "reason": "one_subdivision_between_major_ticks"
+                },
+                "y_minor_ticks": {
+                  "value": 1,
+                  "source": "smart_default",
+                  "reason": "one_subdivision_between_major_ticks"
+                },
+                "y2_minor_ticks": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_major_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "vertical_grid_adds_clutter"
+                },
+                "y_major_grid": {
+                  "value": true,
+                  "source": "smart_default",
+                  "reason": "support_value_comparison"
+                },
+                "y2_major_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "avoid_duplicate_dual_y_grid_lines"
+                },
+                "minor_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "keep_background_quiet"
+                },
+                "top_axis_ticks": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "top_frame_does_not_need_duplicate_ticks"
+                },
+                "y_zero_baseline": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "preserve_data_range"
+                }
+              },
+              "canvas": {
+                "aspect_ratio": {
+                  "value": 1.5,
+                  "source": "smart_default",
+                  "reason": "scatter_chart_footprint"
+                },
+                "page_aspect_ratio": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_rotated_category_labels"
+                },
+                "bottom_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_rotated_category_labels"
+                },
+                "top_margin": {
+                  "value": 0.1,
+                  "source": "smart_default",
+                  "reason": "reserve_space_for_above_mark_data_labels"
+                },
+                "page_width_aspect_ratio": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_external_legend"
+                },
+                "left_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "default_tick_labels_fit"
+                },
+                "right_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "default_tick_labels_fit"
+                }
+              },
+              "applied": {
+                "axis_script": "win -a \"Graph2\"; layer -s 1; layer.x.label.rotate=0; layer.y.label.numFormat=1; layer.y.label.decPlaces=1; layer.x2.ticks=0; layer.x.label.numFormat=1; layer.x.label.decPlaces=1; layer.x.majorTicks=8; layer.x.minorTicks=1; layer.x.grid.show=0; layer.x.from=0; layer.x.to=10.5; layer.x.inc=1.5; layer.x.rescale=1; layer.y.majorTicks=8; layer.y.minorTicks=1; layer.y.grid.show=1; layer.y.grid.majorColor=color(235,235,235); layer.y.grid.majorType=1; layer.y.grid.majorWidth=0.5; layer.y.from=-1; layer.y.to=2.5; layer.y.inc=0.5; layer.y.rescale=1; page -fls -u -ml 0.08 -mt 0.1 -mr 0.05 -mb 0.08;",
+                "axis_result": {
+                  "result": true
+                },
+                "data_labels": {
+                  "scope": "extrema",
+                  "position": "above",
+                  "applied": [
+                    {
+                      "layer_index": 0,
+                      "plot_index": 0,
+                      "scope": "extrema",
+                      "position": "above",
+                      "format": ".3"
+                    }
+                  ],
+                  "warnings": []
+                },
+                "reference_lines": {
+                  "script": "win -a \"Graph2\"; layer -s 1; draw -n smart_zero_y_1 -c 19 -d 0 -w 1 -l y 0;",
+                  "result": true
+                },
+                "marks": {
+                  "graph_name": "Graph2",
+                  "layer_index": 0,
+                  "styled_plots": 1,
+                  "applied": {
+                    "symbol_size": 4.5,
+                    "transparency": 10.0
+                  }
+                },
+                "legend": null
+              }
+            }
+          },
+          "export_inspection": null
+        }
+      },
+      "exports": [
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SCATTER_RESIDUAL.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SCATTER_RESIDUAL.png",
+              "exists": true,
+              "size_bytes": 40568,
+              "suffix": ".png",
+              "sha256": "f292484c4ff5addc197aa60bf0c57fddf32609a9183fcb92000115ffad921b28",
+              "width": 2400,
+              "height": 1702,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 2400,
+                "height": 1702,
+                "pixel_count": 4084800,
+                "pixels_sampled": 454400,
+                "unique_colors": 62,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 444384
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 6863
+                  },
+                  {
+                    "rgba": [
+                      198,
+                      203,
+                      209,
+                      255
+                    ],
+                    "count": 1232
+                  },
+                  {
+                    "rgba": [
+                      124,
+                      144,
+                      158,
+                      255
+                    ],
+                    "count": 620
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      58,
+                      255
+                    ],
+                    "count": 116
+                  }
+                ],
+                "non_white_ratio": 0.022042,
+                "non_background_ratio": 0.022042,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 250.475,
+                "luma_stddev": 32.547,
+                "content_bbox": {
+                  "x_min": 36,
+                  "y_min": 75,
+                  "x_max": 2259,
+                  "y_max": 1599
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SCATTER_RESIDUAL.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SCATTER_RESIDUAL.pdf",
+              "exists": true,
+              "size_bytes": 8979,
+              "suffix": ".pdf",
+              "sha256": "80fb11fca131a5e151d2093606f95d1cc54dfc013d10d34581725e776ea9a85e",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SCATTER_RESIDUAL.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SCATTER_RESIDUAL.svg",
+              "exists": true,
+              "size_bytes": 13769,
+              "suffix": ".svg",
+              "sha256": "63af79c509a6bacb9daaa6a0c2910990c2a68c85635eb5298f85d37d15678c40",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "P2_SCATTER_STRESS",
+      "graph": "Graph3",
+      "created": {
+        "ok": true,
+        "message": "Created scatter plot from table data.",
+        "data": {
+          "worksheet": {
+            "book_name": "Book6",
+            "sheet_name": "Sheet1",
+            "columns": [
+              "exposure_duration_with_extended_label_s",
+              "observed",
+              "fit",
+              "outlier"
+            ],
+            "rows": 601
+          },
+          "graph": {
+            "graph_name": "Graph3",
+            "export_path": null,
+            "template": "scatter",
+            "style_mode": "origin_default",
+            "requested_graph_name": "P2_SCATTER_STRESS",
+            "display_name": "P2_SCATTER_STRESS",
+            "visual_defaults": {
+              "mode": "conservative",
+              "context": {
+                "raw_chart_type": "scatter",
+                "chart_variant": "scatter",
+                "chart_type": "scatter",
+                "series_count": 1,
+                "row_count": 601,
+                "x_is_categorical": false,
+                "x_is_datetime": false,
+                "x_unique_count": 601,
+                "longest_x_label": 5,
+                "y_min": 1.889689,
+                "y_max": 36.200034
+              },
+              "legend": {
+                "show": {
+                  "value": false,
+                  "source": "user",
+                  "reason": "explicit_user_value"
+                },
+                "position": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "legend_hidden"
+                },
+                "series_labels": {
+                  "value": [
+                    "Observed"
+                  ],
+                  "source": "smart_default",
+                  "reason": "humanized_field_names"
+                },
+                "layout": {
+                  "outside": {
+                    "value": false,
+                    "source": "smart_default",
+                    "reason": "legend_fits_inside_plot_area"
+                  },
+                  "estimated_rows": {
+                    "value": 0,
+                    "source": "smart_default",
+                    "reason": "legend_visibility"
+                  },
+                  "max_label_length": {
+                    "value": 8,
+                    "source": "smart_default",
+                    "reason": "inferred_series_labels"
+                  },
+                  "page_width_aspect_ratio": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "no_external_legend"
+                  },
+                  "right_margin": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "no_external_legend"
+                  },
+                  "inside_candidate": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "lowest_curve_occupancy_candidate"
+                  },
+                  "candidate_collision_fraction": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "fraction_of_a_series_intersecting_the_candidate_legend_box"
+                  },
+                  "estimated_width_fraction": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "legend_label_footprint_estimate"
+                  },
+                  "estimated_height_fraction": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "legend_row_footprint_estimate"
+                  }
+                }
+              },
+              "palette_name": {
+                "value": null,
+                "source": "smart_default",
+                "reason": "preserve_origin_or_template_palette"
+              },
+              "marks": {
+                "line_width": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "chart_type_has_no_default_series_line"
+                },
+                "symbol_size": {
+                  "value": 3.5,
+                  "source": "smart_default",
+                  "reason": "dense_points"
+                },
+                "transparency": {
+                  "value": 35.0,
+                  "source": "smart_default",
+                  "reason": "dense_points"
+                }
+              },
+              "annotations": {
+                "data_labels": {
+                  "show": {
+                    "value": false,
+                    "source": "smart_default",
+                    "reason": "dense_scatter_should_rely_on_shape_and_outlier_inspection"
+                  },
+                  "scope": {
+                    "value": "none",
+                    "source": "smart_default",
+                    "reason": "dense_scatter_should_rely_on_shape_and_outlier_inspection"
+                  },
+                  "position": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "dense_scatter_should_rely_on_shape_and_outlier_inspection"
+                  },
+                  "font_size": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "match_axis_tick_typography"
+                  },
+                  "value_source": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "axis_title_carries_metric_and_unit"
+                  },
+                  "layer_series_counts": {
+                    "value": [],
+                    "source": "smart_default",
+                    "reason": "apply_labels_only_to_primary_data_series"
+                  },
+                  "layer_formats": {
+                    "value": [],
+                    "source": "smart_default",
+                    "reason": "preserve_source_value_precision_independently_from_axis_ticks"
+                  }
+                },
+                "reference_lines": {
+                  "value": [],
+                  "source": "smart_default",
+                  "reason": "no_semantic_reference_line_inferred"
+                }
+              },
+              "axes": {
+                "x_title": {
+                  "value": "Exposure duration with extended label (s)",
+                  "source": "smart_default",
+                  "reason": "field_semantics"
+                },
+                "y_title": {
+                  "value": "Observed",
+                  "source": "smart_default",
+                  "reason": "field_semantics"
+                },
+                "y2_title": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_tick_rotation": {
+                  "value": 0,
+                  "source": "smart_default",
+                  "reason": "numeric_or_temporal_axis"
+                },
+                "x_scale": {
+                  "value": {
+                    "from": 0.0,
+                    "to": 32.0,
+                    "step": 4.0,
+                    "tick_count": 9
+                  },
+                  "source": "smart_default",
+                  "reason": "tidy_numeric_bounds_with_extreme_padding"
+                },
+                "x_datetime_scale": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "non_temporal_x_axis"
+                },
+                "y_scale": {
+                  "value": {
+                    "from": 0.0,
+                    "to": 40.0,
+                    "step": 8.0,
+                    "tick_count": 6
+                  },
+                  "source": "smart_default",
+                  "reason": "tidy_numeric_bounds_with_extreme_padding"
+                },
+                "y2_scale": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_or_specialized_y_axis"
+                },
+                "x_number_format": {
+                  "value": "decimal",
+                  "source": "smart_default",
+                  "reason": "magnitude_and_range"
+                },
+                "x_decimal_places": {
+                  "value": 0,
+                  "source": "smart_default",
+                  "reason": "range_appropriate_precision"
+                },
+                "y_number_format": {
+                  "value": "decimal",
+                  "source": "smart_default",
+                  "reason": "magnitude_and_range"
+                },
+                "y_decimal_places": {
+                  "value": 0,
+                  "source": "smart_default",
+                  "reason": "range_appropriate_precision"
+                },
+                "y2_number_format": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "y2_decimal_places": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_major_ticks": {
+                  "value": 9,
+                  "source": "smart_default",
+                  "reason": "use_wide_canvas_for_seven_x_anchors"
+                },
+                "y_major_ticks": {
+                  "value": 6,
+                  "source": "smart_default",
+                  "reason": "six_major_ticks_for_readable_comparison"
+                },
+                "y2_major_ticks": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_minor_ticks": {
+                  "value": 1,
+                  "source": "smart_default",
+                  "reason": "one_subdivision_between_major_ticks"
+                },
+                "y_minor_ticks": {
+                  "value": 1,
+                  "source": "smart_default",
+                  "reason": "one_subdivision_between_major_ticks"
+                },
+                "y2_minor_ticks": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_major_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "vertical_grid_adds_clutter"
+                },
+                "y_major_grid": {
+                  "value": true,
+                  "source": "smart_default",
+                  "reason": "support_value_comparison"
+                },
+                "y2_major_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "avoid_duplicate_dual_y_grid_lines"
+                },
+                "minor_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "keep_background_quiet"
+                },
+                "top_axis_ticks": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "top_frame_does_not_need_duplicate_ticks"
+                },
+                "y_zero_baseline": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "preserve_data_range"
+                }
+              },
+              "canvas": {
+                "aspect_ratio": {
+                  "value": 1.5,
+                  "source": "smart_default",
+                  "reason": "scatter_chart_footprint"
+                },
+                "page_aspect_ratio": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_rotated_category_labels"
+                },
+                "bottom_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_rotated_category_labels"
+                },
+                "top_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "default_top_margin_fits"
+                },
+                "page_width_aspect_ratio": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_external_legend"
+                },
+                "left_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "default_tick_labels_fit"
+                },
+                "right_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "default_tick_labels_fit"
+                }
+              },
+              "applied": {
+                "axis_script": "win -a \"Graph3\"; layer -s 1; layer.x.label.rotate=0; layer.y.label.numFormat=1; layer.y.label.decPlaces=0; layer.x2.ticks=0; layer.x.label.numFormat=1; layer.x.label.decPlaces=0; layer.x.majorTicks=9; layer.x.minorTicks=1; layer.x.grid.show=0; layer.x.from=0; layer.x.to=32; layer.x.inc=4; layer.x.rescale=1; layer.y.majorTicks=6; layer.y.minorTicks=1; layer.y.grid.show=1; layer.y.grid.majorColor=color(235,235,235); layer.y.grid.majorType=1; layer.y.grid.majorWidth=0.5; layer.y.from=0; layer.y.to=40; layer.y.inc=8; layer.y.rescale=1;",
+                "axis_result": {
+                  "result": true
+                },
+                "data_labels": null,
+                "reference_lines": null,
+                "marks": {
+                  "graph_name": "Graph3",
+                  "layer_index": 0,
+                  "styled_plots": 1,
+                  "applied": {
+                    "symbol_size": 3.5,
+                    "transparency": 35.0
+                  }
+                },
+                "legend": null
+              }
+            }
+          },
+          "export_inspection": null
+        }
+      },
+      "exports": [
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SCATTER_STRESS.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SCATTER_STRESS.png",
+              "exists": true,
+              "size_bytes": 73618,
+              "suffix": ".png",
+              "sha256": "8e5f3f1906a2737880b59f61c832fd59fc26c80fe25b86b8fb7d402354a257c1",
+              "width": 2400,
+              "height": 1702,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 2400,
+                "height": 1702,
+                "pixel_count": 4084800,
+                "pixels_sampled": 454400,
+                "unique_colors": 111,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 439581
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 9065
+                  },
+                  {
+                    "rgba": [
+                      31,
+                      78,
+                      121,
+                      255
+                    ],
+                    "count": 1724
+                  },
+                  {
+                    "rgba": [
+                      203,
+                      211,
+                      216,
+                      255
+                    ],
+                    "count": 1376
+                  },
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      219,
+                      255
+                    ],
+                    "count": 175
+                  }
+                ],
+                "non_white_ratio": 0.032612,
+                "non_background_ratio": 0.032579,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 248.431,
+                "luma_stddev": 38.81,
+                "content_bbox": {
+                  "x_min": 111,
+                  "y_min": 99,
+                  "x_max": 2259,
+                  "y_max": 1614
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SCATTER_STRESS.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SCATTER_STRESS.pdf",
+              "exists": true,
+              "size_bytes": 21548,
+              "suffix": ".pdf",
+              "sha256": "472f808de8b75279d32255435420f12da2b389a43a5c342a80724a7cdccb9f15",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SCATTER_STRESS.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SCATTER_STRESS.svg",
+              "exists": true,
+              "size_bytes": 138680,
+              "suffix": ".svg",
+              "sha256": "14aa46612cf1fe8f9d68ced8740095d8eedaee2ba216ee0968ba3f1f9f84b94f",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ],
+      "adaptation": "TEMPLATE_ADAPTATION_REQUIRED"
+    },
+    {
+      "id": "P2_HEATMAP",
+      "graph": "Graph4",
+      "created": {
+        "matrix": {
+          "ok": true,
+          "message": "Created Origin matrix.",
+          "data": {
+            "matrix": {
+              "book_name": "MBook1",
+              "sheet_name": "Field",
+              "shape": [
+                41,
+                41
+              ],
+              "depth": 1,
+              "xymap": [
+                0.0,
+                1.0,
+                0.0,
+                10.0
+              ],
+              "labels": [
+                "temperature_c"
+              ],
+              "data_ranges": [
+                "[MBook1]1!1"
+              ]
+            }
+          }
+        },
+        "plot": {
+          "ok": true,
+          "message": "Read Origin bridge task status.",
+          "data": {
+            "task": {
+              "task_id": "ae376529-c7c2-463a-9e84-5bbb9d48d244",
+              "method": "plot_matrix_by_id",
+              "status": "completed",
+              "submitted_at": 1788166851.4192247,
+              "started_at": 1788166851.4192247,
+              "finished_at": 1788166851.7829468,
+              "updated_at": 1788166851.7829468,
+              "progress": 1.0,
+              "current_step": "Completed",
+              "cancel_requested": false,
+              "result": {
+                "graph": {
+                  "graph_name": "P2_HEATMAP",
+                  "export_path": null,
+                  "template": null,
+                  "style_mode": "origin_default"
+                }
+              },
+              "logs": [
+                {
+                  "time": 1788166851.4192247,
+                  "level": "info",
+                  "message": "Task started."
+                },
+                {
+                  "time": 1788166851.4192247,
+                  "level": "info",
+                  "message": "Dispatching plot_matrix_by_id."
+                },
+                {
+                  "time": 1788166851.4192247,
+                  "level": "info",
+                  "message": "Running plot_matrix_by_id."
+                },
+                {
+                  "time": 1788166851.7829468,
+                  "level": "info",
+                  "message": "plot_matrix_by_id completed."
+                },
+                {
+                  "time": 1788166851.7829468,
+                  "level": "info",
+                  "message": "Task completed."
+                }
+              ]
+            }
+          }
+        }
+      },
+      "exports": [
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_HEATMAP.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_HEATMAP.png",
+              "exists": true,
+              "size_bytes": 78686,
+              "suffix": ".png",
+              "sha256": "7e78a623217453cdb9d3769ad8e173e3553010bf80b948e7d06aeea833b5a2e8",
+              "width": 2400,
+              "height": 1702,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 2400,
+                "height": 1702,
+                "pixel_count": 4084800,
+                "pixels_sampled": 454400,
+                "unique_colors": 141,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 260163
+                  },
+                  {
+                    "rgba": [
+                      36,
+                      75,
+                      102,
+                      255
+                    ],
+                    "count": 56537
+                  },
+                  {
+                    "rgba": [
+                      42,
+                      88,
+                      114,
+                      255
+                    ],
+                    "count": 24336
+                  },
+                  {
+                    "rgba": [
+                      47,
+                      102,
+                      127,
+                      255
+                    ],
+                    "count": 12770
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 9808
+                  }
+                ],
+                "non_white_ratio": 0.427458,
+                "non_background_ratio": 0.427447,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 194.191,
+                "luma_stddev": 79.805,
+                "content_bbox": {
+                  "x_min": 36,
+                  "y_min": 75,
+                  "x_max": 2226,
+                  "y_max": 1614
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_HEATMAP.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_HEATMAP.pdf",
+              "exists": true,
+              "size_bytes": 10696,
+              "suffix": ".pdf",
+              "sha256": "ec6a3ade77ed56efc5bcceffe9c40861912fe3420142c829ce1f5ee9f1f637ae",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_HEATMAP.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_HEATMAP.svg",
+              "exists": true,
+              "size_bytes": 51516,
+              "suffix": ".svg",
+              "sha256": "950959e61f7c7a2f12f833d07cca7ad3d1c89d1ca27f0c360b45a2271c9e57a8",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "P2_HEATMAP_STRESS",
+      "graph": "Graph5",
+      "created": {
+        "matrix": {
+          "ok": true,
+          "message": "Created Origin matrix.",
+          "data": {
+            "matrix": {
+              "book_name": "MBook2",
+              "sheet_name": "Field",
+              "shape": [
+                181,
+                121
+              ],
+              "depth": 1,
+              "xymap": [
+                0.0,
+                6.0,
+                0.0,
+                180.0
+              ],
+              "labels": [
+                "temperature_c"
+              ],
+              "data_ranges": [
+                "[MBook2]1!1"
+              ]
+            }
+          }
+        },
+        "plot": {
+          "ok": true,
+          "message": "Read Origin bridge task status.",
+          "data": {
+            "task": {
+              "task_id": "8f148331-ced1-4264-94d2-5abb59bbdba8",
+              "method": "plot_matrix_by_id",
+              "status": "completed",
+              "submitted_at": 1788166856.7486255,
+              "started_at": 1788166856.7497008,
+              "finished_at": 1788166857.1326358,
+              "updated_at": 1788166857.1326358,
+              "progress": 1.0,
+              "current_step": "Completed",
+              "cancel_requested": false,
+              "result": {
+                "graph": {
+                  "graph_name": "P2_HEATMAP_STRESS",
+                  "export_path": null,
+                  "template": null,
+                  "style_mode": "origin_default"
+                }
+              },
+              "logs": [
+                {
+                  "time": 1788166856.7497008,
+                  "level": "info",
+                  "message": "Task started."
+                },
+                {
+                  "time": 1788166856.7497008,
+                  "level": "info",
+                  "message": "Dispatching plot_matrix_by_id."
+                },
+                {
+                  "time": 1788166856.7497008,
+                  "level": "info",
+                  "message": "Running plot_matrix_by_id."
+                },
+                {
+                  "time": 1788166857.1326358,
+                  "level": "info",
+                  "message": "plot_matrix_by_id completed."
+                },
+                {
+                  "time": 1788166857.1326358,
+                  "level": "info",
+                  "message": "Task completed."
+                }
+              ]
+            }
+          }
+        }
+      },
+      "exports": [
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_HEATMAP_STRESS.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_HEATMAP_STRESS.png",
+              "exists": true,
+              "size_bytes": 100774,
+              "suffix": ".png",
+              "sha256": "b8c367708cbc344c8bd6b53bee7b2817fd184fe235597463f968477a4158c544",
+              "width": 2400,
+              "height": 1702,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 2400,
+                "height": 1702,
+                "pixel_count": 4084800,
+                "pixels_sampled": 454400,
+                "unique_colors": 153,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 256365
+                  },
+                  {
+                    "rgba": [
+                      42,
+                      88,
+                      114,
+                      255
+                    ],
+                    "count": 63459
+                  },
+                  {
+                    "rgba": [
+                      36,
+                      75,
+                      102,
+                      255
+                    ],
+                    "count": 45446
+                  },
+                  {
+                    "rgba": [
+                      47,
+                      102,
+                      127,
+                      255
+                    ],
+                    "count": 22676
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 12844
+                  }
+                ],
+                "non_white_ratio": 0.435816,
+                "non_background_ratio": 0.435797,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 183.922,
+                "luma_stddev": 85.919,
+                "content_bbox": {
+                  "x_min": 0,
+                  "y_min": 75,
+                  "x_max": 2226,
+                  "y_max": 1614
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_HEATMAP_STRESS.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_HEATMAP_STRESS.pdf",
+              "exists": true,
+              "size_bytes": 18900,
+              "suffix": ".pdf",
+              "sha256": "b0e92ff157fdec73374d1ef15c61faed2b424ca0d6639407c5a78fc8b545ddff",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_HEATMAP_STRESS.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_HEATMAP_STRESS.svg",
+              "exists": true,
+              "size_bytes": 90677,
+              "suffix": ".svg",
+              "sha256": "9d76f45adf9ada402149d5c172df7236e079000761548062ed6022df6e4fe721",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ],
+      "adaptation": "TEMPLATE_ADAPTATION_REQUIRED"
+    },
+    {
+      "id": "P2_CONVERGENCE",
+      "graph": "Graph6",
+      "created": {
+        "ok": true,
+        "message": "Created line plot from table data.",
+        "data": {
+          "worksheet": {
+            "book_name": "Book8",
+            "sheet_name": "Sheet1",
+            "columns": [
+              "iteration",
+              "best_objective",
+              "population_mean",
+              "final_best"
+            ],
+            "rows": 121
+          },
+          "graph": {
+            "graph_name": "Graph6",
+            "export_path": null,
+            "template": "line",
+            "style_mode": "origin_default",
+            "requested_graph_name": "P2_CONVERGENCE",
+            "display_name": "P2_CONVERGENCE",
+            "visual_defaults": {
+              "mode": "conservative",
+              "context": {
+                "raw_chart_type": "line",
+                "chart_variant": "line",
+                "chart_type": "line",
+                "series_count": 2,
+                "row_count": 121,
+                "x_is_categorical": false,
+                "x_is_datetime": false,
+                "x_unique_count": 121,
+                "longest_x_label": 3,
+                "y_min": 0.01008215,
+                "y_max": 1.096
+              },
+              "legend": {
+                "show": {
+                  "value": false,
+                  "source": "user",
+                  "reason": "explicit_user_value"
+                },
+                "position": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "legend_hidden"
+                },
+                "series_labels": {
+                  "value": [
+                    "Population mean",
+                    "Best objective"
+                  ],
+                  "source": "smart_default",
+                  "reason": "humanized_field_names"
+                },
+                "layout": {
+                  "outside": {
+                    "value": false,
+                    "source": "smart_default",
+                    "reason": "legend_fits_inside_plot_area"
+                  },
+                  "estimated_rows": {
+                    "value": 0,
+                    "source": "smart_default",
+                    "reason": "legend_visibility"
+                  },
+                  "max_label_length": {
+                    "value": 15,
+                    "source": "smart_default",
+                    "reason": "inferred_series_labels"
+                  },
+                  "page_width_aspect_ratio": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "no_external_legend"
+                  },
+                  "right_margin": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "no_external_legend"
+                  },
+                  "inside_candidate": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "lowest_curve_occupancy_candidate"
+                  },
+                  "candidate_collision_fraction": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "fraction_of_a_series_intersecting_the_candidate_legend_box"
+                  },
+                  "estimated_width_fraction": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "legend_label_footprint_estimate"
+                  },
+                  "estimated_height_fraction": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "legend_row_footprint_estimate"
+                  }
+                }
+              },
+              "palette_name": {
+                "value": null,
+                "source": "smart_default",
+                "reason": "preserve_origin_or_template_palette"
+              },
+              "marks": {
+                "line_width": {
+                  "value": 2.5,
+                  "source": "smart_default",
+                  "reason": "minimum_readable_series_stroke"
+                },
+                "symbol_size": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "not_a_symbol_density_chart"
+                },
+                "transparency": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "not_a_symbol_density_chart"
+                }
+              },
+              "annotations": {
+                "data_labels": {
+                  "show": {
+                    "value": true,
+                    "source": "smart_default",
+                    "reason": "label_only_the_latest_value_for_each_line"
+                  },
+                  "scope": {
+                    "value": "end",
+                    "source": "smart_default",
+                    "reason": "label_only_the_latest_value_for_each_line"
+                  },
+                  "position": {
+                    "value": "right",
+                    "source": "smart_default",
+                    "reason": "label_only_the_latest_value_for_each_line"
+                  },
+                  "font_size": {
+                    "value": 20,
+                    "source": "smart_default",
+                    "reason": "match_axis_tick_typography"
+                  },
+                  "value_source": {
+                    "value": "y",
+                    "source": "smart_default",
+                    "reason": "axis_title_carries_metric_and_unit"
+                  },
+                  "layer_series_counts": {
+                    "value": [
+                      2
+                    ],
+                    "source": "smart_default",
+                    "reason": "apply_labels_only_to_primary_data_series"
+                  },
+                  "layer_formats": {
+                    "value": [
+                      {
+                        "number_format": "decimal",
+                        "decimal_places": 3
+                      }
+                    ],
+                    "source": "smart_default",
+                    "reason": "preserve_source_value_precision_independently_from_axis_ticks"
+                  }
+                },
+                "reference_lines": {
+                  "value": [],
+                  "source": "smart_default",
+                  "reason": "no_semantic_reference_line_inferred"
+                }
+              },
+              "axes": {
+                "x_title": {
+                  "value": "Iteration",
+                  "source": "smart_default",
+                  "reason": "field_semantics"
+                },
+                "y_title": {
+                  "value": "Value",
+                  "source": "smart_default",
+                  "reason": "generic_value_fallback"
+                },
+                "y2_title": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_tick_rotation": {
+                  "value": 0,
+                  "source": "smart_default",
+                  "reason": "numeric_or_temporal_axis"
+                },
+                "x_scale": {
+                  "value": {
+                    "from": 0.0,
+                    "to": 140.0,
+                    "step": 20.0,
+                    "tick_count": 8
+                  },
+                  "source": "smart_default",
+                  "reason": "tidy_numeric_bounds_with_extreme_padding"
+                },
+                "x_datetime_scale": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "non_temporal_x_axis"
+                },
+                "y_scale": {
+                  "value": {
+                    "from": -0.1,
+                    "to": 1.3,
+                    "step": 0.2,
+                    "tick_count": 8
+                  },
+                  "source": "smart_default",
+                  "reason": "tidy_numeric_bounds_with_extreme_padding"
+                },
+                "y2_scale": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_or_specialized_y_axis"
+                },
+                "x_number_format": {
+                  "value": "decimal",
+                  "source": "smart_default",
+                  "reason": "magnitude_and_range"
+                },
+                "x_decimal_places": {
+                  "value": 0,
+                  "source": "smart_default",
+                  "reason": "range_appropriate_precision"
+                },
+                "y_number_format": {
+                  "value": "decimal",
+                  "source": "smart_default",
+                  "reason": "magnitude_and_range"
+                },
+                "y_decimal_places": {
+                  "value": 1,
+                  "source": "smart_default",
+                  "reason": "range_appropriate_precision"
+                },
+                "y2_number_format": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "y2_decimal_places": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_major_ticks": {
+                  "value": 8,
+                  "source": "smart_default",
+                  "reason": "use_wide_canvas_for_seven_x_anchors"
+                },
+                "y_major_ticks": {
+                  "value": 8,
+                  "source": "smart_default",
+                  "reason": "six_major_ticks_for_readable_comparison"
+                },
+                "y2_major_ticks": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_minor_ticks": {
+                  "value": 1,
+                  "source": "smart_default",
+                  "reason": "one_subdivision_between_major_ticks"
+                },
+                "y_minor_ticks": {
+                  "value": 1,
+                  "source": "smart_default",
+                  "reason": "one_subdivision_between_major_ticks"
+                },
+                "y2_minor_ticks": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_major_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "vertical_grid_adds_clutter"
+                },
+                "y_major_grid": {
+                  "value": true,
+                  "source": "smart_default",
+                  "reason": "support_value_comparison"
+                },
+                "y2_major_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "avoid_duplicate_dual_y_grid_lines"
+                },
+                "minor_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "keep_background_quiet"
+                },
+                "top_axis_ticks": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "top_frame_does_not_need_duplicate_ticks"
+                },
+                "y_zero_baseline": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "preserve_data_range"
+                }
+              },
+              "canvas": {
+                "aspect_ratio": {
+                  "value": 1.5,
+                  "source": "smart_default",
+                  "reason": "line_chart_footprint"
+                },
+                "page_aspect_ratio": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_rotated_category_labels"
+                },
+                "bottom_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_rotated_category_labels"
+                },
+                "top_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "default_top_margin_fits"
+                },
+                "page_width_aspect_ratio": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_external_legend"
+                },
+                "left_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "default_tick_labels_fit"
+                },
+                "right_margin": {
+                  "value": 0.14,
+                  "source": "smart_default",
+                  "reason": "reserve_external_legend_or_axis_tick_space"
+                }
+              },
+              "applied": {
+                "axis_script": "win -a \"Graph6\"; layer -s 1; layer.x.label.rotate=0; layer.y.label.numFormat=1; layer.y.label.decPlaces=1; layer.x2.ticks=0; layer.x.label.numFormat=1; layer.x.label.decPlaces=0; layer.x.majorTicks=8; layer.x.minorTicks=1; layer.x.grid.show=0; layer.x.from=0; layer.x.to=140; layer.x.inc=20; layer.x.rescale=1; layer.y.majorTicks=8; layer.y.minorTicks=1; layer.y.grid.show=1; layer.y.grid.majorColor=color(235,235,235); layer.y.grid.majorType=1; layer.y.grid.majorWidth=0.5; layer.y.from=-0.1; layer.y.to=1.3; layer.y.inc=0.2; layer.y.rescale=1; page -fls -u -ml 0.08 -mt 0.05 -mr 0.14 -mb 0.08;",
+                "axis_result": {
+                  "result": true
+                },
+                "data_labels": {
+                  "scope": "end",
+                  "position": "right",
+                  "applied": [
+                    {
+                      "layer_index": 0,
+                      "plot_index": 0,
+                      "scope": "end",
+                      "position": "right",
+                      "format": ".3"
+                    },
+                    {
+                      "layer_index": 0,
+                      "plot_index": 1,
+                      "scope": "end",
+                      "position": "right",
+                      "format": ".3"
+                    }
+                  ],
+                  "warnings": []
+                },
+                "reference_lines": null,
+                "marks": {
+                  "graph_name": "Graph6",
+                  "layer_index": 0,
+                  "styled_plots": 2,
+                  "applied": {
+                    "line_width": 2.5
+                  }
+                },
+                "legend": null
+              }
+            }
+          },
+          "export_inspection": null
+        }
+      },
+      "exports": [
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_CONVERGENCE.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_CONVERGENCE.png",
+              "exists": true,
+              "size_bytes": 56480,
+              "suffix": ".png",
+              "sha256": "55950d6096222baed68f0dffc70292e5f9a3549ffe9e2e8edb071cbfbb797f0b",
+              "width": 2400,
+              "height": 1702,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 2400,
+                "height": 1702,
+                "pixel_count": 4084800,
+                "pixels_sampled": 454400,
+                "unique_colors": 174,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 438859
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 7005
+                  },
+                  {
+                    "rgba": [
+                      31,
+                      78,
+                      121,
+                      255
+                    ],
+                    "count": 4938
+                  },
+                  {
+                    "rgba": [
+                      118,
+                      163,
+                      181,
+                      255
+                    ],
+                    "count": 1656
+                  },
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      182,
+                      255
+                    ],
+                    "count": 100
+                  }
+                ],
+                "non_white_ratio": 0.034201,
+                "non_background_ratio": 0.034093,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 248.243,
+                "luma_stddev": 37.966,
+                "content_bbox": {
+                  "x_min": 75,
+                  "y_min": 99,
+                  "x_max": 2259,
+                  "y_max": 1599
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_CONVERGENCE.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_CONVERGENCE.pdf",
+              "exists": true,
+              "size_bytes": 4419,
+              "suffix": ".pdf",
+              "sha256": "eb4b7e42cd3d410291ac012655d6f0abe7fef9541842b722d63b26904800eb31",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_CONVERGENCE.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_CONVERGENCE.svg",
+              "exists": true,
+              "size_bytes": 13593,
+              "suffix": ".svg",
+              "sha256": "1319f7d28143000c013cfb13c7bbaaf45d0b9634a74945b1e58d3c4f772a38da",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "P2_CONVERGENCE_STRESS",
+      "graph": "Graph7",
+      "created": {
+        "ok": true,
+        "message": "Created line plot from table data.",
+        "data": {
+          "worksheet": {
+            "book_name": "Book10",
+            "sheet_name": "Sheet1",
+            "columns": [
+              "iteration",
+              "best_objective",
+              "population_mean",
+              "final_best",
+              "log10_best_objective",
+              "log10_population_mean"
+            ],
+            "rows": 401
+          },
+          "graph": {
+            "graph_name": "Graph7",
+            "export_path": null,
+            "template": "line",
+            "style_mode": "origin_default",
+            "requested_graph_name": "P2_CONVERGENCE_STRESS",
+            "display_name": "P2_CONVERGENCE_STRESS",
+            "visual_defaults": {
+              "mode": "conservative",
+              "context": {
+                "raw_chart_type": "line",
+                "chart_variant": "line",
+                "chart_type": "line",
+                "series_count": 2,
+                "row_count": 401,
+                "x_is_categorical": false,
+                "x_is_datetime": false,
+                "x_unique_count": 401,
+                "longest_x_label": 4,
+                "y_min": -2.457187413,
+                "y_max": 3.363611985
+              },
+              "legend": {
+                "show": {
+                  "value": false,
+                  "source": "user",
+                  "reason": "explicit_user_value"
+                },
+                "position": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "legend_hidden"
+                },
+                "series_labels": {
+                  "value": [
+                    "Population mean",
+                    "Best objective"
+                  ],
+                  "source": "smart_default",
+                  "reason": "remove_axis_metric_and_unit_from_legend_series"
+                },
+                "layout": {
+                  "outside": {
+                    "value": false,
+                    "source": "smart_default",
+                    "reason": "legend_fits_inside_plot_area"
+                  },
+                  "estimated_rows": {
+                    "value": 0,
+                    "source": "smart_default",
+                    "reason": "legend_visibility"
+                  },
+                  "max_label_length": {
+                    "value": 15,
+                    "source": "smart_default",
+                    "reason": "inferred_series_labels"
+                  },
+                  "page_width_aspect_ratio": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "no_external_legend"
+                  },
+                  "right_margin": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "no_external_legend"
+                  },
+                  "inside_candidate": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "lowest_curve_occupancy_candidate"
+                  },
+                  "candidate_collision_fraction": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "fraction_of_a_series_intersecting_the_candidate_legend_box"
+                  },
+                  "estimated_width_fraction": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "legend_label_footprint_estimate"
+                  },
+                  "estimated_height_fraction": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "legend_row_footprint_estimate"
+                  }
+                }
+              },
+              "palette_name": {
+                "value": null,
+                "source": "smart_default",
+                "reason": "preserve_origin_or_template_palette"
+              },
+              "marks": {
+                "line_width": {
+                  "value": 2.5,
+                  "source": "smart_default",
+                  "reason": "minimum_readable_series_stroke"
+                },
+                "symbol_size": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "not_a_symbol_density_chart"
+                },
+                "transparency": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "not_a_symbol_density_chart"
+                }
+              },
+              "annotations": {
+                "data_labels": {
+                  "show": {
+                    "value": true,
+                    "source": "smart_default",
+                    "reason": "label_only_the_latest_value_for_each_line"
+                  },
+                  "scope": {
+                    "value": "end",
+                    "source": "smart_default",
+                    "reason": "label_only_the_latest_value_for_each_line"
+                  },
+                  "position": {
+                    "value": "right",
+                    "source": "smart_default",
+                    "reason": "label_only_the_latest_value_for_each_line"
+                  },
+                  "font_size": {
+                    "value": 20,
+                    "source": "smart_default",
+                    "reason": "match_axis_tick_typography"
+                  },
+                  "value_source": {
+                    "value": "y",
+                    "source": "smart_default",
+                    "reason": "axis_title_carries_metric_and_unit"
+                  },
+                  "layer_series_counts": {
+                    "value": [
+                      2
+                    ],
+                    "source": "smart_default",
+                    "reason": "apply_labels_only_to_primary_data_series"
+                  },
+                  "layer_formats": {
+                    "value": [
+                      {
+                        "number_format": "decimal",
+                        "decimal_places": 3
+                      }
+                    ],
+                    "source": "smart_default",
+                    "reason": "preserve_source_value_precision_independently_from_axis_ticks"
+                  }
+                },
+                "reference_lines": {
+                  "value": [
+                    {
+                      "axis": "y",
+                      "value": 0.0,
+                      "layer_index": 0,
+                      "role": "zero",
+                      "color_index": 19,
+                      "line_style": 0,
+                      "line_width": 1.0
+                    }
+                  ],
+                  "source": "smart_default",
+                  "reason": "emphasize_zero_when_values_cross_sign"
+                }
+              },
+              "axes": {
+                "x_title": {
+                  "value": "Iteration",
+                  "source": "smart_default",
+                  "reason": "field_semantics"
+                },
+                "y_title": {
+                  "value": "Log10",
+                  "source": "smart_default",
+                  "reason": "shared_metric_and_unit"
+                },
+                "y2_title": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_tick_rotation": {
+                  "value": 0,
+                  "source": "smart_default",
+                  "reason": "numeric_or_temporal_axis"
+                },
+                "x_scale": {
+                  "value": {
+                    "from": 0.0,
+                    "to": 2240.0,
+                    "step": 300.0,
+                    "tick_count": 8
+                  },
+                  "source": "smart_default",
+                  "reason": "tidy_numeric_bounds_with_extreme_padding"
+                },
+                "x_datetime_scale": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "non_temporal_x_axis"
+                },
+                "y_scale": {
+                  "value": {
+                    "from": -3.0,
+                    "to": 4.0,
+                    "step": 1.0,
+                    "tick_count": 8
+                  },
+                  "source": "smart_default",
+                  "reason": "tidy_numeric_bounds_with_extreme_padding"
+                },
+                "y2_scale": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_or_specialized_y_axis"
+                },
+                "x_number_format": {
+                  "value": "decimal",
+                  "source": "smart_default",
+                  "reason": "magnitude_and_range"
+                },
+                "x_decimal_places": {
+                  "value": 0,
+                  "source": "smart_default",
+                  "reason": "range_appropriate_precision"
+                },
+                "y_number_format": {
+                  "value": "decimal",
+                  "source": "smart_default",
+                  "reason": "magnitude_and_range"
+                },
+                "y_decimal_places": {
+                  "value": 0,
+                  "source": "smart_default",
+                  "reason": "range_appropriate_precision"
+                },
+                "y2_number_format": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "y2_decimal_places": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_major_ticks": {
+                  "value": 8,
+                  "source": "smart_default",
+                  "reason": "use_wide_canvas_for_seven_x_anchors"
+                },
+                "y_major_ticks": {
+                  "value": 8,
+                  "source": "smart_default",
+                  "reason": "six_major_ticks_for_readable_comparison"
+                },
+                "y2_major_ticks": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_minor_ticks": {
+                  "value": 1,
+                  "source": "smart_default",
+                  "reason": "one_subdivision_between_major_ticks"
+                },
+                "y_minor_ticks": {
+                  "value": 1,
+                  "source": "smart_default",
+                  "reason": "one_subdivision_between_major_ticks"
+                },
+                "y2_minor_ticks": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_major_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "vertical_grid_adds_clutter"
+                },
+                "y_major_grid": {
+                  "value": true,
+                  "source": "smart_default",
+                  "reason": "support_value_comparison"
+                },
+                "y2_major_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "avoid_duplicate_dual_y_grid_lines"
+                },
+                "minor_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "keep_background_quiet"
+                },
+                "top_axis_ticks": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "top_frame_does_not_need_duplicate_ticks"
+                },
+                "y_zero_baseline": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "preserve_data_range"
+                }
+              },
+              "canvas": {
+                "aspect_ratio": {
+                  "value": 1.5,
+                  "source": "smart_default",
+                  "reason": "line_chart_footprint"
+                },
+                "page_aspect_ratio": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_rotated_category_labels"
+                },
+                "bottom_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_rotated_category_labels"
+                },
+                "top_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "default_top_margin_fits"
+                },
+                "page_width_aspect_ratio": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_external_legend"
+                },
+                "left_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "default_tick_labels_fit"
+                },
+                "right_margin": {
+                  "value": 0.14,
+                  "source": "smart_default",
+                  "reason": "reserve_external_legend_or_axis_tick_space"
+                }
+              },
+              "applied": {
+                "axis_script": "win -a \"Graph7\"; layer -s 1; layer.x.label.rotate=0; layer.y.label.numFormat=1; layer.y.label.decPlaces=0; layer.x2.ticks=0; layer.x.label.numFormat=1; layer.x.label.decPlaces=0; layer.x.majorTicks=8; layer.x.minorTicks=1; layer.x.grid.show=0; layer.x.from=0; layer.x.to=2240; layer.x.inc=300; layer.x.rescale=1; layer.y.majorTicks=8; layer.y.minorTicks=1; layer.y.grid.show=1; layer.y.grid.majorColor=color(235,235,235); layer.y.grid.majorType=1; layer.y.grid.majorWidth=0.5; layer.y.from=-3; layer.y.to=4; layer.y.inc=1; layer.y.rescale=1; page -fls -u -ml 0.08 -mt 0.05 -mr 0.14 -mb 0.08;",
+                "axis_result": {
+                  "result": true
+                },
+                "data_labels": {
+                  "scope": "end",
+                  "position": "right",
+                  "applied": [
+                    {
+                      "layer_index": 0,
+                      "plot_index": 0,
+                      "scope": "end",
+                      "position": "right",
+                      "format": ".3"
+                    },
+                    {
+                      "layer_index": 0,
+                      "plot_index": 1,
+                      "scope": "end",
+                      "position": "right",
+                      "format": ".3"
+                    }
+                  ],
+                  "warnings": []
+                },
+                "reference_lines": {
+                  "script": "win -a \"Graph7\"; layer -s 1; draw -n smart_zero_y_1 -c 19 -d 0 -w 1 -l y 0;",
+                  "result": true
+                },
+                "marks": {
+                  "graph_name": "Graph7",
+                  "layer_index": 0,
+                  "styled_plots": 2,
+                  "applied": {
+                    "line_width": 2.5
+                  }
+                },
+                "legend": null
+              }
+            }
+          },
+          "export_inspection": null
+        }
+      },
+      "exports": [
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_CONVERGENCE_STRESS.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_CONVERGENCE_STRESS.png",
+              "exists": true,
+              "size_bytes": 58593,
+              "suffix": ".png",
+              "sha256": "fa5550834b789c08a240af2246f63f5b94a61e58b07f993bf514e055366d158b",
+              "width": 2400,
+              "height": 1702,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 2400,
+                "height": 1702,
+                "pixel_count": 4084800,
+                "pixels_sampled": 454400,
+                "unique_colors": 141,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 439131
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 7171
+                  },
+                  {
+                    "rgba": [
+                      31,
+                      78,
+                      121,
+                      255
+                    ],
+                    "count": 4412
+                  },
+                  {
+                    "rgba": [
+                      118,
+                      163,
+                      181,
+                      255
+                    ],
+                    "count": 1623
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      58,
+                      255
+                    ],
+                    "count": 133
+                  }
+                ],
+                "non_white_ratio": 0.033603,
+                "non_background_ratio": 0.033479,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 248.354,
+                "luma_stddev": 37.817,
+                "content_bbox": {
+                  "x_min": 96,
+                  "y_min": 99,
+                  "x_max": 2259,
+                  "y_max": 1599
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_CONVERGENCE_STRESS.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_CONVERGENCE_STRESS.pdf",
+              "exists": true,
+              "size_bytes": 8577,
+              "suffix": ".pdf",
+              "sha256": "9293014bebdc87b51bea293ccf112ab1a6af9356624cf023eb36e7217b1c7ba2",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_CONVERGENCE_STRESS.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_CONVERGENCE_STRESS.svg",
+              "exists": true,
+              "size_bytes": 16228,
+              "suffix": ".svg",
+              "sha256": "1fb8380986225c3c381519f82e27f3318ad2ec27cbca51d463deb3e23de2d4f6",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ],
+      "adaptation": "TEMPLATE_ADAPTATION_REQUIRED"
+    },
+    {
+      "id": "P2_MULTIPANEL_2X2",
+      "graph": "P2_MULTIPANEL_2X2",
+      "merge": {
+        "ok": true,
+        "message": "Merged Origin graph pages.",
+        "data": {
+          "graph_names": [
+            "Graph8",
+            "Graph9",
+            "Graph10",
+            "Graph11"
+          ],
+          "output_graph": "P2_MULTIPANEL_2X2",
+          "created_graphs": [
+            "Graph12"
+          ],
+          "rows": 2,
+          "columns": 2,
+          "script": "merge_graph option:=specified graphs:=\"Graph8\"+char(10)$+\"Graph9\"+char(10)$+\"Graph10\"+char(10)$+\"Graph11\" keep:=1 arrange:=1 row:=2 col:=2 dir:=horz xgap:=4.0 ygap:=5.0 leftmg:=6.0 rightmg:=8.0 topmg:=4.0 bottommg:=7.0 spaceunit:=percent labeltext:=none linkarrange:=0 resizewidthbyscale:=1;",
+          "result": true
+        }
+      },
+      "source_graphs": [
+        "Graph8",
+        "Graph9",
+        "Graph10",
+        "Graph11"
+      ],
+      "exports": [
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_MULTIPANEL_2X2.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_MULTIPANEL_2X2.png",
+              "exists": true,
+              "size_bytes": 97477,
+              "suffix": ".png",
+              "sha256": "3835175c0b0f3513c5e41e6124ea5a5a1d9159a0af68a928077c4bcdce72cc87",
+              "width": 3600,
+              "height": 2552,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 3600,
+                "height": 2552,
+                "pixel_count": 9187200,
+                "pixels_sampled": 367920,
+                "unique_colors": 77,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 363040
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 2174
+                  },
+                  {
+                    "rgba": [
+                      31,
+                      78,
+                      121,
+                      255
+                    ],
+                    "count": 1576
+                  },
+                  {
+                    "rgba": [
+                      118,
+                      163,
+                      181,
+                      255
+                    ],
+                    "count": 592
+                  },
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      219,
+                      255
+                    ],
+                    "count": 41
+                  }
+                ],
+                "non_white_ratio": 0.013264,
+                "non_background_ratio": 0.013264,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 252.374,
+                "luma_stddev": 23.884,
+                "content_bbox": {
+                  "x_min": 225,
+                  "y_min": 10,
+                  "x_max": 3310,
+                  "y_max": 2505
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_MULTIPANEL_2X2.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_MULTIPANEL_2X2.pdf",
+              "exists": true,
+              "size_bytes": 9348,
+              "suffix": ".pdf",
+              "sha256": "ba5ccf6d0ae6ca262baef4b2abfe895fbd70143a0ea72c7b90842c4e678e4418",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_MULTIPANEL_2X2.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_MULTIPANEL_2X2.svg",
+              "exists": true,
+              "size_bytes": 67666,
+              "suffix": ".svg",
+              "sha256": "139c500fb9a8b6c3e82899116a6f7e10b1f10bd06db1f86aa24d92c651e7e6a5",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "P2_MULTIPANEL_STRESS",
+      "graph": "P2_MULTIPANEL_STRESS",
+      "merge": {
+        "ok": true,
+        "message": "Merged Origin graph pages.",
+        "data": {
+          "graph_names": [
+            "Graph12",
+            "Graph13",
+            "Graph14",
+            "Graph15"
+          ],
+          "output_graph": "P2_MULTIPANEL_STRESS",
+          "created_graphs": [
+            "Graph16"
+          ],
+          "rows": 2,
+          "columns": 2,
+          "script": "merge_graph option:=specified graphs:=\"Graph12\"+char(10)$+\"Graph13\"+char(10)$+\"Graph14\"+char(10)$+\"Graph15\" keep:=1 arrange:=1 row:=2 col:=2 dir:=horz xgap:=4.0 ygap:=5.0 leftmg:=6.0 rightmg:=8.0 topmg:=4.0 bottommg:=7.0 spaceunit:=percent labeltext:=none linkarrange:=0 resizewidthbyscale:=1;",
+          "result": true
+        }
+      },
+      "source_graphs": [
+        "Graph12",
+        "Graph13",
+        "Graph14",
+        "Graph15"
+      ],
+      "exports": [
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_MULTIPANEL_STRESS.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_MULTIPANEL_STRESS.png",
+              "exists": true,
+              "size_bytes": 99165,
+              "suffix": ".png",
+              "sha256": "c6e73077ee661cc718555d4936563f2f018a934e933e0d2b3453a023f2a9f6c8",
+              "width": 3600,
+              "height": 2552,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 3600,
+                "height": 2552,
+                "pixel_count": 9187200,
+                "pixels_sampled": 367920,
+                "unique_colors": 77,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 363441
+                  },
+                  {
+                    "rgba": [
+                      31,
+                      78,
+                      121,
+                      255
+                    ],
+                    "count": 1793
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 1177
+                  },
+                  {
+                    "rgba": [
+                      118,
+                      163,
+                      181,
+                      255
+                    ],
+                    "count": 604
+                  },
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      182,
+                      255
+                    ],
+                    "count": 75
+                  }
+                ],
+                "non_white_ratio": 0.012174,
+                "non_background_ratio": 0.012174,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 252.836,
+                "luma_stddev": 20.956,
+                "content_bbox": {
+                  "x_min": 220,
+                  "y_min": 10,
+                  "x_max": 3310,
+                  "y_max": 2505
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_MULTIPANEL_STRESS.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_MULTIPANEL_STRESS.pdf",
+              "exists": true,
+              "size_bytes": 17733,
+              "suffix": ".pdf",
+              "sha256": "f56628360517f2685b40c3281b16cc9c84a3347527b55bc20fdb35612d268b96",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_MULTIPANEL_STRESS.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_MULTIPANEL_STRESS.svg",
+              "exists": true,
+              "size_bytes": 72438,
+              "suffix": ".svg",
+              "sha256": "b7a01385570e1b98ee4949507f64eb95794cdbe4973b0a1078c044639da1a272",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ],
+      "adaptation": "TEMPLATE_ADAPTATION_REQUIRED"
+    },
+    {
+      "id": "P2_SURFACE_3D",
+      "graph": "Graph16",
+      "created": {
+        "matrix": {
+          "ok": true,
+          "message": "Created Origin matrix.",
+          "data": {
+            "matrix": {
+              "book_name": "MBook3",
+              "sheet_name": "Field",
+              "shape": [
+                41,
+                41
+              ],
+              "depth": 1,
+              "xymap": [
+                -3.0,
+                3.0,
+                -3.0,
+                3.0
+              ],
+              "labels": [
+                "objective"
+              ],
+              "data_ranges": [
+                "[MBook3]1!1"
+              ]
+            }
+          }
+        },
+        "plot": {
+          "ok": true,
+          "message": "Read Origin bridge task status.",
+          "data": {
+            "task": {
+              "task_id": "87e53725-9d86-44ab-8b60-a42b0c064239",
+              "method": "plot_matrix_by_id",
+              "status": "completed",
+              "submitted_at": 1788166896.406954,
+              "started_at": 1788166896.4079542,
+              "finished_at": 1788166896.8613656,
+              "updated_at": 1788166896.8613656,
+              "progress": 1.0,
+              "current_step": "Completed",
+              "cancel_requested": false,
+              "result": {
+                "graph": {
+                  "graph_name": "P2_SURFACE_3D",
+                  "export_path": null,
+                  "template": null,
+                  "style_mode": "origin_default"
+                }
+              },
+              "logs": [
+                {
+                  "time": 1788166896.4079542,
+                  "level": "info",
+                  "message": "Task started."
+                },
+                {
+                  "time": 1788166896.4079542,
+                  "level": "info",
+                  "message": "Dispatching plot_matrix_by_id."
+                },
+                {
+                  "time": 1788166896.4079542,
+                  "level": "info",
+                  "message": "Running plot_matrix_by_id."
+                },
+                {
+                  "time": 1788166896.8613656,
+                  "level": "info",
+                  "message": "plot_matrix_by_id completed."
+                },
+                {
+                  "time": 1788166896.8613656,
+                  "level": "info",
+                  "message": "Task completed."
+                }
+              ]
+            }
+          }
+        }
+      },
+      "optimum": {
+        "ok": true,
+        "message": "Imported table data into Origin worksheet.",
+        "data": {
+          "worksheet": {
+            "book_name": "Book20",
+            "sheet_name": "Point",
+            "columns": [
+              "x",
+              "y",
+              "objective"
+            ],
+            "rows": 1
+          }
+        }
+      },
+      "overlay": {
+        "ok": true,
+        "message": "Executed LabTalk script.",
+        "data": {
+          "result": true,
+          "message_log": {
+            "captured": true,
+            "source": "LabTalk type -gb/type -ge",
+            "line_count": 0,
+            "lines": [],
+            "start_result": true,
+            "end_result": true
+          }
+        }
+      },
+      "marker_display_lift": 1.8,
+      "view": {
+        "ok": true,
+        "message": "Executed LabTalk script.",
+        "data": {
+          "result": true,
+          "message_log": {
+            "captured": true,
+            "source": "LabTalk type -gb/type -ge",
+            "line_count": 0,
+            "lines": [],
+            "start_result": true,
+            "end_result": true
+          }
+        }
+      },
+      "exports": [
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SURFACE_3D.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SURFACE_3D.png",
+              "exists": true,
+              "size_bytes": 194037,
+              "suffix": ".png",
+              "sha256": "75e80636c7775810cf55c1cbeda252066a3f6c664ba715abcdeb863db148cf68",
+              "width": 2400,
+              "height": 1702,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 2400,
+                "height": 1702,
+                "pixel_count": 4084800,
+                "pixels_sampled": 454400,
+                "unique_colors": 6954,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 404983
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 12513
+                  },
+                  {
+                    "rgba": [
+                      64,
+                      64,
+                      64,
+                      255
+                    ],
+                    "count": 2902
+                  },
+                  {
+                    "rgba": [
+                      127,
+                      127,
+                      127,
+                      255
+                    ],
+                    "count": 877
+                  },
+                  {
+                    "rgba": [
+                      94,
+                      100,
+                      106,
+                      255
+                    ],
+                    "count": 813
+                  }
+                ],
+                "non_white_ratio": 0.108743,
+                "non_background_ratio": 0.108741,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 232.765,
+                "luma_stddev": 65.198,
+                "content_bbox": {
+                  "x_min": 288,
+                  "y_min": 111,
+                  "x_max": 2151,
+                  "y_max": 1485
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SURFACE_3D.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SURFACE_3D.pdf",
+              "exists": true,
+              "size_bytes": 63440,
+              "suffix": ".pdf",
+              "sha256": "5a6e26f53ec6446b8f7ed58460856e62639afefd5bc1dd1783a62a84da14f3b0",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SURFACE_3D.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SURFACE_3D.svg",
+              "exists": true,
+              "size_bytes": 102625,
+              "suffix": ".svg",
+              "sha256": "d015f3dc5e4e482a29e0a68483bda2f1cea06aaf69f7c0cd616c73b25569e842",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "P2_SURFACE_3D_STRESS",
+      "graph": "Graph17",
+      "created": {
+        "matrix": {
+          "ok": true,
+          "message": "Created Origin matrix.",
+          "data": {
+            "matrix": {
+              "book_name": "MBook4",
+              "sheet_name": "Field",
+              "shape": [
+                61,
+                61
+              ],
+              "depth": 1,
+              "xymap": [
+                -3.0,
+                3.0,
+                -3.0,
+                3.0
+              ],
+              "labels": [
+                "objective"
+              ],
+              "data_ranges": [
+                "[MBook4]1!1"
+              ]
+            }
+          }
+        },
+        "plot": {
+          "ok": true,
+          "message": "Read Origin bridge task status.",
+          "data": {
+            "task": {
+              "task_id": "aae1d812-8bfc-4f63-976d-239c1621e06d",
+              "method": "plot_matrix_by_id",
+              "status": "completed",
+              "submitted_at": 1788166903.6148999,
+              "started_at": 1788166903.6159134,
+              "finished_at": 1788166904.0477493,
+              "updated_at": 1788166904.0477493,
+              "progress": 1.0,
+              "current_step": "Completed",
+              "cancel_requested": false,
+              "result": {
+                "graph": {
+                  "graph_name": "P2_SURFACE_3D_STRESS",
+                  "export_path": null,
+                  "template": null,
+                  "style_mode": "origin_default"
+                }
+              },
+              "logs": [
+                {
+                  "time": 1788166903.6159134,
+                  "level": "info",
+                  "message": "Task started."
+                },
+                {
+                  "time": 1788166903.6159134,
+                  "level": "info",
+                  "message": "Dispatching plot_matrix_by_id."
+                },
+                {
+                  "time": 1788166903.6159134,
+                  "level": "info",
+                  "message": "Running plot_matrix_by_id."
+                },
+                {
+                  "time": 1788166904.0477493,
+                  "level": "info",
+                  "message": "plot_matrix_by_id completed."
+                },
+                {
+                  "time": 1788166904.0477493,
+                  "level": "info",
+                  "message": "Task completed."
+                }
+              ]
+            }
+          }
+        }
+      },
+      "optimum": {
+        "ok": true,
+        "message": "Imported table data into Origin worksheet.",
+        "data": {
+          "worksheet": {
+            "book_name": "Book21",
+            "sheet_name": "Point",
+            "columns": [
+              "x",
+              "y",
+              "objective"
+            ],
+            "rows": 1
+          }
+        }
+      },
+      "overlay": {
+        "ok": true,
+        "message": "Executed LabTalk script.",
+        "data": {
+          "result": true,
+          "message_log": {
+            "captured": true,
+            "source": "LabTalk type -gb/type -ge",
+            "line_count": 0,
+            "lines": [],
+            "start_result": true,
+            "end_result": true
+          }
+        }
+      },
+      "marker_display_lift": 5.0,
+      "view": {
+        "ok": true,
+        "message": "Executed LabTalk script.",
+        "data": {
+          "result": true,
+          "message_log": {
+            "captured": true,
+            "source": "LabTalk type -gb/type -ge",
+            "line_count": 0,
+            "lines": [],
+            "start_result": true,
+            "end_result": true
+          }
+        }
+      },
+      "exports": [
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SURFACE_3D_STRESS.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SURFACE_3D_STRESS.png",
+              "exists": true,
+              "size_bytes": 209796,
+              "suffix": ".png",
+              "sha256": "06fddf5196bae777a2b58c9d486ab8cf10873e53d7411e332bb7c4c961b78e95",
+              "width": 2400,
+              "height": 1702,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 2400,
+                "height": 1702,
+                "pixel_count": 4084800,
+                "pixels_sampled": 454400,
+                "unique_colors": 6611,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 366293
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 12189
+                  },
+                  {
+                    "rgba": [
+                      64,
+                      64,
+                      64,
+                      255
+                    ],
+                    "count": 3356
+                  },
+                  {
+                    "rgba": [
+                      94,
+                      100,
+                      106,
+                      255
+                    ],
+                    "count": 1041
+                  },
+                  {
+                    "rgba": [
+                      127,
+                      127,
+                      127,
+                      255
+                    ],
+                    "count": 829
+                  }
+                ],
+                "non_white_ratio": 0.193895,
+                "non_background_ratio": 0.193895,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 219.809,
+                "luma_stddev": 73.395,
+                "content_bbox": {
+                  "x_min": 255,
+                  "y_min": 111,
+                  "x_max": 2157,
+                  "y_max": 1485
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SURFACE_3D_STRESS.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SURFACE_3D_STRESS.pdf",
+              "exists": true,
+              "size_bytes": 70835,
+              "suffix": ".pdf",
+              "sha256": "a1ae5eb7042a95d302c08ac44ac106166f998493438e6033ec3c724a90126e42",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SURFACE_3D_STRESS.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\P2_SURFACE_3D_STRESS.svg",
+              "exists": true,
+              "size_bytes": 118443,
+              "suffix": ".svg",
+              "sha256": "abc0758a332ec6d995c7efe98488b6ff2b0fe46f11af0fb3fde92367afe29b89",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ],
+      "adaptation": "TEMPLATE_ADAPTATION_REQUIRED"
+    }
+  ],
+  "source_project": {
+    "ok": true,
+    "message": "Saved Origin project.",
+    "data": {
+      "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2\\ORIGIN_PHASE2_STYLE_TRAINING.opju",
+      "saved": true,
+      "method": "originpro.save"
+    }
+  }
+}

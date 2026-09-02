@@ -1,0 +1,51 @@
+{
+  "phase": "Phase 2 — Signature Scientific Style v1.1 migration",
+  "status": "PHASE 2 CANDIDATES — HUMAN AESTHETIC REVIEW PENDING",
+  "origin_version": "10.350229",
+  "source_project": {
+    "path": "outputs/phase2/ORIGIN_PHASE2_STYLE_TRAINING.opju",
+    "bytes": 818305,
+    "sha256": null,
+    "sha256_note": "Origin keeps the active OPJU locked; size and successful Origin save are recorded in the MCP execution log."
+  },
+  "exports": {
+    "figure_sets": 11,
+    "png": 11,
+    "pdf": 11,
+    "svg": 11,
+    "png_dimensions": {
+      "single_graph": "2400x1702",
+      "multipanel": "3600x2552"
+    },
+    "pdf_header_pass": "11/11",
+    "svg_root_pass": "11/11",
+    "visual_review_pass": "11/11"
+  },
+  "candidate_templates": [
+    {
+      "name": "SCP_SCATTER_FIT_v20_CANDIDATE",
+      "sha256": "BA1E534CC70C4C51DE7032C76ADFBD6049605777A3115BA3D6DC3791245392DD"
+    },
+    {
+      "name": "SCP_HEATMAP_CONTINUOUS_v20_CANDIDATE",
+      "sha256": "F9B6C9C6AB8338BCD52DD69693B91E00C8714BE642430A0FA378EAAC958D624D"
+    },
+    {
+      "name": "SCP_OPTIMIZATION_CONVERGENCE_v20_CANDIDATE",
+      "sha256": "0E16343B14D956C347FE82E1F91EC6192EF51C5FB3605F9539A5A0CF8D5E2347"
+    },
+    {
+      "name": "SCP_MULTIPANEL_2X2_v20_CANDIDATE",
+      "sha256": "E995178D475D5433473FAE106797325925E2535437863BCF58D117C2F40E4B62"
+    },
+    {
+      "name": "SCP_SURFACE_3D_AUXILIARY_v20_CANDIDATE",
+      "sha256": "94444644D5B2E9E72DFE3978031440C349AEBB2F0011012C9083EAA813AABC6C"
+    }
+  ],
+  "frozen_v11_integrity": {
+    "modified": false,
+    "verified_templates": 4,
+    "matches": 4
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "FY1": [
+    {
+      "seed": "validated Q2",
+      "success": true,
+      "message": "Q2 accepted solution",
+      "x": [
+        0.10018572295840986,
+        139.9999997750743,
+        0.8545205690536963,
+        0.47165634469059264
+      ],
+      "duration_fast_s": 4.588755940617432
+    }
+  ],
+  "FY2": [
+    {
+      "seed": 0,
+      "success": true,
+      "message": "Optimization terminated successfully.",
+      "x": [
+        3.7928618888294037,
+        131.32992793085063,
+        16.8579015790095,
+        8.681935360751174
+      ],
+      "duration_fast_s": 3.6466671401665742
+    },
+    {
+      "seed": 1,
+      "success": true,
+      "message": "Optimization terminated successfully.",
+      "x": [
+        3.7046581249195936,
+        110.99180872155405,
+        22.881259208642533,
+        9.122797324318944
+      ],
+      "duration_fast_s": 3.454810812752381
+    },
+    {
+      "seed": 2,
+      "success": true,
+      "message": "Optimization terminated successfully.",
+      "x": [
+        5.097592178197241,
+        111.5201075393784,
+        13.202281227831524,
+        5.278792257330297
+      ],
+      "duration_fast_s": 3.918024521439335
+    }
+  ],
+  "FY3": [
+    {
+      "seed": 0,
+      "success": false,
+      "message": "Maximum number of iterations has been exceeded.",
+      "x": [
+        1.5594432005129921,
+        106.45605932714896,
+        29.020202712077648,
+        4.278357314305284
+      ],
+      "duration_fast_s": 2.950551122836174
+    },
+    {
+      "seed": 1,
+      "success": true,
+      "message": "Optimization terminated successfully.",
+      "x": [
+        1.6278265438000643,
+        99.51579986811781,
+        31.05647550646512,
+        4.756096196540178
+      ],
+      "duration_fast_s": 2.859070679905173
+    },
+    {
+      "seed": 2,
+      "success": false,
+      "message": "Maximum number of iterations has been exceeded.",
+      "x": [
+        1.9046066892477709,
+        103.10077036687116,
+        31.825056911986948,
+        6.338851396517191
+      ],
+      "duration_fast_s": 2.6888671777998496
+    }
+  ]
+}

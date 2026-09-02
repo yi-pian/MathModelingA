@@ -1,0 +1,167 @@
+{
+  "status": "PASS",
+  "maximum_head_speed_m_s": 1.2462663581586406,
+  "maximum_unit_head_speed_ratio": 1.6047933789651525,
+  "critical_head_path_coordinate_m": 14.479969580808836,
+  "limiting_handle_indices": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "limiting_handle_labels": [
+    "第3节龙身",
+    "第4节龙身",
+    "第5节龙身",
+    "第6节龙身",
+    "第7节龙身"
+  ],
+  "tail_exit_head_path_coordinate_m": 383.28734605907687,
+  "tail_exit_root_residual_m": 5.080380560684716e-13,
+  "coarse_step_m": 1.0,
+  "coarse_points": 385,
+  "refined_candidate_count": 12,
+  "refined_candidates": [
+    {
+      "head_s_m": 14.479969580808836,
+      "ratio": 1.6047933789651525,
+      "node_index": 3,
+      "success": true,
+      "nfev": 12,
+      "coarse_center_m": 14.0
+    },
+    {
+      "head_s_m": 365.961231247686,
+      "ratio": 1.1184608356925503,
+      "node_index": 216,
+      "success": true,
+      "nfev": 12,
+      "coarse_center_m": 366.0
+    },
+    {
+      "head_s_m": 361.00858614391456,
+      "ratio": 1.1184533006845918,
+      "node_index": 213,
+      "success": true,
+      "nfev": 12,
+      "coarse_center_m": 361.0
+    },
+    {
+      "head_s_m": 327.9900453755714,
+      "ratio": 1.1183977314342368,
+      "node_index": 196,
+      "success": true,
+      "nfev": 12,
+      "coarse_center_m": 328.0
+    },
+    {
+      "head_s_m": 294.96970782279317,
+      "ratio": 1.118330853320818,
+      "node_index": 173,
+      "success": true,
+      "nfev": 11,
+      "coarse_center_m": 295.0
+    },
+    {
+      "head_s_m": 290.01647737375583,
+      "ratio": 1.1183196296677824,
+      "node_index": 171,
+      "success": true,
+      "nfev": 12,
+      "coarse_center_m": 290.0
+    },
+    {
+      "head_s_m": 256.99358089094426,
+      "ratio": 1.1182348922081111,
+      "node_index": 153,
+      "success": true,
+      "nfev": 12,
+      "coarse_center_m": 257.0
+    },
+    {
+      "head_s_m": 223.96787660386997,
+      "ratio": 1.118128094018475,
+      "node_index": 134,
+      "success": true,
+      "nfev": 12,
+      "coarse_center_m": 224.0
+    },
+    {
+      "head_s_m": 219.013733064832,
+      "ratio": 1.1181096291122645,
+      "node_index": 127,
+      "success": true,
+      "nfev": 12,
+      "coarse_center_m": 219.0
+    },
+    {
+      "head_s_m": 185.98380431232445,
+      "ratio": 1.117964874303827,
+      "node_index": 110,
+      "success": true,
+      "nfev": 12,
+      "coarse_center_m": 186.0
+    },
+    {
+      "head_s_m": 147.99310911048102,
+      "ratio": 1.1177320236640016,
+      "node_index": 84,
+      "success": true,
+      "nfev": 12,
+      "coarse_center_m": 148.0
+    },
+    {
+      "head_s_m": 109.99258890531658,
+      "ratio": 1.1173731785928447,
+      "node_index": 61,
+      "success": true,
+      "nfev": 12,
+      "coarse_center_m": 110.0
+    }
+  ],
+  "local_grid_convergence": [
+    {
+      "step_m": 0.1,
+      "head_s_m": 14.529969580808835,
+      "ratio": 1.5990238045224696
+    },
+    {
+      "step_m": 0.05,
+      "head_s_m": 14.504969580808845,
+      "ratio": 1.6033097260603704
+    },
+    {
+      "step_m": 0.025,
+      "head_s_m": 14.492469580808844,
+      "ratio": 1.6044173995281288
+    },
+    {
+      "step_m": 0.0125,
+      "head_s_m": 14.486219580808802,
+      "ratio": 1.6046987575829712
+    }
+  ],
+  "local_grid_errors_from_refined": [
+    0.00576957444268289,
+    0.00148365290478214,
+    0.0003759794370237213,
+    9.462138218130356e-05
+  ],
+  "speed_limit_residual_m_s": 1.7763568394002505e-15,
+  "max_speed_below_limit_m_s": 1.999998395206621,
+  "max_speed_above_limit_m_s": 2.0000016047933786,
+  "speed_epsilon_m_s": 1e-06,
+  "pre_turn_audit_max_ratio": 1.0,
+  "post_turn_audit_max_ratio": 1.0051972649775993,
+  "post_turn_audit_last_ratio": 1.000160521474426,
+  "post_turn_audit_monotone": true,
+  "link_error_max_m": 1.4375611812056377e-11,
+  "link_error_mean_m": 1.4698068372761945e-12,
+  "link_error_p95_m": 8.522493821772047e-12,
+  "velocity_constraint_residual_max_m2_s": 1.3760693973186022e-15,
+  "single_chain_mean_seconds": 0.07199972911793871,
+  "full_coarse_scan_seconds": 28.01781189999747,
+  "optimization_seconds": 10.562231900003098,
+  "q5_total_seconds": 69.42914259999816
+}

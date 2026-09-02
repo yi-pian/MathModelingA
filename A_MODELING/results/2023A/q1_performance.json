@@ -1,0 +1,17 @@
+{
+  "precision": "FINAL",
+  "mirror_count": 1745,
+  "time_count": 60,
+  "total_seconds": 85.3578850999993,
+  "average_time_seconds": 1.4226314183333215,
+  "mean_stage_seconds": {
+    "geometry": 0.00034235666653330553,
+    "candidates": 0.38874635833329496,
+    "shadow_blocking": 0.4067584849999245,
+    "truncation": 0.625395548333366,
+    "total": 1.4212427483331187
+  },
+  "mean_candidates": 39.41623686723973,
+  "maximum_candidates": 98,
+  "raw_pair_comparisons_per_time": 6086560
+}

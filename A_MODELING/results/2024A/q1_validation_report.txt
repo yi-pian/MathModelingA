@@ -1,0 +1,10 @@
+========== VALIDATION REPORT ==========
+Finite positions/speeds  PASS
+Monotonic time           PASS
+Head speed equals 1 m/s  PASS
+Arc inversion residual   PASS  max=2.140e-10 m
+Link constraints         PASS  max=1.344e-10 m
+Velocity constraints     PASS
+Finite-difference speed  PASS  max abs=6.721e-09 m/s
+Official result1.xlsx    PASS
+=======================================

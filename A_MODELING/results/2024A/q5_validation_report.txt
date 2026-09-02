@@ -1,0 +1,14 @@
+========== VALIDATION REPORT ==========
+Tail-exit root residual        PASS  5.080e-13 m
+All coarse candidates refined  PASS
+Local-grid convergence         PASS  [0.00576957444268289, 0.00148365290478214, 0.0003759794370237213, 9.462138218130356e-05]
+Speed limit active             PASS  1.776e-15 m/s
+Smaller head speed feasible    PASS  max=1.999998395 m/s
+Larger head speed infeasible   PASS  max=2.000001605 m/s
+Pre-turn envelope bounded      PASS
+Post-turn envelope bounded     PASS
+Post-turn envelope decreases   PASS  last=1.000160521
+Link constraints               PASS
+Velocity constraints           PASS
+Finite limiting state          PASS
+=======================================

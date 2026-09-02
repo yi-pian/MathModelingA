@@ -1,0 +1,15 @@
+========== VALIDATION REPORT ==========
+Finite positions/speeds     PASS
+Monotonic time              PASS
+Radius ratio R1/R2=2        PASS
+Turn path inside boundary   PASS  max r=4.500000000000 m
+Position continuity         PASS
+Tangent continuity          PASS
+Head speed equals 1 m/s     PASS
+Link constraints            PASS  max=1.687e-11 m
+Velocity constraints        PASS
+Smooth-segment FD speed     PASS  max=3.286e-07 m/s
+Junction FD convergence     PASS  ratios=[1.9996665241655291, 1.9998334013514254]
+No audited bench collision  PASS  min=2.902e-01 m
+Official result4.xlsx       PASS
+=======================================

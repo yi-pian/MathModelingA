@@ -1,0 +1,11 @@
+========== VALIDATION REPORT ==========
+Q2 optimizer success     PASS  Optimization terminated successfully.
+Q2 finite strategy       PASS
+Q2 variable bounds       PASS
+Q2 physical constraints  PASS  margins=[69.99999977507429, 2.2492571360999136e-07, 0.3828642243631037, 0.47165634469059264, np.float64(1798.9099474333143), 66.14465023841892]
+Q2 root residual         PASS  max=5.130e-12 m^2
+Q2 surface convergence   PASS
+Q2 local perturbation    PASS  neighbor max=4.587983370
+Q2 multiple seeds        PASS  seeds=[0, 1, 2]
+Model interpretation     MANUAL CHECK REQUIRED  MODEL_CONFIRMATION_REQUIRED
+=======================================

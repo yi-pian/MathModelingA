@@ -1,0 +1,11 @@
+========== VALIDATION REPORT ==========
+Single coarse sign change      PASS  [(0.45000000000000007, 0.4750000000000001)]
+Critical root residual         PASS  1.335e-14 m
+Smaller pitch collides         PASS  -9.981e-06 m
+Larger pitch separates         PASS  9.981e-06 m
+Nested-grid convergence        PASS  dtheta=3.732e-08, dc=3.636e-15
+Outer approach collision-free  PASS  min=1.379e-02 m
+Link constraints               PASS
+Velocity constraints           PASS
+Finite critical state          PASS
+=======================================

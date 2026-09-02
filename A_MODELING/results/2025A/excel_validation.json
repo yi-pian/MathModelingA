@@ -1,0 +1,47 @@
+{
+  "valid": true,
+  "workbooks": {
+    "result1.xlsx": {
+      "file": "result1.xlsx",
+      "valid": true,
+      "errors": [],
+      "shape": [
+        6,
+        10
+      ],
+      "rows_checked": 3,
+      "max_drop_residual_m": 6.818503457535418e-06,
+      "max_burst_residual_m": 1.362491746563001e-05,
+      "max_delay_consistency_s": 6.234079918954194e-09,
+      "max_duration_residual_s": 1.5474328025621986e-06
+    },
+    "result2.xlsx": {
+      "file": "result2.xlsx",
+      "valid": true,
+      "errors": [],
+      "shape": [
+        6,
+        10
+      ],
+      "rows_checked": 3,
+      "max_drop_residual_m": 1.6742557298243662e-05,
+      "max_burst_residual_m": 1.903267099443652e-05,
+      "max_delay_consistency_s": 9.67991708455962e-08,
+      "max_duration_residual_s": 2.4789486685605766e-07
+    },
+    "result3.xlsx": {
+      "file": "result3.xlsx",
+      "valid": true,
+      "errors": [],
+      "shape": [
+        18,
+        12
+      ],
+      "rows_checked": 15,
+      "max_drop_residual_m": 1.3593912234595986e-08,
+      "max_burst_residual_m": 1.4516385054248643e-06,
+      "max_delay_consistency_s": 1.2419467216575816e-08,
+      "max_duration_residual_s": 2.2298778379337136e-09
+    }
+  }
+}

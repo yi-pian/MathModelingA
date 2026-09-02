@@ -1,0 +1,246 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "section": "completion",
+      "item": "Q1 declared status",
+      "passed": true,
+      "evidence": "PASS"
+    },
+    {
+      "section": "completion",
+      "item": "Q2 declared status",
+      "passed": true,
+      "evidence": "PASS"
+    },
+    {
+      "section": "completion",
+      "item": "Q3 declared status",
+      "passed": true,
+      "evidence": "PASS"
+    },
+    {
+      "section": "completion",
+      "item": "Q4 declared status",
+      "passed": true,
+      "evidence": "PASS"
+    },
+    {
+      "section": "formula",
+      "item": "angle unit is rad",
+      "passed": true,
+      "evidence": "rad"
+    },
+    {
+      "section": "formula",
+      "item": "Q3 state order fixed",
+      "passed": true,
+      "evidence": "['x_rel', 'z_f', 'theta_f', 'theta_o', 'x_dot_rel', 'v_f', 'omega_f', 'omega_o']"
+    },
+    {
+      "section": "formula",
+      "item": "Q3 nonlinear model degenerates to heave",
+      "passed": true,
+      "evidence": "max error=6.809e-11"
+    },
+    {
+      "section": "formula",
+      "item": "Q3 small-signal linearization",
+      "passed": true,
+      "evidence": "relative error=1.365e-06"
+    },
+    {
+      "section": "formula",
+      "item": "inertia convention fully recorded",
+      "passed": true,
+      "evidence": "keys=['float_components', 'float_pitch_inertia', 'oscillator_axis_distance', 'oscillator_centroid_pitch_inertia']"
+    },
+    {
+      "section": "precision",
+      "item": "Q1 linear tolerance refinement",
+      "passed": true,
+      "evidence": "1.266e-06 -> 2.182e-08"
+    },
+    {
+      "section": "precision",
+      "item": "Q1 nonlinear tolerance refinement",
+      "passed": true,
+      "evidence": "5.504e-06 -> 1.795e-07"
+    },
+    {
+      "section": "precision",
+      "item": "Q1 long-transient frequency cross-check",
+      "passed": true,
+      "evidence": "relative error=4.212e-10"
+    },
+    {
+      "section": "precision",
+      "item": "Q2 frequency/shooting agreement",
+      "passed": true,
+      "evidence": "difference=3.684e-09 W"
+    },
+    {
+      "section": "precision",
+      "item": "Q2 nonlinear repeatability",
+      "passed": true,
+      "evidence": "range=0.000e+00 W"
+    },
+    {
+      "section": "precision",
+      "item": "Q3 periodic shooting closure",
+      "passed": true,
+      "evidence": "residual=6.053e-16"
+    },
+    {
+      "section": "precision",
+      "item": "Q3 long-transient agreement",
+      "passed": true,
+      "evidence": "relative error=3.792e-07"
+    },
+    {
+      "section": "precision",
+      "item": "Q4 strict shooting closure",
+      "passed": true,
+      "evidence": "1.551e-12 -> 7.813e-14 -> 9.992e-16"
+    },
+    {
+      "section": "precision",
+      "item": "Q1 DOP853/RK45 agreement",
+      "passed": true,
+      "evidence": "max difference=2.574e-09"
+    },
+    {
+      "section": "energy",
+      "item": "Q2 periodic energy balance",
+      "passed": true,
+      "evidence": "residual=-3.239e-06 W"
+    },
+    {
+      "section": "energy",
+      "item": "Q4 periodic energy balance",
+      "passed": true,
+      "evidence": "residual=-4.374e-11 W"
+    },
+    {
+      "section": "power",
+      "item": "Q4 channel sum",
+      "passed": true,
+      "evidence": "residual=7.858e-16 W"
+    },
+    {
+      "section": "power",
+      "item": "all reported PTO powers nonnegative",
+      "passed": true,
+      "evidence": "minimum >= 0 W"
+    },
+    {
+      "section": "optimization",
+      "item": "Q2 nonlinear neighborhood",
+      "passed": true,
+      "evidence": "best neighbor=229.993669247 W"
+    },
+    {
+      "section": "optimization",
+      "item": "Q4 neighborhood",
+      "passed": true,
+      "evidence": "best neighbor=318.206804892 W"
+    },
+    {
+      "section": "optimization",
+      "item": "Q4 bounds and constrained upper optimum",
+      "passed": true,
+      "evidence": "(59120.869430, 100000.0)"
+    },
+    {
+      "section": "optimization",
+      "item": "optimizers report success",
+      "passed": true,
+      "evidence": "global/local/strict_local"
+    },
+    {
+      "section": "excel",
+      "item": "result1-1.xlsx dimensions/time/finite",
+      "passed": true,
+      "evidence": "shape=(898, 5), t=0.0..179.4"
+    },
+    {
+      "section": "excel",
+      "item": "result1-1.xlsx official template preserved",
+      "passed": true,
+      "evidence": "sheet/header/merged cells"
+    },
+    {
+      "section": "excel",
+      "item": "result1-2.xlsx dimensions/time/finite",
+      "passed": true,
+      "evidence": "shape=(898, 5), t=0.0..179.4"
+    },
+    {
+      "section": "excel",
+      "item": "result1-2.xlsx official template preserved",
+      "passed": true,
+      "evidence": "sheet/header/merged cells"
+    },
+    {
+      "section": "excel",
+      "item": "result3.xlsx dimensions/time/finite",
+      "passed": true,
+      "evidence": "shape=(733, 9), t=0.0..146.4"
+    },
+    {
+      "section": "excel",
+      "item": "result3.xlsx official template preserved",
+      "passed": true,
+      "evidence": "sheet/header/merged cells"
+    },
+    {
+      "section": "excel",
+      "item": "Q1 key row matches metrics",
+      "passed": true,
+      "evidence": "max difference=0.000e+00"
+    },
+    {
+      "section": "excel",
+      "item": "Q3 key row matches metrics",
+      "passed": true,
+      "evidence": "max difference=2.220e-16"
+    },
+    {
+      "section": "figures",
+      "item": "all PNG/PDF/SVG files exist",
+      "passed": true,
+      "evidence": "files=21"
+    },
+    {
+      "section": "figures",
+      "item": "all Origin workbooks exist",
+      "passed": true,
+      "evidence": "files=11"
+    },
+    {
+      "section": "figures",
+      "item": "Q4 plotted data matches final metrics",
+      "passed": true,
+      "evidence": "max difference=5.684e-14 W"
+    },
+    {
+      "section": "figures",
+      "item": "Q2 periodic power-time table matches optimum",
+      "passed": true,
+      "evidence": "average=229.994339345 W"
+    },
+    {
+      "section": "figures",
+      "item": "Origin neighborhood tables match final metrics",
+      "passed": true,
+      "evidence": "max difference=4.803e-11 W"
+    },
+    {
+      "section": "performance",
+      "item": "all question runtimes recorded",
+      "passed": true,
+      "evidence": "q1_seconds=0.546s, q2_seconds=30.504s, q3_seconds=0.460s, q4_seconds=109.119s"
+    }
+  ],
+  "failed": []
+}

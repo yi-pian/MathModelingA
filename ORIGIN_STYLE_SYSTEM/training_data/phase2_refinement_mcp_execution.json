@@ -1,0 +1,1658 @@
+{
+  "phase": "Phase 2 — Multi-panel refinement and auxiliary 3D redesign",
+  "frozen_templates_modified": false,
+  "ping": {
+    "ok": true,
+    "message": "Connected to Origin.",
+    "data": {
+      "connected": true,
+      "visible": true,
+      "origin_version": 10.350229,
+      "show_set": true
+    }
+  },
+  "fresh_project": {
+    "ok": true,
+    "message": "Created a new Origin project.",
+    "data": {
+      "created": true
+    }
+  },
+  "multipanels": [
+    {
+      "id": "P2_MULTIPANEL_2X2_REFINED",
+      "graph": "P2R_MULTIPANEL_2X2",
+      "merge": {
+        "ok": true,
+        "message": "Merged Origin graph pages.",
+        "data": {
+          "graph_names": [
+            "Graph1",
+            "Graph2",
+            "Graph3",
+            "Graph4"
+          ],
+          "output_graph": "P2R_MULTIPANEL_2X2",
+          "created_graphs": [
+            "Graph5"
+          ],
+          "rows": 2,
+          "columns": 2,
+          "script": "merge_graph option:=specified graphs:=\"Graph1\"+char(10)$+\"Graph2\"+char(10)$+\"Graph3\"+char(10)$+\"Graph4\" keep:=1 arrange:=1 row:=2 col:=2 dir:=horz xgap:=2.4 ygap:=3.0 leftmg:=4.5 rightmg:=5.0 topmg:=3.5 bottommg:=5.5 spaceunit:=percent labeltext:=none linkarrange:=0 resizewidthbyscale:=1;",
+          "result": true
+        }
+      },
+      "source_graphs": [
+        "Graph1",
+        "Graph2",
+        "Graph3",
+        "Graph4"
+      ],
+      "exports": [
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_MULTIPANEL_2X2_REFINED.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_MULTIPANEL_2X2_REFINED.png",
+              "exists": true,
+              "size_bytes": 131973,
+              "suffix": ".png",
+              "sha256": "d829420cb71c8fd8a948d8f33f53582293257083373b595befa395d48a105a3d",
+              "width": 3600,
+              "height": 2552,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 3600,
+                "height": 2552,
+                "pixel_count": 9187200,
+                "pixels_sampled": 367920,
+                "unique_colors": 121,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 353578
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 6183
+                  },
+                  {
+                    "rgba": [
+                      31,
+                      78,
+                      121,
+                      255
+                    ],
+                    "count": 4692
+                  },
+                  {
+                    "rgba": [
+                      118,
+                      163,
+                      181,
+                      255
+                    ],
+                    "count": 2052
+                  },
+                  {
+                    "rgba": [
+                      82,
+                      88,
+                      94,
+                      255
+                    ],
+                    "count": 268
+                  }
+                ],
+                "non_white_ratio": 0.038981,
+                "non_background_ratio": 0.038981,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 247.329,
+                "luma_stddev": 40.065,
+                "content_bbox": {
+                  "x_min": 80,
+                  "y_min": 30,
+                  "x_max": 3400,
+                  "y_max": 2520
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_MULTIPANEL_2X2_REFINED.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_MULTIPANEL_2X2_REFINED.pdf",
+              "exists": true,
+              "size_bytes": 6486,
+              "suffix": ".pdf",
+              "sha256": "152b3e85cefa30200354c6638626f98cdeff1d7df160b0fd0071fa1d82b47d7a",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_MULTIPANEL_2X2_REFINED.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_MULTIPANEL_2X2_REFINED.svg",
+              "exists": true,
+              "size_bytes": 33202,
+              "suffix": ".svg",
+              "sha256": "eb29550e7a94af145168cd44951090f04f1cd4eafc13d14e63a2ffbb1a7ffef9",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ],
+      "size_audits": {
+        "155_mm_at_300_dpi": {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_MULTIPANEL_2X2_REFINED_155MM_AUDIT.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_MULTIPANEL_2X2_REFINED_155MM_AUDIT.png",
+              "exists": true,
+              "size_bytes": 59622,
+              "suffix": ".png",
+              "sha256": "e055eddb9f01707550f708464bf6c28e8d6617fd6d9a2d370a4afe826a23400d",
+              "width": 1831,
+              "height": 1298,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 1831,
+                "height": 1298,
+                "pixel_count": 2376638,
+                "pixels_sampled": 264563,
+                "unique_colors": 115,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 253569
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 4391
+                  },
+                  {
+                    "rgba": [
+                      31,
+                      78,
+                      121,
+                      255
+                    ],
+                    "count": 3533
+                  },
+                  {
+                    "rgba": [
+                      118,
+                      163,
+                      181,
+                      255
+                    ],
+                    "count": 1423
+                  },
+                  {
+                    "rgba": [
+                      82,
+                      88,
+                      94,
+                      255
+                    ],
+                    "count": 168
+                  }
+                ],
+                "non_white_ratio": 0.041555,
+                "non_background_ratio": 0.041555,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 246.98,
+                "luma_stddev": 40.794,
+                "content_bbox": {
+                  "x_min": 42,
+                  "y_min": 15,
+                  "x_max": 1731,
+                  "y_max": 1281
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        "88_mm_at_300_dpi": {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_MULTIPANEL_2X2_REFINED_088MM_AUDIT.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_MULTIPANEL_2X2_REFINED_088MM_AUDIT.png",
+              "exists": true,
+              "size_bytes": 30625,
+              "suffix": ".png",
+              "sha256": "a10c370bd20b25ea12ce3e2b555f946f7e4a3dac3092b646619170c44d85197d",
+              "width": 1040,
+              "height": 737,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 1040,
+                "height": 737,
+                "pixel_count": 766480,
+                "pixels_sampled": 191880,
+                "unique_colors": 122,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 183287
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 3273
+                  },
+                  {
+                    "rgba": [
+                      31,
+                      78,
+                      121,
+                      255
+                    ],
+                    "count": 2252
+                  },
+                  {
+                    "rgba": [
+                      118,
+                      163,
+                      181,
+                      255
+                    ],
+                    "count": 1204
+                  },
+                  {
+                    "rgba": [
+                      102,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 103
+                  }
+                ],
+                "non_white_ratio": 0.044783,
+                "non_background_ratio": 0.044783,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 246.693,
+                "luma_stddev": 41.388,
+                "content_bbox": {
+                  "x_min": 22,
+                  "y_min": 8,
+                  "x_max": 982,
+                  "y_max": 728
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "P2_MULTIPANEL_2X2_REFINED_STRESS",
+      "graph": "P2R_MULTIPANEL_STRESS",
+      "merge": {
+        "ok": true,
+        "message": "Merged Origin graph pages.",
+        "data": {
+          "graph_names": [
+            "Graph5",
+            "Graph6",
+            "Graph7",
+            "Graph8"
+          ],
+          "output_graph": "P2R_MULTIPANEL_STRESS",
+          "created_graphs": [
+            "Graph9"
+          ],
+          "rows": 2,
+          "columns": 2,
+          "script": "merge_graph option:=specified graphs:=\"Graph5\"+char(10)$+\"Graph6\"+char(10)$+\"Graph7\"+char(10)$+\"Graph8\" keep:=1 arrange:=1 row:=2 col:=2 dir:=horz xgap:=2.4 ygap:=3.0 leftmg:=4.5 rightmg:=5.0 topmg:=3.5 bottommg:=5.5 spaceunit:=percent labeltext:=none linkarrange:=0 resizewidthbyscale:=1;",
+          "result": true
+        }
+      },
+      "source_graphs": [
+        "Graph5",
+        "Graph6",
+        "Graph7",
+        "Graph8"
+      ],
+      "exports": [
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_MULTIPANEL_2X2_REFINED_STRESS.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_MULTIPANEL_2X2_REFINED_STRESS.png",
+              "exists": true,
+              "size_bytes": 143537,
+              "suffix": ".png",
+              "sha256": "14b04ef3314348bc5f2ab6580153d7ea4440ed826dbafd2f78a4d17809e1727a",
+              "width": 3600,
+              "height": 2552,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 3600,
+                "height": 2552,
+                "pixel_count": 9187200,
+                "pixels_sampled": 367920,
+                "unique_colors": 132,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 351426
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 6849
+                  },
+                  {
+                    "rgba": [
+                      31,
+                      78,
+                      121,
+                      255
+                    ],
+                    "count": 5452
+                  },
+                  {
+                    "rgba": [
+                      118,
+                      163,
+                      181,
+                      255
+                    ],
+                    "count": 2028
+                  },
+                  {
+                    "rgba": [
+                      82,
+                      88,
+                      94,
+                      255
+                    ],
+                    "count": 268
+                  }
+                ],
+                "non_white_ratio": 0.04483,
+                "non_background_ratio": 0.04483,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 246.21,
+                "luma_stddev": 42.773,
+                "content_bbox": {
+                  "x_min": 40,
+                  "y_min": 30,
+                  "x_max": 3400,
+                  "y_max": 2520
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_MULTIPANEL_2X2_REFINED_STRESS.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_MULTIPANEL_2X2_REFINED_STRESS.pdf",
+              "exists": true,
+              "size_bytes": 12814,
+              "suffix": ".pdf",
+              "sha256": "012f4156ca4815f93281e7d6369361f8faa093187c9e5d6e2c8a00f490f0038e",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_MULTIPANEL_2X2_REFINED_STRESS.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_MULTIPANEL_2X2_REFINED_STRESS.svg",
+              "exists": true,
+              "size_bytes": 44921,
+              "suffix": ".svg",
+              "sha256": "0078db9a4a2fa649394494a9f3d0e014770f6b93a97b92d9667868ef7e923069",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ],
+      "size_audits": {
+        "155_mm_at_300_dpi": {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_MULTIPANEL_2X2_REFINED_STRESS_155MM_AUDIT.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_MULTIPANEL_2X2_REFINED_STRESS_155MM_AUDIT.png",
+              "exists": true,
+              "size_bytes": 63932,
+              "suffix": ".png",
+              "sha256": "d14935f87eb5ddcdc693e68cb0f6546fef81b81f0031d44e3661c099974c9ccc",
+              "width": 1831,
+              "height": 1298,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 1831,
+                "height": 1298,
+                "pixel_count": 2376638,
+                "pixels_sampled": 264563,
+                "unique_colors": 124,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 251828
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 4834
+                  },
+                  {
+                    "rgba": [
+                      31,
+                      78,
+                      121,
+                      255
+                    ],
+                    "count": 4156
+                  },
+                  {
+                    "rgba": [
+                      118,
+                      163,
+                      181,
+                      255
+                    ],
+                    "count": 1370
+                  },
+                  {
+                    "rgba": [
+                      82,
+                      88,
+                      94,
+                      255
+                    ],
+                    "count": 168
+                  }
+                ],
+                "non_white_ratio": 0.048136,
+                "non_background_ratio": 0.048136,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 245.836,
+                "luma_stddev": 43.409,
+                "content_bbox": {
+                  "x_min": 18,
+                  "y_min": 15,
+                  "x_max": 1731,
+                  "y_max": 1281
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        "88_mm_at_300_dpi": {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_MULTIPANEL_2X2_REFINED_STRESS_088MM_AUDIT.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_MULTIPANEL_2X2_REFINED_STRESS_088MM_AUDIT.png",
+              "exists": true,
+              "size_bytes": 33094,
+              "suffix": ".png",
+              "sha256": "ae4b37da6ff3f692a69acec204e8c50202735398480fb13f063c94ff8b7f2b2c",
+              "width": 1040,
+              "height": 737,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 1040,
+                "height": 737,
+                "pixel_count": 766480,
+                "pixels_sampled": 191880,
+                "unique_colors": 141,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 181933
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 3306
+                  },
+                  {
+                    "rgba": [
+                      31,
+                      78,
+                      121,
+                      255
+                    ],
+                    "count": 2643
+                  },
+                  {
+                    "rgba": [
+                      118,
+                      163,
+                      181,
+                      255
+                    ],
+                    "count": 1192
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      102,
+                      255
+                    ],
+                    "count": 191
+                  }
+                ],
+                "non_white_ratio": 0.05184,
+                "non_background_ratio": 0.05184,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 245.715,
+                "luma_stddev": 43.346,
+                "content_bbox": {
+                  "x_min": 10,
+                  "y_min": 8,
+                  "x_max": 982,
+                  "y_max": 728
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      },
+      "adaptation": "TEMPLATE_ADAPTATION_REQUIRED"
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "P2_SURFACE_3D_25D_REDESIGN",
+      "graph": "Graph9",
+      "created": {
+        "matrix": {
+          "ok": true,
+          "message": "Created Origin matrix.",
+          "data": {
+            "matrix": {
+              "book_name": "MBook1",
+              "sheet_name": "Field",
+              "shape": [
+                41,
+                41
+              ],
+              "depth": 1,
+              "xymap": [
+                -3.0,
+                3.0,
+                -3.0,
+                3.0
+              ],
+              "labels": [
+                "objective"
+              ],
+              "data_ranges": [
+                "[MBook1]1!1"
+              ]
+            }
+          }
+        },
+        "plot": {
+          "ok": true,
+          "message": "Read Origin bridge task status.",
+          "data": {
+            "task": {
+              "task_id": "e9cb98be-b314-44a5-aab2-d22c8e4ddc58",
+              "method": "plot_matrix_by_id",
+              "status": "completed",
+              "submitted_at": 1788183584.543265,
+              "started_at": 1788183584.543265,
+              "finished_at": 1788183585.1126516,
+              "updated_at": 1788183585.1126516,
+              "progress": 1.0,
+              "current_step": "Completed",
+              "cancel_requested": false,
+              "result": {
+                "graph": {
+                  "graph_name": "P2R_SURFACE_3D",
+                  "export_path": null,
+                  "template": null,
+                  "style_mode": "origin_default"
+                }
+              },
+              "logs": [
+                {
+                  "time": 1788183584.543265,
+                  "level": "info",
+                  "message": "Task started."
+                },
+                {
+                  "time": 1788183584.543265,
+                  "level": "info",
+                  "message": "Dispatching plot_matrix_by_id."
+                },
+                {
+                  "time": 1788183584.543265,
+                  "level": "info",
+                  "message": "Running plot_matrix_by_id."
+                },
+                {
+                  "time": 1788183585.1126516,
+                  "level": "info",
+                  "message": "plot_matrix_by_id completed."
+                },
+                {
+                  "time": 1788183585.1126516,
+                  "level": "info",
+                  "message": "Task completed."
+                }
+              ]
+            }
+          }
+        }
+      },
+      "optimum": {
+        "ok": true,
+        "message": "Imported table data into Origin worksheet.",
+        "data": {
+          "worksheet": {
+            "book_name": "Book10",
+            "sheet_name": "Point",
+            "columns": [
+              "x",
+              "y",
+              "objective"
+            ],
+            "rows": 1
+          }
+        }
+      },
+      "overlay": {
+        "ok": true,
+        "message": "Executed LabTalk script.",
+        "data": {
+          "result": true,
+          "message_log": {
+            "captured": true,
+            "source": "LabTalk type -gb/type -ge",
+            "line_count": 0,
+            "lines": [],
+            "start_result": true,
+            "end_result": true
+          }
+        }
+      },
+      "marker_display_lift": 0.6479999999999999,
+      "projection": "minimum-perspective 2.5D",
+      "camera": {
+        "azimuth": 135,
+        "inclination": 68,
+        "roll": 0
+      },
+      "filled_levels": 19,
+      "surface_contour_lines": 6,
+      "view": {
+        "ok": true,
+        "message": "Executed LabTalk script.",
+        "data": {
+          "result": true,
+          "message_log": {
+            "captured": true,
+            "source": "LabTalk type -gb/type -ge",
+            "line_count": 0,
+            "lines": [],
+            "start_result": true,
+            "end_result": true
+          }
+        }
+      },
+      "graph_info": {
+        "ok": true,
+        "message": "Collected Origin graph information.",
+        "data": {
+          "graph_name": "Graph9",
+          "long_name": "",
+          "layers_count": 1,
+          "layers": [
+            {
+              "index": 0,
+              "name": "P2R_SURFACE_3D",
+              "plots_count": 2,
+              "plots": [
+                {
+                  "index": 0,
+                  "name": "MBook1",
+                  "color": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "line_width": null,
+                  "bar_gap": 0,
+                  "line_style": null,
+                  "symbol_kind": 0,
+                  "symbol_size": 2.7,
+                  "transparency": 0.0,
+                  "colormap": "C:\\Users\\YiPian\\Documents\\OriginLab\\User Files\\Palettes\\SignatureScientificField19.pal",
+                  "zlevels": {
+                    "minors": 0,
+                    "levels": [
+                      0.0,
+                      0.36,
+                      0.72,
+                      1.08,
+                      1.44,
+                      1.7999999999999998,
+                      2.1599999999999997,
+                      2.5199999999999996,
+                      2.8799999999999994,
+                      3.2399999999999993,
+                      3.6,
+                      3.96,
+                      4.32,
+                      4.680000000000001,
+                      5.040000000000001,
+                      5.400000000000001,
+                      5.760000000000002,
+                      6.120000000000002,
+                      6.480000000000002,
+                      6.8400000000000025,
+                      7.2,
+                      7.5600000000000005,
+                      7.920000000000001,
+                      8.280000000000001,
+                      8.64,
+                      9.0,
+                      9.36,
+                      9.719999999999999,
+                      10.079999999999998,
+                      10.439999999999998,
+                      10.8,
+                      11.16,
+                      11.52,
+                      11.879999999999999,
+                      12.239999999999998,
+                      12.599999999999998,
+                      12.959999999999997,
+                      13.319999999999997,
+                      13.679999999999996,
+                      14.039999999999996,
+                      14.4,
+                      14.76,
+                      15.12,
+                      15.479999999999999,
+                      15.839999999999998,
+                      16.2,
+                      16.56,
+                      16.919999999999998,
+                      17.279999999999998,
+                      17.639999999999997,
+                      18.0,
+                      18.36,
+                      18.72,
+                      19.08,
+                      19.439999999999998,
+                      19.799999999999997,
+                      20.159999999999997,
+                      20.519999999999996,
+                      20.879999999999995,
+                      21.239999999999995,
+                      21.6,
+                      21.96,
+                      22.32,
+                      22.68,
+                      23.04,
+                      23.4,
+                      23.759999999999998,
+                      24.119999999999997,
+                      24.479999999999997,
+                      24.839999999999996,
+                      25.2,
+                      25.56,
+                      25.919999999999998,
+                      26.279999999999998,
+                      26.639999999999997,
+                      26.999999999999996,
+                      27.359999999999996,
+                      27.719999999999995,
+                      28.079999999999995,
+                      28.439999999999994,
+                      28.8,
+                      29.16,
+                      29.52,
+                      29.88,
+                      30.24,
+                      30.599999999999998,
+                      30.959999999999997,
+                      31.319999999999997,
+                      31.679999999999996,
+                      32.04,
+                      32.4,
+                      32.76,
+                      33.12,
+                      33.48,
+                      33.839999999999996,
+                      34.199999999999996,
+                      34.559999999999995,
+                      34.919999999999995,
+                      35.279999999999994,
+                      35.63999999999999,
+                      36.0
+                    ]
+                  }
+                },
+                {
+                  "index": 1,
+                  "name": "Book10_C",
+                  "color": [
+                    201,
+                    123,
+                    42
+                  ],
+                  "line_width": null,
+                  "bar_gap": 0,
+                  "line_style": null,
+                  "symbol_kind": 2,
+                  "symbol_size": 3.5,
+                  "transparency": 0.0,
+                  "colormap": "C:\\Users\\YiPian\\Documents\\OriginLab\\User Files\\Palettes\\SignatureScientificField19.pal",
+                  "zlevels": {
+                    "minors": 0,
+                    "levels": [
+                      -2.0,
+                      -1.5,
+                      -1.0,
+                      -0.5,
+                      0.0,
+                      0.5,
+                      1.0,
+                      1.5,
+                      2.0
+                    ]
+                  }
+                }
+              ],
+              "axes": {
+                "x": {
+                  "title": "Decision variable x",
+                  "scale": 1,
+                  "scale_name": "linear",
+                  "limits": [
+                    -3.0,
+                    3.0,
+                    1.0
+                  ]
+                },
+                "y": {
+                  "title": "Decision variable y",
+                  "scale": 1,
+                  "scale_name": "linear",
+                  "limits": [
+                    -3.0,
+                    3.0,
+                    1.0
+                  ]
+                },
+                "z": {
+                  "title": "%(?Z)",
+                  "scale": 1,
+                  "scale_name": "linear",
+                  "limits": [
+                    0.0,
+                    36.0,
+                    6.0
+                  ]
+                }
+              },
+              "labels": [],
+              "legend_present": false,
+              "panel_label_present": false
+            }
+          ]
+        }
+      },
+      "exports": [
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_SURFACE_3D_25D_REDESIGN.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_SURFACE_3D_25D_REDESIGN.png",
+              "exists": true,
+              "size_bytes": 293329,
+              "suffix": ".png",
+              "sha256": "48356858bda5f22b2cef5a9bdff34975049079a481f6c7aa288bb900905685b9",
+              "width": 2800,
+              "height": 1985,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 2800,
+                "height": 1985,
+                "pixel_count": 5558000,
+                "pixels_sampled": 347900,
+                "unique_colors": 5446,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 293148
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 6295
+                  },
+                  {
+                    "rgba": [
+                      64,
+                      64,
+                      64,
+                      255
+                    ],
+                    "count": 2980
+                  },
+                  {
+                    "rgba": [
+                      105,
+                      111,
+                      116,
+                      255
+                    ],
+                    "count": 684
+                  },
+                  {
+                    "rgba": [
+                      78,
+                      91,
+                      96,
+                      255
+                    ],
+                    "count": 566
+                  }
+                ],
+                "non_white_ratio": 0.157379,
+                "non_background_ratio": 0.157376,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 225.083,
+                "luma_stddev": 70.607,
+                "content_bbox": {
+                  "x_min": 452,
+                  "y_min": 84,
+                  "x_max": 2492,
+                  "y_max": 1776
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_SURFACE_3D_25D_REDESIGN.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_SURFACE_3D_25D_REDESIGN.pdf",
+              "exists": true,
+              "size_bytes": 78569,
+              "suffix": ".pdf",
+              "sha256": "dab817da64f998a24a9c811997bdbcca9ca7ceec76ccdd2f7cbdaa4fb1f607d2",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_SURFACE_3D_25D_REDESIGN.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_SURFACE_3D_25D_REDESIGN.svg",
+              "exists": true,
+              "size_bytes": 119520,
+              "suffix": ".svg",
+              "sha256": "ad21a82a90fe0f64a299e9d4d2dc3710139d4d689653c279ac12efe261e07217",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ],
+      "role": "AUXILIARY FIGURE"
+    },
+    {
+      "id": "P2_SURFACE_3D_25D_REDESIGN_STRESS",
+      "graph": "Graph10",
+      "created": {
+        "matrix": {
+          "ok": true,
+          "message": "Created Origin matrix.",
+          "data": {
+            "matrix": {
+              "book_name": "MBook2",
+              "sheet_name": "Field",
+              "shape": [
+                61,
+                61
+              ],
+              "depth": 1,
+              "xymap": [
+                -3.0,
+                3.0,
+                -3.0,
+                3.0
+              ],
+              "labels": [
+                "objective"
+              ],
+              "data_ranges": [
+                "[MBook2]1!1"
+              ]
+            }
+          }
+        },
+        "plot": {
+          "ok": true,
+          "message": "Read Origin bridge task status.",
+          "data": {
+            "task": {
+              "task_id": "6fefd508-0526-4026-bd65-33ba38929445",
+              "method": "plot_matrix_by_id",
+              "status": "completed",
+              "submitted_at": 1788183594.5223403,
+              "started_at": 1788183594.5223403,
+              "finished_at": 1788183595.0705101,
+              "updated_at": 1788183595.0705101,
+              "progress": 1.0,
+              "current_step": "Completed",
+              "cancel_requested": false,
+              "result": {
+                "graph": {
+                  "graph_name": "P2R_SURFACE_3D_STRESS",
+                  "export_path": null,
+                  "template": null,
+                  "style_mode": "origin_default"
+                }
+              },
+              "logs": [
+                {
+                  "time": 1788183594.5223403,
+                  "level": "info",
+                  "message": "Task started."
+                },
+                {
+                  "time": 1788183594.5223403,
+                  "level": "info",
+                  "message": "Dispatching plot_matrix_by_id."
+                },
+                {
+                  "time": 1788183594.5223403,
+                  "level": "info",
+                  "message": "Running plot_matrix_by_id."
+                },
+                {
+                  "time": 1788183595.0705101,
+                  "level": "info",
+                  "message": "plot_matrix_by_id completed."
+                },
+                {
+                  "time": 1788183595.0705101,
+                  "level": "info",
+                  "message": "Task completed."
+                }
+              ]
+            }
+          }
+        }
+      },
+      "optimum": {
+        "ok": true,
+        "message": "Imported table data into Origin worksheet.",
+        "data": {
+          "worksheet": {
+            "book_name": "Book11",
+            "sheet_name": "Point",
+            "columns": [
+              "x",
+              "y",
+              "objective"
+            ],
+            "rows": 1
+          }
+        }
+      },
+      "overlay": {
+        "ok": true,
+        "message": "Executed LabTalk script.",
+        "data": {
+          "result": true,
+          "message_log": {
+            "captured": true,
+            "source": "LabTalk type -gb/type -ge",
+            "line_count": 0,
+            "lines": [],
+            "start_result": true,
+            "end_result": true
+          }
+        }
+      },
+      "marker_display_lift": 1.7999999999999998,
+      "projection": "minimum-perspective 2.5D",
+      "camera": {
+        "azimuth": 135,
+        "inclination": 68,
+        "roll": 0
+      },
+      "filled_levels": 19,
+      "surface_contour_lines": 6,
+      "view": {
+        "ok": true,
+        "message": "Executed LabTalk script.",
+        "data": {
+          "result": true,
+          "message_log": {
+            "captured": true,
+            "source": "LabTalk type -gb/type -ge",
+            "line_count": 0,
+            "lines": [],
+            "start_result": true,
+            "end_result": true
+          }
+        }
+      },
+      "graph_info": {
+        "ok": true,
+        "message": "Collected Origin graph information.",
+        "data": {
+          "graph_name": "Graph10",
+          "long_name": "",
+          "layers_count": 1,
+          "layers": [
+            {
+              "index": 0,
+              "name": "P2R_SURFACE_3D_STRESS",
+              "plots_count": 2,
+              "plots": [
+                {
+                  "index": 0,
+                  "name": "MBook2",
+                  "color": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "line_width": null,
+                  "bar_gap": 0,
+                  "line_style": null,
+                  "symbol_kind": 0,
+                  "symbol_size": 2.7,
+                  "transparency": 0.0,
+                  "colormap": "C:\\Users\\YiPian\\Documents\\OriginLab\\User Files\\Palettes\\SignatureScientificField19.pal",
+                  "zlevels": {
+                    "minors": 0,
+                    "levels": [
+                      0.0,
+                      1.0,
+                      2.0,
+                      3.0,
+                      4.0,
+                      5.0,
+                      6.0,
+                      7.0,
+                      8.0,
+                      9.0,
+                      10.0,
+                      11.0,
+                      12.0,
+                      13.0,
+                      14.0,
+                      15.0,
+                      16.0,
+                      17.0,
+                      18.0,
+                      19.0,
+                      20.0,
+                      21.0,
+                      22.0,
+                      23.0,
+                      24.0,
+                      25.0,
+                      26.0,
+                      27.0,
+                      28.0,
+                      29.0,
+                      30.0,
+                      31.0,
+                      32.0,
+                      33.0,
+                      34.0,
+                      35.0,
+                      36.0,
+                      37.0,
+                      38.0,
+                      39.0,
+                      40.0,
+                      41.0,
+                      42.0,
+                      43.0,
+                      44.0,
+                      45.0,
+                      46.0,
+                      47.0,
+                      48.0,
+                      49.0,
+                      50.0,
+                      51.0,
+                      52.0,
+                      53.0,
+                      54.0,
+                      55.0,
+                      56.0,
+                      57.0,
+                      58.0,
+                      59.0,
+                      60.0,
+                      61.0,
+                      62.0,
+                      63.0,
+                      64.0,
+                      65.0,
+                      66.0,
+                      67.0,
+                      68.0,
+                      69.0,
+                      70.0,
+                      71.0,
+                      72.0,
+                      73.0,
+                      74.0,
+                      75.0,
+                      76.0,
+                      77.0,
+                      78.0,
+                      79.0,
+                      80.0,
+                      81.0,
+                      82.0,
+                      83.0,
+                      84.0,
+                      85.0,
+                      86.0,
+                      87.0,
+                      88.0,
+                      89.0,
+                      90.0,
+                      91.0,
+                      92.0,
+                      93.0,
+                      94.0,
+                      95.0,
+                      96.0,
+                      97.0,
+                      98.0,
+                      99.0,
+                      100.0
+                    ]
+                  }
+                },
+                {
+                  "index": 1,
+                  "name": "Book11_C",
+                  "color": [
+                    201,
+                    123,
+                    42
+                  ],
+                  "line_width": null,
+                  "bar_gap": 0,
+                  "line_style": null,
+                  "symbol_kind": 2,
+                  "symbol_size": 3.5,
+                  "transparency": 0.0,
+                  "colormap": "C:\\Users\\YiPian\\Documents\\OriginLab\\User Files\\Palettes\\SignatureScientificField19.pal",
+                  "zlevels": {
+                    "minors": 0,
+                    "levels": [
+                      -2.0,
+                      -1.5,
+                      -1.0,
+                      -0.5,
+                      0.0,
+                      0.5,
+                      1.0,
+                      1.5,
+                      2.0
+                    ]
+                  }
+                }
+              ],
+              "axes": {
+                "x": {
+                  "title": "Decision variable x",
+                  "scale": 1,
+                  "scale_name": "linear",
+                  "limits": [
+                    -3.0,
+                    3.0,
+                    1.0
+                  ]
+                },
+                "y": {
+                  "title": "Decision variable y",
+                  "scale": 1,
+                  "scale_name": "linear",
+                  "limits": [
+                    -3.0,
+                    3.0,
+                    1.0
+                  ]
+                },
+                "z": {
+                  "title": "%(?Z)",
+                  "scale": 1,
+                  "scale_name": "linear",
+                  "limits": [
+                    0.0,
+                    100.0,
+                    20.0
+                  ]
+                }
+              },
+              "labels": [],
+              "legend_present": false,
+              "panel_label_present": false
+            }
+          ]
+        }
+      },
+      "exports": [
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_SURFACE_3D_25D_REDESIGN_STRESS.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_SURFACE_3D_25D_REDESIGN_STRESS.png",
+              "exists": true,
+              "size_bytes": 287780,
+              "suffix": ".png",
+              "sha256": "40e761d7eea107ff7ccfe6af440205d92138ff6dfec38f435494357650e71744",
+              "width": 2800,
+              "height": 1985,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 2800,
+                "height": 1985,
+                "pixel_count": 5558000,
+                "pixels_sampled": 347900,
+                "unique_colors": 5726,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 271395
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 6007
+                  },
+                  {
+                    "rgba": [
+                      64,
+                      64,
+                      64,
+                      255
+                    ],
+                    "count": 2564
+                  },
+                  {
+                    "rgba": [
+                      105,
+                      111,
+                      116,
+                      255
+                    ],
+                    "count": 689
+                  },
+                  {
+                    "rgba": [
+                      127,
+                      127,
+                      127,
+                      255
+                    ],
+                    "count": 323
+                  }
+                ],
+                "non_white_ratio": 0.219902,
+                "non_background_ratio": 0.219899,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 222.697,
+                "luma_stddev": 64.394,
+                "content_bbox": {
+                  "x_min": 432,
+                  "y_min": 84,
+                  "x_max": 2556,
+                  "y_max": 1776
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_SURFACE_3D_25D_REDESIGN_STRESS.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_SURFACE_3D_25D_REDESIGN_STRESS.pdf",
+              "exists": true,
+              "size_bytes": 79845,
+              "suffix": ".pdf",
+              "sha256": "a442fdfcdd1735139dc1aa23d8d0d534a44a7e61d88b1df0eef37fc998acc137",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_SURFACE_3D_25D_REDESIGN_STRESS.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\P2_SURFACE_3D_25D_REDESIGN_STRESS.svg",
+              "exists": true,
+              "size_bytes": 122276,
+              "suffix": ".svg",
+              "sha256": "9d7cc53b05c10d6ccc0647d447a95f31ddcbb974a1d2a12e7f22d36231a7e07b",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ],
+      "role": "AUXILIARY FIGURE",
+      "adaptation": "TEMPLATE_ADAPTATION_REQUIRED"
+    }
+  ],
+  "source_project": {
+    "ok": true,
+    "message": "Saved Origin project.",
+    "data": {
+      "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\phase2_refinement\\ORIGIN_PHASE2_MULTIPANEL_SURFACE_REFINEMENT.opju",
+      "saved": true,
+      "method": "originpro.save"
+    }
+  }
+}

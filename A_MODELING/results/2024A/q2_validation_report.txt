@@ -1,0 +1,11 @@
+========== VALIDATION REPORT ==========
+Q1 interval collision-free  PASS  1 s audit min=1.133490e-01 m
+Step convergence            PASS  spread=2.274e-13 s
+Event root residual         PASS  clearance=2.137e-15 m
+Before event separated      PASS  2.632e-06 m
+After event intersecting    PASS  -2.632e-06 m
+Link constraints            PASS
+Velocity constraints        PASS
+Finite state                PASS
+Official result2.xlsx       PASS
+=======================================

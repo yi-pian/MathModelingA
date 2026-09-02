@@ -1,0 +1,7 @@
+stage,seed,search_success,search_message,search_iterations,search_nfev,guided_objective,full_fast_duration_s
+point,0,True,Optimization terminated successfully.,25,1248,1000004.8123342673,4.58052919693237
+point,1,True,Optimization terminated successfully.,41,2016,1000004.8173943673,4.585090499197986
+point,2,True,Optimization terminated successfully.,61,2976,1000004.7259262258,4.537159183636179
+full,0,True,Optimization terminated successfully.,25,1248,1000004.585821847,4.585821846937619
+full,1,True,Optimization terminated successfully.,34,1680,1000004.5825270625,4.582527062502581
+full,2,True,Optimization terminated successfully.,39,1920,1000004.5295499365,4.529549936542104

@@ -1,0 +1,243 @@
+{
+  "status": "PASS",
+  "precision": {
+    "Q1": {
+      "final_s": 1.3916428179054972,
+      "audit_s": 1.3916428178916167,
+      "absolute_difference_s": 1.3880452343073557e-11
+    },
+    "Q2": {
+      "final_s": 4.5879792100545504,
+      "audit_s": 4.58794279254945,
+      "absolute_difference_s": 3.641750510041675e-05
+    },
+    "Q3": {
+      "final_s": 7.609505410430723,
+      "audit_s": 7.6094496886364205,
+      "absolute_difference_s": 5.5721794302243666e-05
+    },
+    "Q4": {
+      "final_s": 11.51255290710833,
+      "audit_s": 11.511857274310744,
+      "absolute_difference_s": 0.0006956327975853327
+    },
+    "Q5": {
+      "final_s": 23.145884330611885,
+      "audit_s": 23.145572375256823,
+      "absolute_difference_s": 0.00031195535506256533,
+      "by_missile": {
+        "M1": {
+          "final_s": 8.545714829880623,
+          "audit_s": 8.54541245799695,
+          "absolute_difference_s": 0.00030237188367365775
+        },
+        "M2": {
+          "final_s": 10.22149915918464,
+          "audit_s": 10.221489575694301,
+          "absolute_difference_s": 9.583490339082346e-06
+        },
+        "M3": {
+          "final_s": 4.378670341546622,
+          "audit_s": 4.378670341565572,
+          "absolute_difference_s": 1.8950174762721872e-11
+        }
+      }
+    }
+  },
+  "sensitivity_worst_absolute_change_s": 0.634046284506022,
+  "excel": {
+    "valid": true,
+    "workbooks": {
+      "result1.xlsx": {
+        "file": "result1.xlsx",
+        "valid": true,
+        "errors": [],
+        "shape": [
+          6,
+          10
+        ],
+        "rows_checked": 3,
+        "max_drop_residual_m": 6.818503457535418e-06,
+        "max_burst_residual_m": 1.362491746563001e-05,
+        "max_delay_consistency_s": 6.234079918954194e-09,
+        "max_duration_residual_s": 1.5474328025621986e-06
+      },
+      "result2.xlsx": {
+        "file": "result2.xlsx",
+        "valid": true,
+        "errors": [],
+        "shape": [
+          6,
+          10
+        ],
+        "rows_checked": 3,
+        "max_drop_residual_m": 1.6742557298243662e-05,
+        "max_burst_residual_m": 1.903267099443652e-05,
+        "max_delay_consistency_s": 9.67991708455962e-08,
+        "max_duration_residual_s": 2.4789486685605766e-07
+      },
+      "result3.xlsx": {
+        "file": "result3.xlsx",
+        "valid": true,
+        "errors": [],
+        "shape": [
+          18,
+          12
+        ],
+        "rows_checked": 15,
+        "max_drop_residual_m": 1.3593912234595986e-08,
+        "max_burst_residual_m": 1.4516385054248643e-06,
+        "max_delay_consistency_s": 1.2419467216575816e-08,
+        "max_duration_residual_s": 2.2298778379337136e-09
+      }
+    }
+  },
+  "figures": [
+    "q1_event.png",
+    "q1_geometry.png",
+    "q2_parameter_slices.png",
+    "q2_timing_slice.png",
+    "q3_intervals.png",
+    "q4_intervals.png",
+    "q5_assignment.png",
+    "q5_missile_intervals.png"
+  ],
+  "origin": {
+    "q1_event.xlsx": {
+      "sheets": [
+        "Data",
+        "Notes"
+      ],
+      "nan": 0,
+      "inf": 0
+    },
+    "q1_trajectory.xlsx": {
+      "sheets": [
+        "Data",
+        "Notes"
+      ],
+      "nan": 0,
+      "inf": 0
+    },
+    "q2_heading_slice.xlsx": {
+      "sheets": [
+        "Data",
+        "Notes"
+      ],
+      "nan": 0,
+      "inf": 0
+    },
+    "q2_speed_slice.xlsx": {
+      "sheets": [
+        "Data",
+        "Notes"
+      ],
+      "nan": 0,
+      "inf": 0
+    },
+    "q3_strategy.xlsx": {
+      "sheets": [
+        "Data",
+        "Notes"
+      ],
+      "nan": 0,
+      "inf": 0
+    },
+    "q4_strategy.xlsx": {
+      "sheets": [
+        "Data",
+        "Notes"
+      ],
+      "nan": 0,
+      "inf": 0
+    },
+    "q5_missile_intervals.xlsx": {
+      "sheets": [
+        "Data",
+        "Notes"
+      ],
+      "nan": 0,
+      "inf": 0
+    },
+    "q5_strategy.xlsx": {
+      "sheets": [
+        "Data",
+        "Notes"
+      ],
+      "nan": 0,
+      "inf": 0
+    },
+    "sensitivity.xlsx": {
+      "sheets": [
+        "Data",
+        "Notes"
+      ],
+      "nan": 0,
+      "inf": 0
+    }
+  },
+  "performance": {
+    "single_Q1_final_evaluation": {
+      "samples_s": [
+        0.5832039000015357,
+        0.6312169999946491,
+        0.6266327999983332
+      ],
+      "median_s": 0.6266327999983332
+    },
+    "single_Q2_final_evaluation": {
+      "samples_s": [
+        0.5570350999987568,
+        0.5626583000048413,
+        0.5500719999981811
+      ],
+      "median_s": 0.5570350999987568
+    },
+    "Q3_three_bomb_final_evaluation": {
+      "samples_s": [
+        1.9635358000014094,
+        1.9703196999980719
+      ],
+      "median_s": 1.9669277499997406
+    },
+    "Q4_three_uav_final_evaluation": {
+      "samples_s": [
+        1.9129707000029157,
+        1.9419810000035795
+      ],
+      "median_s": 1.9274758500032476
+    },
+    "Q5_fifteen_bomb_final_evaluation": {
+      "samples_s": [
+        9.523857699998189
+      ],
+      "median_s": 9.523857699998189
+    },
+    "Q2_global_search_nfev": 11088,
+    "Q2_local_refinement_nfev": {
+      "first": 399,
+      "final": 585,
+      "convergence_polish": 677
+    },
+    "Q2_uncached_total_s": 113.54452740000124,
+    "Q5_assignment_space": {
+      "unrestricted_one_missile_per_uav": 243,
+      "candidate_pool": 32,
+      "visited": 15,
+      "pruned": 5,
+      "leaves": 3
+    },
+    "localized_interval_boundaries": {
+      "Q1": 2,
+      "Q2": 2,
+      "Q3": 6,
+      "Q4": 6,
+      "Q5": 16
+    }
+  },
+  "manual_findings": [
+    "MODEL_CONFIRMATION_REQUIRED: full-cylinder all-sightline criterion is conservative and not uniquely forced by the statement.",
+    "Q5 is a high-quality feasible solution under a restricted one-missile-per-UAV candidate pool; global optimality is not proven.",
+    "Five Q5 rows have zero individual duration and are redundant but physically feasible releases used to keep the official 15-row template complete."
+  ]
+}

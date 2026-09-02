@@ -1,0 +1,152 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "Q1-Q5 status",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "result1 template/header/style",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "result1 values equal final arrays",
+      "passed": true,
+      "detail": "max=0.000e+00"
+    },
+    {
+      "name": "result4 template/header/style",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "result4 values equal final arrays",
+      "passed": true,
+      "detail": "max=0.000e+00"
+    },
+    {
+      "name": "result2 values equal critical state",
+      "passed": true,
+      "detail": "max=0.000e+00"
+    },
+    {
+      "name": "Q2 physical-rectangle event",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Q2 event direction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Q2 nearest spiral roots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Q3 critical physical contact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Q3 feasibility direction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Q3 full approach, not endpoint only",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Q3 nearest spiral roots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Q4 circle tangency",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Q4 radius ratio and boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Q4 nearest path roots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Q5 maximize direction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Q5 speed cap active",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Q5 limiting-handle set",
+      "passed": true,
+      "detail": "[3, 4, 5, 6, 7]"
+    },
+    {
+      "name": "Q5 perturbation direction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Q5 nearest path roots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Handle distances from dimensions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No degree/radian conversion in solver",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Finite raw arrays",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Monotone unique Q1/Q4 time",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Paper figures PNG/PDF/SVG",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Origin workbooks finite/nonempty",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Per-link error workbook",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "excel_value_max_errors": {
+    "result1_position": 0.0,
+    "result1_speed": 0.0,
+    "result2": 0.0,
+    "result4_position": 0.0,
+    "result4_speed": 0.0
+  }
+}

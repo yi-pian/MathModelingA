@@ -1,0 +1,1309 @@
+{
+  "mode": "FINAL",
+  "singles": {
+    "FY1-M1": [
+      {
+        "seed": 0,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          3.12062997285289,
+          115.06897990269594,
+          3.3588079991780226,
+          3.1409618767953225
+        ],
+        "full_fast_duration_s": 4.431211531578481
+      },
+      {
+        "seed": 1,
+        "success": true,
+        "message": "Optimization terminated successfully.",
+        "x": [
+          3.127031517749304,
+          123.68230337540797,
+          4.313804574344569,
+          3.673754844556984
+        ],
+        "full_fast_duration_s": 4.482527189546796
+      }
+    ],
+    "FY1-M2": [
+      {
+        "seed": 0,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          2.5626517925801844,
+          139.88390200288973,
+          6.802243174889224,
+          0.09784393028969696
+        ],
+        "full_fast_duration_s": 0.0
+      },
+      {
+        "seed": 1,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          2.557465328659336,
+          139.88518441555638,
+          6.72798592481459,
+          0.20714717812488637
+        ],
+        "full_fast_duration_s": 0.0
+      }
+    ],
+    "FY1-M3": [
+      {
+        "seed": 0,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          4.178821541021902,
+          139.897080340153,
+          1.8938751324622345,
+          0.12838433582304987
+        ],
+        "full_fast_duration_s": 0.0
+      },
+      {
+        "seed": 1,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          4.175875530120193,
+          139.96022447344995,
+          1.8422185216674976,
+          0.7194311744364246
+        ],
+        "full_fast_duration_s": 0.0
+      }
+    ],
+    "FY2-M1": [
+      {
+        "seed": 0,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          4.839352275203074,
+          119.52182502635398,
+          11.44079401328047,
+          5.997180108120757
+        ],
+        "full_fast_duration_s": 3.629394404105474
+      },
+      {
+        "seed": 1,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          4.429183062716085,
+          116.561274160404,
+          12.092461153959764,
+          6.742053668203259
+        ],
+        "full_fast_duration_s": 3.700964946539175
+      }
+    ],
+    "FY2-M2": [
+      {
+        "seed": 0,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          4.620107359663275,
+          122.71445210996808,
+          7.967654705868199,
+          3.9051481689868712
+        ],
+        "full_fast_duration_s": 3.8845724030947704
+      },
+      {
+        "seed": 1,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          4.06254853291475,
+          71.91906878803503,
+          17.803467466803376,
+          5.560817906797924
+        ],
+        "full_fast_duration_s": 3.590399912223493
+      }
+    ],
+    "FY2-M3": [
+      {
+        "seed": 0,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          3.876195575730919,
+          134.93346280954728,
+          18.893490283930674,
+          8.133836794778729
+        ],
+        "full_fast_duration_s": 3.302048699586372
+      },
+      {
+        "seed": 1,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          4.946634337829844,
+          136.5809070853276,
+          13.56424115597725,
+          4.067060382319232
+        ],
+        "full_fast_duration_s": 3.7193165255628813
+      }
+    ],
+    "FY3-M1": [
+      {
+        "seed": 0,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          2.1369056446688424,
+          110.44652638442912,
+          33.366352278244015,
+          7.6422650248657185
+        ],
+        "full_fast_duration_s": 2.5091885508401575
+      },
+      {
+        "seed": 1,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          1.518226422861836,
+          109.86729783748774,
+          28.1024072991987,
+          3.8157047511477717
+        ],
+        "full_fast_duration_s": 2.9350076872304562
+      }
+    ],
+    "FY3-M2": [
+      {
+        "seed": 0,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          1.633830929307179,
+          116.87902894941885,
+          27.92721026721727,
+          3.0423366917926487
+        ],
+        "full_fast_duration_s": 2.6997773827949523
+      },
+      {
+        "seed": 1,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          1.5642932799057316,
+          87.56550101717863,
+          36.864454941752314,
+          2.490069163451753
+        ],
+        "full_fast_duration_s": 2.308607157220621
+      }
+    ],
+    "FY3-M3": [
+      {
+        "seed": 0,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          1.9134866725786683,
+          102.49557456302081,
+          30.21901590420099,
+          5.841846977734191
+        ],
+        "full_fast_duration_s": 2.5138276600824057
+      },
+      {
+        "seed": 1,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          1.379660469102885,
+          100.23319844469239,
+          28.750475223071696,
+          0.2722226350238435
+        ],
+        "full_fast_duration_s": 2.659653741175564
+      }
+    ],
+    "FY4-M1": [
+      {
+        "seed": 0,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          4.420637771327281,
+          110.1945684495265,
+          18.47052815410964,
+          12.356143672047985
+        ],
+        "full_fast_duration_s": 3.4239308859593045
+      },
+      {
+        "seed": 1,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          4.874208862375395,
+          131.53335945485324,
+          15.053275019625769,
+          11.581306706316958
+        ],
+        "full_fast_duration_s": 3.729472542625569
+      }
+    ],
+    "FY4-M2": [
+      {
+        "seed": 0,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          3.8275119809251463,
+          109.26533541577062,
+          24.33445121066898,
+          12.796668755080857
+        ],
+        "full_fast_duration_s": 3.126775263906083
+      },
+      {
+        "seed": 1,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          4.6436410109380395,
+          94.55460564563812,
+          17.35030559498849,
+          10.851669857726902
+        ],
+        "full_fast_duration_s": 3.4118519356122476
+      }
+    ],
+    "FY4-M3": [
+      {
+        "seed": 0,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          4.526219229860807,
+          138.5761890002361,
+          17.078531626577977,
+          11.779618034211374
+        ],
+        "full_fast_duration_s": 3.375690098858442
+      },
+      {
+        "seed": 1,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          4.267672882303594,
+          108.57466718301289,
+          23.65996229055942,
+          12.35713975718511
+        ],
+        "full_fast_duration_s": 3.0530150939253673
+      }
+    ],
+    "FY5-M1": [
+      {
+        "seed": 0,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          1.6408452987372801,
+          132.78509942308355,
+          15.277959139014403,
+          1.2631204091068273
+        ],
+        "full_fast_duration_s": 3.8107628211766986
+      },
+      {
+        "seed": 1,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          1.7702915929411176,
+          113.56197535215239,
+          18.13833076736104,
+          2.5728954832672972
+        ],
+        "full_fast_duration_s": 3.7698249772521812
+      }
+    ],
+    "FY5-M2": [
+      {
+        "seed": 0,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          2.058860559749961,
+          126.53440752184015,
+          21.272432318849354,
+          0.33386679720232326
+        ],
+        "full_fast_duration_s": 3.10200827636357
+      },
+      {
+        "seed": 1,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          2.149859117432786,
+          131.54883070607107,
+          21.531716981104097,
+          2.502392214510344
+        ],
+        "full_fast_duration_s": 3.4215591755938206
+      }
+    ],
+    "FY5-M3": [
+      {
+        "seed": 0,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          2.1356067129681904,
+          136.81453116512793,
+          13.968704973975886,
+          2.364891337603215
+        ],
+        "full_fast_duration_s": 3.60861248798661
+      },
+      {
+        "seed": 1,
+        "success": false,
+        "message": "Maximum number of iterations has been exceeded.",
+        "x": [
+          2.1871579360640383,
+          123.4590968643311,
+          16.03032115892554,
+          2.942387756734391
+        ],
+        "full_fast_duration_s": 3.5633044598021435
+      }
+    ]
+  },
+  "routes": {
+    "FY1-M1": [
+      {
+        "uav": "FY1",
+        "missile": "M1",
+        "heading_rad": 3.127031517749304,
+        "speed_m_s": 123.68230337540797,
+        "duration_s": 4.785727697137291,
+        "certification": [
+          {
+            "bomb_no": 1,
+            "search_success": true,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 2,
+            "search_success": true,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 3,
+            "search_success": false,
+            "coordinate_success": true
+          }
+        ],
+        "strategies": [
+          {
+            "drop_time_s": 0.5213735556666311,
+            "delay_s": 3.570598577573901,
+            "bomb_no": 1
+          },
+          {
+            "drop_time_s": 3.0861949441682235,
+            "delay_s": 4.772047494976868,
+            "bomb_no": 2
+          },
+          {
+            "drop_time_s": 6.68621335090172,
+            "delay_s": 7.838459093488959,
+            "bomb_no": 3
+          }
+        ]
+      },
+      {
+        "uav": "FY1",
+        "missile": "M1",
+        "heading_rad": 3.141592653589793,
+        "speed_m_s": 140.0,
+        "duration_s": 4.6650851413445915,
+        "certification": [
+          {
+            "bomb_no": 1,
+            "search_success": true,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 2,
+            "search_success": true,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 3,
+            "search_success": true,
+            "coordinate_success": true
+          }
+        ],
+        "strategies": [
+          {
+            "drop_time_s": 2.338919770577539,
+            "delay_s": 4.94360073492808,
+            "bomb_no": 1
+          },
+          {
+            "drop_time_s": 4.249849274152633,
+            "delay_s": 5.550366843920452,
+            "bomb_no": 2
+          },
+          {
+            "drop_time_s": 5.249849749324612,
+            "delay_s": 5.833909179722663,
+            "bomb_no": 3
+          }
+        ]
+      }
+    ],
+    "FY1-M2": [
+      {
+        "uav": "FY1",
+        "missile": "M2",
+        "heading_rad": 2.5626517925801844,
+        "speed_m_s": 139.88390200288973,
+        "duration_s": 0.0,
+        "certification": [
+          {
+            "bomb_no": 1,
+            "search_success": false,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 2,
+            "search_success": false,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 3,
+            "search_success": false,
+            "coordinate_success": true
+          }
+        ],
+        "strategies": [
+          {
+            "drop_time_s": 9.338333984745118,
+            "delay_s": 2.6176067812764168,
+            "bomb_no": 1
+          },
+          {
+            "drop_time_s": 12.940165864682823,
+            "delay_s": 2.601037073348213,
+            "bomb_no": 2
+          },
+          {
+            "drop_time_s": 16.542852809702268,
+            "delay_s": 2.6006962986582307,
+            "bomb_no": 3
+          }
+        ]
+      },
+      {
+        "uav": "FY1",
+        "missile": "M2",
+        "heading_rad": 3.141592653589793,
+        "speed_m_s": 140.0,
+        "duration_s": 0.0,
+        "certification": [
+          {
+            "bomb_no": 1,
+            "search_success": false,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 2,
+            "search_success": false,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 3,
+            "search_success": false,
+            "coordinate_success": true
+          }
+        ],
+        "strategies": [
+          {
+            "drop_time_s": 10.445504747107565,
+            "delay_s": 2.6019990839446607,
+            "bomb_no": 1
+          },
+          {
+            "drop_time_s": 14.04854294710204,
+            "delay_s": 2.6088398252086287,
+            "bomb_no": 2
+          },
+          {
+            "drop_time_s": 17.658106983807528,
+            "delay_s": 2.6010954175467775,
+            "bomb_no": 3
+          }
+        ]
+      }
+    ],
+    "FY2-M2": [
+      {
+        "uav": "FY2",
+        "missile": "M2",
+        "heading_rad": 4.620107359663275,
+        "speed_m_s": 122.71445210996808,
+        "duration_s": 5.730029366151278,
+        "certification": [
+          {
+            "bomb_no": 1,
+            "search_success": true,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 2,
+            "search_success": false,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 3,
+            "search_success": false,
+            "coordinate_success": true
+          }
+        ],
+        "strategies": [
+          {
+            "drop_time_s": 4.6981078055707295,
+            "delay_s": 3.4320985720642545,
+            "bomb_no": 1
+          },
+          {
+            "drop_time_s": 5.69810837631507,
+            "delay_s": 2.6195905170874973,
+            "bomb_no": 2
+          },
+          {
+            "drop_time_s": 9.298129791227344,
+            "delay_s": 4.2926850052358665,
+            "bomb_no": 3
+          }
+        ]
+      },
+      {
+        "uav": "FY2",
+        "missile": "M2",
+        "heading_rad": 3.257734280469783,
+        "speed_m_s": 140.0,
+        "duration_s": 0.0,
+        "certification": [
+          {
+            "bomb_no": 1,
+            "search_success": false,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 2,
+            "search_success": false,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 3,
+            "search_success": false,
+            "coordinate_success": true
+          }
+        ],
+        "strategies": [
+          {
+            "drop_time_s": 34.35400219957823,
+            "delay_s": 15.010685548591594,
+            "bomb_no": 1
+          },
+          {
+            "drop_time_s": 37.95404517601525,
+            "delay_s": 12.200613612199247,
+            "bomb_no": 2
+          },
+          {
+            "drop_time_s": 41.55413466436377,
+            "delay_s": 8.380917680862211,
+            "bomb_no": 3
+          }
+        ]
+      }
+    ],
+    "FY2-M3": [
+      {
+        "uav": "FY2",
+        "missile": "M3",
+        "heading_rad": 4.946634337829844,
+        "speed_m_s": 136.5809070853276,
+        "duration_s": 3.7357881966933704,
+        "certification": [
+          {
+            "bomb_no": 1,
+            "search_success": true,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 2,
+            "search_success": false,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 3,
+            "search_success": false,
+            "coordinate_success": true
+          }
+        ],
+        "strategies": [
+          {
+            "drop_time_s": 9.463729348834185,
+            "delay_s": 4.08642589012878,
+            "bomb_no": 1
+          },
+          {
+            "drop_time_s": 13.091955188877273,
+            "delay_s": 5.771739046711126,
+            "bomb_no": 2
+          },
+          {
+            "drop_time_s": 16.69464483872435,
+            "delay_s": 2.604921862669491,
+            "bomb_no": 3
+          }
+        ]
+      },
+      {
+        "uav": "FY2",
+        "missile": "M3",
+        "heading_rad": 3.257734280469783,
+        "speed_m_s": 140.0,
+        "duration_s": 0.0,
+        "certification": [
+          {
+            "bomb_no": 1,
+            "search_success": false,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 2,
+            "search_success": false,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 3,
+            "search_success": false,
+            "coordinate_success": true
+          }
+        ],
+        "strategies": [
+          {
+            "drop_time_s": 29.20432593631349,
+            "delay_s": 14.730879261579624,
+            "bomb_no": 1
+          },
+          {
+            "drop_time_s": 32.80432382986346,
+            "delay_s": 11.852819736222155,
+            "bomb_no": 2
+          },
+          {
+            "drop_time_s": 36.40432647168684,
+            "delay_s": 8.010089100984766,
+            "bomb_no": 3
+          }
+        ]
+      }
+    ],
+    "FY3-M1": [
+      {
+        "uav": "FY3",
+        "missile": "M1",
+        "heading_rad": 1.518226422861836,
+        "speed_m_s": 109.86729783748774,
+        "duration_s": 4.480668792342001,
+        "certification": [
+          {
+            "bomb_no": 1,
+            "search_success": true,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 2,
+            "search_success": true,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 3,
+            "search_success": false,
+            "coordinate_success": true
+          }
+        ],
+        "strategies": [
+          {
+            "drop_time_s": 24.244420592697423,
+            "delay_s": 3.890001372378875,
+            "bomb_no": 1
+          },
+          {
+            "drop_time_s": 25.249595445010787,
+            "delay_s": 2.17692966630497,
+            "bomb_no": 2
+          },
+          {
+            "drop_time_s": 28.84980382390911,
+            "delay_s": 3.732537820650628,
+            "bomb_no": 3
+          }
+        ]
+      },
+      {
+        "uav": "FY3",
+        "missile": "M1",
+        "heading_rad": 2.677945044588987,
+        "speed_m_s": 140.0,
+        "duration_s": 0.043036766984030805,
+        "certification": [
+          {
+            "bomb_no": 1,
+            "search_success": true,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 2,
+            "search_success": false,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 3,
+            "search_success": false,
+            "coordinate_success": true
+          }
+        ],
+        "strategies": [
+          {
+            "drop_time_s": 36.48576337324195,
+            "delay_s": 11.383746760711526,
+            "bomb_no": 1
+          },
+          {
+            "drop_time_s": 40.085775331321656,
+            "delay_s": 11.952285128850312,
+            "bomb_no": 2
+          },
+          {
+            "drop_time_s": 43.68577219032251,
+            "delay_s": 10.928179379147396,
+            "bomb_no": 3
+          }
+        ]
+      }
+    ],
+    "FY3-M2": [
+      {
+        "uav": "FY3",
+        "missile": "M2",
+        "heading_rad": 1.633830929307179,
+        "speed_m_s": 116.87902894941885,
+        "duration_s": 4.493997822477979,
+        "certification": [
+          {
+            "bomb_no": 1,
+            "search_success": true,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 2,
+            "search_success": true,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 3,
+            "search_success": true,
+            "coordinate_success": true
+          }
+        ],
+        "strategies": [
+          {
+            "drop_time_s": 25.10237546759287,
+            "delay_s": 2.7604961286171044,
+            "bomb_no": 1
+          },
+          {
+            "drop_time_s": 26.104494333322744,
+            "delay_s": 1.2695608540147456,
+            "bomb_no": 2
+          },
+          {
+            "drop_time_s": 27.334073906359627,
+            "delay_s": 0.001083161303736091,
+            "bomb_no": 3
+          }
+        ]
+      },
+      {
+        "uav": "FY3",
+        "missile": "M2",
+        "heading_rad": 2.677945044588987,
+        "speed_m_s": 140.0,
+        "duration_s": 0.058507494080210165,
+        "certification": [
+          {
+            "bomb_no": 1,
+            "search_success": true,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 2,
+            "search_success": false,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 3,
+            "search_success": false,
+            "coordinate_success": true
+          }
+        ],
+        "strategies": [
+          {
+            "drop_time_s": 36.327007068902574,
+            "delay_s": 11.518939477414925,
+            "bomb_no": 1
+          },
+          {
+            "drop_time_s": 39.92812994937232,
+            "delay_s": 11.952285128850312,
+            "bomb_no": 2
+          },
+          {
+            "drop_time_s": 43.52820511160805,
+            "delay_s": 11.078897335826188,
+            "bomb_no": 3
+          }
+        ]
+      }
+    ],
+    "FY4-M1": [
+      {
+        "uav": "FY4",
+        "missile": "M1",
+        "heading_rad": 4.874208862375395,
+        "speed_m_s": 131.53335945485324,
+        "duration_s": 3.7628682789823458,
+        "certification": [
+          {
+            "bomb_no": 1,
+            "search_success": true,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 2,
+            "search_success": false,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 3,
+            "search_success": false,
+            "coordinate_success": true
+          }
+        ],
+        "strategies": [
+          {
+            "drop_time_s": 3.47306975324325,
+            "delay_s": 11.587824868667228,
+            "bomb_no": 1
+          },
+          {
+            "drop_time_s": 7.073089240641256,
+            "delay_s": 13.681354339526719,
+            "bomb_no": 2
+          },
+          {
+            "drop_time_s": 10.67344387999239,
+            "delay_s": 10.980737844549704,
+            "bomb_no": 3
+          }
+        ]
+      },
+      {
+        "uav": "FY4",
+        "missile": "M1",
+        "heading_rad": 3.3214461533822712,
+        "speed_m_s": 140.0,
+        "duration_s": 0.0,
+        "certification": [
+          {
+            "bomb_no": 1,
+            "search_success": false,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 2,
+            "search_success": false,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 3,
+            "search_success": true,
+            "coordinate_success": true
+          }
+        ],
+        "strategies": [
+          {
+            "drop_time_s": 41.720564931881476,
+            "delay_s": 19.1662960070222,
+            "bomb_no": 1
+          },
+          {
+            "drop_time_s": 43.999998460851025,
+            "delay_s": 18.100939519711574,
+            "bomb_no": 2
+          },
+          {
+            "drop_time_s": 44.99999904875362,
+            "delay_s": 16.58562785376658,
+            "bomb_no": 3
+          }
+        ]
+      }
+    ],
+    "FY4-M2": [
+      {
+        "uav": "FY4",
+        "missile": "M2",
+        "heading_rad": 4.6436410109380395,
+        "speed_m_s": 94.55460564563812,
+        "duration_s": 3.443406637503678,
+        "certification": [
+          {
+            "bomb_no": 1,
+            "search_success": true,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 2,
+            "search_success": false,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 3,
+            "search_success": false,
+            "coordinate_success": true
+          }
+        ],
+        "strategies": [
+          {
+            "drop_time_s": 6.501064387041233,
+            "delay_s": 10.860561527514069,
+            "bomb_no": 1
+          },
+          {
+            "drop_time_s": 10.10130942782415,
+            "delay_s": 13.056033416418257,
+            "bomb_no": 2
+          },
+          {
+            "drop_time_s": 13.702114310433917,
+            "delay_s": 11.146507858076527,
+            "bomb_no": 3
+          }
+        ]
+      },
+      {
+        "uav": "FY4",
+        "missile": "M2",
+        "heading_rad": 3.3214461533822712,
+        "speed_m_s": 140.0,
+        "duration_s": 0.0,
+        "certification": [
+          {
+            "bomb_no": 1,
+            "search_success": false,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 2,
+            "search_success": false,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 3,
+            "search_success": false,
+            "coordinate_success": true
+          }
+        ],
+        "strategies": [
+          {
+            "drop_time_s": 36.243879306556195,
+            "delay_s": 19.166296325630643,
+            "bomb_no": 1
+          },
+          {
+            "drop_time_s": 39.84397649459222,
+            "delay_s": 17.232266246007093,
+            "bomb_no": 2
+          },
+          {
+            "drop_time_s": 43.44398225215838,
+            "delay_s": 14.416148458604532,
+            "bomb_no": 3
+          }
+        ]
+      }
+    ],
+    "FY5-M1": [
+      {
+        "uav": "FY5",
+        "missile": "M1",
+        "heading_rad": 1.6408452987372801,
+        "speed_m_s": 132.78509942308355,
+        "duration_s": 6.309514716908179,
+        "certification": [
+          {
+            "bomb_no": 1,
+            "search_success": true,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 2,
+            "search_success": true,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 3,
+            "search_success": false,
+            "coordinate_success": true
+          }
+        ],
+        "strategies": [
+          {
+            "drop_time_s": 14.062254346276045,
+            "delay_s": 1.2378890790919934,
+            "bomb_no": 1
+          },
+          {
+            "drop_time_s": 15.064508754367864,
+            "delay_s": 0.16807553953133408,
+            "bomb_no": 2
+          },
+          {
+            "drop_time_s": 18.669964886196134,
+            "delay_s": 2.6006175861772287,
+            "bomb_no": 3
+          }
+        ]
+      },
+      {
+        "uav": "FY5",
+        "missile": "M1",
+        "heading_rad": 2.988943325194528,
+        "speed_m_s": 140.0,
+        "duration_s": 0.0,
+        "certification": [
+          {
+            "bomb_no": 1,
+            "search_success": true,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 2,
+            "search_success": true,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 3,
+            "search_success": false,
+            "coordinate_success": true
+          }
+        ],
+        "strategies": [
+          {
+            "drop_time_s": 35.8374434940252,
+            "delay_s": 13.946374261209074,
+            "bomb_no": 1
+          },
+          {
+            "drop_time_s": 39.448174764525554,
+            "delay_s": 10.913978700770311,
+            "bomb_no": 2
+          },
+          {
+            "drop_time_s": 43.048368424935106,
+            "delay_s": 7.025596266775909,
+            "bomb_no": 3
+          }
+        ]
+      }
+    ],
+    "FY5-M3": [
+      {
+        "uav": "FY5",
+        "missile": "M3",
+        "heading_rad": 2.1356067129681904,
+        "speed_m_s": 136.81453116512793,
+        "duration_s": 4.380332141990708,
+        "certification": [
+          {
+            "bomb_no": 1,
+            "search_success": true,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 2,
+            "search_success": true,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 3,
+            "search_success": false,
+            "coordinate_success": true
+          }
+        ],
+        "strategies": [
+          {
+            "drop_time_s": 11.569800629385355,
+            "delay_s": 2.4447025658872397,
+            "bomb_no": 1
+          },
+          {
+            "drop_time_s": 12.587957024618964,
+            "delay_s": 1.2916355605273961,
+            "bomb_no": 2
+          },
+          {
+            "drop_time_s": 16.20107315028585,
+            "delay_s": 2.8444101261104717,
+            "bomb_no": 3
+          }
+        ]
+      },
+      {
+        "uav": "FY5",
+        "missile": "M3",
+        "heading_rad": 2.988943325194528,
+        "speed_m_s": 140.0,
+        "duration_s": 0.0,
+        "certification": [
+          {
+            "bomb_no": 1,
+            "search_success": false,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 2,
+            "search_success": false,
+            "coordinate_success": true
+          },
+          {
+            "bomb_no": 3,
+            "search_success": false,
+            "coordinate_success": true
+          }
+        ],
+        "strategies": [
+          {
+            "drop_time_s": 25.312544880725746,
+            "delay_s": 11.63864355672333,
+            "bomb_no": 1
+          },
+          {
+            "drop_time_s": 28.91272852164227,
+            "delay_s": 8.245362037224432,
+            "bomb_no": 2
+          },
+          {
+            "drop_time_s": 32.5129688825906,
+            "delay_s": 4.194964351034664,
+            "bomb_no": 3
+          }
+        ]
+      }
+    ]
+  },
+  "pruning": {
+    "FY1": {
+      "kept": [
+        "M1",
+        "M2"
+      ],
+      "removed": [
+        "M3"
+      ],
+      "single_bomb_scores": {
+        "M1": 4.482527189546796,
+        "M2": 0.0,
+        "M3": 0.0
+      }
+    },
+    "FY2": {
+      "kept": [
+        "M2",
+        "M3"
+      ],
+      "removed": [
+        "M1"
+      ],
+      "single_bomb_scores": {
+        "M2": 3.8845724030947704,
+        "M3": 3.7193165255628813,
+        "M1": 3.700964946539175
+      }
+    },
+    "FY3": {
+      "kept": [
+        "M1",
+        "M2"
+      ],
+      "removed": [
+        "M3"
+      ],
+      "single_bomb_scores": {
+        "M1": 2.9350076872304562,
+        "M2": 2.6997773827949523,
+        "M3": 2.659653741175564
+      }
+    },
+    "FY4": {
+      "kept": [
+        "M1",
+        "M2"
+      ],
+      "removed": [
+        "M3"
+      ],
+      "single_bomb_scores": {
+        "M1": 3.729472542625569,
+        "M2": 3.4118519356122476,
+        "M3": 3.375690098858442
+      }
+    },
+    "FY5": {
+      "kept": [
+        "M1",
+        "M3"
+      ],
+      "removed": [
+        "M2"
+      ],
+      "single_bomb_scores": {
+        "M1": 3.8107628211766986,
+        "M3": 3.60861248798661,
+        "M2": 3.4215591755938206
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+========== VALIDATION REPORT ==========
+Q5 15 strategies           PASS
+Q5 shared flight per UAV   PASS
+Q5 drop gaps               PASS
+Q5 burst heights           PASS
+Q5 explicit assignment     PASS  {'FY1': 'M1', 'FY2': 'M2', 'FY3': 'M2', 'FY4': 'M1', 'FY5': 'M3'}
+Q5 interval recomputation  PASS
+Q5 root residuals          PASS
+Q5 multiple seeds          PASS
+Q5 branch upper bound      PASS
+Q5 global optimality       MANUAL CHECK REQUIRED  restricted one-missile-per-UAV candidate pool; global optimum not proven
+Model interpretation       MANUAL CHECK REQUIRED  MODEL_CONFIRMATION_REQUIRED
+=======================================

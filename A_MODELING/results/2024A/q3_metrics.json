@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "critical_pitch_m": 0.45033739303025433,
+  "critical_pitch_cm": 45.033739303025435,
+  "critical_clearance_m": 1.3350431871117507e-14,
+  "root_reported_residual_m": 1.812439087700568e-14,
+  "critical_theta_head_rad": 63.797752158547574,
+  "critical_head_radius_m": 4.572603223311144,
+  "critical_pair_bench_indices": [
+    0,
+    19
+  ],
+  "pitch_bracket_m": [
+    0.45000000000000007,
+    0.4750000000000001
+  ],
+  "pitch_epsilon_m": 1e-05,
+  "clearance_below_m": -9.980767076478436e-06,
+  "clearance_above_m": 9.980766650485862e-06,
+  "nested_theta_convergence_rad": 3.7320539547636145e-08,
+  "nested_clearance_convergence_m": 3.635980405647388e-15,
+  "outer_approach_min_clearance_m": 0.013788850476319392,
+  "outer_approach_samples": 252,
+  "link_error_max_m": 1.0932321714562931e-10,
+  "link_error_mean_m": 9.798732826632784e-11,
+  "link_error_p95_m": 1.0867131639002991e-10,
+  "velocity_constraint_residual_max_m2_s": 6.036837696399289e-16,
+  "state_evaluations": 1870,
+  "mean_nested_evaluation_seconds": 1.1877190630440726,
+  "q3_total_seconds": 65.61275320000277
+}

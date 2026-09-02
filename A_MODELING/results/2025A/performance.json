@@ -1,0 +1,59 @@
+{
+  "single_Q1_final_evaluation": {
+    "samples_s": [
+      0.5832039000015357,
+      0.6312169999946491,
+      0.6266327999983332
+    ],
+    "median_s": 0.6266327999983332
+  },
+  "single_Q2_final_evaluation": {
+    "samples_s": [
+      0.5570350999987568,
+      0.5626583000048413,
+      0.5500719999981811
+    ],
+    "median_s": 0.5570350999987568
+  },
+  "Q3_three_bomb_final_evaluation": {
+    "samples_s": [
+      1.9635358000014094,
+      1.9703196999980719
+    ],
+    "median_s": 1.9669277499997406
+  },
+  "Q4_three_uav_final_evaluation": {
+    "samples_s": [
+      1.9129707000029157,
+      1.9419810000035795
+    ],
+    "median_s": 1.9274758500032476
+  },
+  "Q5_fifteen_bomb_final_evaluation": {
+    "samples_s": [
+      9.523857699998189
+    ],
+    "median_s": 9.523857699998189
+  },
+  "Q2_global_search_nfev": 11088,
+  "Q2_local_refinement_nfev": {
+    "first": 399,
+    "final": 585,
+    "convergence_polish": 677
+  },
+  "Q2_uncached_total_s": 113.54452740000124,
+  "Q5_assignment_space": {
+    "unrestricted_one_missile_per_uav": 243,
+    "candidate_pool": 32,
+    "visited": 15,
+    "pruned": 5,
+    "leaves": 3
+  },
+  "localized_interval_boundaries": {
+    "Q1": 2,
+    "Q2": 2,
+    "Q3": 6,
+    "Q4": 6,
+    "Q5": 16
+  }
+}

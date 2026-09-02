@@ -1,0 +1,45 @@
+{
+  "name": "Signature Scientific Style v1",
+  "background": "#FFFFFF",
+  "foreground": "#2B2F33",
+  "roles": {
+    "Primary": {
+      "hex": "#1F4E79",
+      "purpose": "Core model, proposed method, or main solution",
+      "avoid": "Do not assign to every series"
+    },
+    "Secondary": {
+      "hex": "#76A3B5",
+      "purpose": "Supporting method, secondary response, or uncertainty edge",
+      "avoid": "Do not let it outrank Primary"
+    },
+    "Highlight": {
+      "hex": "#C97B2A",
+      "purpose": "Optimum, critical point, selected threshold, or one key finding",
+      "avoid": "Do not use for routine series or large areas"
+    },
+    "Neutral": {
+      "hex": "#969AA0",
+      "purpose": "Baseline, reference, or auxiliary context",
+      "avoid": "Do not use for the main conclusion"
+    },
+    "Warning": {
+      "hex": "#A63D40",
+      "purpose": "Constraint violation, failure, or adverse exception",
+      "avoid": "Do not use merely for palette variety"
+    }
+  },
+  "comparison_extensions": [
+    {"role": "Green Accent", "hex": "#5D8D7C", "line": "dash-dot", "marker": "triangle"},
+    {"role": "Purple", "hex": "#917EA3", "line": "dash-dot", "marker": "diamond", "conditional": true}
+  ],
+  "continuous_field": {
+    "name": "Signature blue-cyan-green-yellow",
+    "colors": ["#244B66", "#2F667F", "#3F8393", "#58A09F", "#78B79F", "#9AC996", "#BAD88E", "#D6E38C", "#E8E99B", "#F2ECB1"]
+  },
+  "accessibility": {
+    "color_only_encoding_forbidden": true,
+    "grayscale_redundancy": "Use line style and marker shape in addition to hue",
+    "rainbow_forbidden": true
+  }
+}

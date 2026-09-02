@@ -1,0 +1,11 @@
+========== VALIDATION REPORT ==========
+Q4 finite strategies     PASS
+Q4 variable bounds       PASS
+Q4 physical constraints  PASS
+Q4 interval union        PASS  union=11.512552907, sum=11.512552907
+Q4 root residuals        PASS
+Q4 surface convergence   PASS  difference=6.659e-03 s
+Q4 multiple seeds        PASS
+Q4 global optimality     MANUAL CHECK REQUIRED  independent candidates plus coordinate polish; global optimum not proven
+Model interpretation     MANUAL CHECK REQUIRED  MODEL_CONFIRMATION_REQUIRED
+=======================================

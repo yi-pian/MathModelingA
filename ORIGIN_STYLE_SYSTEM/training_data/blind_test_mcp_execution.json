@@ -1,0 +1,669 @@
+{
+  "figures": [
+    {
+      "id": "MAIN1",
+      "graph": "BT_MAIN1_CALIBRATION",
+      "exports": [
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN1_MODEL_CALIBRATION.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN1_MODEL_CALIBRATION.png",
+              "exists": true,
+              "size_bytes": 81286,
+              "suffix": ".png",
+              "sha256": "0cfb59dc6eddc8f7e51b26a6d941efc9fbf01e4a2e0191e3cd04c5f8a2ed1b9a",
+              "width": 2700,
+              "height": 1914,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 2700,
+                "height": 1914,
+                "pixel_count": 5167800,
+                "pixels_sampled": 323325,
+                "unique_colors": 118,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 314165
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 4529
+                  },
+                  {
+                    "rgba": [
+                      31,
+                      78,
+                      121,
+                      255
+                    ],
+                    "count": 1402
+                  },
+                  {
+                    "rgba": [
+                      118,
+                      163,
+                      181,
+                      255
+                    ],
+                    "count": 1029
+                  },
+                  {
+                    "rgba": [
+                      205,
+                      208,
+                      211,
+                      255
+                    ],
+                    "count": 540
+                  }
+                ],
+                "non_white_ratio": 0.028331,
+                "non_background_ratio": 0.028318,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 249.69,
+                "luma_stddev": 33.924,
+                "content_bbox": {
+                  "x_min": 68,
+                  "y_min": 80,
+                  "x_max": 2564,
+                  "y_max": 1912
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN1_MODEL_CALIBRATION.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN1_MODEL_CALIBRATION.pdf",
+              "exists": true,
+              "size_bytes": 32097,
+              "suffix": ".pdf",
+              "sha256": "cc7cdbbd427017f4c8b4d5699066f97a04f40ec2f2e9b3ac3929a3c20c7b5be5",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN1_MODEL_CALIBRATION.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN1_MODEL_CALIBRATION.svg",
+              "exists": true,
+              "size_bytes": 272935,
+              "suffix": ".svg",
+              "sha256": "a213d21b4ccccbb1db9956e74d7b773761687072a39c5e64804060c4bb3bf305",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "MAIN2",
+      "graph": "Graph3",
+      "exports": [
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN2_Q1_THERMAL_RESPONSE.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN2_Q1_THERMAL_RESPONSE.png",
+              "exists": true,
+              "size_bytes": 71775,
+              "suffix": ".png",
+              "sha256": "f534bb1190686013e642d7f934988a21caa5ce6ec22a472bea14e25d979e527c",
+              "width": 2400,
+              "height": 1703,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 2400,
+                "height": 1703,
+                "pixel_count": 4087200,
+                "pixels_sampled": 454400,
+                "unique_colors": 204,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 437934
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 6718
+                  },
+                  {
+                    "rgba": [
+                      31,
+                      78,
+                      121,
+                      255
+                    ],
+                    "count": 4580
+                  },
+                  {
+                    "rgba": [
+                      150,
+                      154,
+                      160,
+                      255
+                    ],
+                    "count": 2097
+                  },
+                  {
+                    "rgba": [
+                      201,
+                      123,
+                      42,
+                      255
+                    ],
+                    "count": 954
+                  }
+                ],
+                "non_white_ratio": 0.036191,
+                "non_background_ratio": 0.0361,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 248.195,
+                "luma_stddev": 37.555,
+                "content_bbox": {
+                  "x_min": 54,
+                  "y_min": 102,
+                  "x_max": 2256,
+                  "y_max": 1614
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN2_Q1_THERMAL_RESPONSE.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN2_Q1_THERMAL_RESPONSE.pdf",
+              "exists": true,
+              "size_bytes": 9077,
+              "suffix": ".pdf",
+              "sha256": "27ea03746103bc93b579ce165047f131e5e32b65e63f9eef98837c28ca3fa37c",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN2_Q1_THERMAL_RESPONSE.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN2_Q1_THERMAL_RESPONSE.svg",
+              "exists": true,
+              "size_bytes": 30977,
+              "suffix": ".svg",
+              "sha256": "330c4905be6d87f9c0d08f1239f2fd8d0c7777a90dea10336ce48441ab6d0e30",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "MAIN3",
+      "graph": "Graph4",
+      "exports": [
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN3_Q2_MAXIMUM_SPEED.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN3_Q2_MAXIMUM_SPEED.png",
+              "exists": true,
+              "size_bytes": 76468,
+              "suffix": ".png",
+              "sha256": "8888399619cb1a6902765f51a0a270898a6e5e1eea233c4a860fba1620d487b3",
+              "width": 2400,
+              "height": 1703,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 2400,
+                "height": 1703,
+                "pixel_count": 4087200,
+                "pixels_sampled": 454400,
+                "unique_colors": 173,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 437408
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 9015
+                  },
+                  {
+                    "rgba": [
+                      31,
+                      78,
+                      121,
+                      255
+                    ],
+                    "count": 3703
+                  },
+                  {
+                    "rgba": [
+                      150,
+                      154,
+                      160,
+                      255
+                    ],
+                    "count": 637
+                  },
+                  {
+                    "rgba": [
+                      201,
+                      123,
+                      42,
+                      255
+                    ],
+                    "count": 375
+                  }
+                ],
+                "non_white_ratio": 0.037383,
+                "non_background_ratio": 0.037293,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 247.521,
+                "luma_stddev": 40.595,
+                "content_bbox": {
+                  "x_min": 54,
+                  "y_min": 102,
+                  "x_max": 2310,
+                  "y_max": 1617
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN3_Q2_MAXIMUM_SPEED.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN3_Q2_MAXIMUM_SPEED.pdf",
+              "exists": true,
+              "size_bytes": 5542,
+              "suffix": ".pdf",
+              "sha256": "aaa31e034ff1d9b69f9d3597a81106093fa027770bd2ceb6b5356775d73b8063",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN3_Q2_MAXIMUM_SPEED.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN3_Q2_MAXIMUM_SPEED.svg",
+              "exists": true,
+              "size_bytes": 33171,
+              "suffix": ".svg",
+              "sha256": "fb4c844699134d2420d2d49f984676e9756a02177e44d447aef187e9fb3e9040",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "MAIN4",
+      "graph": "Graph5",
+      "exports": [
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN4_Q3_LOW_AREA_DESIGN.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN4_Q3_LOW_AREA_DESIGN.png",
+              "exists": true,
+              "size_bytes": 65954,
+              "suffix": ".png",
+              "sha256": "4f1f4ca4f1e887c0e67d901ba99486385ba33db6b94df58909c9431cb70f77be",
+              "width": 2400,
+              "height": 1703,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 2400,
+                "height": 1703,
+                "pixel_count": 4087200,
+                "pixels_sampled": 454400,
+                "unique_colors": 144,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 438408
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 7336
+                  },
+                  {
+                    "rgba": [
+                      31,
+                      78,
+                      121,
+                      255
+                    ],
+                    "count": 3935
+                  },
+                  {
+                    "rgba": [
+                      236,
+                      210,
+                      175,
+                      255
+                    ],
+                    "count": 1346
+                  },
+                  {
+                    "rgba": [
+                      201,
+                      123,
+                      42,
+                      255
+                    ],
+                    "count": 746
+                  }
+                ],
+                "non_white_ratio": 0.035161,
+                "non_background_ratio": 0.035103,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 248.375,
+                "luma_stddev": 37.717,
+                "content_bbox": {
+                  "x_min": 54,
+                  "y_min": 99,
+                  "x_max": 2310,
+                  "y_max": 1614
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN4_Q3_LOW_AREA_DESIGN.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN4_Q3_LOW_AREA_DESIGN.pdf",
+              "exists": true,
+              "size_bytes": 7873,
+              "suffix": ".pdf",
+              "sha256": "f21fd1eb9ffebdc61683dfe71143e1b04a8e8687230fc79831928cf384a5e41d",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN4_Q3_LOW_AREA_DESIGN.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN4_Q3_LOW_AREA_DESIGN.svg",
+              "exists": true,
+              "size_bytes": 34533,
+              "suffix": ".svg",
+              "sha256": "30b68a8cad32d1f9e3f1009ae106bb8019ec5f242810217821dec137a50868be",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "MAIN5",
+      "graph": "BT_MAIN5_Q4",
+      "exports": [
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN5_Q4_SYMMETRY_COMPROMISE.png",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN5_Q4_SYMMETRY_COMPROMISE.png",
+              "exists": true,
+              "size_bytes": 130641,
+              "suffix": ".png",
+              "sha256": "cb5d985546d6ffcf3224e785b8af8165ff4cc8e29877ad78f941479b1fe4ce6b",
+              "width": 3000,
+              "height": 2127,
+              "image_quality": {
+                "format": "png",
+                "decoded": true,
+                "width": 3000,
+                "height": 2127,
+                "pixel_count": 6381000,
+                "pixels_sampled": 399000,
+                "unique_colors": 235,
+                "top_colors": [
+                  {
+                    "rgba": [
+                      255,
+                      255,
+                      255,
+                      255
+                    ],
+                    "count": 383034
+                  },
+                  {
+                    "rgba": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "count": 8342
+                  },
+                  {
+                    "rgba": [
+                      31,
+                      78,
+                      121,
+                      255
+                    ],
+                    "count": 2235
+                  },
+                  {
+                    "rgba": [
+                      150,
+                      154,
+                      160,
+                      255
+                    ],
+                    "count": 1696
+                  },
+                  {
+                    "rgba": [
+                      43,
+                      47,
+                      51,
+                      255
+                    ],
+                    "count": 528
+                  }
+                ],
+                "non_white_ratio": 0.040003,
+                "non_background_ratio": 0.039902,
+                "non_transparent_ratio": 1.0,
+                "mean_luma": 247.04,
+                "luma_stddev": 41.662,
+                "content_bbox": {
+                  "x_min": 100,
+                  "y_min": 156,
+                  "x_max": 2852,
+                  "y_max": 2020
+                },
+                "has_visual_content": true,
+                "issues": []
+              },
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN5_Q4_SYMMETRY_COMPROMISE.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN5_Q4_SYMMETRY_COMPROMISE.pdf",
+              "exists": true,
+              "size_bytes": 17676,
+              "suffix": ".pdf",
+              "sha256": "073c805464ef4aa376ecad83538de4580e92555a923dfef00fae7be7d7e442c3",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN5_Q4_SYMMETRY_COMPROMISE.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\MAIN5_Q4_SYMMETRY_COMPROMISE.svg",
+              "exists": true,
+              "size_bytes": 141479,
+              "suffix": ".svg",
+              "sha256": "d86c22d3c057d1977b87303e45b96e797c70049edcd7cc31a9c17695dbec3bfd",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "project": {
+    "ok": true,
+    "message": "Saved Origin project.",
+    "data": {
+      "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\graph_editor_blind_test\\ORIGIN_GRAPH_EDITOR_BLIND_TEST.opju",
+      "saved": true,
+      "method": "originpro.save"
+    }
+  },
+  "frozen_templates_modified": false
+}

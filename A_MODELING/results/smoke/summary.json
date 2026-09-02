@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "Root",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "ODE",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "3D rotation",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Sphere intersections",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Parameter fitting",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Continuous optimization",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Sensitivity table",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Matplotlib outputs",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Excel output",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Origin output",
+      "status": "PASS",
+      "detail": ""
+    }
+  ]
+}

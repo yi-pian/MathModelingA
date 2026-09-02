@@ -1,0 +1,7 @@
+criterion,baseline,alternative,proposed
+Economic benefit,68,82,88
+Reliability,91,76,89
+Low emissions,61,84,92
+Scalability,73,88,90
+Robustness,86,79,91
+Implementation ease,94,70,83

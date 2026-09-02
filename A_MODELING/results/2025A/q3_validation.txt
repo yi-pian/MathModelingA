@@ -1,0 +1,12 @@
+========== VALIDATION REPORT ==========
+Q3 optimizer success     PASS  Optimization terminated successfully.
+Q3 shared heading/speed  PASS
+Q3 drop gaps             PASS  extra margins=[2.6942612225124187, 0.8634572485600822]
+Q3 burst heights         PASS
+Q3 interval union        PASS  gains=[3.8409285639597783, 2.5787843065223335, 1.189792539948611]
+Q3 root residuals        PASS
+Q3 surface convergence   PASS
+Q3 multiple seeds        PASS
+Q3 global optimality     MANUAL CHECK REQUIRED  best feasible multi-seed result; global optimum not proven
+Model interpretation     MANUAL CHECK REQUIRED  MODEL_CONFIRMATION_REQUIRED
+=======================================

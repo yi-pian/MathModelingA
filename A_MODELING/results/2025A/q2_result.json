@@ -1,0 +1,36 @@
+{
+  "heading_rad": 0.10018572295840986,
+  "heading_deg": 5.740219092983801,
+  "speed_m_s": 139.9999997750743,
+  "drop_time_s": 0.3828642243631037,
+  "delay_s": 0.47165634469059264,
+  "burst_time_s": 0.8545205690536963,
+  "drop_point_m": [
+    17853.33221487618,
+    5.361075208731885,
+    1800.0
+  ],
+  "burst_point_m": [
+    17919.032993173227,
+    11.965466467194723,
+    1798.9099474333143
+  ],
+  "full_intervals_s": [
+    [
+      0.8551361987148778,
+      5.443115408769428
+    ]
+  ],
+  "full_duration_s": 4.5879792100545504,
+  "point_duration_s": 4.637828601754614,
+  "elapsed_s": 113.54452740000124,
+  "first_refine_success": true,
+  "final_refine_success": false,
+  "convergence_polish_success": false,
+  "global_search_nfev": 11088,
+  "local_refinement_nfev": {
+    "first": 399,
+    "final": 585,
+    "convergence_polish": 677
+  }
+}

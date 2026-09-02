@@ -1,0 +1,70 @@
+{
+  "zone_fractions": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "zone_dimensions_m": [
+    6.54,
+    6.48,
+    6.42,
+    6.36
+  ],
+  "zone_installation_heights_m": [
+    3.32,
+    3.29,
+    3.26,
+    3.23
+  ],
+  "annual": {
+    "eta_total": 0.48975808950285965,
+    "eta_cos": 0.7808685721465581,
+    "eta_at": 0.9637663475743969,
+    "eta_sb": 0.7803051900930211,
+    "eta_trunc": 0.9323428231698202,
+    "power_kw": 60656.29578501832,
+    "power_per_area_kw_m2": 0.4773538445605828,
+    "power_mw": 60.65629578501832
+  },
+  "constraints": {
+    "mirror_count": 3054,
+    "total_area_m2": 127067.78520000001,
+    "field_center_margin_min_m": 0.10528122158166298,
+    "tower_exclusion_margin_min_m": 0.1146020245086703,
+    "dimension_margin_min_m": 0.0,
+    "installation_margin_min_m": 0.04999999999999982,
+    "spacing_margin_min_m": 0.009999999999918074,
+    "nearest_distance_min_m": 11.549999999999917,
+    "tower_inside_field_margin_m": 300.0,
+    "rated_power_margin_mw": 0.6562957850183224,
+    "all_geometric_constraints_pass": true
+  },
+  "optimization_value": {
+    "power_mw": 60.36225593276308,
+    "power_per_area_kw_m2": 0.4750398052327355
+  },
+  "final_verified_value": {
+    "power_mw": 60.65629578501832,
+    "power_per_area_kw_m2": 0.4773538445605828
+  },
+  "evaluations": 9,
+  "elapsed_seconds": 52.60203229999934,
+  "excel": {
+    "shape": [
+      3054,
+      8
+    ],
+    "columns": [
+      "吸收塔x坐标 (m)",
+      "吸收塔y坐标 (m)",
+      "定日镜序号",
+      "定日镜宽度 (m)",
+      "定日镜高度 (m)",
+      "定日镜x坐标 (m)",
+      "定日镜y坐标 (m)",
+      "定日镜z坐标 (m)"
+    ],
+    "nan_count_mirror_data": 0
+  },
+  "model_note": "four radial quantile zones on the Q2 triangular lattice; MODEL_CONFIRMATION_REQUIRED"
+}

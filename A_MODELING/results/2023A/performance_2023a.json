@@ -1,0 +1,88 @@
+{
+  "levels": {
+    "FAST": {
+      "summary": {
+        "eta_cos": 0.779317155922753,
+        "eta_at": 0.9651603367995297,
+        "eta_sb": 0.9427570837312957,
+        "eta_trunc": 0.9615586158054434,
+        "eta_total": 0.620915355262927,
+        "power_kw": 40207.33672713807,
+        "power_per_area_kw_m2": 0.6400403808840827
+      },
+      "stage_seconds": {
+        "geometry": 0.00038159999894560315,
+        "candidates": 0.15915469999890774,
+        "shadow_blocking": 0.19546950000039942,
+        "truncation": 0.1785197999997763,
+        "total": 0.5335255999980291
+      },
+      "candidate_stats": {
+        "raw_comparisons": 6086560,
+        "candidate_comparisons": 86706,
+        "average_candidates": 49.68825214899714,
+        "maximum_candidates": 121
+      }
+    },
+    "STANDARD": {
+      "summary": {
+        "eta_cos": 0.779317155922753,
+        "eta_at": 0.9651603367995297,
+        "eta_sb": 0.940676217765043,
+        "eta_trunc": 0.9456995546461208,
+        "eta_total": 0.6096137359929394,
+        "power_kw": 39475.50104664039,
+        "power_per_area_kw_m2": 0.6283906565845334
+      },
+      "stage_seconds": {
+        "geometry": 0.00022779999926569872,
+        "candidates": 0.21347869999954128,
+        "shadow_blocking": 0.22970129999885103,
+        "truncation": 0.21814599999925122,
+        "total": 0.6615537999969092
+      },
+      "candidate_stats": {
+        "raw_comparisons": 6086560,
+        "candidate_comparisons": 75733,
+        "average_candidates": 43.4,
+        "maximum_candidates": 111
+      }
+    },
+    "FINAL": {
+      "summary": {
+        "eta_cos": 0.779317155922753,
+        "eta_at": 0.9651603367995297,
+        "eta_sb": 0.9386111995472073,
+        "eta_trunc": 0.936501616746079,
+        "eta_total": 0.6020580751258018,
+        "power_kw": 38986.23467867882,
+        "power_per_area_kw_m2": 0.6206022712301626
+      },
+      "stage_seconds": {
+        "geometry": 0.00023379999947792385,
+        "candidates": 0.3447472999996535,
+        "shadow_blocking": 0.3553559999982099,
+        "truncation": 0.5508635999995022,
+        "total": 1.2512006999968435
+      },
+      "candidate_stats": {
+        "raw_comparisons": 6086560,
+        "candidate_comparisons": 68603,
+        "average_candidates": 39.31404011461318,
+        "maximum_candidates": 95
+      }
+    }
+  },
+  "fast_repeat": {
+    "runs": 3,
+    "min_seconds": 0.5451567000000068,
+    "mean_seconds": 0.5519587000004927,
+    "median_seconds": 0.5526559000009001,
+    "all_seconds": [
+      0.5580635000005714,
+      0.5451567000000068,
+      0.5526559000009001
+    ]
+  },
+  "static_array_bytes": 69800
+}

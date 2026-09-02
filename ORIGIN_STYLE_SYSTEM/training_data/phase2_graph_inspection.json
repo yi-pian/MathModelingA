@@ -1,0 +1,787 @@
+{
+  "Graph1": {
+    "ok": true,
+    "message": "Collected Origin graph information.",
+    "data": {
+      "graph_name": "Graph1",
+      "long_name": "P2_SCATTER_FIT",
+      "layers_count": 1,
+      "layers": [
+        {
+          "index": 0,
+          "name": "Layer1",
+          "plots_count": 3,
+          "plots": [
+            {
+              "index": 0,
+              "name": "Book2_D",
+              "color": [
+                103,
+                126,
+                142
+              ],
+              "line_width": null,
+              "bar_gap": 0,
+              "line_style": null,
+              "symbol_kind": 2,
+              "symbol_size": 0.78,
+              "transparency": 20.0,
+              "colormap": "Classic",
+              "zlevels": {
+                "minors": 0,
+                "levels": [
+                  9.9689315688e-312
+                ]
+              }
+            },
+            {
+              "index": 1,
+              "name": "Book2_E",
+              "color": [
+                31,
+                78,
+                121
+              ],
+              "line_width": null,
+              "bar_gap": 0,
+              "line_style": null,
+              "symbol_kind": 0,
+              "symbol_size": 3.0,
+              "transparency": 0.0,
+              "colormap": "Classic",
+              "zlevels": {
+                "minors": 0,
+                "levels": [
+                  9.968931570067e-312
+                ]
+              }
+            },
+            {
+              "index": 2,
+              "name": "Book3_B",
+              "color": [
+                201,
+                123,
+                42
+              ],
+              "line_width": null,
+              "bar_gap": 0,
+              "line_style": null,
+              "symbol_kind": 2,
+              "symbol_size": 1.25,
+              "transparency": 0.0,
+              "colormap": "Classic",
+              "zlevels": {
+                "minors": 0,
+                "levels": [
+                  9.968931575917e-312
+                ]
+              }
+            }
+          ],
+          "axes": {
+            "x": {
+              "title": "Predictor x",
+              "scale": 1,
+              "scale_name": "linear",
+              "limits": [
+                0.0,
+                10.8,
+                2.0
+              ]
+            },
+            "y": {
+              "title": "Observed response",
+              "scale": 1,
+              "scale_name": "linear",
+              "limits": [
+                0.0,
+                28.0,
+                5.0
+              ]
+            },
+            "z": {
+              "title": "",
+              "scale": 0,
+              "scale_name": "0",
+              "limits": [
+                9.968921115085e-312,
+                9.968921115085e-312,
+                9.968921118405e-312
+              ]
+            }
+          },
+          "labels": [],
+          "legend_present": false,
+          "panel_label_present": false
+        }
+      ]
+    }
+  },
+  "Graph10": {
+    "ok": true,
+    "message": "Collected Origin graph information.",
+    "data": {
+      "graph_name": "Graph10",
+      "long_name": "P2_MP_POWER",
+      "layers_count": 1,
+      "layers": [
+        {
+          "index": 0,
+          "name": "Layer1",
+          "plots_count": 2,
+          "plots": [
+            {
+              "index": 0,
+              "name": "Book14_F",
+              "color": [
+                31,
+                78,
+                121
+              ],
+              "line_width": null,
+              "bar_gap": 0,
+              "line_style": null,
+              "symbol_kind": 0,
+              "symbol_size": 2.5,
+              "transparency": 0.0,
+              "colormap": "Classic",
+              "zlevels": {
+                "minors": 0,
+                "levels": [
+                  9.968931572597e-312
+                ]
+              }
+            },
+            {
+              "index": 1,
+              "name": "Book14_G",
+              "color": [
+                118,
+                163,
+                181
+              ],
+              "line_width": null,
+              "bar_gap": 0,
+              "line_style": null,
+              "symbol_kind": 0,
+              "symbol_size": 2.5,
+              "transparency": 0.0,
+              "colormap": "Classic",
+              "zlevels": {
+                "minors": 0,
+                "levels": [
+                  9.968931573704e-312
+                ]
+              }
+            }
+          ],
+          "axes": {
+            "x": {
+              "title": "Time (s)",
+              "scale": 1,
+              "scale_name": "linear",
+              "limits": [
+                0.0,
+                22.4,
+                3.0
+              ]
+            },
+            "y": {
+              "title": "Power (kW)",
+              "scale": 1,
+              "scale_name": "linear",
+              "limits": [
+                32.5,
+                67.5,
+                5.0
+              ]
+            },
+            "z": {
+              "title": "",
+              "scale": 0,
+              "scale_name": "0",
+              "limits": [
+                9.968921113425e-312,
+                9.96892111706e-312,
+                9.968921117456e-312
+              ]
+            }
+          },
+          "labels": [],
+          "legend_present": false,
+          "panel_label_present": false
+        }
+      ]
+    }
+  },
+  "P2_MULTIPANEL_2X2": {
+    "ok": true,
+    "message": "Collected Origin graph information.",
+    "data": {
+      "graph_name": "P2_MULTIPANEL_2X2",
+      "long_name": "",
+      "layers_count": 4,
+      "layers": [
+        {
+          "index": 0,
+          "name": "Layer1",
+          "plots_count": 2,
+          "plots": [
+            {
+              "index": 0,
+              "name": "Book12_B",
+              "color": [
+                31,
+                78,
+                121
+              ],
+              "line_width": null,
+              "bar_gap": 0,
+              "line_style": null,
+              "symbol_kind": 0,
+              "symbol_size": 2.5,
+              "transparency": 0.0,
+              "colormap": "Classic",
+              "zlevels": {
+                "minors": 0,
+                "levels": [
+                  9.96893157244e-312
+                ]
+              }
+            },
+            {
+              "index": 1,
+              "name": "Book12_C",
+              "color": [
+                118,
+                163,
+                181
+              ],
+              "line_width": null,
+              "bar_gap": 0,
+              "line_style": null,
+              "symbol_kind": 0,
+              "symbol_size": 2.5,
+              "transparency": 0.0,
+              "colormap": "Classic",
+              "zlevels": {
+                "minors": 0,
+                "levels": [
+                  9.968931576233e-312
+                ]
+              }
+            }
+          ],
+          "axes": {
+            "x": {
+              "title": "",
+              "scale": 1,
+              "scale_name": "linear",
+              "limits": [
+                0.0,
+                22.4,
+                3.0
+              ]
+            },
+            "y": {
+              "title": "Displacement (mm)",
+              "scale": 1,
+              "scale_name": "linear",
+              "limits": [
+                -1.0,
+                9.0,
+                2.0
+              ]
+            },
+            "z": {
+              "title": "",
+              "scale": 0,
+              "scale_name": "0",
+              "limits": [
+                9.96892111706e-312,
+                9.968921116666e-312,
+                9.968921118405e-312
+              ]
+            }
+          },
+          "labels": [],
+          "legend_present": false,
+          "panel_label_present": false
+        },
+        {
+          "index": 1,
+          "name": "Layer2",
+          "plots_count": 2,
+          "plots": [
+            {
+              "index": 0,
+              "name": "Book13_D",
+              "color": [
+                31,
+                78,
+                121
+              ],
+              "line_width": null,
+              "bar_gap": 0,
+              "line_style": null,
+              "symbol_kind": 0,
+              "symbol_size": 2.5,
+              "transparency": 0.0,
+              "colormap": "Classic",
+              "zlevels": {
+                "minors": 0,
+                "levels": [
+                  9.968931575126e-312
+                ]
+              }
+            },
+            {
+              "index": 1,
+              "name": "Book13_E",
+              "color": [
+                118,
+                163,
+                181
+              ],
+              "line_width": null,
+              "bar_gap": 0,
+              "line_style": null,
+              "symbol_kind": 0,
+              "symbol_size": 2.5,
+              "transparency": 0.0,
+              "colormap": "Classic",
+              "zlevels": {
+                "minors": 0,
+                "levels": [
+                  9.968931575917e-312
+                ]
+              }
+            }
+          ],
+          "axes": {
+            "x": {
+              "title": "",
+              "scale": 1,
+              "scale_name": "linear",
+              "limits": [
+                0.0,
+                22.4,
+                3.0
+              ]
+            },
+            "y": {
+              "title": "Velocity (m/s)",
+              "scale": 1,
+              "scale_name": "linear",
+              "limits": [
+                -0.125,
+                1.625,
+                0.25
+              ]
+            },
+            "z": {
+              "title": "",
+              "scale": 0,
+              "scale_name": "0",
+              "limits": [
+                9.968921114294e-312,
+                9.968921115085e-312,
+                9.968921115085e-312
+              ]
+            }
+          },
+          "labels": [],
+          "legend_present": false,
+          "panel_label_present": false
+        },
+        {
+          "index": 2,
+          "name": "Layer3",
+          "plots_count": 2,
+          "plots": [
+            {
+              "index": 0,
+              "name": "Book14_F",
+              "color": [
+                31,
+                78,
+                121
+              ],
+              "line_width": null,
+              "bar_gap": 0,
+              "line_style": null,
+              "symbol_kind": 0,
+              "symbol_size": 2.5,
+              "transparency": 0.0,
+              "colormap": "Classic",
+              "zlevels": {
+                "minors": 0,
+                "levels": [
+                  9.9689315688e-312
+                ]
+              }
+            },
+            {
+              "index": 1,
+              "name": "Book14_G",
+              "color": [
+                118,
+                163,
+                181
+              ],
+              "line_width": null,
+              "bar_gap": 0,
+              "line_style": null,
+              "symbol_kind": 0,
+              "symbol_size": 2.5,
+              "transparency": 0.0,
+              "colormap": "Classic",
+              "zlevels": {
+                "minors": 0,
+                "levels": [
+                  9.968931575917e-312
+                ]
+              }
+            }
+          ],
+          "axes": {
+            "x": {
+              "title": "",
+              "scale": 1,
+              "scale_name": "linear",
+              "limits": [
+                0.0,
+                22.4,
+                3.0
+              ]
+            },
+            "y": {
+              "title": "Power (kW)",
+              "scale": 1,
+              "scale_name": "linear",
+              "limits": [
+                32.5,
+                67.5,
+                5.0
+              ]
+            },
+            "z": {
+              "title": "",
+              "scale": 0,
+              "scale_name": "0",
+              "limits": [
+                9.968921115717e-312,
+                9.968921117694e-312,
+                9.968921117456e-312
+              ]
+            }
+          },
+          "labels": [],
+          "legend_present": false,
+          "panel_label_present": false
+        },
+        {
+          "index": 3,
+          "name": "Layer4",
+          "plots_count": 2,
+          "plots": [
+            {
+              "index": 0,
+              "name": "Book15_H",
+              "color": [
+                31,
+                78,
+                121
+              ],
+              "line_width": null,
+              "bar_gap": 0,
+              "line_style": null,
+              "symbol_kind": 0,
+              "symbol_size": 2.5,
+              "transparency": 0.0,
+              "colormap": "Classic",
+              "zlevels": {
+                "minors": 0,
+                "levels": [
+                  9.96893157165e-312
+                ]
+              }
+            },
+            {
+              "index": 1,
+              "name": "Book15_I",
+              "color": [
+                118,
+                163,
+                181
+              ],
+              "line_width": null,
+              "bar_gap": 0,
+              "line_style": null,
+              "symbol_kind": 0,
+              "symbol_size": 2.5,
+              "transparency": 0.0,
+              "colormap": "Classic",
+              "zlevels": {
+                "minors": 0,
+                "levels": [
+                  9.968931575917e-312
+                ]
+              }
+            }
+          ],
+          "axes": {
+            "x": {
+              "title": "",
+              "scale": 1,
+              "scale_name": "linear",
+              "limits": [
+                0.0,
+                22.4,
+                3.0
+              ]
+            },
+            "y": {
+              "title": "Error",
+              "scale": 1,
+              "scale_name": "linear",
+              "limits": [
+                -0.1,
+                0.7,
+                0.2
+              ]
+            },
+            "z": {
+              "title": "",
+              "scale": 0,
+              "scale_name": "0",
+              "limits": [
+                9.96892111817e-312,
+                9.96892111817e-312,
+                9.968921115875e-312
+              ]
+            }
+          },
+          "labels": [],
+          "legend_present": false,
+          "panel_label_present": false
+        }
+      ]
+    }
+  },
+  "Graph16": {
+    "ok": true,
+    "message": "Collected Origin graph information.",
+    "data": {
+      "graph_name": "Graph16",
+      "long_name": "",
+      "layers_count": 1,
+      "layers": [
+        {
+          "index": 0,
+          "name": "P2_SURFACE_3D",
+          "plots_count": 2,
+          "plots": [
+            {
+              "index": 0,
+              "name": "MBook3",
+              "color": [
+                0,
+                0,
+                0
+              ],
+              "line_width": null,
+              "bar_gap": 0,
+              "line_style": null,
+              "symbol_kind": 0,
+              "symbol_size": 3.0,
+              "transparency": 0.0,
+              "colormap": "BLUEGREENYELLOW.PAL",
+              "zlevels": {
+                "minors": 9,
+                "levels": [
+                  0.0,
+                  3.6,
+                  7.2,
+                  10.8,
+                  14.4,
+                  18.0,
+                  21.6,
+                  25.2,
+                  28.8,
+                  32.4,
+                  36.0
+                ]
+              }
+            },
+            {
+              "index": 1,
+              "name": "Book20_C",
+              "color": [
+                201,
+                123,
+                42
+              ],
+              "line_width": null,
+              "bar_gap": 0,
+              "line_style": null,
+              "symbol_kind": 2,
+              "symbol_size": 4.2,
+              "transparency": 0.0,
+              "colormap": "",
+              "zlevels": {
+                "minors": 0,
+                "levels": [
+                  9.96893157165e-312
+                ]
+              }
+            }
+          ],
+          "axes": {
+            "x": {
+              "title": "Decision variable x",
+              "scale": 1,
+              "scale_name": "linear",
+              "limits": [
+                -3.0,
+                3.0,
+                1.0
+              ]
+            },
+            "y": {
+              "title": "Decision variable y",
+              "scale": 1,
+              "scale_name": "linear",
+              "limits": [
+                -3.0,
+                3.0,
+                1.0
+              ]
+            },
+            "z": {
+              "title": "%(?Z)",
+              "scale": 1,
+              "scale_name": "linear",
+              "limits": [
+                0.0,
+                36.0,
+                6.0
+              ]
+            }
+          },
+          "labels": [],
+          "legend_present": false,
+          "panel_label_present": false
+        }
+      ]
+    }
+  },
+  "Graph17": {
+    "ok": true,
+    "message": "Collected Origin graph information.",
+    "data": {
+      "graph_name": "Graph17",
+      "long_name": "",
+      "layers_count": 1,
+      "layers": [
+        {
+          "index": 0,
+          "name": "P2_SURFACE_3D_STRESS",
+          "plots_count": 2,
+          "plots": [
+            {
+              "index": 0,
+              "name": "MBook4",
+              "color": [
+                0,
+                0,
+                0
+              ],
+              "line_width": null,
+              "bar_gap": 0,
+              "line_style": null,
+              "symbol_kind": 0,
+              "symbol_size": 3.0,
+              "transparency": 0.0,
+              "colormap": "BLUEGREENYELLOW.PAL",
+              "zlevels": {
+                "minors": 9,
+                "levels": [
+                  0.0,
+                  10.0,
+                  20.0,
+                  30.0,
+                  40.0,
+                  50.0,
+                  60.0,
+                  70.0,
+                  80.0,
+                  90.0,
+                  100.0
+                ]
+              }
+            },
+            {
+              "index": 1,
+              "name": "Book21_C",
+              "color": [
+                201,
+                123,
+                42
+              ],
+              "line_width": null,
+              "bar_gap": 0,
+              "line_style": null,
+              "symbol_kind": 2,
+              "symbol_size": 4.2,
+              "transparency": 0.0,
+              "colormap": "",
+              "zlevels": {
+                "minors": 0,
+                "levels": [
+                  9.968931570225e-312
+                ]
+              }
+            }
+          ],
+          "axes": {
+            "x": {
+              "title": "Decision variable x",
+              "scale": 1,
+              "scale_name": "linear",
+              "limits": [
+                -3.0,
+                3.0,
+                1.0
+              ]
+            },
+            "y": {
+              "title": "Decision variable y",
+              "scale": 1,
+              "scale_name": "linear",
+              "limits": [
+                -3.0,
+                3.0,
+                1.0
+              ]
+            },
+            "z": {
+              "title": "%(?Z)",
+              "scale": 1,
+              "scale_name": "linear",
+              "limits": [
+                0.0,
+                100.0,
+                20.0
+              ]
+            }
+          },
+          "labels": [],
+          "legend_present": false,
+          "panel_label_present": false
+        }
+      ]
+    }
+  }
+}

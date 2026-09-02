@@ -1,0 +1,154 @@
+{
+  "status": "PASS",
+  "runtime_seconds": 30.503959000001487,
+  "timings": {
+    "constant_1d_optimization_seconds": 0.0026446999981999397,
+    "nonlinear_2d_optimization_seconds": 25.46332640000037
+  },
+  "constant": {
+    "optimal_damping_n_s_m": 37193.81348532587,
+    "frequency_power_w": 229.33393983846008,
+    "shooting_power_w": 229.33393983477592,
+    "transient_20_cycle_power_w": 229.33382349507758,
+    "coarse": {
+      "coarse_x": 37000.0,
+      "coarse_objective": 229.3308301600261,
+      "verified_objective": 229.33393983846008
+    },
+    "neighbors": {
+      "passed": true,
+      "baseline": 229.33393983846008,
+      "neighbor_values": [
+        229.33393870003792,
+        229.33393869830851
+      ]
+    },
+    "steady_start_cycle": 114,
+    "settling_time_s": 323.4806146495384,
+    "window_means": {
+      "5_cycles_simpson": 229.333794972698,
+      "10_cycles_simpson": 229.3340173242296,
+      "20_cycles_simpson": 229.33382349507758,
+      "5_cycles_trapezoid": 229.33379462888306,
+      "10_cycles_trapezoid": 229.33401709551583,
+      "20_cycles_trapezoid": 229.33382328170794
+    },
+    "shooting_audit": {
+      "periodic_residual": 6.522560269672795e-16,
+      "root_residual": 6.522560269672795e-16,
+      "nfev": 1250,
+      "initial_state": [
+        -0.4454681472744155,
+        -0.48211857181232926,
+        0.12775306970976222,
+        0.051952721213939755
+      ]
+    },
+    "boundary_powers_w": [
+      0.0,
+      150.1992894736949
+    ]
+  },
+  "nonlinear": {
+    "optimal_scale": 100000.0,
+    "optimal_exponent": 0.415763072940125,
+    "strict_power_w": 229.99429221704943,
+    "strict_repeat_range_w": 0.0,
+    "transient_20_cycle_power_w": 229.9925284772472,
+    "coarse_best": {
+      "scale": 100000.0,
+      "exponent": 0.4,
+      "average_power_w": 229.86507680826617
+    },
+    "global": {
+      "x": [
+        95575.50769680375,
+        0.40093824286321206
+      ],
+      "power_w": 229.920199361476,
+      "success": true
+    },
+    "local": {
+      "x": [
+        100000.0,
+        0.415763072940125
+      ],
+      "power_w": 229.98118031587535,
+      "success": true
+    },
+    "strict_exponent_refinement": {
+      "exponent": 0.415763072940125,
+      "power_w": 229.9941983437842,
+      "success": true
+    },
+    "neighbors": [
+      {
+        "scale": 99800.0,
+        "exponent": 0.415763072940125,
+        "average_power_w": 229.99083459742374
+      },
+      {
+        "scale": 100000.0,
+        "exponent": 0.415763072940125,
+        "average_power_w": 229.99366924746886
+      },
+      {
+        "scale": 100000.0,
+        "exponent": 0.413763072940125,
+        "average_power_w": 229.99195285823933
+      },
+      {
+        "scale": 100000.0,
+        "exponent": 0.417763072940125,
+        "average_power_w": 229.9917993423059
+      }
+    ],
+    "steady_start_cycle": 113,
+    "settling_time_s": 320.6430653982266,
+    "window_means": {
+      "5_cycles_simpson": 229.99253000786257,
+      "10_cycles_simpson": 229.99248963330896,
+      "20_cycles_simpson": 229.9925284772472,
+      "5_cycles_trapezoid": 229.99471398248826,
+      "10_cycles_trapezoid": 229.99467334123221,
+      "20_cycles_trapezoid": 229.9947122940859
+    },
+    "shooting_audits": [
+      {
+        "periodic_residual": 8.174627641466259e-12,
+        "root_residual": 8.174627641466259e-12,
+        "nfev": 1694,
+        "initial_state": [
+          -0.4454414871749867,
+          -0.481424048060758,
+          0.12931753717516228,
+          0.04920265896014708
+        ]
+      },
+      {
+        "periodic_residual": 8.174627641466259e-12,
+        "root_residual": 8.174627641466259e-12,
+        "nfev": 1694,
+        "initial_state": [
+          -0.4454414871749867,
+          -0.481424048060758,
+          0.12931753717516228,
+          0.04920265896014708
+        ]
+      },
+      {
+        "periodic_residual": 8.174627641466259e-12,
+        "root_residual": 8.174627641466259e-12,
+        "nfev": 1694,
+        "initial_state": [
+          -0.4454414871749867,
+          -0.481424048060758,
+          0.12931753717516228,
+          0.04920265896014708
+        ]
+      }
+    ],
+    "objective_evaluations": 231,
+    "objective_cache_hits": 1
+  }
+}

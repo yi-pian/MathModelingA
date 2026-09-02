@@ -1,0 +1,262 @@
+{
+  "templates": [
+    {
+      "ok": true,
+      "message": "Verified existing Origin graph template; overwrite skipped.",
+      "data": {
+        "name": "SCP_SINGLE_LINE_MAIN_v01",
+        "verified_existing": true,
+        "overwrite_skipped": true
+      }
+    },
+    {
+      "ok": true,
+      "message": "Verified existing Origin graph template; overwrite skipped.",
+      "data": {
+        "name": "SCP_MULTI_LINE_COMPARISON_v01",
+        "verified_existing": true,
+        "overwrite_skipped": true
+      }
+    },
+    {
+      "ok": true,
+      "message": "Verified existing Origin graph template; overwrite skipped.",
+      "data": {
+        "name": "SCP_SENSITIVITY_ANALYTICAL_v01",
+        "verified_existing": true,
+        "overwrite_skipped": true
+      }
+    },
+    {
+      "ok": true,
+      "message": "Verified existing Origin graph template; overwrite skipped.",
+      "data": {
+        "name": "SCP_CONTOUR_MAIN_v01",
+        "verified_existing": true,
+        "overwrite_skipped": true
+      }
+    }
+  ],
+  "library_before": {
+    "ok": true,
+    "message": "Listed Origin user templates.",
+    "data": {
+      "template_dir": "C:\\Users\\YiPian\\.origin-mcp\\templates",
+      "count": 4,
+      "templates": [
+        {
+          "name": "SCP_CONTOUR_MAIN_v01",
+          "slug": "SCP_CONTOUR_MAIN_v01",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_CONTOUR_MAIN_v01.otpu",
+          "created_at": "2026-08-30T05:03:08Z",
+          "description": "Scientific Competition Premium round-one candidate; human aesthetic approval pending.",
+          "tags": [
+            "scientific-competition-premium",
+            "round1",
+            "candidate"
+          ],
+          "plot_types": [
+            "contour",
+            "scatter"
+          ],
+          "roles": [
+            "x",
+            "y",
+            "z",
+            "optimum"
+          ],
+          "n_columns": 4,
+          "layer_count": 1,
+          "plots_count": 2,
+          "source_graph": "Graph4",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_CONTOUR_MAIN_v01.png"
+        },
+        {
+          "name": "SCP_SINGLE_LINE_MAIN_v01",
+          "slug": "SCP_SINGLE_LINE_MAIN_v01",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SINGLE_LINE_MAIN_v01.otpu",
+          "created_at": "2026-08-30T05:03:07Z",
+          "description": "Scientific Competition Premium round-one candidate; human aesthetic approval pending.",
+          "tags": [
+            "scientific-competition-premium",
+            "round1",
+            "candidate"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "x",
+            "y"
+          ],
+          "n_columns": 2,
+          "layer_count": 1,
+          "plots_count": 2,
+          "source_graph": "Graph1",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SINGLE_LINE_MAIN_v01.png"
+        },
+        {
+          "name": "SCP_MULTI_LINE_COMPARISON_v01",
+          "slug": "SCP_MULTI_LINE_COMPARISON_v01",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_MULTI_LINE_COMPARISON_v01.otpu",
+          "created_at": "2026-08-30T05:03:07Z",
+          "description": "Scientific Competition Premium round-one candidate; human aesthetic approval pending.",
+          "tags": [
+            "scientific-competition-premium",
+            "round1",
+            "candidate"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "x",
+            "baseline",
+            "alternatives",
+            "primary"
+          ],
+          "n_columns": 5,
+          "layer_count": 1,
+          "plots_count": 4,
+          "source_graph": "Graph2",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_MULTI_LINE_COMPARISON_v01.png"
+        },
+        {
+          "name": "SCP_SENSITIVITY_ANALYTICAL_v01",
+          "slug": "SCP_SENSITIVITY_ANALYTICAL_v01",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SENSITIVITY_ANALYTICAL_v01.otpu",
+          "created_at": "2026-08-30T05:03:07Z",
+          "description": "Scientific Competition Premium round-one candidate; human aesthetic approval pending.",
+          "tags": [
+            "scientific-competition-premium",
+            "round1",
+            "candidate"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "perturbation",
+            "responses"
+          ],
+          "n_columns": 5,
+          "layer_count": 1,
+          "plots_count": 4,
+          "source_graph": "Graph3",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SENSITIVITY_ANALYTICAL_v01.png"
+        }
+      ]
+    }
+  },
+  "library_after": {
+    "ok": true,
+    "message": "Listed Origin user templates.",
+    "data": {
+      "template_dir": "C:\\Users\\YiPian\\.origin-mcp\\templates",
+      "count": 4,
+      "templates": [
+        {
+          "name": "SCP_CONTOUR_MAIN_v01",
+          "slug": "SCP_CONTOUR_MAIN_v01",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_CONTOUR_MAIN_v01.otpu",
+          "created_at": "2026-08-30T05:03:08Z",
+          "description": "Scientific Competition Premium round-one candidate; human aesthetic approval pending.",
+          "tags": [
+            "scientific-competition-premium",
+            "round1",
+            "candidate"
+          ],
+          "plot_types": [
+            "contour",
+            "scatter"
+          ],
+          "roles": [
+            "x",
+            "y",
+            "z",
+            "optimum"
+          ],
+          "n_columns": 4,
+          "layer_count": 1,
+          "plots_count": 2,
+          "source_graph": "Graph4",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_CONTOUR_MAIN_v01.png"
+        },
+        {
+          "name": "SCP_SINGLE_LINE_MAIN_v01",
+          "slug": "SCP_SINGLE_LINE_MAIN_v01",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SINGLE_LINE_MAIN_v01.otpu",
+          "created_at": "2026-08-30T05:03:07Z",
+          "description": "Scientific Competition Premium round-one candidate; human aesthetic approval pending.",
+          "tags": [
+            "scientific-competition-premium",
+            "round1",
+            "candidate"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "x",
+            "y"
+          ],
+          "n_columns": 2,
+          "layer_count": 1,
+          "plots_count": 2,
+          "source_graph": "Graph1",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SINGLE_LINE_MAIN_v01.png"
+        },
+        {
+          "name": "SCP_MULTI_LINE_COMPARISON_v01",
+          "slug": "SCP_MULTI_LINE_COMPARISON_v01",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_MULTI_LINE_COMPARISON_v01.otpu",
+          "created_at": "2026-08-30T05:03:07Z",
+          "description": "Scientific Competition Premium round-one candidate; human aesthetic approval pending.",
+          "tags": [
+            "scientific-competition-premium",
+            "round1",
+            "candidate"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "x",
+            "baseline",
+            "alternatives",
+            "primary"
+          ],
+          "n_columns": 5,
+          "layer_count": 1,
+          "plots_count": 4,
+          "source_graph": "Graph2",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_MULTI_LINE_COMPARISON_v01.png"
+        },
+        {
+          "name": "SCP_SENSITIVITY_ANALYTICAL_v01",
+          "slug": "SCP_SENSITIVITY_ANALYTICAL_v01",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SENSITIVITY_ANALYTICAL_v01.otpu",
+          "created_at": "2026-08-30T05:03:07Z",
+          "description": "Scientific Competition Premium round-one candidate; human aesthetic approval pending.",
+          "tags": [
+            "scientific-competition-premium",
+            "round1",
+            "candidate"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "perturbation",
+            "responses"
+          ],
+          "n_columns": 5,
+          "layer_count": 1,
+          "plots_count": 4,
+          "source_graph": "Graph3",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SENSITIVITY_ANALYTICAL_v01.png"
+        }
+      ]
+    }
+  }
+}

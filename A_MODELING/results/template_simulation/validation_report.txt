@@ -1,0 +1,7 @@
+========== VALIDATION REPORT ==========
+Finite values            PASS
+Array nonempty           PASS
+Monotonic time           PASS
+Duplicate time points    PASS
+Physical reasonableness  MANUAL CHECK REQUIRED  compare signs, magnitudes and conservation laws with the stated model
+=======================================

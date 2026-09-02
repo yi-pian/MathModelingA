@@ -1,0 +1,11 @@
+========== VALIDATION REPORT ==========
+Q1 status                      PASS
+Q2 status                      PASS
+Q3 status                      PASS
+Q4 status                      PASS
+Q2 nonlinear energy balance    PASS  residual=-3.239e-06 W
+Q4 coupled energy balance      PASS  residual=-4.374e-11 W
+Q1 DOP853/RK45 agreement       PASS  max difference=2.574e-09
+Q3 inertia sensitivity finite  PASS  range=0.0361928..0.0490807 rad
+Official Excel files           PASS
+=======================================

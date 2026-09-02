@@ -1,0 +1,5836 @@
+{
+  "ping": {
+    "ok": true,
+    "message": "Connected to Origin.",
+    "data": {
+      "connected": true,
+      "visible": true,
+      "origin_version": 10.350229,
+      "show_set": true
+    }
+  },
+  "figures": [
+    {
+      "figure_id": "B01_single_line_main",
+      "graph_name": "Graph1",
+      "plan": {
+        "ok": true,
+        "message": "Planned FigureSpec.",
+        "data": {
+          "figure_id": "B01_single_line_main",
+          "title": "B01_single_line_main",
+          "executor_executable": true,
+          "warnings": [],
+          "warning_details": [],
+          "data_validation": {
+            "ok": true,
+            "datasets": [
+              {
+                "id": "data",
+                "source": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\benchmarks\\single_peak_time_curve.csv",
+                "columns": [
+                  "time_h",
+                  "response_index"
+                ],
+                "column_count": 2
+              },
+              {
+                "id": "peak",
+                "source": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\benchmarks\\single_peak_point.csv",
+                "columns": [
+                  "time_h",
+                  "response_index"
+                ],
+                "column_count": 2
+              }
+            ]
+          },
+          "operations": [
+            {
+              "op": "new_project",
+              "show_origin": true
+            },
+            {
+              "op": "load_data",
+              "id": "data",
+              "source": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\benchmarks\\single_peak_time_curve.csv",
+              "object": "worksheet",
+              "roles": {
+                "x": "time_h",
+                "y": "response_index"
+              }
+            },
+            {
+              "op": "load_data",
+              "id": "peak",
+              "source": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\benchmarks\\single_peak_point.csv",
+              "object": "worksheet",
+              "roles": {
+                "x": "time_h",
+                "y": "response_index"
+              }
+            },
+            {
+              "op": "configure_layer",
+              "id": "main",
+              "data_ref": "data",
+              "x": {
+                "title": "Time (h)",
+                "limits": [
+                  0.0,
+                  24.0
+                ],
+                "step": 4.0,
+                "breaks": []
+              },
+              "y": {
+                "title": "Response index",
+                "limits": [
+                  0.0,
+                  90.0
+                ],
+                "step": 15.0,
+                "breaks": []
+              },
+              "z": {
+                "limits": "auto",
+                "breaks": []
+              },
+              "panel_tag": null,
+              "grid_cell": null,
+              "grid_span": null,
+              "position_mode": "grid",
+              "position": {}
+            },
+            {
+              "op": "plot",
+              "id": "response",
+              "type": "line",
+              "layer": "main",
+              "data_ref": "data",
+              "map": {
+                "x": "time_h",
+                "y": "response_index"
+              },
+              "uncertainty": {},
+              "uncertainty_mapping": {},
+              "uncertainty_style": {},
+              "uncertainty_supported": true,
+              "uncertainty_unsupported_keys": [],
+              "group_style": {},
+              "group_style_supported": true,
+              "group_style_supported_keys": [
+                "bar_gap",
+                "bar_gaps",
+                "box_width",
+                "box_widths",
+                "color",
+                "color_scale_limits",
+                "color_scale_ranges",
+                "colormap",
+                "colormaps",
+                "colors",
+                "contour_level_sets",
+                "contour_levels",
+                "contour_minor_level_counts",
+                "contour_minor_levels",
+                "errorbar_cap",
+                "errorbar_caps",
+                "histogram_bin_width",
+                "histogram_bin_widths",
+                "line_style",
+                "line_styles",
+                "line_width",
+                "line_widths",
+                "series",
+                "symbol_kind",
+                "symbol_kinds",
+                "symbol_size",
+                "symbol_sizes",
+                "transparencies",
+                "transparency"
+              ],
+              "group_style_unsupported_keys": []
+            },
+            {
+              "op": "plot",
+              "id": "peak_point",
+              "type": "scatter",
+              "layer": "main",
+              "data_ref": "peak",
+              "map": {
+                "x": "time_h",
+                "y": "response_index"
+              },
+              "uncertainty": {},
+              "uncertainty_mapping": {},
+              "uncertainty_style": {},
+              "uncertainty_supported": true,
+              "uncertainty_unsupported_keys": [],
+              "group_style": {},
+              "group_style_supported": true,
+              "group_style_supported_keys": [
+                "bar_gap",
+                "bar_gaps",
+                "box_width",
+                "box_widths",
+                "color",
+                "color_scale_limits",
+                "color_scale_ranges",
+                "colormap",
+                "colormaps",
+                "colors",
+                "contour_level_sets",
+                "contour_levels",
+                "contour_minor_level_counts",
+                "contour_minor_levels",
+                "errorbar_cap",
+                "errorbar_caps",
+                "histogram_bin_width",
+                "histogram_bin_widths",
+                "line_style",
+                "line_styles",
+                "line_width",
+                "line_widths",
+                "series",
+                "symbol_kind",
+                "symbol_kinds",
+                "symbol_size",
+                "symbol_sizes",
+                "transparencies",
+                "transparency"
+              ],
+              "group_style_unsupported_keys": []
+            },
+            {
+              "op": "qa",
+              "requirements": {
+                "require_axis_titles": true,
+                "require_plots": true,
+                "require_legend": false
+              }
+            }
+          ],
+          "exports": [],
+          "project_path": null
+        }
+      },
+      "execution": {
+        "ok": true,
+        "message": "Executed FigureSpec.",
+        "data": {
+          "figure_id": "B01_single_line_main",
+          "title": "B01_single_line_main",
+          "executor_executable": true,
+          "warnings": [],
+          "warning_details": [],
+          "data_validation": {
+            "ok": true,
+            "datasets": [
+              {
+                "id": "data",
+                "source": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\benchmarks\\single_peak_time_curve.csv",
+                "columns": [
+                  "time_h",
+                  "response_index"
+                ],
+                "column_count": 2
+              },
+              {
+                "id": "peak",
+                "source": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\benchmarks\\single_peak_point.csv",
+                "columns": [
+                  "time_h",
+                  "response_index"
+                ],
+                "column_count": 2
+              }
+            ]
+          },
+          "operations": [
+            {
+              "op": "new_project",
+              "show_origin": true
+            },
+            {
+              "op": "load_data",
+              "id": "data",
+              "source": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\benchmarks\\single_peak_time_curve.csv",
+              "object": "worksheet",
+              "roles": {
+                "x": "time_h",
+                "y": "response_index"
+              }
+            },
+            {
+              "op": "load_data",
+              "id": "peak",
+              "source": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\benchmarks\\single_peak_point.csv",
+              "object": "worksheet",
+              "roles": {
+                "x": "time_h",
+                "y": "response_index"
+              }
+            },
+            {
+              "op": "configure_layer",
+              "id": "main",
+              "data_ref": "data",
+              "x": {
+                "title": "Time (h)",
+                "limits": [
+                  0.0,
+                  24.0
+                ],
+                "step": 4.0,
+                "breaks": []
+              },
+              "y": {
+                "title": "Response index",
+                "limits": [
+                  0.0,
+                  90.0
+                ],
+                "step": 15.0,
+                "breaks": []
+              },
+              "z": {
+                "limits": "auto",
+                "breaks": []
+              },
+              "panel_tag": null,
+              "grid_cell": null,
+              "grid_span": null,
+              "position_mode": "grid",
+              "position": {}
+            },
+            {
+              "op": "plot",
+              "id": "response",
+              "type": "line",
+              "layer": "main",
+              "data_ref": "data",
+              "map": {
+                "x": "time_h",
+                "y": "response_index"
+              },
+              "uncertainty": {},
+              "uncertainty_mapping": {},
+              "uncertainty_style": {},
+              "uncertainty_supported": true,
+              "uncertainty_unsupported_keys": [],
+              "group_style": {},
+              "group_style_supported": true,
+              "group_style_supported_keys": [
+                "bar_gap",
+                "bar_gaps",
+                "box_width",
+                "box_widths",
+                "color",
+                "color_scale_limits",
+                "color_scale_ranges",
+                "colormap",
+                "colormaps",
+                "colors",
+                "contour_level_sets",
+                "contour_levels",
+                "contour_minor_level_counts",
+                "contour_minor_levels",
+                "errorbar_cap",
+                "errorbar_caps",
+                "histogram_bin_width",
+                "histogram_bin_widths",
+                "line_style",
+                "line_styles",
+                "line_width",
+                "line_widths",
+                "series",
+                "symbol_kind",
+                "symbol_kinds",
+                "symbol_size",
+                "symbol_sizes",
+                "transparencies",
+                "transparency"
+              ],
+              "group_style_unsupported_keys": []
+            },
+            {
+              "op": "plot",
+              "id": "peak_point",
+              "type": "scatter",
+              "layer": "main",
+              "data_ref": "peak",
+              "map": {
+                "x": "time_h",
+                "y": "response_index"
+              },
+              "uncertainty": {},
+              "uncertainty_mapping": {},
+              "uncertainty_style": {},
+              "uncertainty_supported": true,
+              "uncertainty_unsupported_keys": [],
+              "group_style": {},
+              "group_style_supported": true,
+              "group_style_supported_keys": [
+                "bar_gap",
+                "bar_gaps",
+                "box_width",
+                "box_widths",
+                "color",
+                "color_scale_limits",
+                "color_scale_ranges",
+                "colormap",
+                "colormaps",
+                "colors",
+                "contour_level_sets",
+                "contour_levels",
+                "contour_minor_level_counts",
+                "contour_minor_levels",
+                "errorbar_cap",
+                "errorbar_caps",
+                "histogram_bin_width",
+                "histogram_bin_widths",
+                "line_style",
+                "line_styles",
+                "line_width",
+                "line_widths",
+                "series",
+                "symbol_kind",
+                "symbol_kinds",
+                "symbol_size",
+                "symbol_sizes",
+                "transparencies",
+                "transparency"
+              ],
+              "group_style_unsupported_keys": []
+            },
+            {
+              "op": "qa",
+              "requirements": {
+                "require_axis_titles": true,
+                "require_plots": true,
+                "require_legend": false
+              }
+            }
+          ],
+          "exports": [],
+          "project_path": null,
+          "executed": true,
+          "worksheets": {
+            "data": {
+              "book_name": "Book2",
+              "sheet_name": "Sheet1",
+              "columns": [
+                "time_h",
+                "response_index"
+              ],
+              "rows": 49
+            },
+            "peak": {
+              "book_name": "Book3",
+              "sheet_name": "Sheet1",
+              "columns": [
+                "time_h",
+                "response_index"
+              ],
+              "rows": 1
+            }
+          },
+          "worksheet": {
+            "book_name": "Book2",
+            "sheet_name": "Sheet1",
+            "columns": [
+              "time_h",
+              "response_index"
+            ],
+            "rows": 49
+          },
+          "graph": {
+            "graph_name": "Graph1",
+            "export_path": null,
+            "template": "line",
+            "style_mode": "nature",
+            "requested_graph_name": "B01_single_line_main",
+            "display_name": "B01_single_line_main",
+            "visual_defaults": {
+              "mode": "conservative",
+              "context": {
+                "raw_chart_type": "line",
+                "chart_variant": "line",
+                "chart_type": "line",
+                "series_count": 1,
+                "row_count": 49,
+                "x_is_categorical": false,
+                "x_is_datetime": false,
+                "x_unique_count": 49,
+                "longest_x_label": 4,
+                "y_min": 12.0,
+                "y_max": 84.0
+              },
+              "legend": {
+                "show": {
+                  "value": true,
+                  "source": "user",
+                  "reason": "explicit_user_value"
+                },
+                "position": {
+                  "value": "inside_upper_right",
+                  "source": "smart_default",
+                  "reason": "least_occupied_corner_with_sufficient_clearance"
+                },
+                "series_labels": {
+                  "value": [
+                    "Response index"
+                  ],
+                  "source": "smart_default",
+                  "reason": "humanized_field_names"
+                },
+                "layout": {
+                  "outside": {
+                    "value": false,
+                    "source": "smart_default",
+                    "reason": "legend_fits_inside_plot_area"
+                  },
+                  "estimated_rows": {
+                    "value": 1,
+                    "source": "smart_default",
+                    "reason": "legend_visibility"
+                  },
+                  "max_label_length": {
+                    "value": 14,
+                    "source": "smart_default",
+                    "reason": "inferred_series_labels"
+                  },
+                  "page_width_aspect_ratio": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "no_external_legend"
+                  },
+                  "right_margin": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "no_external_legend"
+                  },
+                  "inside_candidate": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "lowest_curve_occupancy_candidate"
+                  },
+                  "candidate_collision_fraction": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "fraction_of_a_series_intersecting_the_candidate_legend_box"
+                  },
+                  "estimated_width_fraction": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "legend_label_footprint_estimate"
+                  },
+                  "estimated_height_fraction": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "legend_row_footprint_estimate"
+                  }
+                }
+              },
+              "palette_name": {
+                "value": "lcpmgh_auto",
+                "source": "smart_default",
+                "reason": "match_an_installed_lcpmgh_palette_to_the_series_count"
+              },
+              "marks": {
+                "line_width": {
+                  "value": 3.0,
+                  "source": "smart_default",
+                  "reason": "nature_series_stroke"
+                },
+                "symbol_size": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "not_a_symbol_density_chart"
+                },
+                "transparency": {
+                  "value": 0.0,
+                  "source": "theme",
+                  "reason": "nature_theme_opaque_marks"
+                }
+              },
+              "annotations": {
+                "data_labels": {
+                  "show": {
+                    "value": true,
+                    "source": "smart_default",
+                    "reason": "label_only_the_latest_value_for_each_line"
+                  },
+                  "scope": {
+                    "value": "end",
+                    "source": "smart_default",
+                    "reason": "label_only_the_latest_value_for_each_line"
+                  },
+                  "position": {
+                    "value": "right",
+                    "source": "smart_default",
+                    "reason": "label_only_the_latest_value_for_each_line"
+                  },
+                  "font_size": {
+                    "value": 20,
+                    "source": "smart_default",
+                    "reason": "nature_annotation_typography"
+                  },
+                  "value_source": {
+                    "value": "y",
+                    "source": "smart_default",
+                    "reason": "axis_title_carries_metric_and_unit"
+                  },
+                  "layer_series_counts": {
+                    "value": [
+                      1
+                    ],
+                    "source": "smart_default",
+                    "reason": "apply_labels_only_to_primary_data_series"
+                  },
+                  "layer_formats": {
+                    "value": [
+                      {
+                        "number_format": "decimal",
+                        "decimal_places": 3
+                      }
+                    ],
+                    "source": "smart_default",
+                    "reason": "preserve_source_value_precision_independently_from_axis_ticks"
+                  }
+                },
+                "reference_lines": {
+                  "value": [],
+                  "source": "smart_default",
+                  "reason": "no_semantic_reference_line_inferred"
+                }
+              },
+              "axes": {
+                "x_title": {
+                  "value": "Time (h)",
+                  "source": "user",
+                  "reason": "explicit_user_value"
+                },
+                "y_title": {
+                  "value": "Response index",
+                  "source": "user",
+                  "reason": "explicit_user_value"
+                },
+                "y2_title": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_tick_rotation": {
+                  "value": 0,
+                  "source": "smart_default",
+                  "reason": "numeric_or_temporal_axis"
+                },
+                "x_scale": {
+                  "value": {
+                    "from": 0.0,
+                    "to": 28.0,
+                    "step": 4.0,
+                    "tick_count": 8
+                  },
+                  "source": "smart_default",
+                  "reason": "tidy_numeric_bounds_with_extreme_padding"
+                },
+                "x_datetime_scale": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "non_temporal_x_axis"
+                },
+                "y_scale": {
+                  "value": {
+                    "from": 0.0,
+                    "to": 90.0,
+                    "step": 15.0,
+                    "tick_count": 7
+                  },
+                  "source": "smart_default",
+                  "reason": "tidy_numeric_bounds_with_extreme_padding"
+                },
+                "y2_scale": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_or_specialized_y_axis"
+                },
+                "x_number_format": {
+                  "value": "decimal",
+                  "source": "smart_default",
+                  "reason": "magnitude_and_range"
+                },
+                "x_decimal_places": {
+                  "value": 0,
+                  "source": "smart_default",
+                  "reason": "range_appropriate_precision"
+                },
+                "y_number_format": {
+                  "value": "decimal",
+                  "source": "smart_default",
+                  "reason": "magnitude_and_range"
+                },
+                "y_decimal_places": {
+                  "value": 0,
+                  "source": "smart_default",
+                  "reason": "range_appropriate_precision"
+                },
+                "y2_number_format": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "y2_decimal_places": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_major_ticks": {
+                  "value": 8,
+                  "source": "smart_default",
+                  "reason": "use_wide_canvas_for_seven_x_anchors"
+                },
+                "y_major_ticks": {
+                  "value": 7,
+                  "source": "smart_default",
+                  "reason": "six_major_ticks_for_readable_comparison"
+                },
+                "y2_major_ticks": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_minor_ticks": {
+                  "value": 1,
+                  "source": "smart_default",
+                  "reason": "one_subdivision_between_major_ticks"
+                },
+                "y_minor_ticks": {
+                  "value": 1,
+                  "source": "smart_default",
+                  "reason": "one_subdivision_between_major_ticks"
+                },
+                "y2_minor_ticks": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_major_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "vertical_grid_adds_clutter"
+                },
+                "y_major_grid": {
+                  "value": true,
+                  "source": "smart_default",
+                  "reason": "support_value_comparison"
+                },
+                "y2_major_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "avoid_duplicate_dual_y_grid_lines"
+                },
+                "minor_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "keep_background_quiet"
+                },
+                "top_axis_ticks": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "top_frame_does_not_need_duplicate_ticks"
+                },
+                "y_zero_baseline": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "preserve_data_range"
+                }
+              },
+              "canvas": {
+                "aspect_ratio": {
+                  "value": 1.5,
+                  "source": "smart_default",
+                  "reason": "line_chart_footprint"
+                },
+                "page_aspect_ratio": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_rotated_category_labels"
+                },
+                "bottom_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_rotated_category_labels"
+                },
+                "top_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "default_top_margin_fits"
+                },
+                "page_width_aspect_ratio": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_external_legend"
+                },
+                "left_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "default_tick_labels_fit"
+                },
+                "right_margin": {
+                  "value": 0.14,
+                  "source": "smart_default",
+                  "reason": "reserve_external_legend_or_axis_tick_space"
+                }
+              },
+              "applied": {
+                "axis_script": "win -a \"Graph1\"; layer -s 1; layer.x.label.rotate=0; layer.y.label.numFormat=1; layer.y.label.decPlaces=0; layer.x2.ticks=0; layer.x.label.numFormat=1; layer.x.label.decPlaces=0; layer.x.majorTicks=8; layer.x.minorTicks=1; layer.x.grid.show=0; layer.x.from=0; layer.x.to=28; layer.x.inc=4; layer.x.rescale=1; layer.y.majorTicks=7; layer.y.minorTicks=1; layer.y.grid.show=1; layer.y.grid.majorColor=color(235,235,235); layer.y.grid.majorType=1; layer.y.grid.majorWidth=0.5; layer.y.from=0; layer.y.to=90; layer.y.inc=15; layer.y.rescale=1; page -fls -u -ml 0.08 -mt 0.05 -mr 0.14 -mb 0.08;",
+                "axis_result": {
+                  "result": true
+                },
+                "data_labels": {
+                  "scope": "end",
+                  "position": "right",
+                  "applied": [
+                    {
+                      "layer_index": 0,
+                      "plot_index": 0,
+                      "scope": "end",
+                      "position": "right",
+                      "format": ".3"
+                    }
+                  ],
+                  "warnings": []
+                },
+                "reference_lines": null,
+                "marks": {
+                  "graph_name": "Graph1",
+                  "layer_index": 0,
+                  "styled_plots": 1,
+                  "applied": {
+                    "line_width": 3.0,
+                    "transparency": 0.0
+                  }
+                },
+                "legend": {
+                  "graph_name": "Graph1",
+                  "legend": true,
+                  "position": {
+                    "mode": "layer_anchor",
+                    "position": "inside_upper_right",
+                    "margin_percent": 2.0,
+                    "script": "win -a \"Graph1\"; layer -s 1; legend.x=layer.x.to-(layer.x.to-layer.x.from)*0.02-legend.dx/2; legend.y=layer.y.to-(layer.y.to-layer.y.from)*0.02-legend.dy/2;",
+                    "result": true
+                  }
+                }
+              }
+            }
+          },
+          "command": null,
+          "layer_setup": {
+            "page": null,
+            "added_layers": 0,
+            "arranged": null
+          },
+          "band_updates": [],
+          "added_plots": [
+            {
+              "plot_id": "peak_point",
+              "y_col": "response_index",
+              "graph_name": "Graph1",
+              "layer_index": 0,
+              "worksheet": {
+                "book_name": "Book3",
+                "sheet_name": "Sheet1",
+                "columns": [
+                  "time_h",
+                  "response_index"
+                ],
+                "rows": 1
+              },
+              "x_col": "time_h",
+              "plot_type": "scatter"
+            }
+          ],
+          "axis_updates": [
+            {
+              "layer_index": 0,
+              "graph_name": "Graph1",
+              "axis": "x",
+              "requested": {
+                "start": 0.0,
+                "end": 24.0,
+                "step": 4.0,
+                "title": "Time (h)"
+              },
+              "axis_info": {
+                "title": "Time (h)",
+                "scale": 1,
+                "scale_name": "linear",
+                "limits": [
+                  0.0,
+                  24.0,
+                  4.0
+                ]
+              },
+              "verified": true
+            },
+            {
+              "layer_index": 0,
+              "graph_name": "Graph1",
+              "axis": "y",
+              "requested": {
+                "start": 0.0,
+                "end": 90.0,
+                "step": 15.0,
+                "title": "Response index"
+              },
+              "axis_info": {
+                "title": "Response index",
+                "scale": 1,
+                "scale_name": "linear",
+                "limits": [
+                  0.0,
+                  90.0,
+                  15.0
+                ]
+              },
+              "verified": true
+            }
+          ],
+          "style_updates": [
+            {
+              "plot_id": "response",
+              "series_index": 0,
+              "graph_name": "Graph1",
+              "layer_index": 0,
+              "styled_plots": 1,
+              "applied": {
+                "color": [
+                  31,
+                  78,
+                  121
+                ],
+                "line_width": 2.2,
+                "line_style": 0
+              }
+            },
+            {
+              "plot_id": "peak_point",
+              "series_index": 0,
+              "graph_name": "Graph1",
+              "layer_index": 0,
+              "styled_plots": 1,
+              "applied": {
+                "color": [
+                  201,
+                  123,
+                  42
+                ],
+                "symbol_kind": 3,
+                "symbol_size": 5.5
+              }
+            }
+          ],
+          "annotations": [],
+          "export_inspections": [],
+          "saved_project": null,
+          "diagnostics": {
+            "graph_name": "Graph1",
+            "style": "nature",
+            "palette_name": "nature",
+            "passed": true,
+            "score": 45,
+            "issues": [
+              {
+                "code": "degenerate_axis_limits",
+                "severity": "warning",
+                "message": "Layer 0 Z axis has a zero-width range at 1.0061969855147e-311.",
+                "layer_index": 0,
+                "axis": "z"
+              },
+              {
+                "code": "non_nature_palette_color",
+                "severity": "info",
+                "message": "Plot color is outside the Nature-style palette.",
+                "layer_index": 0,
+                "plot_index": 0
+              },
+              {
+                "code": "semantic_palette_mismatch",
+                "severity": "warning",
+                "message": "Plot color does not match palette role 'hero'.",
+                "layer_index": 0,
+                "plot_index": 0,
+                "palette_role": "hero"
+              },
+              {
+                "code": "non_nature_palette_color",
+                "severity": "info",
+                "message": "Plot color is outside the Nature-style palette.",
+                "layer_index": 0,
+                "plot_index": 1
+              },
+              {
+                "code": "semantic_palette_mismatch",
+                "severity": "warning",
+                "message": "Plot color does not match palette role 'neutral'.",
+                "layer_index": 0,
+                "plot_index": 1,
+                "palette_role": "neutral"
+              }
+            ],
+            "checklist": [
+              {
+                "name": "layers",
+                "active": true,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "plots",
+                "active": true,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "axis_titles",
+                "active": true,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "palette",
+                "active": true,
+                "passed": false,
+                "issues": [
+                  "non_nature_palette_color",
+                  "semantic_palette_mismatch"
+                ]
+              },
+              {
+                "name": "transparency",
+                "active": true,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "symbols",
+                "active": true,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "legend",
+                "active": false,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "panel_label",
+                "active": false,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "scale_bar",
+                "active": false,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "channel_label",
+                "active": false,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "dynamic_range",
+                "active": false,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "export_quality",
+                "active": false,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "export_dimensions",
+                "active": false,
+                "passed": true,
+                "issues": []
+              }
+            ],
+            "summary": {
+              "layers": 1,
+              "plots": 2,
+              "errors": 0,
+              "warnings": 3,
+              "info": 2
+            }
+          }
+        }
+      },
+      "compact_style": {
+        "nature": {
+          "ok": true,
+          "message": "Read Origin bridge task status.",
+          "data": {
+            "task": {
+              "task_id": "65b1d993-94f4-41ba-bc0a-64c3dd3ffbc7",
+              "method": "apply_nature_style",
+              "status": "completed",
+              "submitted_at": 1788066332.5927665,
+              "started_at": 1788066332.593763,
+              "finished_at": 1788066332.747535,
+              "updated_at": 1788066332.747535,
+              "progress": 1.0,
+              "current_step": "Completed",
+              "cancel_requested": false,
+              "result": {
+                "graph_name": "Graph1",
+                "style": "nature",
+                "output_profile": "screen",
+                "style_profile": {
+                  "name": "screen",
+                  "display_name": "Screen / interactive",
+                  "target_width_mm": null,
+                  "axis_title_size": 20,
+                  "tick_label_size": 20,
+                  "legend_font_size": 20,
+                  "annotation_font_size": 20,
+                  "line_width": 3.0,
+                  "symbol_size": 10.0,
+                  "tick_length": 3,
+                  "best_for": "Interactive Origin use, previews, and large on-screen figures."
+                },
+                "resolved_style": {
+                  "axis_title_size": 8,
+                  "tick_label_size": 7,
+                  "legend_font_size": 7,
+                  "line_width": 1.2,
+                  "symbol_size": 5.0,
+                  "tick_length": 3
+                },
+                "style_sources": {
+                  "axis_title_size": "user",
+                  "tick_label_size": "user",
+                  "legend_font_size": "user",
+                  "line_width": "user",
+                  "symbol_size": "user",
+                  "tick_length": "user"
+                },
+                "palette_name": "nature",
+                "chart_type": "line",
+                "font_family": "Arial",
+                "transparency": 0.0,
+                "palette": [
+                  [
+                    39,
+                    68,
+                    124
+                  ],
+                  [
+                    72,
+                    113,
+                    179
+                  ],
+                  [
+                    231,
+                    60,
+                    54
+                  ],
+                  [
+                    153,
+                    31,
+                    34
+                  ],
+                  [
+                    184,
+                    134,
+                    64
+                  ],
+                  [
+                    22,
+                    134,
+                    118
+                  ]
+                ],
+                "semantic_palette": {
+                  "hero": [
+                    39,
+                    68,
+                    124
+                  ],
+                  "secondary": [
+                    72,
+                    113,
+                    179
+                  ],
+                  "baseline": [
+                    231,
+                    60,
+                    54
+                  ],
+                  "negative": [
+                    153,
+                    31,
+                    34
+                  ],
+                  "accent": [
+                    184,
+                    134,
+                    64
+                  ],
+                  "warning": [
+                    184,
+                    134,
+                    64
+                  ],
+                  "positive": [
+                    22,
+                    134,
+                    118
+                  ],
+                  "neutral": [
+                    107,
+                    107,
+                    107
+                  ],
+                  "background": [
+                    244,
+                    243,
+                    238
+                  ]
+                },
+                "palette_role": null,
+                "applied_palette_roles": [
+                  "category_1",
+                  "category_2"
+                ],
+                "series_distinction": {
+                  "enabled": false,
+                  "strategy": "none",
+                  "assignments": [],
+                  "warning": null
+                },
+                "styled_layers": [
+                  0
+                ],
+                "styled_plots": 2,
+                "script": "win -a \"Graph1\"; layer -s 1; layer.x.label.font=font(Arial); layer.y.label.font=font(Arial); layer.x.ticklabel.font=font(Arial); layer.y.ticklabel.font=font(Arial); layer.x.label.pt=8; layer.y.label.pt=8; layer.x.ticklabel.pt=7; layer.y.ticklabel.pt=7; xb.font=font(Arial); yl.font=font(Arial); xb.text$=\"Time (h)\"; yl.text$=\"Response index\"; xb.fsize=8; yl.fsize=8; layer.x.ticks.len=3; layer.y.ticks.len=3; range __omcpNaturePlot1 = !1; set __omcpNaturePlot1 -w 600; set __omcpNaturePlot1 -wp 1.2; range __omcpNaturePlot2 = !2; set __omcpNaturePlot2 -w 600; set __omcpNaturePlot2 -wp 1.2;",
+                "result": true
+              },
+              "logs": [
+                {
+                  "time": 1788066332.593763,
+                  "level": "info",
+                  "message": "Task started."
+                },
+                {
+                  "time": 1788066332.593763,
+                  "level": "info",
+                  "message": "Dispatching apply_nature_style."
+                },
+                {
+                  "time": 1788066332.593763,
+                  "level": "info",
+                  "message": "Running apply_nature_style."
+                },
+                {
+                  "time": 1788066332.747535,
+                  "level": "info",
+                  "message": "apply_nature_style completed."
+                },
+                {
+                  "time": 1788066332.747535,
+                  "level": "info",
+                  "message": "Task completed."
+                }
+              ]
+            }
+          }
+        },
+        "arrange": {
+          "ok": true,
+          "message": "Read Origin bridge task status.",
+          "data": {
+            "task": {
+              "task_id": "83971302-073d-43ae-b416-6d921c761733",
+              "method": "arrange_layers",
+              "status": "completed",
+              "submitted_at": 1788066332.8101857,
+              "started_at": 1788066332.811267,
+              "finished_at": 1788066332.8162718,
+              "updated_at": 1788066332.8162718,
+              "progress": 1.0,
+              "current_step": "Completed",
+              "cancel_requested": false,
+              "result": {
+                "graph_name": "Graph1",
+                "rows": 1,
+                "columns": 1,
+                "script": "layarrange row:=1 col:=1;",
+                "layer_geometries": [
+                  {
+                    "layer_index": 0,
+                    "left": 19,
+                    "top": 7,
+                    "width": 75,
+                    "height": 65
+                  }
+                ],
+                "geometry_script": "layer -s 1; layer.left=19.0; layer.top=7.0; layer.width=75.0; layer.height=65.0;",
+                "geometry_result": {
+                  "result": true
+                },
+                "result": true
+              },
+              "logs": [
+                {
+                  "time": 1788066332.811267,
+                  "level": "info",
+                  "message": "Task started."
+                },
+                {
+                  "time": 1788066332.811267,
+                  "level": "info",
+                  "message": "Dispatching arrange_layers."
+                },
+                {
+                  "time": 1788066332.811267,
+                  "level": "info",
+                  "message": "Running arrange_layers."
+                },
+                {
+                  "time": 1788066332.8162718,
+                  "level": "info",
+                  "message": "arrange_layers completed."
+                },
+                {
+                  "time": 1788066332.8162718,
+                  "level": "info",
+                  "message": "Task completed."
+                }
+              ]
+            }
+          }
+        },
+        "grid_and_opposite_axes": {
+          "ok": true,
+          "message": "Executed LabTalk script.",
+          "data": {
+            "result": true,
+            "message_log": {
+              "captured": true,
+              "source": "LabTalk type -gb/type -ge",
+              "line_count": 0,
+              "lines": [],
+              "start_result": true,
+              "end_result": true
+            }
+          }
+        },
+        "series": [
+          {
+            "ok": true,
+            "message": "Updated Origin plot style.",
+            "data": {
+              "graph_name": "Graph1",
+              "layer_index": 0,
+              "styled_plots": 1,
+              "applied": {
+                "color": [
+                  31,
+                  78,
+                  121
+                ],
+                "line_width": 1.6,
+                "line_style": 0
+              }
+            }
+          },
+          {
+            "ok": true,
+            "message": "Updated Origin plot style.",
+            "data": {
+              "graph_name": "Graph1",
+              "layer_index": 0,
+              "styled_plots": 1,
+              "applied": {
+                "color": [
+                  201,
+                  123,
+                  42
+                ],
+                "line_width": 0.4,
+                "symbol_kind": 2,
+                "symbol_size": 3.8
+              }
+            }
+          }
+        ],
+        "legend": null
+      },
+      "format": {
+        "ok": true,
+        "message": "Formatted Origin graph.",
+        "data": {
+          "graph_name": "Graph1",
+          "formatted": true
+        }
+      },
+      "graph_info": {
+        "ok": true,
+        "message": "Collected Origin graph information.",
+        "data": {
+          "graph_name": "Graph1",
+          "long_name": "B01_single_line_main",
+          "layers_count": 1,
+          "layers": [
+            {
+              "index": 0,
+              "name": "Layer1",
+              "plots_count": 2,
+              "plots": [
+                {
+                  "index": 0,
+                  "name": "Book2_B",
+                  "color": [
+                    31,
+                    78,
+                    121
+                  ],
+                  "line_width": null,
+                  "bar_gap": 0,
+                  "line_style": null,
+                  "symbol_kind": 0,
+                  "symbol_size": 5.0,
+                  "transparency": 0.0,
+                  "colormap": "Classic",
+                  "zlevels": {
+                    "minors": 0,
+                    "levels": [
+                      1.005884871298e-311
+                    ]
+                  }
+                },
+                {
+                  "index": 1,
+                  "name": "Book3_B",
+                  "color": [
+                    201,
+                    123,
+                    42
+                  ],
+                  "line_width": null,
+                  "bar_gap": 0,
+                  "line_style": null,
+                  "symbol_kind": 2,
+                  "symbol_size": 3.8,
+                  "transparency": 0.0,
+                  "colormap": "Classic",
+                  "zlevels": {
+                    "minors": 0,
+                    "levels": [
+                      1.0058848720725e-311
+                    ]
+                  }
+                }
+              ],
+              "axes": {
+                "x": {
+                  "title": "Time (h)",
+                  "scale": 1,
+                  "scale_name": "linear",
+                  "limits": [
+                    0.0,
+                    24.0,
+                    4.0
+                  ]
+                },
+                "y": {
+                  "title": "Response index",
+                  "scale": 1,
+                  "scale_name": "linear",
+                  "limits": [
+                    0.0,
+                    90.0,
+                    15.0
+                  ]
+                },
+                "z": {
+                  "title": "",
+                  "scale": 0,
+                  "scale_name": "0",
+                  "limits": [
+                    1.006196986092e-311,
+                    1.0061969862024e-311,
+                    1.0061969859416e-311
+                  ]
+                }
+              },
+              "labels": [],
+              "legend_present": false,
+              "panel_label_present": false
+            }
+          ]
+        }
+      },
+      "exports": [
+        {
+          "ok": true,
+          "message": "Executed LabTalk script.",
+          "data": {
+            "result": true,
+            "message_log": {
+              "captured": true,
+              "source": "LabTalk type -gb/type -ge",
+              "line_count": 0,
+              "lines": [],
+              "start_result": true,
+              "end_result": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\B01_single_line_main.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\B01_single_line_main.pdf",
+              "exists": true,
+              "size_bytes": 2637,
+              "suffix": ".pdf",
+              "sha256": "3c09ced4c020f0f25f4b66cf0fc37866e3efaa8eb1c452a32b30de32ac193d41",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\B01_single_line_main.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\B01_single_line_main.svg",
+              "exists": true,
+              "size_bytes": 7946,
+              "suffix": ".svg",
+              "sha256": "1c624f3f31937de6cc5d222da057d858b0a15dbbaabfebdfd6ff278ec40963d1",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "figure_id": "B02_multi_line_comparison",
+      "graph_name": "Graph2",
+      "plan": {
+        "ok": true,
+        "message": "Planned FigureSpec.",
+        "data": {
+          "figure_id": "B02_multi_line_comparison",
+          "title": "B02_multi_line_comparison",
+          "executor_executable": true,
+          "warnings": [],
+          "warning_details": [],
+          "data_validation": {
+            "ok": true,
+            "datasets": [
+              {
+                "id": "data",
+                "source": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\benchmarks\\multi_solution_time_curves.csv",
+                "columns": [
+                  "time_h",
+                  "baseline",
+                  "conservative",
+                  "aggressive",
+                  "proposed"
+                ],
+                "column_count": 5
+              }
+            ]
+          },
+          "operations": [
+            {
+              "op": "load_data",
+              "id": "data",
+              "source": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\benchmarks\\multi_solution_time_curves.csv",
+              "object": "worksheet",
+              "roles": {
+                "x": "time_h",
+                "y": [
+                  "baseline",
+                  "conservative",
+                  "aggressive",
+                  "proposed"
+                ]
+              }
+            },
+            {
+              "op": "configure_layer",
+              "id": "main",
+              "data_ref": "data",
+              "x": {
+                "title": "Time (h)",
+                "limits": [
+                  0.0,
+                  24.0
+                ],
+                "step": 4.0,
+                "breaks": []
+              },
+              "y": {
+                "title": "Performance index",
+                "limits": [
+                  20.0,
+                  100.0
+                ],
+                "step": 10.0,
+                "breaks": []
+              },
+              "z": {
+                "limits": "auto",
+                "breaks": []
+              },
+              "panel_tag": null,
+              "grid_cell": null,
+              "grid_span": null,
+              "position_mode": "grid",
+              "position": {}
+            },
+            {
+              "op": "plot",
+              "id": "strategies",
+              "type": "line",
+              "layer": "main",
+              "data_ref": "data",
+              "map": {
+                "x": "time_h",
+                "y": [
+                  "baseline",
+                  "conservative",
+                  "aggressive",
+                  "proposed"
+                ]
+              },
+              "uncertainty": {},
+              "uncertainty_mapping": {},
+              "uncertainty_style": {},
+              "uncertainty_supported": true,
+              "uncertainty_unsupported_keys": [],
+              "group_style": {
+                "series": [
+                  {
+                    "color": [
+                      122,
+                      127,
+                      135
+                    ],
+                    "line_width": 1.25,
+                    "line_style": 1
+                  },
+                  {
+                    "color": [
+                      91,
+                      143,
+                      168
+                    ],
+                    "line_width": 1.45,
+                    "line_style": 2
+                  },
+                  {
+                    "color": [
+                      63,
+                      125,
+                      108
+                    ],
+                    "line_width": 1.45,
+                    "line_style": 3
+                  },
+                  {
+                    "color": [
+                      31,
+                      78,
+                      121
+                    ],
+                    "line_width": 2.2,
+                    "line_style": 0
+                  }
+                ]
+              },
+              "group_style_supported": true,
+              "group_style_supported_keys": [
+                "bar_gap",
+                "bar_gaps",
+                "box_width",
+                "box_widths",
+                "color",
+                "color_scale_limits",
+                "color_scale_ranges",
+                "colormap",
+                "colormaps",
+                "colors",
+                "contour_level_sets",
+                "contour_levels",
+                "contour_minor_level_counts",
+                "contour_minor_levels",
+                "errorbar_cap",
+                "errorbar_caps",
+                "histogram_bin_width",
+                "histogram_bin_widths",
+                "line_style",
+                "line_styles",
+                "line_width",
+                "line_widths",
+                "series",
+                "symbol_kind",
+                "symbol_kinds",
+                "symbol_size",
+                "symbol_sizes",
+                "transparencies",
+                "transparency"
+              ],
+              "group_style_unsupported_keys": []
+            },
+            {
+              "op": "annotate",
+              "id": null,
+              "type": "legend",
+              "layer": "main",
+              "text": null,
+              "location": "top-left"
+            },
+            {
+              "op": "qa",
+              "requirements": {
+                "require_axis_titles": true,
+                "require_plots": true,
+                "require_legend": false
+              }
+            }
+          ],
+          "exports": [],
+          "project_path": null
+        }
+      },
+      "execution": {
+        "ok": true,
+        "message": "Executed FigureSpec.",
+        "data": {
+          "figure_id": "B02_multi_line_comparison",
+          "title": "B02_multi_line_comparison",
+          "executor_executable": true,
+          "warnings": [],
+          "warning_details": [],
+          "data_validation": {
+            "ok": true,
+            "datasets": [
+              {
+                "id": "data",
+                "source": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\benchmarks\\multi_solution_time_curves.csv",
+                "columns": [
+                  "time_h",
+                  "baseline",
+                  "conservative",
+                  "aggressive",
+                  "proposed"
+                ],
+                "column_count": 5
+              }
+            ]
+          },
+          "operations": [
+            {
+              "op": "load_data",
+              "id": "data",
+              "source": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\benchmarks\\multi_solution_time_curves.csv",
+              "object": "worksheet",
+              "roles": {
+                "x": "time_h",
+                "y": [
+                  "baseline",
+                  "conservative",
+                  "aggressive",
+                  "proposed"
+                ]
+              }
+            },
+            {
+              "op": "configure_layer",
+              "id": "main",
+              "data_ref": "data",
+              "x": {
+                "title": "Time (h)",
+                "limits": [
+                  0.0,
+                  24.0
+                ],
+                "step": 4.0,
+                "breaks": []
+              },
+              "y": {
+                "title": "Performance index",
+                "limits": [
+                  20.0,
+                  100.0
+                ],
+                "step": 10.0,
+                "breaks": []
+              },
+              "z": {
+                "limits": "auto",
+                "breaks": []
+              },
+              "panel_tag": null,
+              "grid_cell": null,
+              "grid_span": null,
+              "position_mode": "grid",
+              "position": {}
+            },
+            {
+              "op": "plot",
+              "id": "strategies",
+              "type": "line",
+              "layer": "main",
+              "data_ref": "data",
+              "map": {
+                "x": "time_h",
+                "y": [
+                  "baseline",
+                  "conservative",
+                  "aggressive",
+                  "proposed"
+                ]
+              },
+              "uncertainty": {},
+              "uncertainty_mapping": {},
+              "uncertainty_style": {},
+              "uncertainty_supported": true,
+              "uncertainty_unsupported_keys": [],
+              "group_style": {
+                "series": [
+                  {
+                    "color": [
+                      122,
+                      127,
+                      135
+                    ],
+                    "line_width": 1.25,
+                    "line_style": 1
+                  },
+                  {
+                    "color": [
+                      91,
+                      143,
+                      168
+                    ],
+                    "line_width": 1.45,
+                    "line_style": 2
+                  },
+                  {
+                    "color": [
+                      63,
+                      125,
+                      108
+                    ],
+                    "line_width": 1.45,
+                    "line_style": 3
+                  },
+                  {
+                    "color": [
+                      31,
+                      78,
+                      121
+                    ],
+                    "line_width": 2.2,
+                    "line_style": 0
+                  }
+                ]
+              },
+              "group_style_supported": true,
+              "group_style_supported_keys": [
+                "bar_gap",
+                "bar_gaps",
+                "box_width",
+                "box_widths",
+                "color",
+                "color_scale_limits",
+                "color_scale_ranges",
+                "colormap",
+                "colormaps",
+                "colors",
+                "contour_level_sets",
+                "contour_levels",
+                "contour_minor_level_counts",
+                "contour_minor_levels",
+                "errorbar_cap",
+                "errorbar_caps",
+                "histogram_bin_width",
+                "histogram_bin_widths",
+                "line_style",
+                "line_styles",
+                "line_width",
+                "line_widths",
+                "series",
+                "symbol_kind",
+                "symbol_kinds",
+                "symbol_size",
+                "symbol_sizes",
+                "transparencies",
+                "transparency"
+              ],
+              "group_style_unsupported_keys": []
+            },
+            {
+              "op": "annotate",
+              "id": null,
+              "type": "legend",
+              "layer": "main",
+              "text": null,
+              "location": "top-left"
+            },
+            {
+              "op": "qa",
+              "requirements": {
+                "require_axis_titles": true,
+                "require_plots": true,
+                "require_legend": false
+              }
+            }
+          ],
+          "exports": [],
+          "project_path": null,
+          "executed": true,
+          "worksheets": {
+            "data": {
+              "book_name": "Book4",
+              "sheet_name": "Sheet1",
+              "columns": [
+                "time_h",
+                "baseline",
+                "conservative",
+                "aggressive",
+                "proposed"
+              ],
+              "rows": 49
+            }
+          },
+          "worksheet": {
+            "book_name": "Book4",
+            "sheet_name": "Sheet1",
+            "columns": [
+              "time_h",
+              "baseline",
+              "conservative",
+              "aggressive",
+              "proposed"
+            ],
+            "rows": 49
+          },
+          "graph": {
+            "graph_name": "Graph2",
+            "export_path": null,
+            "template": "line",
+            "style_mode": "nature",
+            "requested_graph_name": "B02_multi_line_comparison",
+            "display_name": "B02_multi_line_comparison",
+            "visual_defaults": {
+              "mode": "conservative",
+              "context": {
+                "raw_chart_type": "line",
+                "chart_variant": "line",
+                "chart_type": "line",
+                "series_count": 4,
+                "row_count": 49,
+                "x_is_categorical": false,
+                "x_is_datetime": false,
+                "x_unique_count": 49,
+                "longest_x_label": 4,
+                "y_min": 25.0,
+                "y_max": 93.064457
+              },
+              "legend": {
+                "show": {
+                  "value": true,
+                  "source": "user",
+                  "reason": "explicit_user_value"
+                },
+                "position": {
+                  "value": "inside_lower_right",
+                  "source": "smart_default",
+                  "reason": "least_occupied_corner_with_sufficient_clearance"
+                },
+                "series_labels": {
+                  "value": [
+                    "Baseline",
+                    "Conservative",
+                    "Aggressive",
+                    "Proposed"
+                  ],
+                  "source": "smart_default",
+                  "reason": "humanized_field_names"
+                },
+                "layout": {
+                  "outside": {
+                    "value": false,
+                    "source": "smart_default",
+                    "reason": "data_free_inside_region_available"
+                  },
+                  "estimated_rows": {
+                    "value": 4,
+                    "source": "smart_default",
+                    "reason": "legend_visibility"
+                  },
+                  "max_label_length": {
+                    "value": 12,
+                    "source": "smart_default",
+                    "reason": "inferred_series_labels"
+                  },
+                  "page_width_aspect_ratio": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "no_external_legend"
+                  },
+                  "right_margin": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "no_external_legend"
+                  },
+                  "inside_candidate": {
+                    "value": "inside_lower_right",
+                    "source": "smart_default",
+                    "reason": "lowest_curve_occupancy_candidate"
+                  },
+                  "candidate_collision_fraction": {
+                    "value": 0.0,
+                    "source": "smart_default",
+                    "reason": "fraction_of_a_series_intersecting_the_candidate_legend_box"
+                  },
+                  "estimated_width_fraction": {
+                    "value": 0.292,
+                    "source": "smart_default",
+                    "reason": "legend_label_footprint_estimate"
+                  },
+                  "estimated_height_fraction": {
+                    "value": 0.31,
+                    "source": "smart_default",
+                    "reason": "legend_row_footprint_estimate"
+                  }
+                }
+              },
+              "palette_name": {
+                "value": "lcpmgh_auto",
+                "source": "smart_default",
+                "reason": "match_an_installed_lcpmgh_palette_to_the_series_count"
+              },
+              "marks": {
+                "line_width": {
+                  "value": 3.0,
+                  "source": "smart_default",
+                  "reason": "nature_series_stroke"
+                },
+                "symbol_size": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "not_a_symbol_density_chart"
+                },
+                "transparency": {
+                  "value": 0.0,
+                  "source": "theme",
+                  "reason": "nature_theme_opaque_marks"
+                }
+              },
+              "annotations": {
+                "data_labels": {
+                  "show": {
+                    "value": true,
+                    "source": "smart_default",
+                    "reason": "label_only_the_latest_value_for_each_line"
+                  },
+                  "scope": {
+                    "value": "end",
+                    "source": "smart_default",
+                    "reason": "label_only_the_latest_value_for_each_line"
+                  },
+                  "position": {
+                    "value": "right",
+                    "source": "smart_default",
+                    "reason": "label_only_the_latest_value_for_each_line"
+                  },
+                  "font_size": {
+                    "value": 20,
+                    "source": "smart_default",
+                    "reason": "nature_annotation_typography"
+                  },
+                  "value_source": {
+                    "value": "y",
+                    "source": "smart_default",
+                    "reason": "axis_title_carries_metric_and_unit"
+                  },
+                  "layer_series_counts": {
+                    "value": [
+                      4
+                    ],
+                    "source": "smart_default",
+                    "reason": "apply_labels_only_to_primary_data_series"
+                  },
+                  "layer_formats": {
+                    "value": [
+                      {
+                        "number_format": "decimal",
+                        "decimal_places": 3
+                      }
+                    ],
+                    "source": "smart_default",
+                    "reason": "preserve_source_value_precision_independently_from_axis_ticks"
+                  }
+                },
+                "reference_lines": {
+                  "value": [],
+                  "source": "smart_default",
+                  "reason": "no_semantic_reference_line_inferred"
+                }
+              },
+              "axes": {
+                "x_title": {
+                  "value": "Time (h)",
+                  "source": "user",
+                  "reason": "explicit_user_value"
+                },
+                "y_title": {
+                  "value": "Performance index",
+                  "source": "user",
+                  "reason": "explicit_user_value"
+                },
+                "y2_title": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_tick_rotation": {
+                  "value": 0,
+                  "source": "smart_default",
+                  "reason": "numeric_or_temporal_axis"
+                },
+                "x_scale": {
+                  "value": {
+                    "from": 0.0,
+                    "to": 28.0,
+                    "step": 4.0,
+                    "tick_count": 8
+                  },
+                  "source": "smart_default",
+                  "reason": "tidy_numeric_bounds_with_extreme_padding"
+                },
+                "x_datetime_scale": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "non_temporal_x_axis"
+                },
+                "y_scale": {
+                  "value": {
+                    "from": 20.0,
+                    "to": 100.0,
+                    "step": 20.0,
+                    "tick_count": 5
+                  },
+                  "source": "smart_default",
+                  "reason": "tidy_numeric_bounds_with_extreme_padding"
+                },
+                "y2_scale": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_or_specialized_y_axis"
+                },
+                "x_number_format": {
+                  "value": "decimal",
+                  "source": "smart_default",
+                  "reason": "magnitude_and_range"
+                },
+                "x_decimal_places": {
+                  "value": 0,
+                  "source": "smart_default",
+                  "reason": "range_appropriate_precision"
+                },
+                "y_number_format": {
+                  "value": "decimal",
+                  "source": "smart_default",
+                  "reason": "magnitude_and_range"
+                },
+                "y_decimal_places": {
+                  "value": 0,
+                  "source": "smart_default",
+                  "reason": "range_appropriate_precision"
+                },
+                "y2_number_format": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "y2_decimal_places": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_major_ticks": {
+                  "value": 8,
+                  "source": "smart_default",
+                  "reason": "use_wide_canvas_for_seven_x_anchors"
+                },
+                "y_major_ticks": {
+                  "value": 5,
+                  "source": "smart_default",
+                  "reason": "six_major_ticks_for_readable_comparison"
+                },
+                "y2_major_ticks": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_minor_ticks": {
+                  "value": 1,
+                  "source": "smart_default",
+                  "reason": "one_subdivision_between_major_ticks"
+                },
+                "y_minor_ticks": {
+                  "value": 1,
+                  "source": "smart_default",
+                  "reason": "one_subdivision_between_major_ticks"
+                },
+                "y2_minor_ticks": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_major_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "vertical_grid_adds_clutter"
+                },
+                "y_major_grid": {
+                  "value": true,
+                  "source": "smart_default",
+                  "reason": "support_value_comparison"
+                },
+                "y2_major_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "avoid_duplicate_dual_y_grid_lines"
+                },
+                "minor_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "keep_background_quiet"
+                },
+                "top_axis_ticks": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "top_frame_does_not_need_duplicate_ticks"
+                },
+                "y_zero_baseline": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "preserve_data_range"
+                }
+              },
+              "canvas": {
+                "aspect_ratio": {
+                  "value": 1.5,
+                  "source": "smart_default",
+                  "reason": "line_chart_footprint"
+                },
+                "page_aspect_ratio": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_rotated_category_labels"
+                },
+                "bottom_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_rotated_category_labels"
+                },
+                "top_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "default_top_margin_fits"
+                },
+                "page_width_aspect_ratio": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_external_legend"
+                },
+                "left_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "default_tick_labels_fit"
+                },
+                "right_margin": {
+                  "value": 0.14,
+                  "source": "smart_default",
+                  "reason": "reserve_external_legend_or_axis_tick_space"
+                }
+              },
+              "applied": {
+                "axis_script": "win -a \"Graph2\"; layer -s 1; layer.x.label.rotate=0; layer.y.label.numFormat=1; layer.y.label.decPlaces=0; layer.x2.ticks=0; layer.x.label.numFormat=1; layer.x.label.decPlaces=0; layer.x.majorTicks=8; layer.x.minorTicks=1; layer.x.grid.show=0; layer.x.from=0; layer.x.to=28; layer.x.inc=4; layer.x.rescale=1; layer.y.majorTicks=5; layer.y.minorTicks=1; layer.y.grid.show=1; layer.y.grid.majorColor=color(235,235,235); layer.y.grid.majorType=1; layer.y.grid.majorWidth=0.5; layer.y.from=20; layer.y.to=100; layer.y.inc=20; layer.y.rescale=1; page -fls -u -ml 0.08 -mt 0.05 -mr 0.14 -mb 0.08;",
+                "axis_result": {
+                  "result": true
+                },
+                "data_labels": {
+                  "scope": "end",
+                  "position": "right",
+                  "applied": [
+                    {
+                      "layer_index": 0,
+                      "plot_index": 0,
+                      "scope": "end",
+                      "position": "right",
+                      "format": ".3"
+                    },
+                    {
+                      "layer_index": 0,
+                      "plot_index": 1,
+                      "scope": "end",
+                      "position": "right",
+                      "format": ".3"
+                    },
+                    {
+                      "layer_index": 0,
+                      "plot_index": 2,
+                      "scope": "end",
+                      "position": "right",
+                      "format": ".3"
+                    },
+                    {
+                      "layer_index": 0,
+                      "plot_index": 3,
+                      "scope": "end",
+                      "position": "right",
+                      "format": ".3"
+                    }
+                  ],
+                  "warnings": []
+                },
+                "reference_lines": null,
+                "marks": {
+                  "graph_name": "Graph2",
+                  "layer_index": 0,
+                  "styled_plots": 4,
+                  "applied": {
+                    "line_width": 3.0,
+                    "transparency": 0.0
+                  }
+                },
+                "legend": {
+                  "graph_name": "Graph2",
+                  "legend": true,
+                  "position": {
+                    "mode": "layer_anchor",
+                    "position": "inside_lower_right",
+                    "margin_percent": 2.0,
+                    "script": "win -a \"Graph2\"; layer -s 1; legend.x=layer.x.to-(layer.x.to-layer.x.from)*0.02-legend.dx/2; legend.y=layer.y.from+(layer.y.to-layer.y.from)*0.02+legend.dy/2;",
+                    "result": true
+                  }
+                }
+              }
+            }
+          },
+          "command": null,
+          "layer_setup": {
+            "page": null,
+            "added_layers": 0,
+            "arranged": null
+          },
+          "band_updates": [],
+          "added_plots": [],
+          "axis_updates": [
+            {
+              "layer_index": 0,
+              "graph_name": "Graph2",
+              "axis": "x",
+              "requested": {
+                "start": 0.0,
+                "end": 24.0,
+                "step": 4.0,
+                "title": "Time (h)"
+              },
+              "axis_info": {
+                "title": "Time (h)",
+                "scale": 1,
+                "scale_name": "linear",
+                "limits": [
+                  0.0,
+                  24.0,
+                  4.0
+                ]
+              },
+              "verified": true
+            },
+            {
+              "layer_index": 0,
+              "graph_name": "Graph2",
+              "axis": "y",
+              "requested": {
+                "start": 20.0,
+                "end": 100.0,
+                "step": 10.0,
+                "title": "Performance index"
+              },
+              "axis_info": {
+                "title": "Performance index",
+                "scale": 1,
+                "scale_name": "linear",
+                "limits": [
+                  20.0,
+                  100.0,
+                  10.0
+                ]
+              },
+              "verified": true
+            }
+          ],
+          "style_updates": [
+            {
+              "plot_id": "strategies",
+              "series_index": 0,
+              "graph_name": "Graph2",
+              "layer_index": 0,
+              "styled_plots": 1,
+              "applied": {
+                "color": [
+                  122,
+                  127,
+                  135
+                ],
+                "line_width": 1.25,
+                "line_style": 1
+              }
+            },
+            {
+              "plot_id": "strategies",
+              "series_index": 1,
+              "graph_name": "Graph2",
+              "layer_index": 0,
+              "styled_plots": 1,
+              "applied": {
+                "color": [
+                  91,
+                  143,
+                  168
+                ],
+                "line_width": 1.45,
+                "line_style": 2
+              }
+            },
+            {
+              "plot_id": "strategies",
+              "series_index": 2,
+              "graph_name": "Graph2",
+              "layer_index": 0,
+              "styled_plots": 1,
+              "applied": {
+                "color": [
+                  63,
+                  125,
+                  108
+                ],
+                "line_width": 1.45,
+                "line_style": 3
+              }
+            },
+            {
+              "plot_id": "strategies",
+              "series_index": 3,
+              "graph_name": "Graph2",
+              "layer_index": 0,
+              "styled_plots": 1,
+              "applied": {
+                "color": [
+                  31,
+                  78,
+                  121
+                ],
+                "line_width": 2.2,
+                "line_style": 0
+              }
+            }
+          ],
+          "annotations": [
+            {
+              "graph_name": "Graph2",
+              "legend": true,
+              "position": {
+                "mode": "layer_anchor",
+                "position": "inside_upper_left",
+                "margin_percent": 2.0,
+                "script": "win -a \"Graph2\"; layer -s 1; legend.x=layer.x.from+(layer.x.to-layer.x.from)*0.02+legend.dx/2; legend.y=layer.y.to-(layer.y.to-layer.y.from)*0.02-legend.dy/2;",
+                "result": true
+              }
+            }
+          ],
+          "export_inspections": [],
+          "saved_project": null,
+          "diagnostics": {
+            "graph_name": "Graph2",
+            "style": "nature",
+            "palette_name": "nature",
+            "passed": true,
+            "score": 15,
+            "issues": [
+              {
+                "code": "reversed_axis_limits",
+                "severity": "info",
+                "message": "Layer 0 Z axis range is reversed (1.006017646373e-311 > 1.006017646357e-311).",
+                "layer_index": 0,
+                "axis": "z"
+              },
+              {
+                "code": "non_nature_palette_color",
+                "severity": "info",
+                "message": "Plot color is outside the Nature-style palette.",
+                "layer_index": 0,
+                "plot_index": 0
+              },
+              {
+                "code": "semantic_palette_mismatch",
+                "severity": "warning",
+                "message": "Plot color does not match palette role 'hero'.",
+                "layer_index": 0,
+                "plot_index": 0,
+                "palette_role": "hero"
+              },
+              {
+                "code": "non_nature_palette_color",
+                "severity": "info",
+                "message": "Plot color is outside the Nature-style palette.",
+                "layer_index": 0,
+                "plot_index": 1
+              },
+              {
+                "code": "semantic_palette_mismatch",
+                "severity": "warning",
+                "message": "Plot color does not match palette role 'neutral'.",
+                "layer_index": 0,
+                "plot_index": 1,
+                "palette_role": "neutral"
+              },
+              {
+                "code": "non_nature_palette_color",
+                "severity": "info",
+                "message": "Plot color is outside the Nature-style palette.",
+                "layer_index": 0,
+                "plot_index": 2
+              },
+              {
+                "code": "semantic_palette_mismatch",
+                "severity": "warning",
+                "message": "Plot color does not match palette role 'neutral'.",
+                "layer_index": 0,
+                "plot_index": 2,
+                "palette_role": "neutral"
+              },
+              {
+                "code": "non_nature_palette_color",
+                "severity": "info",
+                "message": "Plot color is outside the Nature-style palette.",
+                "layer_index": 0,
+                "plot_index": 3
+              },
+              {
+                "code": "semantic_palette_mismatch",
+                "severity": "warning",
+                "message": "Plot color does not match palette role 'neutral'.",
+                "layer_index": 0,
+                "plot_index": 3,
+                "palette_role": "neutral"
+              }
+            ],
+            "checklist": [
+              {
+                "name": "layers",
+                "active": true,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "plots",
+                "active": true,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "axis_titles",
+                "active": true,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "palette",
+                "active": true,
+                "passed": false,
+                "issues": [
+                  "non_nature_palette_color",
+                  "semantic_palette_mismatch"
+                ]
+              },
+              {
+                "name": "transparency",
+                "active": true,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "symbols",
+                "active": true,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "legend",
+                "active": false,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "panel_label",
+                "active": false,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "scale_bar",
+                "active": false,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "channel_label",
+                "active": false,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "dynamic_range",
+                "active": false,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "export_quality",
+                "active": false,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "export_dimensions",
+                "active": false,
+                "passed": true,
+                "issues": []
+              }
+            ],
+            "summary": {
+              "layers": 1,
+              "plots": 4,
+              "errors": 0,
+              "warnings": 4,
+              "info": 5
+            }
+          }
+        }
+      },
+      "compact_style": {
+        "nature": {
+          "ok": true,
+          "message": "Read Origin bridge task status.",
+          "data": {
+            "task": {
+              "task_id": "a7fa956b-e34e-4bf3-ae90-bbaae7ebca2c",
+              "method": "apply_nature_style",
+              "status": "completed",
+              "submitted_at": 1788066334.731237,
+              "started_at": 1788066334.7322307,
+              "finished_at": 1788066334.7987356,
+              "updated_at": 1788066334.7987356,
+              "progress": 1.0,
+              "current_step": "Completed",
+              "cancel_requested": false,
+              "result": {
+                "graph_name": "Graph2",
+                "style": "nature",
+                "output_profile": "screen",
+                "style_profile": {
+                  "name": "screen",
+                  "display_name": "Screen / interactive",
+                  "target_width_mm": null,
+                  "axis_title_size": 20,
+                  "tick_label_size": 20,
+                  "legend_font_size": 20,
+                  "annotation_font_size": 20,
+                  "line_width": 3.0,
+                  "symbol_size": 10.0,
+                  "tick_length": 3,
+                  "best_for": "Interactive Origin use, previews, and large on-screen figures."
+                },
+                "resolved_style": {
+                  "axis_title_size": 8,
+                  "tick_label_size": 7,
+                  "legend_font_size": 7,
+                  "line_width": 1.2,
+                  "symbol_size": 5.0,
+                  "tick_length": 3
+                },
+                "style_sources": {
+                  "axis_title_size": "user",
+                  "tick_label_size": "user",
+                  "legend_font_size": "user",
+                  "line_width": "user",
+                  "symbol_size": "user",
+                  "tick_length": "user"
+                },
+                "palette_name": "nature",
+                "chart_type": "line",
+                "font_family": "Arial",
+                "transparency": 0.0,
+                "palette": [
+                  [
+                    39,
+                    68,
+                    124
+                  ],
+                  [
+                    72,
+                    113,
+                    179
+                  ],
+                  [
+                    231,
+                    60,
+                    54
+                  ],
+                  [
+                    153,
+                    31,
+                    34
+                  ],
+                  [
+                    184,
+                    134,
+                    64
+                  ],
+                  [
+                    22,
+                    134,
+                    118
+                  ]
+                ],
+                "semantic_palette": {
+                  "hero": [
+                    39,
+                    68,
+                    124
+                  ],
+                  "secondary": [
+                    72,
+                    113,
+                    179
+                  ],
+                  "baseline": [
+                    231,
+                    60,
+                    54
+                  ],
+                  "negative": [
+                    153,
+                    31,
+                    34
+                  ],
+                  "accent": [
+                    184,
+                    134,
+                    64
+                  ],
+                  "warning": [
+                    184,
+                    134,
+                    64
+                  ],
+                  "positive": [
+                    22,
+                    134,
+                    118
+                  ],
+                  "neutral": [
+                    107,
+                    107,
+                    107
+                  ],
+                  "background": [
+                    244,
+                    243,
+                    238
+                  ]
+                },
+                "palette_role": null,
+                "applied_palette_roles": [
+                  "category_1",
+                  "category_2",
+                  "category_3",
+                  "category_4"
+                ],
+                "series_distinction": {
+                  "enabled": false,
+                  "strategy": "none",
+                  "assignments": [],
+                  "warning": null
+                },
+                "styled_layers": [
+                  0
+                ],
+                "styled_plots": 4,
+                "script": "win -a \"Graph2\"; layer -s 1; layer.x.label.font=font(Arial); layer.y.label.font=font(Arial); layer.x.ticklabel.font=font(Arial); layer.y.ticklabel.font=font(Arial); layer.x.label.pt=8; layer.y.label.pt=8; layer.x.ticklabel.pt=7; layer.y.ticklabel.pt=7; xb.font=font(Arial); yl.font=font(Arial); xb.text$=\"Time (h)\"; yl.text$=\"Performance index\"; xb.fsize=8; yl.fsize=8; layer.x.ticks.len=3; layer.y.ticks.len=3; range __omcpNaturePlot1 = !1; set __omcpNaturePlot1 -w 600; set __omcpNaturePlot1 -wp 1.2; range __omcpNaturePlot2 = !2; set __omcpNaturePlot2 -w 600; set __omcpNaturePlot2 -wp 1.2; range __omcpNaturePlot3 = !3; set __omcpNaturePlot3 -w 600; set __omcpNaturePlot3 -wp 1.2; range __omcpNaturePlot4 = !4; set __omcpNaturePlot4 -w 600; set __omcpNaturePlot4 -wp 1.2; legend.font=font(Arial); legend.fsize=7; legend.showframe=0;",
+                "result": true
+              },
+              "logs": [
+                {
+                  "time": 1788066334.7322307,
+                  "level": "info",
+                  "message": "Task started."
+                },
+                {
+                  "time": 1788066334.7322307,
+                  "level": "info",
+                  "message": "Dispatching apply_nature_style."
+                },
+                {
+                  "time": 1788066334.7322307,
+                  "level": "info",
+                  "message": "Running apply_nature_style."
+                },
+                {
+                  "time": 1788066334.7987356,
+                  "level": "info",
+                  "message": "apply_nature_style completed."
+                },
+                {
+                  "time": 1788066334.7987356,
+                  "level": "info",
+                  "message": "Task completed."
+                }
+              ]
+            }
+          }
+        },
+        "arrange": {
+          "ok": true,
+          "message": "Read Origin bridge task status.",
+          "data": {
+            "task": {
+              "task_id": "9adca697-0229-4f3e-8ccd-bcbc687ba823",
+              "method": "arrange_layers",
+              "status": "completed",
+              "submitted_at": 1788066334.869226,
+              "started_at": 1788066334.8702264,
+              "finished_at": 1788066334.8752162,
+              "updated_at": 1788066334.8752162,
+              "progress": 1.0,
+              "current_step": "Completed",
+              "cancel_requested": false,
+              "result": {
+                "graph_name": "Graph2",
+                "rows": 1,
+                "columns": 1,
+                "script": "layarrange row:=1 col:=1;",
+                "layer_geometries": [
+                  {
+                    "layer_index": 0,
+                    "left": 19,
+                    "top": 7,
+                    "width": 75,
+                    "height": 65
+                  }
+                ],
+                "geometry_script": "layer -s 1; layer.left=19.0; layer.top=7.0; layer.width=75.0; layer.height=65.0;",
+                "geometry_result": {
+                  "result": true
+                },
+                "result": true
+              },
+              "logs": [
+                {
+                  "time": 1788066334.8702264,
+                  "level": "info",
+                  "message": "Task started."
+                },
+                {
+                  "time": 1788066334.8702264,
+                  "level": "info",
+                  "message": "Dispatching arrange_layers."
+                },
+                {
+                  "time": 1788066334.8702264,
+                  "level": "info",
+                  "message": "Running arrange_layers."
+                },
+                {
+                  "time": 1788066334.8752162,
+                  "level": "info",
+                  "message": "arrange_layers completed."
+                },
+                {
+                  "time": 1788066334.8752162,
+                  "level": "info",
+                  "message": "Task completed."
+                }
+              ]
+            }
+          }
+        },
+        "grid_and_opposite_axes": {
+          "ok": true,
+          "message": "Executed LabTalk script.",
+          "data": {
+            "result": true,
+            "message_log": {
+              "captured": true,
+              "source": "LabTalk type -gb/type -ge",
+              "line_count": 0,
+              "lines": [],
+              "start_result": true,
+              "end_result": true
+            }
+          }
+        },
+        "series": [
+          {
+            "ok": true,
+            "message": "Updated Origin plot style.",
+            "data": {
+              "graph_name": "Graph2",
+              "layer_index": 0,
+              "styled_plots": 1,
+              "applied": {
+                "color": [
+                  122,
+                  127,
+                  135
+                ],
+                "line_width": 1.0,
+                "line_style": 1
+              }
+            }
+          },
+          {
+            "ok": true,
+            "message": "Updated Origin plot style.",
+            "data": {
+              "graph_name": "Graph2",
+              "layer_index": 0,
+              "styled_plots": 1,
+              "applied": {
+                "color": [
+                  91,
+                  143,
+                  168
+                ],
+                "line_width": 1.2,
+                "line_style": 2
+              }
+            }
+          },
+          {
+            "ok": true,
+            "message": "Updated Origin plot style.",
+            "data": {
+              "graph_name": "Graph2",
+              "layer_index": 0,
+              "styled_plots": 1,
+              "applied": {
+                "color": [
+                  63,
+                  125,
+                  108
+                ],
+                "line_width": 1.2,
+                "line_style": 3
+              }
+            }
+          },
+          {
+            "ok": true,
+            "message": "Updated Origin plot style.",
+            "data": {
+              "graph_name": "Graph2",
+              "layer_index": 0,
+              "styled_plots": 1,
+              "applied": {
+                "color": [
+                  31,
+                  78,
+                  121
+                ],
+                "line_width": 1.6,
+                "line_style": 0
+              }
+            }
+          }
+        ],
+        "legend": {
+          "ok": true,
+          "message": "Read Origin bridge task status.",
+          "data": {
+            "task": {
+              "task_id": "324a6788-0a3b-4541-83bd-16226b004765",
+              "method": "format_legend",
+              "status": "completed",
+              "submitted_at": 1788066335.296617,
+              "started_at": 1788066335.297627,
+              "finished_at": 1788066335.308639,
+              "updated_at": 1788066335.308639,
+              "progress": 1.0,
+              "current_step": "Completed",
+              "cancel_requested": false,
+              "result": {
+                "graph_name": "Graph2",
+                "legend": true,
+                "position": {
+                  "mode": "layer_anchor",
+                  "position": "inside_upper_left",
+                  "margin_percent": 3.0,
+                  "script": "win -a \"Graph2\"; layer -s 1; legend.x=layer.x.from+(layer.x.to-layer.x.from)*0.03+legend.dx/2; legend.y=layer.y.to-(layer.y.to-layer.y.from)*0.03-legend.dy/2;",
+                  "result": true
+                }
+              },
+              "logs": [
+                {
+                  "time": 1788066335.297627,
+                  "level": "info",
+                  "message": "Task started."
+                },
+                {
+                  "time": 1788066335.297627,
+                  "level": "info",
+                  "message": "Dispatching format_legend."
+                },
+                {
+                  "time": 1788066335.297627,
+                  "level": "info",
+                  "message": "Running format_legend."
+                },
+                {
+                  "time": 1788066335.308639,
+                  "level": "info",
+                  "message": "format_legend completed."
+                },
+                {
+                  "time": 1788066335.308639,
+                  "level": "info",
+                  "message": "Task completed."
+                }
+              ]
+            }
+          }
+        }
+      },
+      "format": {
+        "ok": true,
+        "message": "Formatted Origin graph.",
+        "data": {
+          "graph_name": "Graph2",
+          "formatted": true
+        }
+      },
+      "graph_info": {
+        "ok": true,
+        "message": "Collected Origin graph information.",
+        "data": {
+          "graph_name": "Graph2",
+          "long_name": "B02_multi_line_comparison",
+          "layers_count": 1,
+          "layers": [
+            {
+              "index": 0,
+              "name": "Layer1",
+              "plots_count": 4,
+              "plots": [
+                {
+                  "index": 0,
+                  "name": "Book4_B",
+                  "color": [
+                    122,
+                    127,
+                    135
+                  ],
+                  "line_width": null,
+                  "bar_gap": 0,
+                  "line_style": null,
+                  "symbol_kind": 0,
+                  "symbol_size": 5.0,
+                  "transparency": 0.0,
+                  "colormap": "Classic",
+                  "zlevels": {
+                    "minors": 0,
+                    "levels": [
+                      1.0059377113893e-311
+                    ]
+                  }
+                },
+                {
+                  "index": 1,
+                  "name": "Book4_C",
+                  "color": [
+                    91,
+                    143,
+                    168
+                  ],
+                  "line_width": null,
+                  "bar_gap": 0,
+                  "line_style": null,
+                  "symbol_kind": 0,
+                  "symbol_size": 5.0,
+                  "transparency": 0.0,
+                  "colormap": "Classic",
+                  "zlevels": {
+                    "minors": 0,
+                    "levels": [
+                      1.0059377113893e-311
+                    ]
+                  }
+                },
+                {
+                  "index": 2,
+                  "name": "Book4_D",
+                  "color": [
+                    63,
+                    125,
+                    108
+                  ],
+                  "line_width": null,
+                  "bar_gap": 0,
+                  "line_style": null,
+                  "symbol_kind": 0,
+                  "symbol_size": 5.0,
+                  "transparency": 0.0,
+                  "colormap": "Classic",
+                  "zlevels": {
+                    "minors": 0,
+                    "levels": [
+                      1.0059377113893e-311
+                    ]
+                  }
+                },
+                {
+                  "index": 3,
+                  "name": "Book4_E",
+                  "color": [
+                    31,
+                    78,
+                    121
+                  ],
+                  "line_width": null,
+                  "bar_gap": 0,
+                  "line_style": null,
+                  "symbol_kind": 0,
+                  "symbol_size": 5.0,
+                  "transparency": 0.0,
+                  "colormap": "Classic",
+                  "zlevels": {
+                    "minors": 0,
+                    "levels": [
+                      1.0059377113893e-311
+                    ]
+                  }
+                }
+              ],
+              "axes": {
+                "x": {
+                  "title": "Time (h)",
+                  "scale": 1,
+                  "scale_name": "linear",
+                  "limits": [
+                    0.0,
+                    24.0,
+                    4.0
+                  ]
+                },
+                "y": {
+                  "title": "Performance index",
+                  "scale": 1,
+                  "scale_name": "linear",
+                  "limits": [
+                    20.0,
+                    100.0,
+                    10.0
+                  ]
+                },
+                "z": {
+                  "title": "",
+                  "scale": 0,
+                  "scale_name": "0",
+                  "limits": [
+                    1.0060176463097e-311,
+                    1.006017646547e-311,
+                    1.0060176462386e-311
+                  ]
+                }
+              },
+              "labels": [
+                {
+                  "name": "Legend",
+                  "text": "\\l(1) %(1)\r\n\\l(2) %(2)\r\n\\l(3) %(3)\r\n\\l(4) %(4)"
+                }
+              ],
+              "legend_present": true,
+              "panel_label_present": false
+            }
+          ]
+        }
+      },
+      "exports": [
+        {
+          "ok": true,
+          "message": "Executed LabTalk script.",
+          "data": {
+            "result": true,
+            "message_log": {
+              "captured": true,
+              "source": "LabTalk type -gb/type -ge",
+              "line_count": 0,
+              "lines": [],
+              "start_result": true,
+              "end_result": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\B02_multi_line_comparison.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\B02_multi_line_comparison.pdf",
+              "exists": true,
+              "size_bytes": 4236,
+              "suffix": ".pdf",
+              "sha256": "ec75a50b8286eef173fab60492d52fea35a8390e7350b0b5525b5e1f128f8d69",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\B02_multi_line_comparison.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\B02_multi_line_comparison.svg",
+              "exists": true,
+              "size_bytes": 25641,
+              "suffix": ".svg",
+              "sha256": "8c2d52065310207ec152ec1226e5a4ec0ec8ae2b1ad982508e7c766391f669a4",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "figure_id": "B03_sensitivity_analytical",
+      "graph_name": "Graph3",
+      "plan": {
+        "ok": true,
+        "message": "Planned FigureSpec.",
+        "data": {
+          "figure_id": "B03_sensitivity_analytical",
+          "title": "B03_sensitivity_analytical",
+          "executor_executable": true,
+          "warnings": [],
+          "warning_details": [],
+          "data_validation": {
+            "ok": true,
+            "datasets": [
+              {
+                "id": "data",
+                "source": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\benchmarks\\single_parameter_sensitivity.csv",
+                "columns": [
+                  "perturbation_pct",
+                  "demand",
+                  "capacity",
+                  "unit_cost",
+                  "efficiency"
+                ],
+                "column_count": 5
+              }
+            ]
+          },
+          "operations": [
+            {
+              "op": "load_data",
+              "id": "data",
+              "source": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\benchmarks\\single_parameter_sensitivity.csv",
+              "object": "worksheet",
+              "roles": {
+                "x": "perturbation_pct",
+                "y": [
+                  "demand",
+                  "capacity",
+                  "unit_cost",
+                  "efficiency"
+                ]
+              }
+            },
+            {
+              "op": "configure_layer",
+              "id": "main",
+              "data_ref": "data",
+              "x": {
+                "title": "Parameter perturbation (%)",
+                "limits": [
+                  -20.0,
+                  20.0
+                ],
+                "step": 5.0,
+                "breaks": []
+              },
+              "y": {
+                "title": "Output change (%)",
+                "limits": [
+                  -18.0,
+                  24.0
+                ],
+                "step": 6.0,
+                "breaks": []
+              },
+              "z": {
+                "limits": "auto",
+                "breaks": []
+              },
+              "panel_tag": null,
+              "grid_cell": null,
+              "grid_span": null,
+              "position_mode": "grid",
+              "position": {}
+            },
+            {
+              "op": "plot",
+              "id": "sensitivity_curves",
+              "type": "line",
+              "layer": "main",
+              "data_ref": "data",
+              "map": {
+                "x": "perturbation_pct",
+                "y": [
+                  "demand",
+                  "capacity",
+                  "unit_cost",
+                  "efficiency"
+                ]
+              },
+              "uncertainty": {},
+              "uncertainty_mapping": {},
+              "uncertainty_style": {},
+              "uncertainty_supported": true,
+              "uncertainty_unsupported_keys": [],
+              "group_style": {
+                "series": [
+                  {
+                    "color": [
+                      91,
+                      143,
+                      168
+                    ],
+                    "line_width": 1.45,
+                    "line_style": 1
+                  },
+                  {
+                    "color": [
+                      63,
+                      125,
+                      108
+                    ],
+                    "line_width": 1.45,
+                    "line_style": 2
+                  },
+                  {
+                    "color": [
+                      31,
+                      78,
+                      121
+                    ],
+                    "line_width": 2.2,
+                    "line_style": 0
+                  },
+                  {
+                    "color": [
+                      128,
+                      100,
+                      162
+                    ],
+                    "line_width": 1.45,
+                    "line_style": 3
+                  }
+                ]
+              },
+              "group_style_supported": true,
+              "group_style_supported_keys": [
+                "bar_gap",
+                "bar_gaps",
+                "box_width",
+                "box_widths",
+                "color",
+                "color_scale_limits",
+                "color_scale_ranges",
+                "colormap",
+                "colormaps",
+                "colors",
+                "contour_level_sets",
+                "contour_levels",
+                "contour_minor_level_counts",
+                "contour_minor_levels",
+                "errorbar_cap",
+                "errorbar_caps",
+                "histogram_bin_width",
+                "histogram_bin_widths",
+                "line_style",
+                "line_styles",
+                "line_width",
+                "line_widths",
+                "series",
+                "symbol_kind",
+                "symbol_kinds",
+                "symbol_size",
+                "symbol_sizes",
+                "transparencies",
+                "transparency"
+              ],
+              "group_style_unsupported_keys": []
+            },
+            {
+              "op": "annotate",
+              "id": null,
+              "type": "reference_line",
+              "layer": "main",
+              "text": null,
+              "location": null
+            },
+            {
+              "op": "annotate",
+              "id": null,
+              "type": "reference_line",
+              "layer": "main",
+              "text": null,
+              "location": null
+            },
+            {
+              "op": "annotate",
+              "id": null,
+              "type": "legend",
+              "layer": "main",
+              "text": null,
+              "location": "top-left"
+            },
+            {
+              "op": "qa",
+              "requirements": {
+                "require_axis_titles": true,
+                "require_plots": true,
+                "require_legend": false
+              }
+            }
+          ],
+          "exports": [],
+          "project_path": null
+        }
+      },
+      "execution": {
+        "ok": true,
+        "message": "Executed FigureSpec.",
+        "data": {
+          "figure_id": "B03_sensitivity_analytical",
+          "title": "B03_sensitivity_analytical",
+          "executor_executable": true,
+          "warnings": [],
+          "warning_details": [],
+          "data_validation": {
+            "ok": true,
+            "datasets": [
+              {
+                "id": "data",
+                "source": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\benchmarks\\single_parameter_sensitivity.csv",
+                "columns": [
+                  "perturbation_pct",
+                  "demand",
+                  "capacity",
+                  "unit_cost",
+                  "efficiency"
+                ],
+                "column_count": 5
+              }
+            ]
+          },
+          "operations": [
+            {
+              "op": "load_data",
+              "id": "data",
+              "source": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\benchmarks\\single_parameter_sensitivity.csv",
+              "object": "worksheet",
+              "roles": {
+                "x": "perturbation_pct",
+                "y": [
+                  "demand",
+                  "capacity",
+                  "unit_cost",
+                  "efficiency"
+                ]
+              }
+            },
+            {
+              "op": "configure_layer",
+              "id": "main",
+              "data_ref": "data",
+              "x": {
+                "title": "Parameter perturbation (%)",
+                "limits": [
+                  -20.0,
+                  20.0
+                ],
+                "step": 5.0,
+                "breaks": []
+              },
+              "y": {
+                "title": "Output change (%)",
+                "limits": [
+                  -18.0,
+                  24.0
+                ],
+                "step": 6.0,
+                "breaks": []
+              },
+              "z": {
+                "limits": "auto",
+                "breaks": []
+              },
+              "panel_tag": null,
+              "grid_cell": null,
+              "grid_span": null,
+              "position_mode": "grid",
+              "position": {}
+            },
+            {
+              "op": "plot",
+              "id": "sensitivity_curves",
+              "type": "line",
+              "layer": "main",
+              "data_ref": "data",
+              "map": {
+                "x": "perturbation_pct",
+                "y": [
+                  "demand",
+                  "capacity",
+                  "unit_cost",
+                  "efficiency"
+                ]
+              },
+              "uncertainty": {},
+              "uncertainty_mapping": {},
+              "uncertainty_style": {},
+              "uncertainty_supported": true,
+              "uncertainty_unsupported_keys": [],
+              "group_style": {
+                "series": [
+                  {
+                    "color": [
+                      91,
+                      143,
+                      168
+                    ],
+                    "line_width": 1.45,
+                    "line_style": 1
+                  },
+                  {
+                    "color": [
+                      63,
+                      125,
+                      108
+                    ],
+                    "line_width": 1.45,
+                    "line_style": 2
+                  },
+                  {
+                    "color": [
+                      31,
+                      78,
+                      121
+                    ],
+                    "line_width": 2.2,
+                    "line_style": 0
+                  },
+                  {
+                    "color": [
+                      128,
+                      100,
+                      162
+                    ],
+                    "line_width": 1.45,
+                    "line_style": 3
+                  }
+                ]
+              },
+              "group_style_supported": true,
+              "group_style_supported_keys": [
+                "bar_gap",
+                "bar_gaps",
+                "box_width",
+                "box_widths",
+                "color",
+                "color_scale_limits",
+                "color_scale_ranges",
+                "colormap",
+                "colormaps",
+                "colors",
+                "contour_level_sets",
+                "contour_levels",
+                "contour_minor_level_counts",
+                "contour_minor_levels",
+                "errorbar_cap",
+                "errorbar_caps",
+                "histogram_bin_width",
+                "histogram_bin_widths",
+                "line_style",
+                "line_styles",
+                "line_width",
+                "line_widths",
+                "series",
+                "symbol_kind",
+                "symbol_kinds",
+                "symbol_size",
+                "symbol_sizes",
+                "transparencies",
+                "transparency"
+              ],
+              "group_style_unsupported_keys": []
+            },
+            {
+              "op": "annotate",
+              "id": null,
+              "type": "reference_line",
+              "layer": "main",
+              "text": null,
+              "location": null
+            },
+            {
+              "op": "annotate",
+              "id": null,
+              "type": "reference_line",
+              "layer": "main",
+              "text": null,
+              "location": null
+            },
+            {
+              "op": "annotate",
+              "id": null,
+              "type": "legend",
+              "layer": "main",
+              "text": null,
+              "location": "top-left"
+            },
+            {
+              "op": "qa",
+              "requirements": {
+                "require_axis_titles": true,
+                "require_plots": true,
+                "require_legend": false
+              }
+            }
+          ],
+          "exports": [],
+          "project_path": null,
+          "executed": true,
+          "worksheets": {
+            "data": {
+              "book_name": "Book5",
+              "sheet_name": "Sheet1",
+              "columns": [
+                "perturbation_pct",
+                "demand",
+                "capacity",
+                "unit_cost",
+                "efficiency"
+              ],
+              "rows": 17
+            }
+          },
+          "worksheet": {
+            "book_name": "Book5",
+            "sheet_name": "Sheet1",
+            "columns": [
+              "perturbation_pct",
+              "demand",
+              "capacity",
+              "unit_cost",
+              "efficiency"
+            ],
+            "rows": 17
+          },
+          "graph": {
+            "graph_name": "Graph3",
+            "export_path": null,
+            "template": "line",
+            "style_mode": "nature",
+            "requested_graph_name": "B03_sensitivity_analytical",
+            "display_name": "B03_sensitivity_analytical",
+            "visual_defaults": {
+              "mode": "conservative",
+              "context": {
+                "raw_chart_type": "line",
+                "chart_variant": "line",
+                "chart_type": "line",
+                "series_count": 4,
+                "row_count": 17,
+                "x_is_categorical": false,
+                "x_is_datetime": false,
+                "x_unique_count": 17,
+                "longest_x_label": 5,
+                "y_min": -16.5,
+                "y_max": 23.5
+              },
+              "legend": {
+                "show": {
+                  "value": true,
+                  "source": "user",
+                  "reason": "explicit_user_value"
+                },
+                "position": {
+                  "value": "inside_upper_left",
+                  "source": "smart_default",
+                  "reason": "least_occupied_corner_with_sufficient_clearance"
+                },
+                "series_labels": {
+                  "value": [
+                    "Demand",
+                    "Capacity",
+                    "Unit cost",
+                    "Efficiency"
+                  ],
+                  "source": "smart_default",
+                  "reason": "humanized_field_names"
+                },
+                "layout": {
+                  "outside": {
+                    "value": false,
+                    "source": "smart_default",
+                    "reason": "data_free_inside_region_available"
+                  },
+                  "estimated_rows": {
+                    "value": 4,
+                    "source": "smart_default",
+                    "reason": "legend_visibility"
+                  },
+                  "max_label_length": {
+                    "value": 10,
+                    "source": "smart_default",
+                    "reason": "inferred_series_labels"
+                  },
+                  "page_width_aspect_ratio": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "no_external_legend"
+                  },
+                  "right_margin": {
+                    "value": null,
+                    "source": "smart_default",
+                    "reason": "no_external_legend"
+                  },
+                  "inside_candidate": {
+                    "value": "inside_upper_left",
+                    "source": "smart_default",
+                    "reason": "lowest_curve_occupancy_candidate"
+                  },
+                  "candidate_collision_fraction": {
+                    "value": 0.0,
+                    "source": "smart_default",
+                    "reason": "fraction_of_a_series_intersecting_the_candidate_legend_box"
+                  },
+                  "estimated_width_fraction": {
+                    "value": 0.27,
+                    "source": "smart_default",
+                    "reason": "legend_label_footprint_estimate"
+                  },
+                  "estimated_height_fraction": {
+                    "value": 0.31,
+                    "source": "smart_default",
+                    "reason": "legend_row_footprint_estimate"
+                  }
+                }
+              },
+              "palette_name": {
+                "value": "lcpmgh_auto",
+                "source": "smart_default",
+                "reason": "match_an_installed_lcpmgh_palette_to_the_series_count"
+              },
+              "marks": {
+                "line_width": {
+                  "value": 3.0,
+                  "source": "smart_default",
+                  "reason": "nature_series_stroke"
+                },
+                "symbol_size": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "not_a_symbol_density_chart"
+                },
+                "transparency": {
+                  "value": 0.0,
+                  "source": "theme",
+                  "reason": "nature_theme_opaque_marks"
+                }
+              },
+              "annotations": {
+                "data_labels": {
+                  "show": {
+                    "value": true,
+                    "source": "smart_default",
+                    "reason": "label_only_the_latest_value_for_each_line"
+                  },
+                  "scope": {
+                    "value": "end",
+                    "source": "smart_default",
+                    "reason": "label_only_the_latest_value_for_each_line"
+                  },
+                  "position": {
+                    "value": "right",
+                    "source": "smart_default",
+                    "reason": "label_only_the_latest_value_for_each_line"
+                  },
+                  "font_size": {
+                    "value": 20,
+                    "source": "smart_default",
+                    "reason": "nature_annotation_typography"
+                  },
+                  "value_source": {
+                    "value": "y",
+                    "source": "smart_default",
+                    "reason": "axis_title_carries_metric_and_unit"
+                  },
+                  "layer_series_counts": {
+                    "value": [
+                      4
+                    ],
+                    "source": "smart_default",
+                    "reason": "apply_labels_only_to_primary_data_series"
+                  },
+                  "layer_formats": {
+                    "value": [
+                      {
+                        "number_format": "decimal",
+                        "decimal_places": 3
+                      }
+                    ],
+                    "source": "smart_default",
+                    "reason": "preserve_source_value_precision_independently_from_axis_ticks"
+                  }
+                },
+                "reference_lines": {
+                  "value": [
+                    {
+                      "axis": "y",
+                      "value": 0.0,
+                      "layer_index": 0,
+                      "role": "zero",
+                      "color_index": 19,
+                      "line_style": 0,
+                      "line_width": 1.0
+                    }
+                  ],
+                  "source": "smart_default",
+                  "reason": "emphasize_zero_when_values_cross_sign"
+                }
+              },
+              "axes": {
+                "x_title": {
+                  "value": "Parameter perturbation (%)",
+                  "source": "user",
+                  "reason": "explicit_user_value"
+                },
+                "y_title": {
+                  "value": "Output change (%)",
+                  "source": "user",
+                  "reason": "explicit_user_value"
+                },
+                "y2_title": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_tick_rotation": {
+                  "value": 0,
+                  "source": "smart_default",
+                  "reason": "numeric_or_temporal_axis"
+                },
+                "x_scale": {
+                  "value": {
+                    "from": -24.0,
+                    "to": 24.8,
+                    "step": 8.0,
+                    "tick_count": 7
+                  },
+                  "source": "smart_default",
+                  "reason": "tidy_numeric_bounds_with_extreme_padding"
+                },
+                "x_datetime_scale": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "non_temporal_x_axis"
+                },
+                "y_scale": {
+                  "value": {
+                    "from": -20.0,
+                    "to": 28.0,
+                    "step": 8.0,
+                    "tick_count": 7
+                  },
+                  "source": "smart_default",
+                  "reason": "tidy_numeric_bounds_with_extreme_padding"
+                },
+                "y2_scale": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_or_specialized_y_axis"
+                },
+                "x_number_format": {
+                  "value": "decimal",
+                  "source": "smart_default",
+                  "reason": "magnitude_and_range"
+                },
+                "x_decimal_places": {
+                  "value": 0,
+                  "source": "smart_default",
+                  "reason": "range_appropriate_precision"
+                },
+                "y_number_format": {
+                  "value": "decimal",
+                  "source": "smart_default",
+                  "reason": "magnitude_and_range"
+                },
+                "y_decimal_places": {
+                  "value": 0,
+                  "source": "smart_default",
+                  "reason": "range_appropriate_precision"
+                },
+                "y2_number_format": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "y2_decimal_places": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_major_ticks": {
+                  "value": 7,
+                  "source": "smart_default",
+                  "reason": "use_wide_canvas_for_seven_x_anchors"
+                },
+                "y_major_ticks": {
+                  "value": 7,
+                  "source": "smart_default",
+                  "reason": "six_major_ticks_for_readable_comparison"
+                },
+                "y2_major_ticks": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_minor_ticks": {
+                  "value": 1,
+                  "source": "smart_default",
+                  "reason": "one_subdivision_between_major_ticks"
+                },
+                "y_minor_ticks": {
+                  "value": 1,
+                  "source": "smart_default",
+                  "reason": "one_subdivision_between_major_ticks"
+                },
+                "y2_minor_ticks": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "single_y_axis"
+                },
+                "x_major_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "vertical_grid_adds_clutter"
+                },
+                "y_major_grid": {
+                  "value": true,
+                  "source": "smart_default",
+                  "reason": "support_value_comparison"
+                },
+                "y2_major_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "avoid_duplicate_dual_y_grid_lines"
+                },
+                "minor_grid": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "keep_background_quiet"
+                },
+                "top_axis_ticks": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "top_frame_does_not_need_duplicate_ticks"
+                },
+                "y_zero_baseline": {
+                  "value": false,
+                  "source": "smart_default",
+                  "reason": "preserve_data_range"
+                }
+              },
+              "canvas": {
+                "aspect_ratio": {
+                  "value": 1.5,
+                  "source": "smart_default",
+                  "reason": "line_chart_footprint"
+                },
+                "page_aspect_ratio": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_rotated_category_labels"
+                },
+                "bottom_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_rotated_category_labels"
+                },
+                "top_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "default_top_margin_fits"
+                },
+                "page_width_aspect_ratio": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "no_external_legend"
+                },
+                "left_margin": {
+                  "value": null,
+                  "source": "smart_default",
+                  "reason": "default_tick_labels_fit"
+                },
+                "right_margin": {
+                  "value": 0.14,
+                  "source": "smart_default",
+                  "reason": "reserve_external_legend_or_axis_tick_space"
+                }
+              },
+              "applied": {
+                "axis_script": "win -a \"Graph3\"; layer -s 1; layer.x.label.rotate=0; layer.y.label.numFormat=1; layer.y.label.decPlaces=0; layer.x2.ticks=0; layer.x.label.numFormat=1; layer.x.label.decPlaces=0; layer.x.majorTicks=7; layer.x.minorTicks=1; layer.x.grid.show=0; layer.x.from=-24; layer.x.to=24.8; layer.x.inc=8; layer.x.rescale=1; layer.y.majorTicks=7; layer.y.minorTicks=1; layer.y.grid.show=1; layer.y.grid.majorColor=color(235,235,235); layer.y.grid.majorType=1; layer.y.grid.majorWidth=0.5; layer.y.from=-20; layer.y.to=28; layer.y.inc=8; layer.y.rescale=1; page -fls -u -ml 0.08 -mt 0.05 -mr 0.14 -mb 0.08;",
+                "axis_result": {
+                  "result": true
+                },
+                "data_labels": {
+                  "scope": "end",
+                  "position": "right",
+                  "applied": [
+                    {
+                      "layer_index": 0,
+                      "plot_index": 0,
+                      "scope": "end",
+                      "position": "right",
+                      "format": ".3"
+                    },
+                    {
+                      "layer_index": 0,
+                      "plot_index": 1,
+                      "scope": "end",
+                      "position": "right",
+                      "format": ".3"
+                    },
+                    {
+                      "layer_index": 0,
+                      "plot_index": 2,
+                      "scope": "end",
+                      "position": "right",
+                      "format": ".3"
+                    },
+                    {
+                      "layer_index": 0,
+                      "plot_index": 3,
+                      "scope": "end",
+                      "position": "right",
+                      "format": ".3"
+                    }
+                  ],
+                  "warnings": []
+                },
+                "reference_lines": {
+                  "script": "win -a \"Graph3\"; layer -s 1; draw -n smart_zero_y_1 -c 19 -d 0 -w 1 -l y 0;",
+                  "result": true
+                },
+                "marks": {
+                  "graph_name": "Graph3",
+                  "layer_index": 0,
+                  "styled_plots": 4,
+                  "applied": {
+                    "line_width": 3.0,
+                    "transparency": 0.0
+                  }
+                },
+                "legend": {
+                  "graph_name": "Graph3",
+                  "legend": true,
+                  "position": {
+                    "mode": "layer_anchor",
+                    "position": "inside_upper_left",
+                    "margin_percent": 2.0,
+                    "script": "win -a \"Graph3\"; layer -s 1; legend.x=layer.x.from+(layer.x.to-layer.x.from)*0.02+legend.dx/2; legend.y=layer.y.to-(layer.y.to-layer.y.from)*0.02-legend.dy/2;",
+                    "result": true
+                  }
+                }
+              }
+            }
+          },
+          "command": null,
+          "layer_setup": {
+            "page": null,
+            "added_layers": 0,
+            "arranged": null
+          },
+          "band_updates": [],
+          "added_plots": [],
+          "axis_updates": [
+            {
+              "layer_index": 0,
+              "graph_name": "Graph3",
+              "axis": "x",
+              "requested": {
+                "start": -20.0,
+                "end": 20.0,
+                "step": 5.0,
+                "title": "Parameter perturbation (%)"
+              },
+              "axis_info": {
+                "title": "Parameter perturbation (%)",
+                "scale": 1,
+                "scale_name": "linear",
+                "limits": [
+                  -20.0,
+                  20.0,
+                  5.0
+                ]
+              },
+              "verified": true
+            },
+            {
+              "layer_index": 0,
+              "graph_name": "Graph3",
+              "axis": "y",
+              "requested": {
+                "start": -18.0,
+                "end": 24.0,
+                "step": 6.0,
+                "title": "Output change (%)"
+              },
+              "axis_info": {
+                "title": "Output change (%)",
+                "scale": 1,
+                "scale_name": "linear",
+                "limits": [
+                  -18.0,
+                  24.0,
+                  6.0
+                ]
+              },
+              "verified": true
+            }
+          ],
+          "style_updates": [
+            {
+              "plot_id": "sensitivity_curves",
+              "series_index": 0,
+              "graph_name": "Graph3",
+              "layer_index": 0,
+              "styled_plots": 1,
+              "applied": {
+                "color": [
+                  91,
+                  143,
+                  168
+                ],
+                "line_width": 1.45,
+                "line_style": 1
+              }
+            },
+            {
+              "plot_id": "sensitivity_curves",
+              "series_index": 1,
+              "graph_name": "Graph3",
+              "layer_index": 0,
+              "styled_plots": 1,
+              "applied": {
+                "color": [
+                  63,
+                  125,
+                  108
+                ],
+                "line_width": 1.45,
+                "line_style": 2
+              }
+            },
+            {
+              "plot_id": "sensitivity_curves",
+              "series_index": 2,
+              "graph_name": "Graph3",
+              "layer_index": 0,
+              "styled_plots": 1,
+              "applied": {
+                "color": [
+                  31,
+                  78,
+                  121
+                ],
+                "line_width": 2.2,
+                "line_style": 0
+              }
+            },
+            {
+              "plot_id": "sensitivity_curves",
+              "series_index": 3,
+              "graph_name": "Graph3",
+              "layer_index": 0,
+              "styled_plots": 1,
+              "applied": {
+                "color": [
+                  128,
+                  100,
+                  162
+                ],
+                "line_width": 1.45,
+                "line_style": 3
+              }
+            }
+          ],
+          "annotations": [
+            {
+              "graph_name": "Graph3",
+              "layer_index": 0,
+              "axis": "x",
+              "value": 0.0,
+              "script": "layer -s 1; draw -n ref_x_0_0 -l x 0.0;",
+              "result": true
+            },
+            {
+              "graph_name": "Graph3",
+              "layer_index": 0,
+              "axis": "y",
+              "value": 0.0,
+              "script": "layer -s 1; draw -n ref_y_0_0 -l y 0.0;",
+              "result": true
+            },
+            {
+              "graph_name": "Graph3",
+              "legend": true,
+              "position": {
+                "mode": "layer_anchor",
+                "position": "inside_upper_left",
+                "margin_percent": 2.0,
+                "script": "win -a \"Graph3\"; layer -s 1; legend.x=layer.x.from+(layer.x.to-layer.x.from)*0.02+legend.dx/2; legend.y=layer.y.to-(layer.y.to-layer.y.from)*0.02-legend.dy/2;",
+                "result": true
+              }
+            }
+          ],
+          "export_inspections": [],
+          "saved_project": null,
+          "diagnostics": {
+            "graph_name": "Graph3",
+            "style": "nature",
+            "palette_name": "nature",
+            "passed": true,
+            "score": 5,
+            "issues": [
+              {
+                "code": "degenerate_axis_limits",
+                "severity": "warning",
+                "message": "Layer 0 Z axis has a zero-width range at 1.0060176454243e-311.",
+                "layer_index": 0,
+                "axis": "z"
+              },
+              {
+                "code": "non_nature_palette_color",
+                "severity": "info",
+                "message": "Plot color is outside the Nature-style palette.",
+                "layer_index": 0,
+                "plot_index": 0
+              },
+              {
+                "code": "semantic_palette_mismatch",
+                "severity": "warning",
+                "message": "Plot color does not match palette role 'hero'.",
+                "layer_index": 0,
+                "plot_index": 0,
+                "palette_role": "hero"
+              },
+              {
+                "code": "non_nature_palette_color",
+                "severity": "info",
+                "message": "Plot color is outside the Nature-style palette.",
+                "layer_index": 0,
+                "plot_index": 1
+              },
+              {
+                "code": "semantic_palette_mismatch",
+                "severity": "warning",
+                "message": "Plot color does not match palette role 'neutral'.",
+                "layer_index": 0,
+                "plot_index": 1,
+                "palette_role": "neutral"
+              },
+              {
+                "code": "non_nature_palette_color",
+                "severity": "info",
+                "message": "Plot color is outside the Nature-style palette.",
+                "layer_index": 0,
+                "plot_index": 2
+              },
+              {
+                "code": "semantic_palette_mismatch",
+                "severity": "warning",
+                "message": "Plot color does not match palette role 'neutral'.",
+                "layer_index": 0,
+                "plot_index": 2,
+                "palette_role": "neutral"
+              },
+              {
+                "code": "non_nature_palette_color",
+                "severity": "info",
+                "message": "Plot color is outside the Nature-style palette.",
+                "layer_index": 0,
+                "plot_index": 3
+              },
+              {
+                "code": "semantic_palette_mismatch",
+                "severity": "warning",
+                "message": "Plot color does not match palette role 'neutral'.",
+                "layer_index": 0,
+                "plot_index": 3,
+                "palette_role": "neutral"
+              }
+            ],
+            "checklist": [
+              {
+                "name": "layers",
+                "active": true,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "plots",
+                "active": true,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "axis_titles",
+                "active": true,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "palette",
+                "active": true,
+                "passed": false,
+                "issues": [
+                  "non_nature_palette_color",
+                  "semantic_palette_mismatch"
+                ]
+              },
+              {
+                "name": "transparency",
+                "active": true,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "symbols",
+                "active": true,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "legend",
+                "active": false,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "panel_label",
+                "active": false,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "scale_bar",
+                "active": false,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "channel_label",
+                "active": false,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "dynamic_range",
+                "active": false,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "export_quality",
+                "active": false,
+                "passed": true,
+                "issues": []
+              },
+              {
+                "name": "export_dimensions",
+                "active": false,
+                "passed": true,
+                "issues": []
+              }
+            ],
+            "summary": {
+              "layers": 1,
+              "plots": 4,
+              "errors": 0,
+              "warnings": 5,
+              "info": 4
+            }
+          }
+        }
+      },
+      "compact_style": {
+        "nature": {
+          "ok": true,
+          "message": "Read Origin bridge task status.",
+          "data": {
+            "task": {
+              "task_id": "7e8d1104-b9e2-4a40-bbcd-494cd39df975",
+              "method": "apply_nature_style",
+              "status": "completed",
+              "submitted_at": 1788066337.1985164,
+              "started_at": 1788066337.1995208,
+              "finished_at": 1788066337.2694154,
+              "updated_at": 1788066337.2694154,
+              "progress": 1.0,
+              "current_step": "Completed",
+              "cancel_requested": false,
+              "result": {
+                "graph_name": "Graph3",
+                "style": "nature",
+                "output_profile": "screen",
+                "style_profile": {
+                  "name": "screen",
+                  "display_name": "Screen / interactive",
+                  "target_width_mm": null,
+                  "axis_title_size": 20,
+                  "tick_label_size": 20,
+                  "legend_font_size": 20,
+                  "annotation_font_size": 20,
+                  "line_width": 3.0,
+                  "symbol_size": 10.0,
+                  "tick_length": 3,
+                  "best_for": "Interactive Origin use, previews, and large on-screen figures."
+                },
+                "resolved_style": {
+                  "axis_title_size": 8,
+                  "tick_label_size": 7,
+                  "legend_font_size": 7,
+                  "line_width": 1.2,
+                  "symbol_size": 5.0,
+                  "tick_length": 3
+                },
+                "style_sources": {
+                  "axis_title_size": "user",
+                  "tick_label_size": "user",
+                  "legend_font_size": "user",
+                  "line_width": "user",
+                  "symbol_size": "user",
+                  "tick_length": "user"
+                },
+                "palette_name": "nature",
+                "chart_type": "line",
+                "font_family": "Arial",
+                "transparency": 0.0,
+                "palette": [
+                  [
+                    39,
+                    68,
+                    124
+                  ],
+                  [
+                    72,
+                    113,
+                    179
+                  ],
+                  [
+                    231,
+                    60,
+                    54
+                  ],
+                  [
+                    153,
+                    31,
+                    34
+                  ],
+                  [
+                    184,
+                    134,
+                    64
+                  ],
+                  [
+                    22,
+                    134,
+                    118
+                  ]
+                ],
+                "semantic_palette": {
+                  "hero": [
+                    39,
+                    68,
+                    124
+                  ],
+                  "secondary": [
+                    72,
+                    113,
+                    179
+                  ],
+                  "baseline": [
+                    231,
+                    60,
+                    54
+                  ],
+                  "negative": [
+                    153,
+                    31,
+                    34
+                  ],
+                  "accent": [
+                    184,
+                    134,
+                    64
+                  ],
+                  "warning": [
+                    184,
+                    134,
+                    64
+                  ],
+                  "positive": [
+                    22,
+                    134,
+                    118
+                  ],
+                  "neutral": [
+                    107,
+                    107,
+                    107
+                  ],
+                  "background": [
+                    244,
+                    243,
+                    238
+                  ]
+                },
+                "palette_role": null,
+                "applied_palette_roles": [
+                  "category_1",
+                  "category_2",
+                  "category_3",
+                  "category_4"
+                ],
+                "series_distinction": {
+                  "enabled": false,
+                  "strategy": "none",
+                  "assignments": [],
+                  "warning": null
+                },
+                "styled_layers": [
+                  0
+                ],
+                "styled_plots": 4,
+                "script": "win -a \"Graph3\"; layer -s 1; layer.x.label.font=font(Arial); layer.y.label.font=font(Arial); layer.x.ticklabel.font=font(Arial); layer.y.ticklabel.font=font(Arial); layer.x.label.pt=8; layer.y.label.pt=8; layer.x.ticklabel.pt=7; layer.y.ticklabel.pt=7; xb.font=font(Arial); yl.font=font(Arial); xb.text$=\"Parameter perturbation (%)\"; yl.text$=\"Output change (%)\"; xb.fsize=8; yl.fsize=8; layer.x.ticks.len=3; layer.y.ticks.len=3; range __omcpNaturePlot1 = !1; set __omcpNaturePlot1 -w 600; set __omcpNaturePlot1 -wp 1.2; range __omcpNaturePlot2 = !2; set __omcpNaturePlot2 -w 600; set __omcpNaturePlot2 -wp 1.2; range __omcpNaturePlot3 = !3; set __omcpNaturePlot3 -w 600; set __omcpNaturePlot3 -wp 1.2; range __omcpNaturePlot4 = !4; set __omcpNaturePlot4 -w 600; set __omcpNaturePlot4 -wp 1.2; legend.font=font(Arial); legend.fsize=7; legend.showframe=0;",
+                "result": true
+              },
+              "logs": [
+                {
+                  "time": 1788066337.1995208,
+                  "level": "info",
+                  "message": "Task started."
+                },
+                {
+                  "time": 1788066337.1995208,
+                  "level": "info",
+                  "message": "Dispatching apply_nature_style."
+                },
+                {
+                  "time": 1788066337.1995208,
+                  "level": "info",
+                  "message": "Running apply_nature_style."
+                },
+                {
+                  "time": 1788066337.2694154,
+                  "level": "info",
+                  "message": "apply_nature_style completed."
+                },
+                {
+                  "time": 1788066337.2694154,
+                  "level": "info",
+                  "message": "Task completed."
+                }
+              ]
+            }
+          }
+        },
+        "arrange": {
+          "ok": true,
+          "message": "Read Origin bridge task status.",
+          "data": {
+            "task": {
+              "task_id": "ef8bca6b-9dc7-478d-95ae-1284c75eb8ee",
+              "method": "arrange_layers",
+              "status": "completed",
+              "submitted_at": 1788066337.3494737,
+              "started_at": 1788066337.3504765,
+              "finished_at": 1788066337.3544748,
+              "updated_at": 1788066337.3544748,
+              "progress": 1.0,
+              "current_step": "Completed",
+              "cancel_requested": false,
+              "result": {
+                "graph_name": "Graph3",
+                "rows": 1,
+                "columns": 1,
+                "script": "layarrange row:=1 col:=1;",
+                "layer_geometries": [
+                  {
+                    "layer_index": 0,
+                    "left": 19,
+                    "top": 7,
+                    "width": 75,
+                    "height": 65
+                  }
+                ],
+                "geometry_script": "layer -s 1; layer.left=19.0; layer.top=7.0; layer.width=75.0; layer.height=65.0;",
+                "geometry_result": {
+                  "result": true
+                },
+                "result": true
+              },
+              "logs": [
+                {
+                  "time": 1788066337.3504765,
+                  "level": "info",
+                  "message": "Task started."
+                },
+                {
+                  "time": 1788066337.3504765,
+                  "level": "info",
+                  "message": "Dispatching arrange_layers."
+                },
+                {
+                  "time": 1788066337.3504765,
+                  "level": "info",
+                  "message": "Running arrange_layers."
+                },
+                {
+                  "time": 1788066337.3544748,
+                  "level": "info",
+                  "message": "arrange_layers completed."
+                },
+                {
+                  "time": 1788066337.3544748,
+                  "level": "info",
+                  "message": "Task completed."
+                }
+              ]
+            }
+          }
+        },
+        "grid_and_opposite_axes": {
+          "ok": true,
+          "message": "Executed LabTalk script.",
+          "data": {
+            "result": true,
+            "message_log": {
+              "captured": true,
+              "source": "LabTalk type -gb/type -ge",
+              "line_count": 0,
+              "lines": [],
+              "start_result": true,
+              "end_result": true
+            }
+          }
+        },
+        "series": [
+          {
+            "ok": true,
+            "message": "Updated Origin plot style.",
+            "data": {
+              "graph_name": "Graph3",
+              "layer_index": 0,
+              "styled_plots": 1,
+              "applied": {
+                "color": [
+                  91,
+                  143,
+                  168
+                ],
+                "line_width": 1.2,
+                "line_style": 1
+              }
+            }
+          },
+          {
+            "ok": true,
+            "message": "Updated Origin plot style.",
+            "data": {
+              "graph_name": "Graph3",
+              "layer_index": 0,
+              "styled_plots": 1,
+              "applied": {
+                "color": [
+                  63,
+                  125,
+                  108
+                ],
+                "line_width": 1.2,
+                "line_style": 2
+              }
+            }
+          },
+          {
+            "ok": true,
+            "message": "Updated Origin plot style.",
+            "data": {
+              "graph_name": "Graph3",
+              "layer_index": 0,
+              "styled_plots": 1,
+              "applied": {
+                "color": [
+                  31,
+                  78,
+                  121
+                ],
+                "line_width": 1.6,
+                "line_style": 0
+              }
+            }
+          },
+          {
+            "ok": true,
+            "message": "Updated Origin plot style.",
+            "data": {
+              "graph_name": "Graph3",
+              "layer_index": 0,
+              "styled_plots": 1,
+              "applied": {
+                "color": [
+                  128,
+                  100,
+                  162
+                ],
+                "line_width": 1.2,
+                "line_style": 3
+              }
+            }
+          }
+        ],
+        "legend": {
+          "ok": true,
+          "message": "Read Origin bridge task status.",
+          "data": {
+            "task": {
+              "task_id": "e2d9fbf7-eae5-452b-b2a3-0e705a6f86f5",
+              "method": "format_legend",
+              "status": "completed",
+              "submitted_at": 1788066337.7633746,
+              "started_at": 1788066337.7643847,
+              "finished_at": 1788066337.775903,
+              "updated_at": 1788066337.775903,
+              "progress": 1.0,
+              "current_step": "Completed",
+              "cancel_requested": false,
+              "result": {
+                "graph_name": "Graph3",
+                "legend": true,
+                "position": {
+                  "mode": "layer_anchor",
+                  "position": "inside_upper_left",
+                  "margin_percent": 3.0,
+                  "script": "win -a \"Graph3\"; layer -s 1; legend.x=layer.x.from+(layer.x.to-layer.x.from)*0.03+legend.dx/2; legend.y=layer.y.to-(layer.y.to-layer.y.from)*0.03-legend.dy/2;",
+                  "result": true
+                }
+              },
+              "logs": [
+                {
+                  "time": 1788066337.7643847,
+                  "level": "info",
+                  "message": "Task started."
+                },
+                {
+                  "time": 1788066337.7643847,
+                  "level": "info",
+                  "message": "Dispatching format_legend."
+                },
+                {
+                  "time": 1788066337.7643847,
+                  "level": "info",
+                  "message": "Running format_legend."
+                },
+                {
+                  "time": 1788066337.775903,
+                  "level": "info",
+                  "message": "format_legend completed."
+                },
+                {
+                  "time": 1788066337.775903,
+                  "level": "info",
+                  "message": "Task completed."
+                }
+              ]
+            }
+          }
+        }
+      },
+      "format": {
+        "ok": true,
+        "message": "Formatted Origin graph.",
+        "data": {
+          "graph_name": "Graph3",
+          "formatted": true
+        }
+      },
+      "graph_info": {
+        "ok": true,
+        "message": "Collected Origin graph information.",
+        "data": {
+          "graph_name": "Graph3",
+          "long_name": "B03_sensitivity_analytical",
+          "layers_count": 1,
+          "layers": [
+            {
+              "index": 0,
+              "name": "Layer1",
+              "plots_count": 4,
+              "plots": [
+                {
+                  "index": 0,
+                  "name": "Book5_B",
+                  "color": [
+                    91,
+                    143,
+                    168
+                  ],
+                  "line_width": null,
+                  "bar_gap": 0,
+                  "line_style": null,
+                  "symbol_kind": 0,
+                  "symbol_size": 5.0,
+                  "transparency": 0.0,
+                  "colormap": "Classic",
+                  "zlevels": {
+                    "minors": 0,
+                    "levels": [
+                      1.005916599158e-311
+                    ]
+                  }
+                },
+                {
+                  "index": 1,
+                  "name": "Book5_C",
+                  "color": [
+                    63,
+                    125,
+                    108
+                  ],
+                  "line_width": null,
+                  "bar_gap": 0,
+                  "line_style": null,
+                  "symbol_kind": 0,
+                  "symbol_size": 5.0,
+                  "transparency": 0.0,
+                  "colormap": "Classic",
+                  "zlevels": {
+                    "minors": 0,
+                    "levels": [
+                      1.005916599332e-311
+                    ]
+                  }
+                },
+                {
+                  "index": 2,
+                  "name": "Book5_D",
+                  "color": [
+                    31,
+                    78,
+                    121
+                  ],
+                  "line_width": null,
+                  "bar_gap": 0,
+                  "line_style": null,
+                  "symbol_kind": 0,
+                  "symbol_size": 5.0,
+                  "transparency": 0.0,
+                  "colormap": "Classic",
+                  "zlevels": {
+                    "minors": 0,
+                    "levels": [
+                      1.0059165997746e-311
+                    ]
+                  }
+                },
+                {
+                  "index": 3,
+                  "name": "Book5_E",
+                  "color": [
+                    128,
+                    100,
+                    162
+                  ],
+                  "line_width": null,
+                  "bar_gap": 0,
+                  "line_style": null,
+                  "symbol_kind": 0,
+                  "symbol_size": 5.0,
+                  "transparency": 0.0,
+                  "colormap": "Classic",
+                  "zlevels": {
+                    "minors": 0,
+                    "levels": [
+                      1.0059165996007e-311
+                    ]
+                  }
+                }
+              ],
+              "axes": {
+                "x": {
+                  "title": "Parameter perturbation (%)",
+                  "scale": 1,
+                  "scale_name": "linear",
+                  "limits": [
+                    -20.0,
+                    20.0,
+                    5.0
+                  ]
+                },
+                "y": {
+                  "title": "Output change (%)",
+                  "scale": 1,
+                  "scale_name": "linear",
+                  "limits": [
+                    -18.0,
+                    24.0,
+                    6.0
+                  ]
+                },
+                "z": {
+                  "title": "",
+                  "scale": 0,
+                  "scale_name": "0",
+                  "limits": [
+                    1.006017646444e-311,
+                    1.006017646444e-311,
+                    1.006017646444e-311
+                  ]
+                }
+              },
+              "labels": [
+                {
+                  "name": "Legend",
+                  "text": "\\l(1) %(1)\r\n\\l(2) %(2)\r\n\\l(3) %(3)\r\n\\l(4) %(4)"
+                }
+              ],
+              "legend_present": true,
+              "panel_label_present": false
+            }
+          ]
+        }
+      },
+      "exports": [
+        {
+          "ok": true,
+          "message": "Executed LabTalk script.",
+          "data": {
+            "result": true,
+            "message_log": {
+              "captured": true,
+              "source": "LabTalk type -gb/type -ge",
+              "line_count": 0,
+              "lines": [],
+              "start_result": true,
+              "end_result": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\B03_sensitivity_analytical.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\B03_sensitivity_analytical.pdf",
+              "exists": true,
+              "size_bytes": 8010,
+              "suffix": ".pdf",
+              "sha256": "9991c2189dbb1c364d3d9e3a5574e42f95fa8fa56fdf4f5a5b483bbb9968a771",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\B03_sensitivity_analytical.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\B03_sensitivity_analytical.svg",
+              "exists": true,
+              "size_bytes": 24463,
+              "suffix": ".svg",
+              "sha256": "9d6a75e42f08339e08f7248e234ee4a0f3188447f1c39b4a27e097cd7fd7c65e",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "figure_id": "B04_contour_main",
+      "graph_name": "Graph4",
+      "matrix": {
+        "ok": true,
+        "message": "Created Origin matrix.",
+        "data": {
+          "matrix": {
+            "book_name": "MBook1",
+            "sheet_name": "Objective",
+            "shape": [
+              41,
+              41
+            ],
+            "depth": 1,
+            "xymap": [
+              -3.0,
+              3.0,
+              -3.0,
+              3.0
+            ],
+            "labels": [
+              "Objective value"
+            ],
+            "data_ranges": [
+              "[MBook1]1!1"
+            ]
+          }
+        }
+      },
+      "matrix_plot": {
+        "ok": true,
+        "message": "Read Origin bridge task status.",
+        "data": {
+          "task": {
+            "task_id": "dbfac023-5891-4b0d-9bd5-7b84c4617c04",
+            "method": "plot_matrix_by_id",
+            "status": "completed",
+            "submitted_at": 1788066339.0046365,
+            "started_at": 1788066339.0046365,
+            "finished_at": 1788066339.2027724,
+            "updated_at": 1788066339.2027724,
+            "progress": 1.0,
+            "current_step": "Completed",
+            "cancel_requested": false,
+            "result": {
+              "graph": {
+                "graph_name": "B04_Contour",
+                "export_path": null,
+                "template": null,
+                "style_mode": "origin_default"
+              }
+            },
+            "logs": [
+              {
+                "time": 1788066339.0046365,
+                "level": "info",
+                "message": "Task started."
+              },
+              {
+                "time": 1788066339.0046365,
+                "level": "info",
+                "message": "Dispatching plot_matrix_by_id."
+              },
+              {
+                "time": 1788066339.0046365,
+                "level": "info",
+                "message": "Running plot_matrix_by_id."
+              },
+              {
+                "time": 1788066339.2027724,
+                "level": "info",
+                "message": "plot_matrix_by_id completed."
+              },
+              {
+                "time": 1788066339.2027724,
+                "level": "info",
+                "message": "Task completed."
+              }
+            ]
+          }
+        }
+      },
+      "active_graph_after_matrix_plot": {
+        "ok": true,
+        "message": "Collected Origin graph information.",
+        "data": {
+          "graph_name": "Graph4",
+          "long_name": "",
+          "layers_count": 1,
+          "layers": [
+            {
+              "index": 0,
+              "name": "B04_Contour",
+              "plots_count": 1,
+              "plots": [
+                {
+                  "index": 0,
+                  "name": "MBook1",
+                  "color": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "line_width": null,
+                  "bar_gap": 0,
+                  "line_style": null,
+                  "symbol_kind": 0,
+                  "symbol_size": 8.0,
+                  "transparency": 0.0,
+                  "colormap": "",
+                  "zlevels": {
+                    "minors": 5,
+                    "levels": [
+                      0.0,
+                      4.075,
+                      8.15,
+                      12.225000000000001,
+                      16.3,
+                      20.375,
+                      24.450000000000003,
+                      28.525000000000002,
+                      32.6
+                    ]
+                  }
+                }
+              ],
+              "axes": {
+                "x": {
+                  "title": "%(?X)",
+                  "scale": 1,
+                  "scale_name": "linear",
+                  "limits": [
+                    -3.0,
+                    3.0,
+                    1.0
+                  ]
+                },
+                "y": {
+                  "title": "%(?Y)",
+                  "scale": 1,
+                  "scale_name": "linear",
+                  "limits": [
+                    -3.0,
+                    3.0,
+                    1.0
+                  ]
+                },
+                "z": {
+                  "title": "",
+                  "scale": 0,
+                  "scale_name": "0",
+                  "limits": [
+                    1.0059181200264e-311,
+                    1.0059181199474e-311,
+                    1.0059181199474e-311
+                  ]
+                }
+              },
+              "labels": [],
+              "legend_present": false,
+              "panel_label_present": false
+            }
+          ]
+        }
+      },
+      "optimum_import": {
+        "ok": true,
+        "message": "Imported table data into Origin worksheet.",
+        "data": {
+          "worksheet": {
+            "book_name": "Book6",
+            "sheet_name": "Point",
+            "columns": [
+              "x",
+              "y",
+              "objective"
+            ],
+            "rows": 1
+          }
+        }
+      },
+      "overlay": {
+        "ok": true,
+        "message": "Added plot to Origin graph.",
+        "data": {
+          "graph_name": "Graph4",
+          "layer_index": 0,
+          "worksheet": {
+            "book_name": "Book6",
+            "sheet_name": "Point",
+            "columns": [
+              "x",
+              "y",
+              "objective"
+            ],
+            "rows": 1
+          },
+          "x_col": "x",
+          "y_col": "y",
+          "plot_type": "s"
+        }
+      },
+      "compact_style": {
+        "nature": {
+          "ok": true,
+          "message": "Read Origin bridge task status.",
+          "data": {
+            "task": {
+              "task_id": "e48bd04e-6fc3-4a57-9a25-02336d57f442",
+              "method": "apply_nature_style",
+              "status": "completed",
+              "submitted_at": 1788066339.7274084,
+              "started_at": 1788066339.7274084,
+              "finished_at": 1788066339.885325,
+              "updated_at": 1788066339.885325,
+              "progress": 1.0,
+              "current_step": "Completed",
+              "cancel_requested": false,
+              "result": {
+                "graph_name": "Graph4",
+                "style": "nature",
+                "output_profile": "screen",
+                "style_profile": {
+                  "name": "screen",
+                  "display_name": "Screen / interactive",
+                  "target_width_mm": null,
+                  "axis_title_size": 20,
+                  "tick_label_size": 20,
+                  "legend_font_size": 20,
+                  "annotation_font_size": 20,
+                  "line_width": 3.0,
+                  "symbol_size": 10.0,
+                  "tick_length": 3,
+                  "best_for": "Interactive Origin use, previews, and large on-screen figures."
+                },
+                "resolved_style": {
+                  "axis_title_size": 8,
+                  "tick_label_size": 7,
+                  "legend_font_size": 7,
+                  "line_width": 1.2,
+                  "symbol_size": 5.0,
+                  "tick_length": 3
+                },
+                "style_sources": {
+                  "axis_title_size": "user",
+                  "tick_label_size": "user",
+                  "legend_font_size": "user",
+                  "line_width": "user",
+                  "symbol_size": "user",
+                  "tick_length": "user"
+                },
+                "palette_name": "nature",
+                "chart_type": "heatmap",
+                "font_family": "Arial",
+                "transparency": 0.0,
+                "palette": [
+                  [
+                    39,
+                    68,
+                    124
+                  ],
+                  [
+                    72,
+                    113,
+                    179
+                  ],
+                  [
+                    231,
+                    60,
+                    54
+                  ],
+                  [
+                    153,
+                    31,
+                    34
+                  ],
+                  [
+                    184,
+                    134,
+                    64
+                  ],
+                  [
+                    22,
+                    134,
+                    118
+                  ]
+                ],
+                "semantic_palette": {
+                  "hero": [
+                    39,
+                    68,
+                    124
+                  ],
+                  "secondary": [
+                    72,
+                    113,
+                    179
+                  ],
+                  "baseline": [
+                    231,
+                    60,
+                    54
+                  ],
+                  "negative": [
+                    153,
+                    31,
+                    34
+                  ],
+                  "accent": [
+                    184,
+                    134,
+                    64
+                  ],
+                  "warning": [
+                    184,
+                    134,
+                    64
+                  ],
+                  "positive": [
+                    22,
+                    134,
+                    118
+                  ],
+                  "neutral": [
+                    107,
+                    107,
+                    107
+                  ],
+                  "background": [
+                    244,
+                    243,
+                    238
+                  ]
+                },
+                "palette_role": null,
+                "applied_palette_roles": [
+                  "category_1",
+                  "category_2"
+                ],
+                "series_distinction": {
+                  "enabled": false,
+                  "strategy": "none",
+                  "assignments": [],
+                  "warning": null
+                },
+                "styled_layers": [
+                  0
+                ],
+                "styled_plots": 2,
+                "script": "win -a \"Graph4\"; layer -s 1; layer.x.label.font=font(Arial); layer.y.label.font=font(Arial); layer.x.ticklabel.font=font(Arial); layer.y.ticklabel.font=font(Arial); layer.x.label.pt=8; layer.y.label.pt=8; layer.x.ticklabel.pt=7; layer.y.ticklabel.pt=7; xb.font=font(Arial); yl.font=font(Arial); xb.text$=\"%(?X)\"; yl.text$=\"%(?Y)\"; xb.fsize=8; yl.fsize=8; layer.x.ticks.len=3; layer.y.ticks.len=3; range __omcpNaturePlot1 = !1; set __omcpNaturePlot1 -w 600; set __omcpNaturePlot1 -wp 1.2; range __omcpNaturePlot2 = !2; set __omcpNaturePlot2 -w 600; set __omcpNaturePlot2 -wp 1.2;",
+                "result": true
+              },
+              "logs": [
+                {
+                  "time": 1788066339.7274084,
+                  "level": "info",
+                  "message": "Task started."
+                },
+                {
+                  "time": 1788066339.7274084,
+                  "level": "info",
+                  "message": "Dispatching apply_nature_style."
+                },
+                {
+                  "time": 1788066339.7274084,
+                  "level": "info",
+                  "message": "Running apply_nature_style."
+                },
+                {
+                  "time": 1788066339.885325,
+                  "level": "info",
+                  "message": "apply_nature_style completed."
+                },
+                {
+                  "time": 1788066339.885325,
+                  "level": "info",
+                  "message": "Task completed."
+                }
+              ]
+            }
+          }
+        },
+        "arrange": {
+          "ok": true,
+          "message": "Read Origin bridge task status.",
+          "data": {
+            "task": {
+              "task_id": "e4927391-dfc5-4bdf-b1d4-110240c424f3",
+              "method": "arrange_layers",
+              "status": "completed",
+              "submitted_at": 1788066339.9838755,
+              "started_at": 1788066339.9838755,
+              "finished_at": 1788066339.98955,
+              "updated_at": 1788066339.98955,
+              "progress": 1.0,
+              "current_step": "Completed",
+              "cancel_requested": false,
+              "result": {
+                "graph_name": "Graph4",
+                "rows": 1,
+                "columns": 1,
+                "script": "layarrange row:=1 col:=1;",
+                "layer_geometries": [
+                  {
+                    "layer_index": 0,
+                    "left": 19,
+                    "top": 7,
+                    "width": 52,
+                    "height": 65
+                  }
+                ],
+                "geometry_script": "layer -s 1; layer.left=19.0; layer.top=7.0; layer.width=52.0; layer.height=65.0;",
+                "geometry_result": {
+                  "result": true
+                },
+                "result": true
+              },
+              "logs": [
+                {
+                  "time": 1788066339.9838755,
+                  "level": "info",
+                  "message": "Task started."
+                },
+                {
+                  "time": 1788066339.9838755,
+                  "level": "info",
+                  "message": "Dispatching arrange_layers."
+                },
+                {
+                  "time": 1788066339.9838755,
+                  "level": "info",
+                  "message": "Running arrange_layers."
+                },
+                {
+                  "time": 1788066339.98955,
+                  "level": "info",
+                  "message": "arrange_layers completed."
+                },
+                {
+                  "time": 1788066339.98955,
+                  "level": "info",
+                  "message": "Task completed."
+                }
+              ]
+            }
+          }
+        },
+        "grid_and_opposite_axes": {
+          "ok": true,
+          "message": "Executed LabTalk script.",
+          "data": {
+            "result": true,
+            "message_log": {
+              "captured": true,
+              "source": "LabTalk type -gb/type -ge",
+              "line_count": 0,
+              "lines": [],
+              "start_result": true,
+              "end_result": true
+            }
+          }
+        },
+        "series": [],
+        "legend": null
+      },
+      "contour_style": {
+        "ok": true,
+        "message": "Updated Origin plot style.",
+        "data": {
+          "graph_name": "Graph4",
+          "layer_index": 0,
+          "styled_plots": 1,
+          "applied": {
+            "line_width": 0.45,
+            "colormap": "viridis",
+            "contour_levels": [
+              0.0,
+              4.0,
+              8.0,
+              12.0,
+              16.0,
+              20.0,
+              24.0,
+              28.0,
+              32.0,
+              36.0
+            ],
+            "contour_minor_levels": 0,
+            "color_scale_limits": [
+              0.0,
+              36.0
+            ]
+          }
+        }
+      },
+      "optimum_style": {
+        "ok": true,
+        "message": "Updated Origin plot style.",
+        "data": {
+          "graph_name": "Graph4",
+          "layer_index": 0,
+          "styled_plots": 1,
+          "applied": {
+            "color": [
+              201,
+              123,
+              42
+            ],
+            "line_width": 0.4,
+            "symbol_kind": 2,
+            "symbol_size": 3.8
+          }
+        }
+      },
+      "axes": [
+        {
+          "ok": true,
+          "message": "Updated Origin graph axis.",
+          "data": {
+            "graph_name": "Graph4",
+            "layer_index": 0,
+            "axis": "x",
+            "requested": {
+              "start": -3.0,
+              "end": 3.0,
+              "step": 1.0,
+              "title": "Decision variable x"
+            },
+            "axis_info": {
+              "title": "Decision variable x",
+              "scale": 1,
+              "scale_name": "linear",
+              "limits": [
+                -3.0,
+                3.0,
+                1.0
+              ]
+            },
+            "verified": true
+          }
+        },
+        {
+          "ok": true,
+          "message": "Updated Origin graph axis.",
+          "data": {
+            "graph_name": "Graph4",
+            "layer_index": 0,
+            "axis": "y",
+            "requested": {
+              "start": -3.0,
+              "end": 3.0,
+              "step": 1.0,
+              "title": "Decision variable y"
+            },
+            "axis_info": {
+              "title": "Decision variable y",
+              "scale": 1,
+              "scale_name": "linear",
+              "limits": [
+                -3.0,
+                3.0,
+                1.0
+              ]
+            },
+            "verified": true
+          }
+        }
+      ],
+      "format": {
+        "ok": true,
+        "message": "Formatted Origin graph.",
+        "data": {
+          "graph_name": "Graph4",
+          "formatted": true
+        }
+      },
+      "color_scale_format": {
+        "ok": true,
+        "message": "Executed LabTalk script.",
+        "data": {
+          "result": true,
+          "message_log": {
+            "captured": true,
+            "source": "LabTalk type -gb/type -ge",
+            "line_count": 0,
+            "lines": [],
+            "start_result": true,
+            "end_result": true
+          }
+        }
+      },
+      "graph_info": {
+        "ok": true,
+        "message": "Collected Origin graph information.",
+        "data": {
+          "graph_name": "Graph4",
+          "long_name": "",
+          "layers_count": 1,
+          "layers": [
+            {
+              "index": 0,
+              "name": "B04_Contour",
+              "plots_count": 2,
+              "plots": [
+                {
+                  "index": 0,
+                  "name": "MBook1",
+                  "color": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "line_width": null,
+                  "bar_gap": 0,
+                  "line_style": null,
+                  "symbol_kind": 0,
+                  "symbol_size": 5.0,
+                  "transparency": 0.0,
+                  "colormap": "viridis",
+                  "zlevels": {
+                    "minors": 0,
+                    "levels": [
+                      0.0,
+                      4.0,
+                      8.0,
+                      12.0,
+                      16.0,
+                      20.0,
+                      24.0,
+                      28.0,
+                      32.0,
+                      36.0
+                    ]
+                  }
+                },
+                {
+                  "index": 1,
+                  "name": "Book6_B",
+                  "color": [
+                    201,
+                    123,
+                    42
+                  ],
+                  "line_width": null,
+                  "bar_gap": 0,
+                  "line_style": null,
+                  "symbol_kind": 2,
+                  "symbol_size": 3.8,
+                  "transparency": 0.0,
+                  "colormap": "",
+                  "zlevels": {
+                    "minors": 0,
+                    "levels": [
+                      1.006018037997e-311
+                    ]
+                  }
+                }
+              ],
+              "axes": {
+                "x": {
+                  "title": "Decision variable x",
+                  "scale": 1,
+                  "scale_name": "linear",
+                  "limits": [
+                    -3.0,
+                    3.0,
+                    1.0
+                  ]
+                },
+                "y": {
+                  "title": "Decision variable y",
+                  "scale": 1,
+                  "scale_name": "linear",
+                  "limits": [
+                    -3.0,
+                    3.0,
+                    1.0
+                  ]
+                },
+                "z": {
+                  "title": "",
+                  "scale": 0,
+                  "scale_name": "0",
+                  "limits": [
+                    1.0059181206114e-311,
+                    1.0059181203347e-311,
+                    1.0059181203347e-311
+                  ]
+                }
+              },
+              "labels": [],
+              "legend_present": false,
+              "panel_label_present": false
+            }
+          ]
+        }
+      },
+      "exports": [
+        {
+          "ok": true,
+          "message": "Executed LabTalk script.",
+          "data": {
+            "result": true,
+            "message_log": {
+              "captured": true,
+              "source": "LabTalk type -gb/type -ge",
+              "line_count": 0,
+              "lines": [],
+              "start_result": true,
+              "end_result": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\B04_contour_main.pdf",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\B04_contour_main.pdf",
+              "exists": true,
+              "size_bytes": 8223,
+              "suffix": ".pdf",
+              "sha256": "dd910e9bb012ec7c4a99567225341a5c9d29c17b988a685179a3acc70f5c3bb2",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        },
+        {
+          "ok": true,
+          "message": "Exported Origin graph.",
+          "data": {
+            "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\B04_contour_main.svg",
+            "method": "originpro.save_fig",
+            "inspection": {
+              "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\B04_contour_main.svg",
+              "exists": true,
+              "size_bytes": 35705,
+              "suffix": ".svg",
+              "sha256": "edb25915353fadfd70cf06349e8737ee65a61c87f9f1b3590c1bae45a6649a8e",
+              "quality_issues": [],
+              "quality_passed": true,
+              "looks_nonempty": true
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "project_save": {
+    "ok": true,
+    "message": "Read Origin bridge task status.",
+    "data": {
+      "task": {
+        "task_id": "c8d37605-e836-423a-bd48-daa50dbfdf26",
+        "method": "save_project",
+        "status": "completed",
+        "submitted_at": 1788066341.184818,
+        "started_at": 1788066341.1853213,
+        "finished_at": 1788066341.2425787,
+        "updated_at": 1788066341.2425787,
+        "progress": 1.0,
+        "current_step": "Completed",
+        "cancel_requested": false,
+        "result": {
+          "path": "C:\\Users\\YiPian\\Desktop\\codex\\MathModeling\\ORIGIN_STYLE_SYSTEM\\outputs\\ORIGIN_STYLE_ROUND1.opju",
+          "saved": true,
+          "method": "originpro.save"
+        },
+        "logs": [
+          {
+            "time": 1788066341.1853213,
+            "level": "info",
+            "message": "Task started."
+          },
+          {
+            "time": 1788066341.1853213,
+            "level": "info",
+            "message": "Dispatching save_project."
+          },
+          {
+            "time": 1788066341.1853213,
+            "level": "info",
+            "message": "Running save_project."
+          },
+          {
+            "time": 1788066341.2425787,
+            "level": "info",
+            "message": "save_project completed."
+          },
+          {
+            "time": 1788066341.2425787,
+            "level": "info",
+            "message": "Task completed."
+          }
+        ]
+      }
+    }
+  }
+}

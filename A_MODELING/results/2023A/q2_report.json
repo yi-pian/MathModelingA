@@ -1,0 +1,103 @@
+{
+  "parameters": {
+    "tower_y_m": 50.0,
+    "width_m": 6.5,
+    "height_m": 6.5,
+    "installation_height_m": 3.3,
+    "spacing_gap_m": 0.05,
+    "lattice_angle_rad": 0.0
+  },
+  "annual": {
+    "eta_total": 0.4842163843100358,
+    "eta_cos": 0.7811874087931429,
+    "eta_at": 0.9636176603567042,
+    "eta_sb": 0.7730503205672382,
+    "eta_trunc": 0.9305286744259251,
+    "power_kw": 60895.838359264795,
+    "power_per_area_kw_m2": 0.4719455199642319,
+    "power_mw": 60.89583835926479
+  },
+  "constraints": {
+    "mirror_count": 3054,
+    "total_area_m2": 129031.5,
+    "field_center_margin_min_m": 0.10528122158166298,
+    "tower_exclusion_margin_min_m": 0.1146020245086703,
+    "dimension_margin_min_m": 0.0,
+    "installation_margin_min_m": 0.04999999999999982,
+    "spacing_margin_min_m": 0.04999999999991722,
+    "nearest_distance_min_m": 11.549999999999917,
+    "tower_inside_field_margin_m": 300.0,
+    "rated_power_margin_mw": 0.8958383592647934,
+    "all_geometric_constraints_pass": true
+  },
+  "screen_value": {
+    "power_mw": 60.393569803720716,
+    "power_per_area_kw_m2": 0.4680529157897158
+  },
+  "final_verified_value": {
+    "power_mw": 60.89583835926479,
+    "power_per_area_kw_m2": 0.4719455199642319
+  },
+  "evaluations": 12,
+  "elapsed_seconds": 53.243229300000166,
+  "excel": {
+    "shape": [
+      3054,
+      8
+    ],
+    "columns": [
+      "吸收塔x坐标 (m)",
+      "吸收塔y坐标 (m)",
+      "定日镜序号",
+      "定日镜宽度 (m)",
+      "定日镜高度 (m)",
+      "定日镜x坐标 (m)",
+      "定日镜y坐标 (m)",
+      "定日镜z坐标 (m)"
+    ],
+    "nan_count_mirror_data": 0
+  },
+  "height_slice": [
+    {
+      "installation_height_m": 3.3,
+      "eta_cos": 0.7743904640060418,
+      "eta_at": 0.9636176603567042,
+      "eta_sb": 0.7702769894976836,
+      "eta_trunc": 0.9574170536292813,
+      "eta_total": 0.4889907027751339,
+      "power_kw": 60579.18469157653,
+      "power_per_area_kw_m2": 0.46949143962192585
+    },
+    {
+      "installation_height_m": 3.5,
+      "eta_cos": 0.7742363702097702,
+      "eta_at": 0.9636244569979128,
+      "eta_sb": 0.7695887603385966,
+      "eta_trunc": 0.9577348205344859,
+      "eta_total": 0.48860137268078324,
+      "power_kw": 60530.31158646592,
+      "power_per_area_kw_m2": 0.4691126708320521
+    },
+    {
+      "installation_height_m": 3.75,
+      "eta_cos": 0.7740434901735012,
+      "eta_at": 0.9636329313783613,
+      "eta_sb": 0.7685912828348979,
+      "eta_trunc": 0.9581213933401345,
+      "eta_total": 0.4880165757766138,
+      "power_kw": 60456.54509863182,
+      "power_per_area_kw_m2": 0.46854097719263765
+    },
+    {
+      "installation_height_m": 4.0,
+      "eta_cos": 0.7738503180328408,
+      "eta_at": 0.9636413819282431,
+      "eta_sb": 0.7677302384244099,
+      "eta_trunc": 0.958488605640175,
+      "eta_total": 0.48750620741866674,
+      "power_kw": 60393.56980372072,
+      "power_per_area_kw_m2": 0.4680529157897158
+    }
+  ],
+  "model_note": "clipped triangular-lattice parameterization; MODEL_CONFIRMATION_REQUIRED"
+}

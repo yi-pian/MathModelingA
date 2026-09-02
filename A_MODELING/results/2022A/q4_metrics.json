@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "runtime_seconds": 109.11918839999998,
+  "optimal_linear_damping_n_s_m": 59120.86942976254,
+  "optimal_rotational_damping_n_m_s": 100000.0,
+  "heave_power_w": 318.19575148385155,
+  "rotation_power_w": 0.011053411198646121,
+  "total_power_w": 318.2068048950502,
+  "power_sum_residual_w": 7.858297346174936e-16,
+  "coarse_best": {
+    "linear_damping": 66666.66666666667,
+    "rotational_damping": 100000.0,
+    "total_power_w": 316.41735158034874
+  },
+  "global": {
+    "x": [
+      59636.68762257627,
+      27829.34491605872
+    ],
+    "power_w": 318.18945485281967,
+    "success": true
+  },
+  "local": {
+    "x": [
+      59120.9088972272,
+      100000.0
+    ],
+    "power_w": 318.2068050190157,
+    "success": true
+  },
+  "linear_baseline": {
+    "x": [
+      59152.91715286094,
+      99999.9977992283
+    ],
+    "power_w": 318.3442808677452,
+    "heave_stages": {
+      "coarse_x": 59000.0,
+      "coarse_objective": 318.33560484537884,
+      "verified_objective": 318.3364395916581
+    },
+    "pitch_stages": {
+      "coarse_x": 100000.0,
+      "coarse_objective": 0.007841276124849916,
+      "verified_objective": 0.007841276087128103
+    }
+  },
+  "strict_local": {
+    "x": [
+      59120.86942976254,
+      100000.0
+    ],
+    "power_w": 318.2068048918758,
+    "success": true
+  },
+  "linear_frequency_power_at_nonlinear_optimum_w": 318.344244280808,
+  "nonlinear_coupling_gain_w": -0.13743938575782977,
+  "shooting_levels": [
+    {
+      "heave_power_w": 318.1957512397362,
+      "rotation_power_w": 0.011052876245522657,
+      "total_power_w": 318.2068041159817,
+      "periodic_residual": 1.5509347278674923e-12,
+      "root_residual": 1.5509347278674923e-12,
+      "nfev": 1577
+    },
+    {
+      "heave_power_w": 318.1957514834803,
+      "rotation_power_w": 0.011053408395486103,
+      "total_power_w": 318.2068048918758,
+      "periodic_residual": 7.812847591104344e-14,
+      "root_residual": 7.812847591104344e-14,
+      "nfev": 2678
+    },
+    {
+      "heave_power_w": 318.19575148385155,
+      "rotation_power_w": 0.011053411198646121,
+      "total_power_w": 318.2068048950502,
+      "periodic_residual": 9.992007221626409e-16,
+      "root_residual": 9.992007221626409e-16,
+      "nfev": 5846
+    }
+  ],
+  "steady_start_cycle": 91,
+  "settling_time_s": 288.6851777003647,
+  "window_means": {
+    "heave_5_cycles_simpson": 318.1957514846127,
+    "rotation_5_cycles_simpson": 0.011053412914225673,
+    "total_5_cycles_simpson": 318.2068048975269,
+    "heave_5_cycles_trapezoid": 318.19575148494926,
+    "rotation_5_cycles_trapezoid": 0.011053413953891311,
+    "total_5_cycles_trapezoid": 318.20680489890316,
+    "heave_10_cycles_simpson": 318.1957514843897,
+    "rotation_10_cycles_simpson": 0.011053412261506345,
+    "total_10_cycles_simpson": 318.20680489665114,
+    "heave_10_cycles_trapezoid": 318.1957514845778,
+    "rotation_10_cycles_trapezoid": 0.011053412799077763,
+    "total_10_cycles_trapezoid": 318.2068048973768,
+    "heave_20_cycles_simpson": 318.1957514850625,
+    "rotation_20_cycles_simpson": 0.01105341441712291,
+    "total_20_cycles_simpson": 318.2068048994796,
+    "heave_20_cycles_trapezoid": 318.19575148507613,
+    "rotation_20_cycles_trapezoid": 0.0110534144731753,
+    "total_20_cycles_trapezoid": 318.20680489954924
+  },
+  "neighborhood": [
+    {
+      "linear_damping": 59110.86942976254,
+      "rotational_damping": 100000.0,
+      "total_power_w": 318.20680132607885
+    },
+    {
+      "linear_damping": 59130.86942976254,
+      "rotational_damping": 100000.0,
+      "total_power_w": 318.20680132983716
+    },
+    {
+      "linear_damping": 59120.86942976254,
+      "rotational_damping": 99990.0,
+      "total_power_w": 318.20680450564805
+    },
+    {
+      "linear_damping": 59120.86942976254,
+      "rotational_damping": 100000.0,
+      "total_power_w": 318.2068048918758
+    },
+    {
+      "linear_damping": 59110.86942976254,
+      "rotational_damping": 99990.0,
+      "total_power_w": 318.2068009398998
+    },
+    {
+      "linear_damping": 59130.86942976254,
+      "rotational_damping": 100000.0,
+      "total_power_w": 318.20680132983716
+    }
+  ],
+  "boundary": [
+    {
+      "linear_damping": 0.0,
+      "rotational_damping": 0.0,
+      "total_power_w": 0.0
+    },
+    {
+      "linear_damping": 100000.0,
+      "rotational_damping": 0.0,
+      "total_power_w": 286.4860227652356
+    },
+    {
+      "linear_damping": 0.0,
+      "rotational_damping": 100000.0,
+      "total_power_w": 0.0065734554679178735
+    },
+    {
+      "linear_damping": 100000.0,
+      "rotational_damping": 100000.0,
+      "total_power_w": 286.5046562404493
+    },
+    {
+      "linear_damping": 59120.86942976254,
+      "rotational_damping": 0.0,
+      "total_power_w": 318.1931429115122
+    },
+    {
+      "linear_damping": 0.0,
+      "rotational_damping": 100000.0,
+      "total_power_w": 0.0065734554679178735
+    }
+  ],
+  "objective_evaluations": 333,
+  "objective_cache_hits": 12
+}

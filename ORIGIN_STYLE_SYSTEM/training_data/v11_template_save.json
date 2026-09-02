@@ -1,0 +1,677 @@
+{
+  "status": "SIGNATURE SCIENTIFIC STYLE V1.1 — FROZEN",
+  "templates": [
+    {
+      "ok": true,
+      "message": "Saved Origin graph template.",
+      "data": {
+        "saved": true,
+        "template_dir": "C:\\Users\\YiPian\\.origin-mcp\\templates",
+        "template": {
+          "name": "SCP_SINGLE_LINE_MAIN_v11_FROZEN",
+          "slug": "SCP_SINGLE_LINE_MAIN_v11_FROZEN",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SINGLE_LINE_MAIN_v11_FROZEN.otpu",
+          "created_at": "2026-08-31T02:23:35Z",
+          "description": "SIGNATURE SCIENTIFIC STYLE V1.1 — FROZEN. Do not aesthetically iterate unless real competition data exposes a new problem.",
+          "tags": [
+            "signature-scientific-style-v1.1",
+            "frozen",
+            "publication-grade"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "x",
+            "y",
+            "optimum"
+          ],
+          "n_columns": 2,
+          "layer_count": 1,
+          "plots_count": 2,
+          "source_graph": "Graph1",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SINGLE_LINE_MAIN_v11_FROZEN.png"
+        }
+      }
+    },
+    {
+      "ok": true,
+      "message": "Saved Origin graph template.",
+      "data": {
+        "saved": true,
+        "template_dir": "C:\\Users\\YiPian\\.origin-mcp\\templates",
+        "template": {
+          "name": "SCP_MULTI_LINE_COMPARISON_v11_FROZEN",
+          "slug": "SCP_MULTI_LINE_COMPARISON_v11_FROZEN",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_MULTI_LINE_COMPARISON_v11_FROZEN.otpu",
+          "created_at": "2026-08-31T02:23:35Z",
+          "description": "SIGNATURE SCIENTIFIC STYLE V1.1 — FROZEN. Do not aesthetically iterate unless real competition data exposes a new problem.",
+          "tags": [
+            "signature-scientific-style-v1.1",
+            "frozen",
+            "publication-grade"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "x",
+            "baseline",
+            "alternatives",
+            "primary",
+            "direct-labels"
+          ],
+          "n_columns": 5,
+          "layer_count": 1,
+          "plots_count": 4,
+          "source_graph": "Graph2",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_MULTI_LINE_COMPARISON_v11_FROZEN.png"
+        }
+      }
+    },
+    {
+      "ok": true,
+      "message": "Saved Origin graph template.",
+      "data": {
+        "saved": true,
+        "template_dir": "C:\\Users\\YiPian\\.origin-mcp\\templates",
+        "template": {
+          "name": "SCP_SENSITIVITY_ANALYTICAL_v11_FROZEN",
+          "slug": "SCP_SENSITIVITY_ANALYTICAL_v11_FROZEN",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SENSITIVITY_ANALYTICAL_v11_FROZEN.otpu",
+          "created_at": "2026-08-31T02:23:36Z",
+          "description": "SIGNATURE SCIENTIFIC STYLE V1.1 — FROZEN. Do not aesthetically iterate unless real competition data exposes a new problem.",
+          "tags": [
+            "signature-scientific-style-v1.1",
+            "frozen",
+            "publication-grade"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "perturbation",
+            "responses",
+            "zero-reference",
+            "direct-labels"
+          ],
+          "n_columns": 5,
+          "layer_count": 1,
+          "plots_count": 4,
+          "source_graph": "Graph3",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SENSITIVITY_ANALYTICAL_v11_FROZEN.png"
+        }
+      }
+    },
+    {
+      "ok": true,
+      "message": "Saved Origin graph template.",
+      "data": {
+        "saved": true,
+        "template_dir": "C:\\Users\\YiPian\\.origin-mcp\\templates",
+        "template": {
+          "name": "SCP_CONTOUR_MAIN_v11_FROZEN",
+          "slug": "SCP_CONTOUR_MAIN_v11_FROZEN",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_CONTOUR_MAIN_v11_FROZEN.otpu",
+          "created_at": "2026-08-31T02:23:36Z",
+          "description": "SIGNATURE SCIENTIFIC STYLE V1.1 — FROZEN. Do not aesthetically iterate unless real competition data exposes a new problem.",
+          "tags": [
+            "signature-scientific-style-v1.1",
+            "frozen",
+            "publication-grade"
+          ],
+          "plot_types": [
+            "contour",
+            "scatter"
+          ],
+          "roles": [
+            "x",
+            "y",
+            "z",
+            "optimum",
+            "labeled-colorbar"
+          ],
+          "n_columns": 4,
+          "layer_count": 1,
+          "plots_count": 2,
+          "source_graph": "Graph4",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_CONTOUR_MAIN_v11_FROZEN.png"
+        }
+      }
+    }
+  ],
+  "library_before": {
+    "ok": true,
+    "message": "Listed Origin user templates.",
+    "data": {
+      "template_dir": "C:\\Users\\YiPian\\.origin-mcp\\templates",
+      "count": 8,
+      "templates": [
+        {
+          "name": "SCP_CONTOUR_MAIN_v02",
+          "slug": "SCP_CONTOUR_MAIN_v02",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_CONTOUR_MAIN_v02.otpu",
+          "created_at": "2026-08-30T08:34:58Z",
+          "description": "Signature Scientific Style v1 round-two Origin template; smaller typography, lighter frame, stronger hierarchy.",
+          "tags": [
+            "signature-scientific-style-v1",
+            "round2",
+            "publication-grade"
+          ],
+          "plot_types": [
+            "contour",
+            "scatter"
+          ],
+          "roles": [
+            "x",
+            "y",
+            "z",
+            "optimum",
+            "colorbar-label"
+          ],
+          "n_columns": 4,
+          "layer_count": 1,
+          "plots_count": 2,
+          "source_graph": "Graph4",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_CONTOUR_MAIN_v02.png"
+        },
+        {
+          "name": "SCP_MULTI_LINE_COMPARISON_v02",
+          "slug": "SCP_MULTI_LINE_COMPARISON_v02",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_MULTI_LINE_COMPARISON_v02.otpu",
+          "created_at": "2026-08-30T08:34:57Z",
+          "description": "Signature Scientific Style v1 round-two Origin template; smaller typography, lighter frame, stronger hierarchy.",
+          "tags": [
+            "signature-scientific-style-v1",
+            "round2",
+            "publication-grade"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "x",
+            "baseline",
+            "alternatives",
+            "primary"
+          ],
+          "n_columns": 5,
+          "layer_count": 1,
+          "plots_count": 4,
+          "source_graph": "Graph2",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_MULTI_LINE_COMPARISON_v02.png"
+        },
+        {
+          "name": "SCP_SENSITIVITY_ANALYTICAL_v02",
+          "slug": "SCP_SENSITIVITY_ANALYTICAL_v02",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SENSITIVITY_ANALYTICAL_v02.otpu",
+          "created_at": "2026-08-30T08:34:57Z",
+          "description": "Signature Scientific Style v1 round-two Origin template; smaller typography, lighter frame, stronger hierarchy.",
+          "tags": [
+            "signature-scientific-style-v1",
+            "round2",
+            "publication-grade"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "perturbation",
+            "responses",
+            "zero-reference"
+          ],
+          "n_columns": 5,
+          "layer_count": 1,
+          "plots_count": 4,
+          "source_graph": "Graph3",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SENSITIVITY_ANALYTICAL_v02.png"
+        },
+        {
+          "name": "SCP_SINGLE_LINE_MAIN_v02",
+          "slug": "SCP_SINGLE_LINE_MAIN_v02",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SINGLE_LINE_MAIN_v02.otpu",
+          "created_at": "2026-08-30T08:34:56Z",
+          "description": "Signature Scientific Style v1 round-two Origin template; smaller typography, lighter frame, stronger hierarchy.",
+          "tags": [
+            "signature-scientific-style-v1",
+            "round2",
+            "publication-grade"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "x",
+            "y"
+          ],
+          "n_columns": 2,
+          "layer_count": 1,
+          "plots_count": 2,
+          "source_graph": "Graph1",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SINGLE_LINE_MAIN_v02.png"
+        },
+        {
+          "name": "SCP_CONTOUR_MAIN_v01",
+          "slug": "SCP_CONTOUR_MAIN_v01",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_CONTOUR_MAIN_v01.otpu",
+          "created_at": "2026-08-30T07:32:19Z",
+          "description": "Scientific Competition Premium round-one candidate; human aesthetic approval pending.",
+          "tags": [
+            "scientific-competition-premium",
+            "round1",
+            "candidate"
+          ],
+          "plot_types": [
+            "contour",
+            "scatter"
+          ],
+          "roles": [
+            "x",
+            "y",
+            "z",
+            "optimum"
+          ],
+          "n_columns": 4,
+          "layer_count": 1,
+          "plots_count": 2,
+          "source_graph": "Graph4",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_CONTOUR_MAIN_v01.png"
+        },
+        {
+          "name": "SCP_MULTI_LINE_COMPARISON_v01",
+          "slug": "SCP_MULTI_LINE_COMPARISON_v01",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_MULTI_LINE_COMPARISON_v01.otpu",
+          "created_at": "2026-08-30T07:32:16Z",
+          "description": "Scientific Competition Premium round-one candidate; human aesthetic approval pending.",
+          "tags": [
+            "scientific-competition-premium",
+            "round1",
+            "candidate"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "x",
+            "baseline",
+            "alternatives",
+            "primary"
+          ],
+          "n_columns": 5,
+          "layer_count": 1,
+          "plots_count": 4,
+          "source_graph": "Graph2",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_MULTI_LINE_COMPARISON_v01.png"
+        },
+        {
+          "name": "SCP_SENSITIVITY_ANALYTICAL_v01",
+          "slug": "SCP_SENSITIVITY_ANALYTICAL_v01",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SENSITIVITY_ANALYTICAL_v01.otpu",
+          "created_at": "2026-08-30T07:32:15Z",
+          "description": "Scientific Competition Premium round-one candidate; human aesthetic approval pending.",
+          "tags": [
+            "scientific-competition-premium",
+            "round1",
+            "candidate"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "perturbation",
+            "responses"
+          ],
+          "n_columns": 5,
+          "layer_count": 1,
+          "plots_count": 4,
+          "source_graph": "Graph3",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SENSITIVITY_ANALYTICAL_v01.png"
+        },
+        {
+          "name": "SCP_SINGLE_LINE_MAIN_v01",
+          "slug": "SCP_SINGLE_LINE_MAIN_v01",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SINGLE_LINE_MAIN_v01.otpu",
+          "created_at": "2026-08-30T07:32:14Z",
+          "description": "Scientific Competition Premium round-one candidate; human aesthetic approval pending.",
+          "tags": [
+            "scientific-competition-premium",
+            "round1",
+            "candidate"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "x",
+            "y"
+          ],
+          "n_columns": 2,
+          "layer_count": 1,
+          "plots_count": 2,
+          "source_graph": "Graph1",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SINGLE_LINE_MAIN_v01.png"
+        }
+      ]
+    }
+  },
+  "library_after": {
+    "ok": true,
+    "message": "Listed Origin user templates.",
+    "data": {
+      "template_dir": "C:\\Users\\YiPian\\.origin-mcp\\templates",
+      "count": 12,
+      "templates": [
+        {
+          "name": "SCP_SENSITIVITY_ANALYTICAL_v11_FROZEN",
+          "slug": "SCP_SENSITIVITY_ANALYTICAL_v11_FROZEN",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SENSITIVITY_ANALYTICAL_v11_FROZEN.otpu",
+          "created_at": "2026-08-31T02:23:36Z",
+          "description": "SIGNATURE SCIENTIFIC STYLE V1.1 — FROZEN. Do not aesthetically iterate unless real competition data exposes a new problem.",
+          "tags": [
+            "signature-scientific-style-v1.1",
+            "frozen",
+            "publication-grade"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "perturbation",
+            "responses",
+            "zero-reference",
+            "direct-labels"
+          ],
+          "n_columns": 5,
+          "layer_count": 1,
+          "plots_count": 4,
+          "source_graph": "Graph3",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SENSITIVITY_ANALYTICAL_v11_FROZEN.png"
+        },
+        {
+          "name": "SCP_CONTOUR_MAIN_v11_FROZEN",
+          "slug": "SCP_CONTOUR_MAIN_v11_FROZEN",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_CONTOUR_MAIN_v11_FROZEN.otpu",
+          "created_at": "2026-08-31T02:23:36Z",
+          "description": "SIGNATURE SCIENTIFIC STYLE V1.1 — FROZEN. Do not aesthetically iterate unless real competition data exposes a new problem.",
+          "tags": [
+            "signature-scientific-style-v1.1",
+            "frozen",
+            "publication-grade"
+          ],
+          "plot_types": [
+            "contour",
+            "scatter"
+          ],
+          "roles": [
+            "x",
+            "y",
+            "z",
+            "optimum",
+            "labeled-colorbar"
+          ],
+          "n_columns": 4,
+          "layer_count": 1,
+          "plots_count": 2,
+          "source_graph": "Graph4",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_CONTOUR_MAIN_v11_FROZEN.png"
+        },
+        {
+          "name": "SCP_SINGLE_LINE_MAIN_v11_FROZEN",
+          "slug": "SCP_SINGLE_LINE_MAIN_v11_FROZEN",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SINGLE_LINE_MAIN_v11_FROZEN.otpu",
+          "created_at": "2026-08-31T02:23:35Z",
+          "description": "SIGNATURE SCIENTIFIC STYLE V1.1 — FROZEN. Do not aesthetically iterate unless real competition data exposes a new problem.",
+          "tags": [
+            "signature-scientific-style-v1.1",
+            "frozen",
+            "publication-grade"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "x",
+            "y",
+            "optimum"
+          ],
+          "n_columns": 2,
+          "layer_count": 1,
+          "plots_count": 2,
+          "source_graph": "Graph1",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SINGLE_LINE_MAIN_v11_FROZEN.png"
+        },
+        {
+          "name": "SCP_MULTI_LINE_COMPARISON_v11_FROZEN",
+          "slug": "SCP_MULTI_LINE_COMPARISON_v11_FROZEN",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_MULTI_LINE_COMPARISON_v11_FROZEN.otpu",
+          "created_at": "2026-08-31T02:23:35Z",
+          "description": "SIGNATURE SCIENTIFIC STYLE V1.1 — FROZEN. Do not aesthetically iterate unless real competition data exposes a new problem.",
+          "tags": [
+            "signature-scientific-style-v1.1",
+            "frozen",
+            "publication-grade"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "x",
+            "baseline",
+            "alternatives",
+            "primary",
+            "direct-labels"
+          ],
+          "n_columns": 5,
+          "layer_count": 1,
+          "plots_count": 4,
+          "source_graph": "Graph2",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_MULTI_LINE_COMPARISON_v11_FROZEN.png"
+        },
+        {
+          "name": "SCP_CONTOUR_MAIN_v02",
+          "slug": "SCP_CONTOUR_MAIN_v02",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_CONTOUR_MAIN_v02.otpu",
+          "created_at": "2026-08-30T08:34:58Z",
+          "description": "Signature Scientific Style v1 round-two Origin template; smaller typography, lighter frame, stronger hierarchy.",
+          "tags": [
+            "signature-scientific-style-v1",
+            "round2",
+            "publication-grade"
+          ],
+          "plot_types": [
+            "contour",
+            "scatter"
+          ],
+          "roles": [
+            "x",
+            "y",
+            "z",
+            "optimum",
+            "colorbar-label"
+          ],
+          "n_columns": 4,
+          "layer_count": 1,
+          "plots_count": 2,
+          "source_graph": "Graph4",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_CONTOUR_MAIN_v02.png"
+        },
+        {
+          "name": "SCP_MULTI_LINE_COMPARISON_v02",
+          "slug": "SCP_MULTI_LINE_COMPARISON_v02",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_MULTI_LINE_COMPARISON_v02.otpu",
+          "created_at": "2026-08-30T08:34:57Z",
+          "description": "Signature Scientific Style v1 round-two Origin template; smaller typography, lighter frame, stronger hierarchy.",
+          "tags": [
+            "signature-scientific-style-v1",
+            "round2",
+            "publication-grade"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "x",
+            "baseline",
+            "alternatives",
+            "primary"
+          ],
+          "n_columns": 5,
+          "layer_count": 1,
+          "plots_count": 4,
+          "source_graph": "Graph2",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_MULTI_LINE_COMPARISON_v02.png"
+        },
+        {
+          "name": "SCP_SENSITIVITY_ANALYTICAL_v02",
+          "slug": "SCP_SENSITIVITY_ANALYTICAL_v02",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SENSITIVITY_ANALYTICAL_v02.otpu",
+          "created_at": "2026-08-30T08:34:57Z",
+          "description": "Signature Scientific Style v1 round-two Origin template; smaller typography, lighter frame, stronger hierarchy.",
+          "tags": [
+            "signature-scientific-style-v1",
+            "round2",
+            "publication-grade"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "perturbation",
+            "responses",
+            "zero-reference"
+          ],
+          "n_columns": 5,
+          "layer_count": 1,
+          "plots_count": 4,
+          "source_graph": "Graph3",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SENSITIVITY_ANALYTICAL_v02.png"
+        },
+        {
+          "name": "SCP_SINGLE_LINE_MAIN_v02",
+          "slug": "SCP_SINGLE_LINE_MAIN_v02",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SINGLE_LINE_MAIN_v02.otpu",
+          "created_at": "2026-08-30T08:34:56Z",
+          "description": "Signature Scientific Style v1 round-two Origin template; smaller typography, lighter frame, stronger hierarchy.",
+          "tags": [
+            "signature-scientific-style-v1",
+            "round2",
+            "publication-grade"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "x",
+            "y"
+          ],
+          "n_columns": 2,
+          "layer_count": 1,
+          "plots_count": 2,
+          "source_graph": "Graph1",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SINGLE_LINE_MAIN_v02.png"
+        },
+        {
+          "name": "SCP_CONTOUR_MAIN_v01",
+          "slug": "SCP_CONTOUR_MAIN_v01",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_CONTOUR_MAIN_v01.otpu",
+          "created_at": "2026-08-30T07:32:19Z",
+          "description": "Scientific Competition Premium round-one candidate; human aesthetic approval pending.",
+          "tags": [
+            "scientific-competition-premium",
+            "round1",
+            "candidate"
+          ],
+          "plot_types": [
+            "contour",
+            "scatter"
+          ],
+          "roles": [
+            "x",
+            "y",
+            "z",
+            "optimum"
+          ],
+          "n_columns": 4,
+          "layer_count": 1,
+          "plots_count": 2,
+          "source_graph": "Graph4",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_CONTOUR_MAIN_v01.png"
+        },
+        {
+          "name": "SCP_MULTI_LINE_COMPARISON_v01",
+          "slug": "SCP_MULTI_LINE_COMPARISON_v01",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_MULTI_LINE_COMPARISON_v01.otpu",
+          "created_at": "2026-08-30T07:32:16Z",
+          "description": "Scientific Competition Premium round-one candidate; human aesthetic approval pending.",
+          "tags": [
+            "scientific-competition-premium",
+            "round1",
+            "candidate"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "x",
+            "baseline",
+            "alternatives",
+            "primary"
+          ],
+          "n_columns": 5,
+          "layer_count": 1,
+          "plots_count": 4,
+          "source_graph": "Graph2",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_MULTI_LINE_COMPARISON_v01.png"
+        },
+        {
+          "name": "SCP_SENSITIVITY_ANALYTICAL_v01",
+          "slug": "SCP_SENSITIVITY_ANALYTICAL_v01",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SENSITIVITY_ANALYTICAL_v01.otpu",
+          "created_at": "2026-08-30T07:32:15Z",
+          "description": "Scientific Competition Premium round-one candidate; human aesthetic approval pending.",
+          "tags": [
+            "scientific-competition-premium",
+            "round1",
+            "candidate"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "perturbation",
+            "responses"
+          ],
+          "n_columns": 5,
+          "layer_count": 1,
+          "plots_count": 4,
+          "source_graph": "Graph3",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SENSITIVITY_ANALYTICAL_v01.png"
+        },
+        {
+          "name": "SCP_SINGLE_LINE_MAIN_v01",
+          "slug": "SCP_SINGLE_LINE_MAIN_v01",
+          "otpu_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SINGLE_LINE_MAIN_v01.otpu",
+          "created_at": "2026-08-30T07:32:14Z",
+          "description": "Scientific Competition Premium round-one candidate; human aesthetic approval pending.",
+          "tags": [
+            "scientific-competition-premium",
+            "round1",
+            "candidate"
+          ],
+          "plot_types": [
+            "line"
+          ],
+          "roles": [
+            "x",
+            "y"
+          ],
+          "n_columns": 2,
+          "layer_count": 1,
+          "plots_count": 2,
+          "source_graph": "Graph1",
+          "thumbnail_path": "C:\\Users\\YiPian\\.origin-mcp\\templates\\SCP_SINGLE_LINE_MAIN_v01.png"
+        }
+      ]
+    }
+  }
+}

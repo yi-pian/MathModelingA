@@ -1,0 +1,60 @@
+{
+  "phase": "Phase 2 human-review refinement",
+  "status": "MULTIPANEL REFINED; SURFACE REDESIGNED; HUMAN APPROVAL PENDING",
+  "origin_version": "10.350229",
+  "frozen_policy": "Frozen templates were not loaded or modified. Future changes require a scientific-accuracy, readability, or real-data adaptation failure.",
+  "newly_frozen_templates": [
+    {
+      "name": "SCP_SCATTER_FIT_v20_FROZEN",
+      "bytes": 19443,
+      "sha256": "8902F09D71AA4384A33B4C0538976D6840CB0B1369C45E95A019ECEB7260FA5E"
+    },
+    {
+      "name": "SCP_HEATMAP_CONTINUOUS_v20_FROZEN",
+      "bytes": 30283,
+      "sha256": "2D37CDF3647CDBE2156936D81E52D48F3C060CC4684FE7E8614C019F1C78F8AA"
+    },
+    {
+      "name": "SCP_OPTIMIZATION_CONVERGENCE_v20_FROZEN",
+      "bytes": 12567,
+      "sha256": "BBAE1A436052C089FD235D453A5B475FEFD5D4517F465CA830985FEFBF4ED160"
+    }
+  ],
+  "post_review_candidates": [
+    {
+      "name": "SCP_MULTIPANEL_2X2_v21_REFINED_CANDIDATE",
+      "bytes": 50274,
+      "sha256": "79856A6997ACCD5DC07CC66141332CE940E7901E6834D6AC91113E5F573B752B",
+      "frozen": false
+    },
+    {
+      "name": "SCP_SURFACE_3D_AUXILIARY_v21_REDESIGN_CANDIDATE",
+      "bytes": 20456,
+      "sha256": "7C3EFE63D8625E9E260800909B9E2DCEA2BD84E676E7B20BD126D790E524B1D0",
+      "frozen": false,
+      "role": "AUXILIARY FIGURE"
+    }
+  ],
+  "exports": {
+    "multipanel_standard": "3600x2552 PNG + PDF + SVG",
+    "multipanel_stress": "3600x2552 PNG + PDF + SVG",
+    "multipanel_audits": [
+      "1831x1298 (15.5 cm)",
+      "1040x737 (8.8 cm)"
+    ],
+    "surface_standard": "2800x1985 PNG + PDF + SVG",
+    "surface_stress": "2800x1985 PNG + PDF + SVG",
+    "pdf_header_pass": "4/4",
+    "svg_header_pass": "4/4"
+  },
+  "source_project": {
+    "path": "outputs/phase2_refinement/ORIGIN_PHASE2_MULTIPANEL_SURFACE_REFINEMENT.opju",
+    "note": "The original refinement project remains the source container. Origin's active learning-version session rejected overwrite/save-as as file-in-use or read-only; final authoritative deliverables are the verified exports and saved graph templates."
+  },
+  "frozen_integrity": {
+    "v11_templates_verified": 4,
+    "v11_hash_matches": 4,
+    "phase2_pass_templates_verified": 3,
+    "modified": false
+  }
+}

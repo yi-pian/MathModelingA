@@ -1,0 +1,45 @@
+{
+  "calibration": {
+    "h_out_w_m2k": 120.28446734458524,
+    "h_skin_w_m2k": 8.364567662641655,
+    "rmse_c": 0.0029724821076329297,
+    "mae_c": 0.0019988357345114933,
+    "r2": 0.9999973066085596,
+    "condition_number": 270.28734149340124,
+    "parameter_correlation": 0.6556213249609332
+  },
+  "q2": {
+    "critical_d_ii_mm": 17.572773454527354,
+    "reported_d_ii_mm": 17.6,
+    "d_iv_mm": 5.5,
+    "max_skin_temperature_c": 44.07553042374801,
+    "duration_above_44_s": 288.7395085829155,
+    "first_crossing_44_s": 3311.2604914170843,
+    "margin_47_c": 2.924469576251987,
+    "margin_duration_s": 11.260491417084495,
+    "feasible": true
+  },
+  "q3": {
+    "critical_d_ii_mm": 19.242145166026308,
+    "reported_d_ii_mm": 19.3,
+    "reported_d_iv_mm": 6.4,
+    "total_mm": 25.7,
+    "max_skin_temperature_c": 44.78181374451009,
+    "duration_above_44_s": 292.3947627726301,
+    "first_crossing_44_s": 1507.60523722737,
+    "margin_47_c": 2.218186255489911,
+    "margin_duration_s": 7.605237227369912,
+    "feasible": true
+  },
+  "validation_elapsed_seconds": 40.707432700000936,
+  "deliverables_elapsed_seconds": 91.96090099999856,
+  "excel": {
+    "problem1_time_strict": true,
+    "problem1_rows": 5401,
+    "problem1_field_shape": [
+      5401,
+      155
+    ],
+    "all_workbooks_valid": true
+  }
+}

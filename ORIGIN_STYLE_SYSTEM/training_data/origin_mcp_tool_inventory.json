@@ -1,0 +1,474 @@
+[
+  {
+    "name": "origin_get_analysis_results",
+    "description": "Read an Origin report sheet and normalize its official result tree."
+  },
+  {
+    "name": "origin_get_analysis_operation",
+    "description": "Read the settings tree for a recalculating Origin analysis operation."
+  },
+  {
+    "name": "origin_recalculate_analysis",
+    "description": "Recalculate an Origin analysis operation with current or updated settings."
+  },
+  {
+    "name": "origin_run_analysis",
+    "description": "Run a supported Origin analysis and return structured metrics or output rows.\n\n    Use ``include_output=True`` with ``output_sheet`` for analyses that create a\n    worksheet. The ``analysis`` schema lists canonical names; aliases remain\n    accepted for backward compatibility.\n    "
+  },
+  {
+    "name": "origin_linear_fit",
+    "description": "Run Origin linear fitting."
+  },
+  {
+    "name": "origin_list_fit_functions",
+    "description": "List common Origin nonlinear fit function names and parameters."
+  },
+  {
+    "name": "origin_nonlinear_fit_structured",
+    "description": "Run nonlinear fitting with explicit function and parameter hints."
+  },
+  {
+    "name": "origin_save_analysis_template",
+    "description": "Save an active workbook's recalculating operations as an OGW(U) template."
+  },
+  {
+    "name": "origin_open_analysis_template",
+    "description": "Open an OGW/OGWU analysis template while preserving its operations."
+  },
+  {
+    "name": "origin_batch_process",
+    "description": "Run Origin batchprocess with an analysis template or active workbook.\n\n    source_type supports files, folder, existing_xy, existing_xyz,\n    existing_worksheets, and existing_ranges. For existing ranges, pass Origin\n    range syntax through input_range, worksheets, fixed_range, or batch_range.\n    "
+  },
+  {
+    "name": "origin_clone_import",
+    "description": "Clone an analyzed workbook and import each similarly structured file."
+  },
+  {
+    "name": "origin_ping",
+    "description": "Connect to Origin/OriginPro and report basic status."
+  },
+  {
+    "name": "origin_capabilities",
+    "description": "Report runtime capabilities; set ``show`` only to change Origin visibility."
+  },
+  {
+    "name": "origin_bridge_shutdown",
+    "description": "Ask the Origin GUI bridge to stop serving requests.\n\n    By default this releases the Origin automation connection without closing\n    Origin itself. Set ``close_origin=True`` to force-close Origin as part of\n    shutdown.\n    "
+  },
+  {
+    "name": "origin_doctor",
+    "description": "Diagnose Origin bridge configuration, status file, and connectivity."
+  },
+  {
+    "name": "origin_bridge_submit_task",
+    "description": "Submit a supported Origin bridge method as a queued background task."
+  },
+  {
+    "name": "origin_bridge_task_status",
+    "description": "Read status, result, or optional recent logs for an Origin bridge background task."
+  },
+  {
+    "name": "origin_bridge_cancel_task",
+    "description": "Cancel a queued Origin bridge task or mark a running task for cancellation."
+  },
+  {
+    "name": "origin_bridge_list_tasks",
+    "description": "List recent Origin bridge background tasks."
+  },
+  {
+    "name": "origin_list_xfunctions",
+    "description": "List the controlled X-Function expert catalog and accepted arguments."
+  },
+  {
+    "name": "origin_run_xfunction",
+    "description": "Run an allowlisted Origin X-Function with schema-validated arguments.\n\n    Call origin_list_xfunctions first. Unknown functions and parameters are\n    rejected; range arguments cannot contain script delimiters. This is the\n    expert route for supported Origin features without exposing arbitrary\n    LabTalk construction.\n    "
+  },
+  {
+    "name": "origin_fft_filter",
+    "description": "Apply an ideal/parabolic/band/threshold FFT filter to a signal."
+  },
+  {
+    "name": "origin_principal_component_analysis",
+    "description": "Run OriginPro PCA with controlled output and plot options."
+  },
+  {
+    "name": "origin_one_way_anova",
+    "description": "Run raw-data one-way ANOVA on two or more worksheet group columns."
+  },
+  {
+    "name": "origin_multivariate_analysis",
+    "description": "Run K-means, hierarchical clustering, discriminant analysis, or PLS."
+  },
+  {
+    "name": "origin_nonparametric_test",
+    "description": "Run an allowlisted OriginPro nonparametric hypothesis test."
+  },
+  {
+    "name": "origin_survival_analysis",
+    "description": "Run Kaplan-Meier, Cox proportional-hazards, or Weibull survival analysis."
+  },
+  {
+    "name": "origin_plan_figure_spec",
+    "description": "Validate a declarative FigureSpec and return the planned Origin operations."
+  },
+  {
+    "name": "origin_execute_figure_spec",
+    "description": "Execute a declarative FigureSpec.\n\n    The current executor supports worksheet-backed single-panel and grid\n    multi-panel figures with common plot types. Unsupported features are\n    reported in the plan instead of being guessed.\n    "
+  },
+  {
+    "name": "origin_palette_catalog",
+    "description": "List built-in palette names, semantic roles, and source links."
+  },
+  {
+    "name": "origin_plot_style_capabilities",
+    "description": "List semantic plot style controls by chart type, Plot Type ID, or term."
+  },
+  {
+    "name": "origin_plot_style_setter_coverage",
+    "description": "Report which implemented style registry entries have executable safe setters."
+  },
+  {
+    "name": "origin_get_graph_info",
+    "description": "Inspect a graph page, its layers, axes, and plots."
+  },
+  {
+    "name": "origin_get_layer_info",
+    "description": "Inspect one graph layer, its axes, and plots."
+  },
+  {
+    "name": "origin_export_graph",
+    "description": "Export the active or named Origin graph to an image/PDF file."
+  },
+  {
+    "name": "origin_view_graph",
+    "description": "Render an Origin graph and return it as an image the model can see.\n\n    Unlike ``origin_export_graph`` this leaves no file behind: the graph is\n    rendered to a temporary PNG, returned as an image content block alongside a\n    small text summary, and the temp file is deleted. Use it to visually verify\n    a plot and iterate on it. ``max_width`` bounds the rendered pixel width to\n    keep the returned image (and its token cost) small. Requires a\n    vision-capable client to be useful.\n    "
+  },
+  {
+    "name": "origin_format_graph",
+    "description": "Set graph long name, axis labels, legend visibility, and optional rescale."
+  },
+  {
+    "name": "origin_set_axis",
+    "description": "Set axis scale, limits, tick step, and title."
+  },
+  {
+    "name": "origin_set_axis_break",
+    "description": "Add or remove an axis break on a graph axis.\n\n    Hides the range between break_from and break_to on the chosen axis (\"x\" or\n    \"y\"), so data on either side is shown closer together. position is the\n    break location as a percent of the axis length; post_break_increment sets\n    the tick spacing after the break. Pass enabled=false to remove the break.\n    "
+  },
+  {
+    "name": "origin_set_plot_style",
+    "description": "Set common, color-map, contour, histogram, error-bar, and box styles."
+  },
+  {
+    "name": "origin_set_plot_property",
+    "description": "Set one registry-backed plot style property if it is implemented."
+  },
+  {
+    "name": "origin_add_plot_to_graph",
+    "description": "Add a worksheet X/Y plot to an existing graph layer."
+  },
+  {
+    "name": "origin_add_inset",
+    "description": "Add an inset (small embedded layer) to an existing graph.\n\n    A new layer is placed inside the graph at left/top with width/height (all\n    percentages of the page) and the worksheet x_col/y_cols are plotted into it.\n    Give x_start/x_end and/or y_start/y_end to zoom the inset to a sub-range\n    (useful for a magnified detail view); otherwise the inset auto-scales.\n    "
+  },
+  {
+    "name": "origin_merge_graphs",
+    "description": "Merge existing graph pages into a publication-style multi-panel graph."
+  },
+  {
+    "name": "origin_create_graph_layout",
+    "description": "Create an Origin Layout page containing linked graph pages."
+  },
+  {
+    "name": "origin_link_graph_layers",
+    "description": "Link graph-layer scales and geometry to a source layer."
+  },
+  {
+    "name": "origin_copy_layer_scale",
+    "description": "Copy Origin axis-scale settings from one graph layer to others."
+  },
+  {
+    "name": "origin_extract_graph_layers",
+    "description": "Extract selected layers into separate Origin graph pages."
+  },
+  {
+    "name": "origin_browse_knowledge",
+    "description": "List knowledge collections or browse one collection by slash-delimited path."
+  },
+  {
+    "name": "origin_query_knowledge",
+    "description": "Search the local Origin knowledge base by keyword."
+  },
+  {
+    "name": "origin_run_labtalk",
+    "description": "Execute LabTalk script text inside Origin and optionally return captured output."
+  },
+  {
+    "name": "origin_create_matrix",
+    "description": "Create an Origin matrix from 2D/3D data or a filled shape.\n\n    xymap is (x_min, x_max, y_min, y_max). A 3D array creates multiple\n    MatrixObjects; set dstack when its layout is rows, columns, depth.\n    formula can fill cells with an Origin matrix expression using X, Y, i, j.\n    "
+  },
+  {
+    "name": "origin_get_matrix_info",
+    "description": "Inspect matrix shape, object depth, XY mapping, labels, and data ranges."
+  },
+  {
+    "name": "origin_read_matrix",
+    "description": "Read a bounded 2D window from one MatrixObject."
+  },
+  {
+    "name": "origin_write_matrix",
+    "description": "Replace a matrix sheet or update one MatrixObject with numeric data."
+  },
+  {
+    "name": "origin_set_matrix_properties",
+    "description": "Set matrix coordinate mapping, object labels, and image-view controls."
+  },
+  {
+    "name": "origin_transform_matrix",
+    "description": "Transpose, rotate 90 degrees, or flip an Origin matrix."
+  },
+  {
+    "name": "origin_import_image",
+    "description": "Import a local image, URL, wildcard stack, or multipage image into Origin."
+  },
+  {
+    "name": "origin_create_image",
+    "description": "Create an Origin image or image stack from numeric array data."
+  },
+  {
+    "name": "origin_get_image_info",
+    "description": "Inspect an Origin image's size, channels, frames, and media type."
+  },
+  {
+    "name": "origin_read_image",
+    "description": "Read an Origin image or one image-stack frame into a bounded array result."
+  },
+  {
+    "name": "origin_process_image",
+    "description": "Convert to grayscale, split RGB channels, or merge image frames."
+  },
+  {
+    "name": "origin_image_to_matrix",
+    "description": "Convert an Origin image window into a new matrix sheet."
+  },
+  {
+    "name": "origin_peak_analyzer",
+    "description": "Run Origin Peak Analyzer with a saved theme or open its wizard.\n\n    no_dialog is reproducible script mode and requires theme. modeless/modal\n    opens the wizard and may omit the theme. A theme can represent baseline\n    creation/subtraction, peak finding, integration, or OriginPro peak fitting.\n    "
+  },
+  {
+    "name": "origin_peak_baseline",
+    "description": "Automatically create spectrum baseline anchor points with blauto."
+  },
+  {
+    "name": "origin_peak_analyzer_batch",
+    "description": "Batch-analyze multiple spectra using an Origin Peak Analyzer theme.\n\n    Pass a full Origin XYRange or worksheet/x_col/y_cols. result_sheet must\n    match the theme goal: integrate, baseline, peak_centers, peak_properties,\n    or none. Sequential initialization is useful for related peak-fit spectra.\n    "
+  },
+  {
+    "name": "origin_plot_line",
+    "description": "Import table data and create a line graph."
+  },
+  {
+    "name": "origin_plot_scatter",
+    "description": "Import table data and create a scatter graph."
+  },
+  {
+    "name": "origin_plot_line_symbol",
+    "description": "Import table data and create a line+symbol graph."
+  },
+  {
+    "name": "origin_plot_column",
+    "description": "Import table data and create a column/bar-style graph."
+  },
+  {
+    "name": "origin_plot_histogram",
+    "description": "Import table data and create a histogram graph."
+  },
+  {
+    "name": "origin_plot_box",
+    "description": "Import table data and create a box plot."
+  },
+  {
+    "name": "origin_plot_table_id",
+    "description": "Create a graph from table data using an Origin Plot Type ID and template."
+  },
+  {
+    "name": "origin_plot_dual_y",
+    "description": "Import table data and create a double-Y (two Y axes) graph.\n\n    y1_cols are plotted against the left Y axis (layer 1) and y2_cols against\n    the right Y axis (layer 2), sharing one X axis. Both lists are required.\n    plot_type is \"line\", \"scatter\", \"line_symbol\", or \"column\".\n    "
+  },
+  {
+    "name": "origin_plot",
+    "description": "Create a table-based plot selected by ``kind``.\n\n    A single parameterized entry point for common table plots and the Plot Type\n    ID routes that each also have a dedicated ``origin_plot_*`` tool. For the\n    common line/scatter/line_symbol/column routes, ``selected_cols`` uses the\n    first column as X and the remaining columns as Y. A one-column selection is\n    treated as Y-only. Matrix-range plots still use ``origin_plot_matrix_id``.\n    "
+  },
+  {
+    "name": "origin_plot_from_range",
+    "description": "Create a graph from an existing Origin range and template."
+  },
+  {
+    "name": "origin_recommend_chart",
+    "description": "Recommend chart types from table shape, column semantics, and optional intent."
+  },
+  {
+    "name": "origin_plot_auto",
+    "description": "Inspect table columns, select a suitable chart route, and create the plot.\n\n    Provide ``intent`` when the desired comparison or relationship is known.\n    Otherwise the router uses column types, cardinality, and selected X/Y/Z or\n    error columns. Use ``origin_recommend_chart`` first when no graph should be\n    created yet.\n    "
+  },
+  {
+    "name": "origin_plot_chart_atlas",
+    "description": "Create a plot using chart-atlas intent routing."
+  },
+  {
+    "name": "origin_create_note",
+    "description": "Create an Origin Notes window with plain text, HTML, Markdown, or rich text."
+  },
+  {
+    "name": "origin_get_note",
+    "description": "Read an Origin Notes window and its syntax/view metadata."
+  },
+  {
+    "name": "origin_write_note",
+    "description": "Replace or append Notes text, optionally changing syntax and rendered view."
+  },
+  {
+    "name": "origin_load_note",
+    "description": "Load a local text, HTML, or Markdown file into an Origin Notes window."
+  },
+  {
+    "name": "origin_export_note_html",
+    "description": "Export an Origin Notes window as HTML."
+  },
+  {
+    "name": "origin_delete_note",
+    "description": "Delete an Origin Notes window. Requires confirm=true."
+  },
+  {
+    "name": "origin_list_project_folder",
+    "description": "List Project Explorer contents, optionally filtering by Origin page type."
+  },
+  {
+    "name": "origin_set_project_folder",
+    "description": "Change the active Origin Project Explorer folder."
+  },
+  {
+    "name": "origin_create_project_folder",
+    "description": "Create a Project Explorer folder, optionally below a chosen parent."
+  },
+  {
+    "name": "origin_move_project_item",
+    "description": "Move an Origin page or subfolder to another Project Explorer folder."
+  },
+  {
+    "name": "origin_rename_project_item",
+    "description": "Rename a page or subfolder within an Origin Project Explorer folder."
+  },
+  {
+    "name": "origin_delete_project_folder",
+    "description": "Delete a Project Explorer folder; recursive deletion requires explicit confirmation."
+  },
+  {
+    "name": "origin_save_graph_template",
+    "description": "Save a finished graph as a reusable user template with searchable metadata.\n\n    The template is stored in the user template library (default\n    ``~/.origin-mcp/templates``). Reuse it later by passing ``template=<name>``\n    to any plotting tool. Provide ``plot_types``, ``roles``, and ``n_columns``\n    to make the template easier to find via ``origin_search_templates``.\n    "
+  },
+  {
+    "name": "origin_search_templates",
+    "description": "Search the user template library for templates matching an intended plot.\n\n    Ranks saved templates by plot type, data shape, tags, and keywords. Call\n    this before plotting to reuse a matching style; each result carries a\n    ``score`` and ``match_reasons``. Returns an empty list when nothing matches.\n    "
+  },
+  {
+    "name": "origin_delete_template",
+    "description": "Delete a saved user template (its .otpu/.json/.png) and drop it from the index.\n\n    Returns ``deleted: false`` with reason ``not_found`` when no template carries\n    that name.\n    "
+  },
+  {
+    "name": "origin_rename_template",
+    "description": "Rename a saved user template without redrawing the graph.\n\n    Renames the template's .otpu/.json/.png files and updates the index. Returns\n    ``renamed: false`` with a ``reason`` such as ``not_found`` or ``name_exists``.\n    "
+  },
+  {
+    "name": "origin_update_template_metadata",
+    "description": "Edit a saved template's searchable metadata in place (no redraw needed).\n\n    Only the fields you pass are changed; omitted fields are left untouched. The\n    .otpu template file itself is not modified. Use this to fix tags, description,\n    or matching hints without re-saving from a graph. Returns ``updated: false``\n    with reason ``not_found`` when no template carries ``name``.\n    "
+  },
+  {
+    "name": "origin_list_user_templates",
+    "description": "List every saved user template, most recent first."
+  },
+  {
+    "name": "origin_filter_rows",
+    "description": "Keep worksheet rows matching structured conditions.\n\n    Each condition is {\"column\": name_or_index, \"op\": ..., \"value\": ...} where op\n    is one of eq, ne, gt, ge, lt, le, in, not_in, contains, startswith, isna,\n    notna. Conditions are joined by combine (\"and\" or \"or\"). Provide output_book\n    or output_sheet to write the result to a new sheet; otherwise the source\n    worksheet is overwritten in place.\n    "
+  },
+  {
+    "name": "origin_drop_duplicates",
+    "description": "Remove duplicate worksheet rows.\n\n    subset limits the columns considered for duplication (default: all columns).\n    keep is \"first\", \"last\", or \"none\" (drop every duplicated row). Provide\n    output_book/output_sheet to write to a new sheet instead of in place.\n    "
+  },
+  {
+    "name": "origin_fill_missing",
+    "description": "Handle missing worksheet values.\n\n    strategy is one of: drop_rows, drop_columns, value (requires value),\n    ffill, bfill, mean, median. columns limits which columns are affected\n    (default: all). Provide output_book/output_sheet to write to a new sheet\n    instead of in place.\n    "
+  },
+  {
+    "name": "origin_transpose_worksheet",
+    "description": "Transpose a worksheet so rows become columns.\n\n    When label_column is given, that column's values become the new column\n    headers; otherwise headers are R1, R2, .... The original column names become\n    a leading \"Field\" column. Provide output_book/output_sheet to write to a new\n    sheet instead of in place.\n    "
+  },
+  {
+    "name": "origin_merge_worksheets",
+    "description": "Join two worksheets on key columns (database-style merge).\n\n    The left worksheet is book_name/sheet_name; the right is\n    right_book/right_sheet. Specify the key with on (shared name) or with\n    left_on plus right_on; when omitted, shared column names are used. how is\n    inner, left, right, outer, or cross. Provide output_book/output_sheet to\n    write to a new sheet instead of overwriting the left worksheet.\n    "
+  },
+  {
+    "name": "origin_concat_worksheets",
+    "description": "Concatenate the primary worksheet with one or more others.\n\n    The primary worksheet is book_name/sheet_name; others is a list of\n    {\"book\": ..., \"sheet\": ...}. axis=\"rows\" stacks rows (a SQL UNION ALL,\n    aligning by column name); axis=\"columns\" places sheets side by side.\n    Provide output_book/output_sheet to write to a new sheet instead of\n    overwriting the primary worksheet.\n    "
+  },
+  {
+    "name": "origin_pivot_worksheet",
+    "description": "Reshape long data into a wide pivot table.\n\n    index columns stay as rows, the distinct values of columns become new\n    column headers, and values are aggregated with aggfunc (mean, sum, count,\n    min, max, median, std). Provide output_book/output_sheet to write to a new\n    sheet instead of in place.\n    "
+  },
+  {
+    "name": "origin_melt_worksheet",
+    "description": "Reshape wide data into long format (unpivot).\n\n    id_vars columns are kept as identifiers; value_vars columns (default: all\n    other columns) are unpivoted into a var_name/value_name column pair. Provide\n    output_book/output_sheet to write to a new sheet instead of in place.\n    "
+  },
+  {
+    "name": "origin_import_table",
+    "description": "Import a CSV, TSV, TXT, DAT, XLS, or XLSX file into a new Origin worksheet."
+  },
+  {
+    "name": "origin_import_file",
+    "description": "Import a file using Origin's official Data Connector/from_file path."
+  },
+  {
+    "name": "origin_connect_data_source",
+    "description": "Create an Origin Data Connector from a local path or remote source.\n\n    dctype selects a connector type such as CSV, Excel, JSON, or HTML when\n    Origin cannot infer it. selection chooses a table, sheet, or subresource.\n    "
+  },
+  {
+    "name": "origin_get_connector",
+    "description": "Inspect a worksheet's Data Connector source, selection, and settings."
+  },
+  {
+    "name": "origin_update_connector",
+    "description": "Update an existing Data Connector and optionally refresh its data."
+  },
+  {
+    "name": "origin_refresh_connector",
+    "description": "Refresh one worksheet from its persistent Data Connector source."
+  },
+  {
+    "name": "origin_connect_selection",
+    "description": "Import another connector selection into a new workbook sheet.\n\n    For multi-table, multi-sheet, or multi-file sources, selection names the\n    subresource. duplicate_analysis also copies analysis attached to the source\n    connector sheet.\n    "
+  },
+  {
+    "name": "origin_disconnect_connector",
+    "description": "Disconnect connector metadata (sheet/workbook) or only unlock data.\n\n    mode='sheet' disconnects the active sheet, 'workbook' removes all workbook\n    connectors, and 'unlock' leaves the connector but unlocks imported data.\n    "
+  },
+  {
+    "name": "origin_refresh_all_connectors",
+    "description": "Refresh all Data Connectors in the project or active project folder."
+  },
+  {
+    "name": "origin_read_worksheet",
+    "description": "Read a window of Origin worksheet data as structured rows."
+  },
+  {
+    "name": "origin_write_worksheet",
+    "description": "Write structured rows into a new or existing Origin worksheet."
+  },
+  {
+    "name": "origin_add_calculated_columns",
+    "description": "Add several worksheet columns from LabTalk formulas in one call.\n\n    columns is a list of {\"name\": ..., \"formula\": ...}. Formulas use LabTalk\n    column syntax. To reference another sheet, use the [Book]Sheet!index form,\n    e.g. \"[Book2]Sheet1!2 * 2\" (col(...) resolves against the active sheet and\n    ignores the [Book]Sheet! prefix, so use the column-index form for\n    cross-sheet references).\n    "
+  },
+  {
+    "name": "origin_diagnose_worksheet",
+    "description": "Check worksheet data quality before plotting or analysis.\n\n    Reports per-column dtype, missing count/fraction, and unique count, plus\n    structured issues: empty_worksheet and all_null_column (error), high_missing\n    and duplicate_columns (warning), non_numeric_column and constant_column\n    (info). high_missing_threshold is the missing fraction (0-1) that triggers a\n    high_missing warning. \"passed\" is false when any error-severity issue is\n    found.\n    "
+  }
+]

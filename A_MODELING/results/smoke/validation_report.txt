@@ -1,0 +1,12 @@
+========== VALIDATION REPORT ==========
+Root                     PASS
+ODE                      PASS
+3D rotation              PASS
+Sphere intersections     PASS
+Parameter fitting        PASS
+Continuous optimization  PASS
+Sensitivity table        PASS
+Matplotlib outputs       PASS
+Excel output             PASS
+Origin output            PASS
+=======================================

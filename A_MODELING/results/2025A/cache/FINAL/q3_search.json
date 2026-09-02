@@ -1,0 +1,69 @@
+{
+  "mode": "FINAL",
+  "candidates": [
+    {
+      "seed": 0,
+      "search_success": true,
+      "message": "Optimization terminated successfully.",
+      "x": [
+        3.096129667546164,
+        75.70949892258545,
+        0.0847661099666368,
+        10.278504182689879,
+        9.36659169781251e-07,
+        2.5855869017757813,
+        4.577105910647797,
+        2.811555326331927e-07
+      ],
+      "full_fast_duration_s": 4.5350959203067065
+    },
+    {
+      "seed": 1,
+      "search_success": true,
+      "message": "Optimization terminated successfully.",
+      "x": [
+        3.094062302927493,
+        73.60646025274536,
+        0.05214765081475292,
+        2.0854481784845857,
+        2.7345744335605104e-08,
+        2.5443511047978262,
+        6.954489512814561,
+        3.9000736117899013
+      ],
+      "full_fast_duration_s": 4.534309210409978
+    },
+    {
+      "seed": 2,
+      "search_success": false,
+      "message": "Maximum number of iterations has been exceeded.",
+      "x": [
+        3.096025052229737,
+        76.66213696912898,
+        0.05272386323695244,
+        10.85114075413487,
+        2.7287021282518253e-06,
+        2.603316445988451,
+        11.812324044014819,
+        1.2342781836593986e-06
+      ],
+      "full_fast_duration_s": 4.5334721031790135
+    },
+    {
+      "seed": "physics-informed",
+      "search_success": true,
+      "message": "rounded intercept-chain start",
+      "x": [
+        3.141592653589793,
+        140.0,
+        0.03,
+        2.7,
+        0.8,
+        3.6,
+        5.3,
+        6.0
+      ],
+      "full_fast_duration_s": 6.142870692996844
+    }
+  ]
+}
